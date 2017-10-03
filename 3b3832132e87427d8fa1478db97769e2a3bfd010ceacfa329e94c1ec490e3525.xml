@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Laws &amp; Regulations tabs from the EBSA page" name="Verify all of the Laws &amp; Regulations tabs from the EBSA page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="2" timestamp="2017-10-03T13:07:34.716-04:00">
+<acceptance-test-run title="Verify all of the Laws &amp; Regulations tabs from the EBSA page" name="Verify all of the Laws &amp; Regulations tabs from the EBSA page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="2" timestamp="2017-10-03T13:25:29.867-04:00">
   <user-story id="ebsaRegression" name="Ebsa regression" path="stories/fullRegression/ebsaRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -27,7 +27,7 @@
     <test-step result="SUCCESS" duration="0">
       <description>When the user clicks on &lt;lawsregsMenuItem&gt; within the Laws &amp; Regulations tab on the menu bar</description>
     </test-step>
-    <test-step result="SUCCESS" duration="0">
+    <test-step result="SUCCESS" duration="1">
       <description>Then the &lt;lawsregsMenuItem&gt; page should open correctly</description>
     </test-step>
   </test-group>

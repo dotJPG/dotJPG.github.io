@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the ILAB In Action tabs from the ILAB page" name="Verify all of the ILAB In Action tabs from the ILAB page" steps="6" successful="5" failures="1" skipped="0" ignored="0" pending="0" result="FAILURE" duration="22524" timestamp="2017-10-03T13:07:57.082-04:00" session-id="22e8e5a7a509d84c0c840f472e85fac5">
+<acceptance-test-run title="Verify all of the ILAB In Action tabs from the ILAB page" name="Verify all of the ILAB In Action tabs from the ILAB page" steps="6" successful="5" failures="1" skipped="0" ignored="0" pending="0" result="FAILURE" duration="22958" timestamp="2017-10-03T13:26:24.197-04:00" session-id="3bb7f13a4a537ca1c19652e8c2b75180">
   <user-story id="ilabRegression" name="Ilab regression" path="stories/fullRegression/ilabRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -25,7 +25,7 @@
       <screenshots>
         <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="4047">
+      <test-step result="SUCCESS" duration="4195">
         <screenshots>
           <screenshot image="821aec7c340d4517e842fb3ee26b105b.png"/>
           <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
@@ -38,7 +38,7 @@
         <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
         <screenshot image="20ab8f2dd163a0e9c2f3aa2580f972ca.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="2591">
+      <test-step result="SUCCESS" duration="2613">
         <screenshots>
           <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
           <screenshot image="20ab8f2dd163a0e9c2f3aa2580f972ca.png"/>
@@ -50,10 +50,10 @@
       <screenshots>
         <screenshot image="20ab8f2dd163a0e9c2f3aa2580f972ca.png"/>
       </screenshots>
-      <test-step result="FAILURE" duration="844">
+      <test-step result="FAILURE" duration="846">
         <screenshots>
           <screenshot image="20ab8f2dd163a0e9c2f3aa2580f972ca.png"/>
-          <screenshot image="20ab8f2dd163a0e9c2f3aa2580f972ca.png" source="pagesource3701852037935981346.html.txt"/>
+          <screenshot image="20ab8f2dd163a0e9c2f3aa2580f972ca.png" source="pagesource4840144727347336178.html.txt"/>
         </screenshots>
         <description>Should see page: newsReleases</description>
         <error>org.junit.ComparisonFailure: expected:&lt;News[s] Releases&gt; but was:&lt;News[] Releases&gt;</error>
@@ -71,10 +71,10 @@
         <screenshot image="20ab8f2dd163a0e9c2f3aa2580f972ca.png"/>
         <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1650">
+      <test-step result="SUCCESS" duration="1576">
         <screenshots>
           <screenshot image="20ab8f2dd163a0e9c2f3aa2580f972ca.png"/>
-          <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
+          <screenshot image="35e035d10f56899cb276fe787770e1f9.png"/>
         </screenshots>
         <description>On ILAB page</description>
       </test-step>
@@ -84,7 +84,7 @@
         <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
         <screenshot image="e6c2c097c8a2aa7c92c0e2c7ee3549d2.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="2938">
+      <test-step result="SUCCESS" duration="2868">
         <screenshots>
           <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
           <screenshot image="e6c2c097c8a2aa7c92c0e2c7ee3549d2.png"/>
@@ -96,7 +96,7 @@
       <screenshots>
         <screenshot image="e6c2c097c8a2aa7c92c0e2c7ee3549d2.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1247">
+      <test-step result="SUCCESS" duration="1263">
         <screenshots>
           <screenshot image="e6c2c097c8a2aa7c92c0e2c7ee3549d2.png"/>
         </screenshots>

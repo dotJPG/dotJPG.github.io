@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Agencies sub-navigation tabs open correctly" name="Verify all of the Agencies sub-navigation tabs open correctly" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="22710" timestamp="2017-10-03T13:08:21.372-04:00" session-id="541edd48d02d016935c8ce727e382183">
+<acceptance-test-run title="Verify all of the Agencies sub-navigation tabs open correctly" name="Verify all of the Agencies sub-navigation tabs open correctly" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="23696" timestamp="2017-10-03T13:26:48.913-04:00" session-id="f7df6b6e3700f9bd9b71e35ba28a23e0">
   <user-story id="dolHomepageRegression" name="Dol homepage regression" path="stories/fullRegression/dolHomepageRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -25,7 +25,7 @@
       <screenshots>
         <screenshot image="00aa3db0465c40537f48cf660b3dcd60.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="4123">
+      <test-step result="SUCCESS" duration="4469">
         <screenshots>
           <screenshot image="821aec7c340d4517e842fb3ee26b105b.png"/>
           <screenshot image="00aa3db0465c40537f48cf660b3dcd60.png"/>
@@ -38,7 +38,7 @@
         <screenshot image="00aa3db0465c40537f48cf660b3dcd60.png"/>
         <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="3170">
+      <test-step result="SUCCESS" duration="3277">
         <screenshots>
           <screenshot image="00aa3db0465c40537f48cf660b3dcd60.png"/>
           <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
@@ -50,7 +50,7 @@
       <screenshots>
         <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1101">
+      <test-step result="SUCCESS" duration="1115">
         <screenshots>
           <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
         </screenshots>
@@ -67,10 +67,10 @@
         <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
         <screenshot image="00aa3db0465c40537f48cf660b3dcd60.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1597">
+      <test-step result="SUCCESS" duration="1522">
         <screenshots>
           <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
-          <screenshot image="773188a2d20c249e8d4aef98d57bc0f3.png"/>
+          <screenshot image="fc5b33caa98a0e06a7ff4b2ce561980b.png"/>
         </screenshots>
         <description>On home page</description>
       </test-step>
@@ -80,10 +80,10 @@
         <screenshot image="00aa3db0465c40537f48cf660b3dcd60.png"/>
         <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="2651">
+      <test-step result="SUCCESS" duration="2498">
         <screenshots>
           <screenshot image="00aa3db0465c40537f48cf660b3dcd60.png"/>
-          <screenshot image="aa432bff1b9aa88bc87f2add73dd25bb.png"/>
+          <screenshot image="bb6e3cfd7e1ce765a8d2b13b4bde4f40.png"/>
         </screenshots>
         <description>Click nav node: EBSA</description>
       </test-step>
@@ -92,7 +92,7 @@
       <screenshots>
         <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="891">
+      <test-step result="SUCCESS" duration="865">
         <screenshots>
           <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
         </screenshots>
