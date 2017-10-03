@@ -1,0 +1,115 @@
+<acceptance-test-run title="Verify all of the navbar tabs to assert that the pages open correctly" name="Verify all of the navbar tabs to assert that the pages open correctly" steps="21" successful="21" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="4" timestamp="2017-10-03T10:37:41.549-04:00">
+  <user-story id="dolHomepageRegression" name="Dol homepage regression" path="stories/fullRegression/dolHomepageRegression.story"/>
+  <tags>
+    <tag name="Full regression" type="feature"/>
+    <tag name="Full regression/Dol homepage regression" type="story"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0"/>
+    </datasets>
+    <headers>
+      <header>navMenuItem</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>Topics</value>
+      </row>
+      <row result="SUCCESS">
+        <value>Agencies</value>
+      </row>
+      <row result="SUCCESS">
+        <value>Forms</value>
+      </row>
+      <row result="SUCCESS">
+        <value>FAQ</value>
+      </row>
+      <row result="SUCCESS">
+        <value>About</value>
+      </row>
+      <row result="SUCCESS">
+        <value>Press</value>
+      </row>
+      <row result="SUCCESS">
+        <value>Contact</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {navMenuItem=Topics}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the DOL home page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user clicks on &lt;navMenuItem&gt; within the top navigation bar</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the &lt;navMenuItem&gt; page should open correctly</description>
+    </test-step>
+  </test-group>
+  <test-group name="[2] {navMenuItem=Agencies}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the DOL home page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user clicks on &lt;navMenuItem&gt; within the top navigation bar</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the &lt;navMenuItem&gt; page should open correctly</description>
+    </test-step>
+  </test-group>
+  <test-group name="[3] {navMenuItem=Forms}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the DOL home page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user clicks on &lt;navMenuItem&gt; within the top navigation bar</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the &lt;navMenuItem&gt; page should open correctly</description>
+    </test-step>
+  </test-group>
+  <test-group name="[4] {navMenuItem=FAQ}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the DOL home page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user clicks on &lt;navMenuItem&gt; within the top navigation bar</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the &lt;navMenuItem&gt; page should open correctly</description>
+    </test-step>
+  </test-group>
+  <test-group name="[5] {navMenuItem=About}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the DOL home page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user clicks on &lt;navMenuItem&gt; within the top navigation bar</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1">
+      <description>Then the &lt;navMenuItem&gt; page should open correctly</description>
+    </test-step>
+  </test-group>
+  <test-group name="[6] {navMenuItem=Press}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the DOL home page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user clicks on &lt;navMenuItem&gt; within the top navigation bar</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the &lt;navMenuItem&gt; page should open correctly</description>
+    </test-step>
+  </test-group>
+  <test-group name="[7] {navMenuItem=Contact}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the DOL home page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user clicks on &lt;navMenuItem&gt; within the top navigation bar</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the &lt;navMenuItem&gt; page should open correctly</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

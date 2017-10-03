@@ -1,0 +1,87 @@
+<acceptance-test-run title="Verify all of the Social Media navigation links open correctly" name="Verify all of the Social Media navigation links open correctly" steps="15" successful="15" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="2" timestamp="2017-10-03T10:37:41.567-04:00">
+  <user-story id="dolHomepageRegression" name="Dol homepage regression" path="stories/fullRegression/dolHomepageRegression.story"/>
+  <tags>
+    <tag name="Full regression" type="feature"/>
+    <tag name="Full regression/Dol homepage regression" type="story"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0"/>
+    </datasets>
+    <headers>
+      <header>socMediaLink</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>Twitter</value>
+      </row>
+      <row result="SUCCESS">
+        <value>Facebook</value>
+      </row>
+      <row result="SUCCESS">
+        <value>LinkedIn</value>
+      </row>
+      <row result="SUCCESS">
+        <value>YouTube</value>
+      </row>
+      <row result="SUCCESS">
+        <value>Email</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {socMediaLink=Twitter}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the DOL home page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user clicks on the &lt;socMediaLink&gt; link</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1">
+      <description>Then the &lt;socMediaLink&gt; page should open correctly</description>
+    </test-step>
+  </test-group>
+  <test-group name="[2] {socMediaLink=Facebook}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the DOL home page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user clicks on the &lt;socMediaLink&gt; link</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the &lt;socMediaLink&gt; page should open correctly</description>
+    </test-step>
+  </test-group>
+  <test-group name="[3] {socMediaLink=LinkedIn}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="1">
+      <description>Given the user is on the DOL home page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user clicks on the &lt;socMediaLink&gt; link</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the &lt;socMediaLink&gt; page should open correctly</description>
+    </test-step>
+  </test-group>
+  <test-group name="[4] {socMediaLink=YouTube}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the DOL home page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user clicks on the &lt;socMediaLink&gt; link</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the &lt;socMediaLink&gt; page should open correctly</description>
+    </test-step>
+  </test-group>
+  <test-group name="[5] {socMediaLink=Email}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the DOL home page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user clicks on the &lt;socMediaLink&gt; link</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the &lt;socMediaLink&gt; page should open correctly</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

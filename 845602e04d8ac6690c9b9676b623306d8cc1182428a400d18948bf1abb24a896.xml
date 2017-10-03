@@ -1,0 +1,73 @@
+<acceptance-test-run title="Verify all of the Topics sub-navigation tabs open correctly" name="Verify all of the Topics sub-navigation tabs open correctly" steps="12" successful="12" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="1" timestamp="2017-10-03T10:37:41.554-04:00">
+  <user-story id="dolHomepageRegression" name="Dol homepage regression" path="stories/fullRegression/dolHomepageRegression.story"/>
+  <tags>
+    <tag name="Full regression" type="feature"/>
+    <tag name="Full regression/Dol homepage regression" type="story"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0"/>
+    </datasets>
+    <headers>
+      <header>subNavMenuItem</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>Breaks and Meal Periods</value>
+      </row>
+      <row result="SUCCESS">
+        <value>COBRA</value>
+      </row>
+      <row result="SUCCESS">
+        <value>Disability Resources</value>
+      </row>
+      <row result="SUCCESS">
+        <value>Retirement Plans</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {subNavMenuItem=Breaks and Meal Periods}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the DOL home page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user clicks on the &lt;subNavMenuItem&gt; within the top navigation bar</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the &lt;subNavMenuItem&gt; page should open correctly</description>
+    </test-step>
+  </test-group>
+  <test-group name="[2] {subNavMenuItem=COBRA}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the DOL home page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user clicks on the &lt;subNavMenuItem&gt; within the top navigation bar</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the &lt;subNavMenuItem&gt; page should open correctly</description>
+    </test-step>
+  </test-group>
+  <test-group name="[3] {subNavMenuItem=Disability Resources}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the DOL home page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user clicks on the &lt;subNavMenuItem&gt; within the top navigation bar</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the &lt;subNavMenuItem&gt; page should open correctly</description>
+    </test-step>
+  </test-group>
+  <test-group name="[4] {subNavMenuItem=Retirement Plans}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="1">
+      <description>Given the user is on the DOL home page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user clicks on the &lt;subNavMenuItem&gt; within the top navigation bar</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the &lt;subNavMenuItem&gt; page should open correctly</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

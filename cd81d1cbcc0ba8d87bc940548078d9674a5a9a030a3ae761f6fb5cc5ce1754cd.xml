@@ -1,0 +1,101 @@
+<acceptance-test-run title="Verify all of the Footer navigation links open correctly" name="Verify all of the Footer navigation links open correctly" steps="18" successful="18" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="5" timestamp="2017-10-03T10:37:41.560-04:00">
+  <user-story id="dolHomepageRegression" name="Dol homepage regression" path="stories/fullRegression/dolHomepageRegression.story"/>
+  <tags>
+    <tag name="Full regression" type="feature"/>
+    <tag name="Full regression/Dol homepage regression" type="story"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0"/>
+    </datasets>
+    <headers>
+      <header>navFooterItem</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>RSS</value>
+      </row>
+      <row result="SUCCESS">
+        <value>Disclaimer</value>
+      </row>
+      <row result="SUCCESS">
+        <value>NFA</value>
+      </row>
+      <row result="SUCCESS">
+        <value>PSS</value>
+      </row>
+      <row result="SUCCESS">
+        <value>FOIA</value>
+      </row>
+      <row result="SUCCESS">
+        <value>TTY</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {navFooterItem=RSS}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the DOL home page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user clicks on the &lt;navFooterItem&gt; within the Footer</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the &lt;navFooterItem&gt; page should open correctly</description>
+    </test-step>
+  </test-group>
+  <test-group name="[2] {navFooterItem=Disclaimer}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the DOL home page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user clicks on the &lt;navFooterItem&gt; within the Footer</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the &lt;navFooterItem&gt; page should open correctly</description>
+    </test-step>
+  </test-group>
+  <test-group name="[3] {navFooterItem=NFA}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the DOL home page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user clicks on the &lt;navFooterItem&gt; within the Footer</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the &lt;navFooterItem&gt; page should open correctly</description>
+    </test-step>
+  </test-group>
+  <test-group name="[4] {navFooterItem=PSS}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the DOL home page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user clicks on the &lt;navFooterItem&gt; within the Footer</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the &lt;navFooterItem&gt; page should open correctly</description>
+    </test-step>
+  </test-group>
+  <test-group name="[5] {navFooterItem=FOIA}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the DOL home page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user clicks on the &lt;navFooterItem&gt; within the Footer</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the &lt;navFooterItem&gt; page should open correctly</description>
+    </test-step>
+  </test-group>
+  <test-group name="[6] {navFooterItem=TTY}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the DOL home page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user clicks on the &lt;navFooterItem&gt; within the Footer</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the &lt;navFooterItem&gt; page should open correctly</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>
