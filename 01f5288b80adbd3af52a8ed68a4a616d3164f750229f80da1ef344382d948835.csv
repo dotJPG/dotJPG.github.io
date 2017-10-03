@@ -1,4 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Dol homepage regression","Verify all of the Agencies sub-navigation tabs open correctly","SUCCESS","2017-10-03T10:37:41.865-04:00","0.0","26.39"
-"Ilab regression","Verify all of the ILAB In Action tabs from the ILAB page","SUCCESS","2017-10-03T10:37:14.800-04:00","0.0","25.56"
-"Ebsa regression","Verify the Ask EBSA and EBSA Home menu items","SUCCESS","2017-10-03T10:36:50.431-04:00","0.0","22.89"
+"Dol homepage regression","Verify all of the Agencies sub-navigation tabs open correctly","SUCCESS","2017-10-03T13:08:21.372-04:00","0.0","22.71"
+"Ebsa regression","Verify the Ask EBSA and EBSA Home menu items","SUCCESS","2017-10-03T13:07:36.183-04:00","0.0","19.32"

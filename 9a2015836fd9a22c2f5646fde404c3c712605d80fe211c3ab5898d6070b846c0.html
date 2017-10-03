@@ -34,10 +34,10 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
-                ['Passing', 0.222222],
+                ['Passing', 0.111111],
                 ['Pending', 0],
                 ['Ignored', 0],
-                ['Failing', 0],
+                ['Failing', 0.111111],
                 ['Errors',  0],
                 ['Compromised Tests',  0],
             ]
@@ -68,9 +68,9 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '22.2% requirements tested successfully'},
+                {label: '11.1% requirements tested successfully'},
                 {label: '77.8% requirements untested'},
-                {label: '0%} requirements failing'},
+                {label: '11.1%} requirements failing'},
                 {label: '0%} requirements with errors'},
                 {label: '0%} requirements with compromised tests'}
             ]
@@ -168,7 +168,7 @@
             <a href="#"><i class="fa fa-comments-o"></i> Stories</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 03-10-2017 10:38</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 03-10-2017 13:08</span>
     <br style="clear:left"/>
 </div>
 
@@ -209,8 +209,8 @@
                                 <tr>
                                     <td class="summary-leading-column">Acceptance Criteria (tests)</td>
                                     <td>9</td>
-                                    <td>2</td>
                                     <td>0</td>
+                                    <td>2</td>
                                     <td>0</td>
                                     <td>7</td>
                                     <td></td>
@@ -240,8 +240,8 @@
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>9</td>
-            <td>2 (22%)</td>
-            <td>0 (0%)</td>
+            <td>1 (11%)</td>
+            <td>1 (11%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -256,14 +256,14 @@
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>9</td>
-            <td>2 (22%)</td>
-            <td>0 (0%)</td>
+            <td>1 (11%)</td>
+            <td>1 (11%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">26 seconds</td>
+                <td colspan="5">23 seconds</td>
         </tr>
         </body>
     </table>
@@ -308,13 +308,13 @@
                                 <td class="lightgreentext">0</td>
                             </tr>
 
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                            <tr class="test-FAILURE">
+                                <td><span class="summary-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
                                     
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
+                                    <span style="display:none">FAILURE</span></td>
+                                <td class="FAILURE-text">
                                     <div class="ellipsis">
-                                    <a href="c6abfc22f4000349f40bdeada3537740c917e6dfffb1ff27d38338141d8e983c.html" class="ellipsis" title="">
+                                    <a href="c6abfc22f4000349f40bdeada3537740c917e6dfffb1ff27d38338141d8e983c.html" class="ellipsis" title="Comparison failure: expected:(News[s] Releases) but was:(News[] Releases)">
                                     Verify all of the ILAB In Action tabs from the ILAB page 
                                     </a></div>
                                 </td>
@@ -322,7 +322,7 @@
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">25.56</td>
+                                <td class="lightgreentext">22.52</td>
                             </tr>
 
                             <tr class="test-SKIPPED">
