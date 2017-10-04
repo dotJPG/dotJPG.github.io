@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Footer navigation links open correctly" name="Verify all of the Footer navigation links open correctly" steps="18" successful="6" failures="0" errors="6" skipped="6" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="31198" timestamp="2017-10-04T15:18:47.924-04:00" session-id="bf85faa6577d98a874cab30c9c677d5e">
+<acceptance-test-run title="Verify all of the Footer navigation links open correctly" name="Verify all of the Footer navigation links open correctly" steps="18" successful="6" failures="0" errors="6" skipped="6" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="30212" timestamp="2017-10-04T16:08:30.926-04:00" session-id="f07b05fb77972df02aaff2a65ed5772c">
   <user-story id="dolHomepageRegression" name="Dol homepage regression" path="stories/fullRegression/dolHomepageRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -39,94 +39,94 @@
     <test-group name="Given the user is on the DOL home page" result="SUCCESS">
       <screenshots>
         <screenshot image="57788de73971657ed7548c01bc0f4404.png"/>
-        <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+        <screenshot image="a6eea46759c1399e390038c876ad061b.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1936">
+      <test-step result="SUCCESS" duration="1869">
         <screenshots>
           <screenshot image="57788de73971657ed7548c01bc0f4404.png"/>
-          <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+          <screenshot image="953e1cc3e534b625f124a193ac1ff040.png"/>
         </screenshots>
         <description>On home page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on the ｟RSS｠ within the Footer" result="ERROR">
       <screenshots>
-        <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+        <screenshot image="a6eea46759c1399e390038c876ad061b.png"/>
       </screenshots>
-      <test-step result="ERROR" duration="1307">
+      <test-step result="ERROR" duration="1475">
         <screenshots>
-          <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
-          <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png" source="pagesource6555084450104328194.html.txt"/>
+          <screenshot image="a6eea46759c1399e390038c876ad061b.png"/>
+          <screenshot image="a6eea46759c1399e390038c876ad061b.png" source="pagesource744885999032353425.html.txt"/>
         </screenshots>
         <description>Click nav node: RSS</description>
         <error>org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (1195, 2036)
   (Session info: chrome=61.0.3163.100)
   (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 68 milliseconds
+Command duration or timeout: 75 milliseconds
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
 System info: host: &apos;BAH5CG70147KN&apos;, ip: &apos;10.201.28.207&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\592987\AppData\Local\Temp\scoped_dir14536_23994}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: bf85faa6577d98a874cab30c9c677d5e</error>
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\592987\AppData\Local\Temp\scoped_dir18468_24003}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f07b05fb77972df02aaff2a65ed5772c</error>
         <exception>org.openqa.selenium.WebDriverException:unknown error: Element is not clickable at point (1195, 2036)
   (Session info: chrome=61.0.3163.100)
   (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 68 milliseconds
+Command duration or timeout: 75 milliseconds
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
 System info: host: &apos;BAH5CG70147KN&apos;, ip: &apos;10.201.28.207&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\592987\AppData\Local\Temp\scoped_dir14536_23994}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: bf85faa6577d98a874cab30c9c677d5e&#xd;
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\592987\AppData\Local\Temp\scoped_dir18468_24003}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f07b05fb77972df02aaff2a65ed5772c&#xd;
 [gov.dol.bg.test.User.clickNavNode(User.java:125), gov.dol.bg.test.DailyRegression.the_user_clicks_on_the_navFooterItem_within_the_Press_navigation_bar(DailyRegression.java:69)]</exception>
       </test-step>
     </test-group>
-    <test-step result="SKIPPED" duration="21">
+    <test-step result="SKIPPED" duration="30">
       <description>Then the {RSS} page should open correctly</description>
     </test-step>
   </test-group>
   <test-group name="[2] {navFooterItem=Disclaimer}" result="ERROR">
     <screenshots>
-      <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+      <screenshot image="a6eea46759c1399e390038c876ad061b.png"/>
     </screenshots>
     <test-group name="Given the user is on the DOL home page" result="SUCCESS">
       <screenshots>
-        <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+        <screenshot image="a6eea46759c1399e390038c876ad061b.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1885">
+      <test-step result="SUCCESS" duration="1888">
         <screenshots>
-          <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+          <screenshot image="a6eea46759c1399e390038c876ad061b.png"/>
         </screenshots>
         <description>On home page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on the ｟Disclaimer｠ within the Footer" result="ERROR">
       <screenshots>
-        <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+        <screenshot image="a6eea46759c1399e390038c876ad061b.png"/>
       </screenshots>
-      <test-step result="ERROR" duration="1348">
+      <test-step result="ERROR" duration="1269">
         <screenshots>
-          <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
-          <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png" source="pagesource7804683131302714735.html.txt"/>
+          <screenshot image="a6eea46759c1399e390038c876ad061b.png"/>
+          <screenshot image="a6eea46759c1399e390038c876ad061b.png" source="pagesource1006911762289465286.html.txt"/>
         </screenshots>
         <description>Click nav node: Disclaimer</description>
         <error>org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (1195, 1965)
   (Session info: chrome=61.0.3163.100)
   (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 72 milliseconds
+Command duration or timeout: 63 milliseconds
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
 System info: host: &apos;BAH5CG70147KN&apos;, ip: &apos;10.201.28.207&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\592987\AppData\Local\Temp\scoped_dir14536_23994}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: bf85faa6577d98a874cab30c9c677d5e</error>
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\592987\AppData\Local\Temp\scoped_dir18468_24003}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f07b05fb77972df02aaff2a65ed5772c</error>
         <exception>org.openqa.selenium.WebDriverException:unknown error: Element is not clickable at point (1195, 1965)
   (Session info: chrome=61.0.3163.100)
   (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 72 milliseconds
+Command duration or timeout: 63 milliseconds
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
 System info: host: &apos;BAH5CG70147KN&apos;, ip: &apos;10.201.28.207&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\592987\AppData\Local\Temp\scoped_dir14536_23994}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: bf85faa6577d98a874cab30c9c677d5e&#xd;
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\592987\AppData\Local\Temp\scoped_dir18468_24003}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f07b05fb77972df02aaff2a65ed5772c&#xd;
 [gov.dol.bg.test.User.clickNavNode(User.java:130), gov.dol.bg.test.DailyRegression.the_user_clicks_on_the_navFooterItem_within_the_Press_navigation_bar(DailyRegression.java:69)]</exception>
       </test-step>
     </test-group>
@@ -136,46 +136,46 @@ Session ID: bf85faa6577d98a874cab30c9c677d5e&#xd;
   </test-group>
   <test-group name="[3] {navFooterItem=NFA}" result="ERROR">
     <screenshots>
-      <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+      <screenshot image="a6eea46759c1399e390038c876ad061b.png"/>
     </screenshots>
     <test-group name="Given the user is on the DOL home page" result="SUCCESS">
       <screenshots>
-        <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+        <screenshot image="a6eea46759c1399e390038c876ad061b.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="2107">
+      <test-step result="SUCCESS" duration="1788">
         <screenshots>
-          <screenshot image="cd863f33bfd047a9083a1c32c0008630.png"/>
+          <screenshot image="7f19c43c8b2411368beae8120b6686c2.png"/>
         </screenshots>
         <description>On home page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on the ｟NFA｠ within the Footer" result="ERROR">
       <screenshots>
-        <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+        <screenshot image="a6eea46759c1399e390038c876ad061b.png"/>
       </screenshots>
-      <test-step result="ERROR" duration="1461">
+      <test-step result="ERROR" duration="1073">
         <screenshots>
-          <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png" source="pagesource7114359223564858722.html.txt"/>
+          <screenshot image="a6eea46759c1399e390038c876ad061b.png" source="pagesource2108958629346288106.html.txt"/>
         </screenshots>
         <description>Click nav node: NFA</description>
         <error>org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (610, 2061)
   (Session info: chrome=61.0.3163.100)
   (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
+Command duration or timeout: 53 milliseconds
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
 System info: host: &apos;BAH5CG70147KN&apos;, ip: &apos;10.201.28.207&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\592987\AppData\Local\Temp\scoped_dir14536_23994}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: bf85faa6577d98a874cab30c9c677d5e</error>
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\592987\AppData\Local\Temp\scoped_dir18468_24003}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f07b05fb77972df02aaff2a65ed5772c</error>
         <exception>org.openqa.selenium.WebDriverException:unknown error: Element is not clickable at point (610, 2061)
   (Session info: chrome=61.0.3163.100)
   (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
+Command duration or timeout: 53 milliseconds
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
 System info: host: &apos;BAH5CG70147KN&apos;, ip: &apos;10.201.28.207&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\592987\AppData\Local\Temp\scoped_dir14536_23994}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: bf85faa6577d98a874cab30c9c677d5e&#xd;
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\592987\AppData\Local\Temp\scoped_dir18468_24003}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f07b05fb77972df02aaff2a65ed5772c&#xd;
 [gov.dol.bg.test.User.clickNavNode(User.java:134), gov.dol.bg.test.DailyRegression.the_user_clicks_on_the_navFooterItem_within_the_Press_navigation_bar(DailyRegression.java:69)]</exception>
       </test-step>
     </test-group>
@@ -185,95 +185,95 @@ Session ID: bf85faa6577d98a874cab30c9c677d5e&#xd;
   </test-group>
   <test-group name="[4] {navFooterItem=PSS}" result="ERROR">
     <screenshots>
-      <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+      <screenshot image="a6eea46759c1399e390038c876ad061b.png"/>
     </screenshots>
     <test-group name="Given the user is on the DOL home page" result="SUCCESS">
       <screenshots>
-        <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+        <screenshot image="a6eea46759c1399e390038c876ad061b.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1975">
+      <test-step result="SUCCESS" duration="1769">
         <screenshots>
-          <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+          <screenshot image="35112be6b202b01a04c1180f56be4823.png"/>
         </screenshots>
         <description>On home page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on the ｟PSS｠ within the Footer" result="ERROR">
       <screenshots>
-        <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+        <screenshot image="a6eea46759c1399e390038c876ad061b.png"/>
       </screenshots>
-      <test-step result="ERROR" duration="1057">
+      <test-step result="ERROR" duration="1133">
         <screenshots>
-          <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png" source="pagesource7935633254379257673.html.txt"/>
+          <screenshot image="a6eea46759c1399e390038c876ad061b.png" source="pagesource7232948106924006271.html.txt"/>
         </screenshots>
         <description>Click nav node: PSS</description>
         <error>org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (1195, 1941)
   (Session info: chrome=61.0.3163.100)
   (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 40 milliseconds
+Command duration or timeout: 53 milliseconds
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
 System info: host: &apos;BAH5CG70147KN&apos;, ip: &apos;10.201.28.207&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\592987\AppData\Local\Temp\scoped_dir14536_23994}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: bf85faa6577d98a874cab30c9c677d5e</error>
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\592987\AppData\Local\Temp\scoped_dir18468_24003}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f07b05fb77972df02aaff2a65ed5772c</error>
         <exception>org.openqa.selenium.WebDriverException:unknown error: Element is not clickable at point (1195, 1941)
   (Session info: chrome=61.0.3163.100)
   (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 40 milliseconds
+Command duration or timeout: 53 milliseconds
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
 System info: host: &apos;BAH5CG70147KN&apos;, ip: &apos;10.201.28.207&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\592987\AppData\Local\Temp\scoped_dir14536_23994}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: bf85faa6577d98a874cab30c9c677d5e&#xd;
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\592987\AppData\Local\Temp\scoped_dir18468_24003}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f07b05fb77972df02aaff2a65ed5772c&#xd;
 [gov.dol.bg.test.User.clickNavNode(User.java:138), gov.dol.bg.test.DailyRegression.the_user_clicks_on_the_navFooterItem_within_the_Press_navigation_bar(DailyRegression.java:69)]</exception>
       </test-step>
     </test-group>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SKIPPED" duration="16">
       <description>Then the {PSS} page should open correctly</description>
     </test-step>
   </test-group>
   <test-group name="[5] {navFooterItem=FOIA}" result="ERROR">
     <screenshots>
-      <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+      <screenshot image="a6eea46759c1399e390038c876ad061b.png"/>
     </screenshots>
     <test-group name="Given the user is on the DOL home page" result="SUCCESS">
       <screenshots>
-        <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+        <screenshot image="a6eea46759c1399e390038c876ad061b.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1711">
+      <test-step result="SUCCESS" duration="1514">
         <screenshots>
-          <screenshot image="ee65200a88507f718dfc35281e9c3efd.png"/>
+          <screenshot image="19f52948cd870c0b85bb149868fd5235.png"/>
         </screenshots>
         <description>On home page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on the ｟FOIA｠ within the Footer" result="ERROR">
       <screenshots>
-        <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+        <screenshot image="a6eea46759c1399e390038c876ad061b.png"/>
       </screenshots>
-      <test-step result="ERROR" duration="1120">
+      <test-step result="ERROR" duration="1124">
         <screenshots>
-          <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png" source="pagesource3132495068093278526.html.txt"/>
+          <screenshot image="a6eea46759c1399e390038c876ad061b.png" source="pagesource235900435347704867.html.txt"/>
         </screenshots>
         <description>Click nav node: FOIA</description>
         <error>org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (1195, 1917)
   (Session info: chrome=61.0.3163.100)
   (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 54 milliseconds
+Command duration or timeout: 49 milliseconds
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
 System info: host: &apos;BAH5CG70147KN&apos;, ip: &apos;10.201.28.207&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\592987\AppData\Local\Temp\scoped_dir14536_23994}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: bf85faa6577d98a874cab30c9c677d5e</error>
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\592987\AppData\Local\Temp\scoped_dir18468_24003}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f07b05fb77972df02aaff2a65ed5772c</error>
         <exception>org.openqa.selenium.WebDriverException:unknown error: Element is not clickable at point (1195, 1917)
   (Session info: chrome=61.0.3163.100)
   (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 54 milliseconds
+Command duration or timeout: 49 milliseconds
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
 System info: host: &apos;BAH5CG70147KN&apos;, ip: &apos;10.201.28.207&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\592987\AppData\Local\Temp\scoped_dir14536_23994}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: bf85faa6577d98a874cab30c9c677d5e&#xd;
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\592987\AppData\Local\Temp\scoped_dir18468_24003}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f07b05fb77972df02aaff2a65ed5772c&#xd;
 [gov.dol.bg.test.User.clickNavNode(User.java:142), gov.dol.bg.test.DailyRegression.the_user_clicks_on_the_navFooterItem_within_the_Press_navigation_bar(DailyRegression.java:69)]</exception>
       </test-step>
     </test-group>
@@ -283,46 +283,46 @@ Session ID: bf85faa6577d98a874cab30c9c677d5e&#xd;
   </test-group>
   <test-group name="[6] {navFooterItem=TTY}" result="ERROR">
     <screenshots>
-      <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+      <screenshot image="a6eea46759c1399e390038c876ad061b.png"/>
     </screenshots>
     <test-group name="Given the user is on the DOL home page" result="SUCCESS">
       <screenshots>
-        <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+        <screenshot image="a6eea46759c1399e390038c876ad061b.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1643">
+      <test-step result="SUCCESS" duration="1541">
         <screenshots>
-          <screenshot image="e3e152b13679872be235307f5b17d24d.png"/>
+          <screenshot image="e1409646343e8dfadd08f1e74e05d262.png"/>
         </screenshots>
         <description>On home page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on the ｟TTY｠ within the Footer" result="ERROR">
       <screenshots>
-        <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+        <screenshot image="a6eea46759c1399e390038c876ad061b.png"/>
       </screenshots>
-      <test-step result="ERROR" duration="1092">
+      <test-step result="ERROR" duration="1107">
         <screenshots>
-          <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png" source="pagesource5160067239490628675.html.txt"/>
+          <screenshot image="a6eea46759c1399e390038c876ad061b.png" source="pagesource442227052450623967.html.txt"/>
         </screenshots>
         <description>Click nav node: TTY</description>
         <error>org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (220, 1966)
   (Session info: chrome=61.0.3163.100)
   (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 47 milliseconds
+Command duration or timeout: 53 milliseconds
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
 System info: host: &apos;BAH5CG70147KN&apos;, ip: &apos;10.201.28.207&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\592987\AppData\Local\Temp\scoped_dir14536_23994}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: bf85faa6577d98a874cab30c9c677d5e</error>
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\592987\AppData\Local\Temp\scoped_dir18468_24003}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f07b05fb77972df02aaff2a65ed5772c</error>
         <exception>org.openqa.selenium.WebDriverException:unknown error: Element is not clickable at point (220, 1966)
   (Session info: chrome=61.0.3163.100)
   (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 47 milliseconds
+Command duration or timeout: 53 milliseconds
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
 System info: host: &apos;BAH5CG70147KN&apos;, ip: &apos;10.201.28.207&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\592987\AppData\Local\Temp\scoped_dir14536_23994}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: bf85faa6577d98a874cab30c9c677d5e&#xd;
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\592987\AppData\Local\Temp\scoped_dir18468_24003}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f07b05fb77972df02aaff2a65ed5772c&#xd;
 [gov.dol.bg.test.User.clickNavNode(User.java:146), gov.dol.bg.test.DailyRegression.the_user_clicks_on_the_navFooterItem_within_the_Press_navigation_bar(DailyRegression.java:69)]</exception>
       </test-step>
     </test-group>
