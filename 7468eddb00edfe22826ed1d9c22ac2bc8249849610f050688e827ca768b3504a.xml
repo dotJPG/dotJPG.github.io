@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Resources tabs from the ILAB page" name="Verify all of the Resources tabs from the ILAB page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="16" timestamp="2017-10-04T16:16:42.309-04:00">
+<acceptance-test-run title="Verify all of the Resources tabs from the ILAB page" name="Verify all of the Resources tabs from the ILAB page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="0" timestamp="2017-10-04T16:23:10.291-04:00">
   <user-story id="ilabRegression" name="Ilab regression" path="stories/fullRegression/ilabRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -21,7 +21,7 @@
     </rows>
   </examples>
   <test-group name="[1] {resourcesMenuItem=reportsAndPublications}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="16">
+    <test-step result="SUCCESS" duration="0">
       <description>Given the user is on the ILAB home page</description>
     </test-step>
     <test-step result="SUCCESS" duration="0">
