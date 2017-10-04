@@ -38,7 +38,7 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var test_results_plot = $.jqplot('test_results_pie_chart', [
             [
-                ['Passing', 0.111111],
+                ['Passing', 0.888889],
                 
                 ['Pending', 0],
                 
@@ -77,7 +77,7 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '1 / 9 tests passed' },
+                {label: '8 / 9 tests passed' },
                 {label: '0 / 9 tests pending'},
                 {label: '0 / 9 tests not executed'},
                 {label: '1 / 9 tests failed'},
@@ -88,13 +88,13 @@
 
         var weighted_test_results_plot = $.jqplot('weighted_test_results_pie_chart', [
             [
-                ['Passing', 0.833333],
+                ['Passing', 0.888889],
                 
                 ['Pending', 0],
                 
                 ['Ignored', 0],
                 
-                ['Failing', 0.166667],
+                ['Failing', 0.111111],
                 
                 ['Errors', 0],
                 ['Compromised', 0],
@@ -128,10 +128,10 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '1 / 9 tests passed (0.833333% of all test steps)' },
+                {label: '8 / 9 tests passed (0.888889% of all test steps)' },
                 {label: '0 / 9 tests pending'},
                 {label: '0 / 9 tests not executed'},
-                {label: '1 / 9 tests failed (0.166667% of all test steps)'},
+                {label: '1 / 9 tests failed (0.111111% of all test steps)'},
                 {label: '0 / 9 errors (0% of all test steps)'}
             ]
         });
@@ -204,7 +204,7 @@
             <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 03-10-2017 13:27</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-10-2017 15:20</span>
     <br style="clear:left"/>
 </div>
 <div class="clr"></div>
@@ -224,7 +224,7 @@
                 <div>
 
                 <span class="test-count">
-                    1
+                    8
                         <a href="8785e943842e19463afc99e56255ed52162be2ccf6af514f87c0f8d2565fb80f.html">passed</a>
                     ,
                 </span>
@@ -250,9 +250,8 @@ compromised,
 ignored,
                 </span>
                 <span class="test-count">
-                    7
-                        <a href="a9c4ba5de1e58a5f918ec7306d7eb7b9b695e0ce543a82f331bbade2af0e231e.html">skipped</a>
-                    
+                    0
+skipped
                 </span>
                     <a href="db2bed6a6d339ea0d388958e8d67da24d674d6b7b18a802cdd87c85f99637f47.csv">[CSV]</a>
                 </div>
@@ -299,7 +298,7 @@ ignored,
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>9</td>
-            <td>1 (11%)</td>
+            <td>8 (89%)</td>
             <td>1 (11%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
@@ -315,14 +314,14 @@ ignored,
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>9</td>
-            <td>1 (11%)</td>
+            <td>8 (89%)</td>
             <td>1 (11%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">23 seconds</td>
+                <td colspan="5">1 minutes 33 seconds</td>
         </tr>
         </body>
     </table>
@@ -354,7 +353,7 @@ ignored,
 
                         <table>
                             <tr>
-                                <td class="related-tag-percentage"><span title="1 out of 9 tests (0 steps) passing">11.1%</span></td>
+                                <td class="related-tag-percentage"><span title="8 out of 9 tests (49 steps) passing">88.9%</span></td>
                                 <td width="150px">
                                     <a href="6dda3f5572daa076738371483ca85e68e568ba56c51f0f0b7c9734b03aada1ee.html">
                                         <div class="percentagebar"
@@ -362,19 +361,19 @@ ignored,
                                              style="width: 150px;">
                                             <div class="ignoredbar"
                                                  style="width: 150px;"
-                                                 title="7 out of 9 tests (28 steps) skipped or ignored">
+                                                 title="0 out of 9 tests (0 steps) skipped or ignored">
                                                 <div class="compromisedbar"
-                                                     style="width: 33px;"
+                                                     style="width: 150px;"
                                                      title="0 out of 9 tests (0 steps) compromised">
                                                     <div class="errorbar"
-                                                         style="width: 33px;"
+                                                         style="width: 150px;"
                                                          title="0 out of 9 tests (0 steps) broken">
                                                         <div class="failingbar"
-                                                             style="width: 33px;"
+                                                             style="width: 150px;"
                                                              title="1 out of 9 tests (14 steps) failing">
                                                             <div class="passingbar"
-                                                                 style="width: 17px;"
-                                                                 title="1 out of 9 tests (0 steps) passing">
+                                                                 style="width: 133px;"
+                                                                 title="8 out of 9 tests (49 steps) passing">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -407,7 +406,7 @@ ignored,
 
                         <table>
                             <tr>
-                                <td class="related-tag-percentage"><span title="1 out of 9 tests (0 steps) passing">11.1%</span></td>
+                                <td class="related-tag-percentage"><span title="8 out of 9 tests (49 steps) passing">88.9%</span></td>
                                 <td width="150px">
                                     <a href="e4c50b992abfb6b6021bcbbb9c83e1829f43540b805b87da767e8a863a298bae.html">
                                         <div class="percentagebar"
@@ -415,19 +414,19 @@ ignored,
                                              style="width: 150px;">
                                             <div class="ignoredbar"
                                                  style="width: 150px;"
-                                                 title="7 out of 9 tests (28 steps) skipped or ignored">
+                                                 title="0 out of 9 tests (0 steps) skipped or ignored">
                                                 <div class="compromisedbar"
-                                                     style="width: 33px;"
+                                                     style="width: 150px;"
                                                      title="0 out of 9 tests (0 steps) compromised">
                                                     <div class="errorbar"
-                                                         style="width: 33px;"
+                                                         style="width: 150px;"
                                                          title="0 out of 9 tests (0 steps) broken">
                                                         <div class="failingbar"
-                                                             style="width: 33px;"
+                                                             style="width: 150px;"
                                                              title="1 out of 9 tests (14 steps) failing">
                                                             <div class="passingbar"
-                                                                 style="width: 17px;"
-                                                                 title="1 out of 9 tests (0 steps) passing">
+                                                                 style="width: 133px;"
+                                                                 title="8 out of 9 tests (49 steps) passing">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -451,7 +450,7 @@ ignored,
                     <table>
                         <tr>
                             <td colspan="2">
-                                <span class="caption">Test results weighted by test size in steps (average steps per test: 4.666667) .</span>
+                                <span class="caption">Test results weighted by test size in steps (average steps per test: 7) .</span>
                                 <span class="togglePieChart" id="toggleWeightedPieChart"><a href="#">Show/Hide Pie
                                     Chart</a></span>
                             </td>
@@ -484,7 +483,7 @@ ignored,
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>9</td>
-            <td>1 (11%)</td>
+            <td>8 (89%)</td>
             <td>1 (11%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
@@ -500,14 +499,14 @@ ignored,
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>9</td>
-            <td>1 (11%)</td>
+            <td>8 (89%)</td>
             <td>1 (11%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">23 seconds</td>
+                <td colspan="5">1 minutes 33 seconds</td>
         </tr>
         </body>
     </table>
@@ -539,15 +538,15 @@ ignored,
 
                         <table>
                             <tr>
-                                <td class="related-tag-percentage"><span title="1 out of 9 tests (0 steps) passing">83.3%</span></td>
+                                <td class="related-tag-percentage"><span title="8 out of 9 tests (49 steps) passing">88.9%</span></td>
                                 <td width="150px">
                                     <a href="6dda3f5572daa076738371483ca85e68e568ba56c51f0f0b7c9734b03aada1ee.html">
                                         <div class="percentagebar"
                                              title="0 out of 9 tests (0 steps) pending"
                                              style="width: 150px;">
                                             <div class="ignoredbar"
-                                                 style="width: 168px;"
-                                                 title="7 out of 9 tests (28 steps) skipped or ignored">
+                                                 style="width: 150px;"
+                                                 title="0 out of 9 tests (0 steps) skipped or ignored">
                                                 <div class="compromisedbar"
                                                      style="width: 150px;"
                                                      title="0 out of 9 tests (0 steps) compromised">
@@ -558,8 +557,8 @@ ignored,
                                                              style="width: 150px;"
                                                              title="1 out of 9 tests (14 steps) failing">
                                                             <div class="passingbar"
-                                                                 style="width: 125px;"
-                                                                 title="1 out of 9 tests (0 steps) passing">
+                                                                 style="width: 133px;"
+                                                                 title="8 out of 9 tests (49 steps) passing">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -592,15 +591,15 @@ ignored,
 
                         <table>
                             <tr>
-                                <td class="related-tag-percentage"><span title="1 out of 9 tests (0 steps) passing">83.3%</span></td>
+                                <td class="related-tag-percentage"><span title="8 out of 9 tests (49 steps) passing">88.9%</span></td>
                                 <td width="150px">
                                     <a href="e4c50b992abfb6b6021bcbbb9c83e1829f43540b805b87da767e8a863a298bae.html">
                                         <div class="percentagebar"
                                              title="0 out of 9 tests (0 steps) pending"
                                              style="width: 150px;">
                                             <div class="ignoredbar"
-                                                 style="width: 168px;"
-                                                 title="7 out of 9 tests (28 steps) skipped or ignored">
+                                                 style="width: 150px;"
+                                                 title="0 out of 9 tests (0 steps) skipped or ignored">
                                                 <div class="compromisedbar"
                                                      style="width: 150px;"
                                                      title="0 out of 9 tests (0 steps) compromised">
@@ -611,8 +610,8 @@ ignored,
                                                              style="width: 150px;"
                                                              title="1 out of 9 tests (14 steps) failing">
                                                             <div class="passingbar"
-                                                                 style="width: 125px;"
-                                                                 title="1 out of 9 tests (0 steps) passing">
+                                                                 style="width: 133px;"
+                                                                 title="8 out of 9 tests (49 steps) passing">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -656,21 +655,21 @@ ignored,
                         </thead>
                         <tbody>
 
-                            <tr class="test-SKIPPED">
-                                <td><span class="summary-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
-                                    <span style="display:none">SKIPPED</span></td>
-                                <td class="SKIPPED-text">
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
                                     <a href="c96bb3a2f01df0f623118477e67446cbd79eb8d05b355cdc450683e1d8620f1f.html" class="ellipsis" title="">
                                     Verify all of the About Us tabs from the ILAB page 
                                     </a></div>
                                 </td>
 
-                                <td class="lightgreentext">12</td>
+                                <td class="lightgreentext">21</td>
 
 
-                                <td class="lightgreentext">0</td>
+                                <td class="lightgreentext">35.92</td>
                             </tr>
 
                             <tr class="test-FAILURE">
@@ -687,41 +686,41 @@ ignored,
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">22.96</td>
+                                <td class="lightgreentext">18.88</td>
                             </tr>
 
-                            <tr class="test-SKIPPED">
-                                <td><span class="summary-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
-                                    <span style="display:none">SKIPPED</span></td>
-                                <td class="SKIPPED-text">
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
                                     <a href="d81c7b31ac454885c4bc6346647597195d4661709831fd686ebc0967675bfd36.html" class="ellipsis" title="">
                                     Verify all of the Our Work tabs from the ILAB page 
                                     </a></div>
                                 </td>
 
-                                <td class="lightgreentext">8</td>
+                                <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">0</td>
+                                <td class="lightgreentext">18.84</td>
                             </tr>
 
-                            <tr class="test-SKIPPED">
-                                <td><span class="summary-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
-                                    <span style="display:none">SKIPPED</span></td>
-                                <td class="SKIPPED-text">
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
                                     <a href="7468eddb00edfe22826ed1d9c22ac2bc8249849610f050688e827ca768b3504a.html" class="ellipsis" title="">
                                     Verify all of the Resources tabs from the ILAB page 
                                     </a></div>
                                 </td>
 
-                                <td class="lightgreentext">8</td>
+                                <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">0</td>
+                                <td class="lightgreentext">20.34</td>
                             </tr>
                         </tbody>
                     </table>

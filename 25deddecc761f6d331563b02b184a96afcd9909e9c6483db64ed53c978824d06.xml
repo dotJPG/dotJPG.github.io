@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the navbar tabs to assert that the pages open correctly" name="Verify all of the navbar tabs to assert that the pages open correctly" steps="21" successful="21" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="4" timestamp="2017-10-03T13:26:48.390-04:00">
+<acceptance-test-run title="Verify all of the navbar tabs to assert that the pages open correctly" name="Verify all of the navbar tabs to assert that the pages open correctly" steps="21" successful="21" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="63304" timestamp="2017-10-04T15:16:09.975-04:00" session-id="bf85faa6577d98a874cab30c9c677d5e">
   <user-story id="dolHomepageRegression" name="Dol homepage regression" path="stories/fullRegression/dolHomepageRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -35,81 +35,294 @@
       </row>
     </rows>
   </examples>
-  <test-group name="[1] {navMenuItem=Topics}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="0">
-      <description>Given the user is on the DOL home page</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>When the user clicks on &lt;navMenuItem&gt; within the top navigation bar</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>Then the &lt;navMenuItem&gt; page should open correctly</description>
-    </test-step>
+  <test-group name="[1] {navMenuItem=Topics}" result="SUCCESS">
+    <test-group name="Given the user is on the DOL home page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="4764">
+        <screenshots>
+          <screenshot image="821aec7c340d4517e842fb3ee26b105b.png"/>
+          <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+        </screenshots>
+        <description>On home page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When the user clicks on {Topics} within the top navigation bar" result="SUCCESS">
+      <screenshots>
+        <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+        <screenshot image="d304f47aad6c608054fc19498e681ff0.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1736">
+        <screenshots>
+          <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+          <screenshot image="d304f47aad6c608054fc19498e681ff0.png"/>
+        </screenshots>
+        <description>Click nav node: Topics</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the {Topics} page should open correctly" result="SUCCESS">
+      <screenshots>
+        <screenshot image="d304f47aad6c608054fc19498e681ff0.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="767">
+        <screenshots>
+          <screenshot image="d304f47aad6c608054fc19498e681ff0.png"/>
+        </screenshots>
+        <description>Should see page: Topics</description>
+      </test-step>
+    </test-group>
   </test-group>
-  <test-group name="[2] {navMenuItem=Agencies}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="0">
-      <description>Given the user is on the DOL home page</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="1">
-      <description>When the user clicks on &lt;navMenuItem&gt; within the top navigation bar</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>Then the &lt;navMenuItem&gt; page should open correctly</description>
-    </test-step>
+  <test-group name="[2] {navMenuItem=Agencies}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="d304f47aad6c608054fc19498e681ff0.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the DOL home page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="d304f47aad6c608054fc19498e681ff0.png"/>
+        <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1927">
+        <screenshots>
+          <screenshot image="d304f47aad6c608054fc19498e681ff0.png"/>
+          <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+        </screenshots>
+        <description>On home page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When the user clicks on {Agencies} within the top navigation bar" result="SUCCESS">
+      <screenshots>
+        <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+        <screenshot image="a94f9a1a59cbea4506d52ce153378270.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1499">
+        <screenshots>
+          <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+          <screenshot image="a94f9a1a59cbea4506d52ce153378270.png"/>
+        </screenshots>
+        <description>Click nav node: Agencies</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the {Agencies} page should open correctly" result="SUCCESS">
+      <screenshots>
+        <screenshot image="a94f9a1a59cbea4506d52ce153378270.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="813">
+        <screenshots>
+          <screenshot image="a94f9a1a59cbea4506d52ce153378270.png"/>
+        </screenshots>
+        <description>Should see page: Agencies</description>
+      </test-step>
+    </test-group>
   </test-group>
-  <test-group name="[3] {navMenuItem=Forms}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="0">
-      <description>Given the user is on the DOL home page</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>When the user clicks on &lt;navMenuItem&gt; within the top navigation bar</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>Then the &lt;navMenuItem&gt; page should open correctly</description>
-    </test-step>
+  <test-group name="[3] {navMenuItem=Forms}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="a94f9a1a59cbea4506d52ce153378270.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the DOL home page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="a94f9a1a59cbea4506d52ce153378270.png"/>
+        <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1687">
+        <screenshots>
+          <screenshot image="a94f9a1a59cbea4506d52ce153378270.png"/>
+          <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+        </screenshots>
+        <description>On home page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When the user clicks on {Forms} within the top navigation bar" result="SUCCESS">
+      <screenshots>
+        <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+        <screenshot image="1224421cad94265b2116a59b9fb78fc6.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1704">
+        <screenshots>
+          <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+          <screenshot image="1224421cad94265b2116a59b9fb78fc6.png"/>
+        </screenshots>
+        <description>Click nav node: Forms</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the {Forms} page should open correctly" result="SUCCESS">
+      <screenshots>
+        <screenshot image="1224421cad94265b2116a59b9fb78fc6.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="753">
+        <screenshots>
+          <screenshot image="1224421cad94265b2116a59b9fb78fc6.png"/>
+        </screenshots>
+        <description>Should see page: Forms</description>
+      </test-step>
+    </test-group>
   </test-group>
-  <test-group name="[4] {navMenuItem=FAQ}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="0">
-      <description>Given the user is on the DOL home page</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>When the user clicks on &lt;navMenuItem&gt; within the top navigation bar</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>Then the &lt;navMenuItem&gt; page should open correctly</description>
-    </test-step>
+  <test-group name="[4] {navMenuItem=FAQ}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="1224421cad94265b2116a59b9fb78fc6.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the DOL home page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="1224421cad94265b2116a59b9fb78fc6.png"/>
+        <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1717">
+        <screenshots>
+          <screenshot image="1224421cad94265b2116a59b9fb78fc6.png"/>
+          <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+        </screenshots>
+        <description>On home page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When the user clicks on {FAQ} within the top navigation bar" result="SUCCESS">
+      <screenshots>
+        <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+        <screenshot image="9387d83dbf497b336ac611a38c1f2672.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="2383">
+        <screenshots>
+          <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+          <screenshot image="9387d83dbf497b336ac611a38c1f2672.png"/>
+        </screenshots>
+        <description>Click nav node: FAQ</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the {FAQ} page should open correctly" result="SUCCESS">
+      <screenshots>
+        <screenshot image="9387d83dbf497b336ac611a38c1f2672.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="768">
+        <screenshots>
+          <screenshot image="9387d83dbf497b336ac611a38c1f2672.png"/>
+        </screenshots>
+        <description>Should see page: FAQ</description>
+      </test-step>
+    </test-group>
   </test-group>
-  <test-group name="[5] {navMenuItem=About}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="0">
-      <description>Given the user is on the DOL home page</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>When the user clicks on &lt;navMenuItem&gt; within the top navigation bar</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>Then the &lt;navMenuItem&gt; page should open correctly</description>
-    </test-step>
+  <test-group name="[5] {navMenuItem=About}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="9387d83dbf497b336ac611a38c1f2672.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the DOL home page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="9387d83dbf497b336ac611a38c1f2672.png"/>
+        <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1622">
+        <screenshots>
+          <screenshot image="9387d83dbf497b336ac611a38c1f2672.png"/>
+          <screenshot image="b363f2485ab232da49a792ba9c0b38aa.png"/>
+        </screenshots>
+        <description>On home page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When the user clicks on {About} within the top navigation bar" result="SUCCESS">
+      <screenshots>
+        <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+        <screenshot image="da1435ac000220b844f03078553b68db.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1463">
+        <screenshots>
+          <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+          <screenshot image="da1435ac000220b844f03078553b68db.png"/>
+        </screenshots>
+        <description>Click nav node: About</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the {About} page should open correctly" result="SUCCESS">
+      <screenshots>
+        <screenshot image="da1435ac000220b844f03078553b68db.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="889">
+        <screenshots>
+          <screenshot image="da1435ac000220b844f03078553b68db.png"/>
+        </screenshots>
+        <description>Should see page: About</description>
+      </test-step>
+    </test-group>
   </test-group>
-  <test-group name="[6] {navMenuItem=Press}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="0">
-      <description>Given the user is on the DOL home page</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>When the user clicks on &lt;navMenuItem&gt; within the top navigation bar</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>Then the &lt;navMenuItem&gt; page should open correctly</description>
-    </test-step>
+  <test-group name="[6] {navMenuItem=Press}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="da1435ac000220b844f03078553b68db.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the DOL home page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="da1435ac000220b844f03078553b68db.png"/>
+        <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1618">
+        <screenshots>
+          <screenshot image="da1435ac000220b844f03078553b68db.png"/>
+          <screenshot image="48a4e138f4ef3e166ef637ad55bc7039.png"/>
+        </screenshots>
+        <description>On home page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When the user clicks on {Press} within the top navigation bar" result="SUCCESS">
+      <screenshots>
+        <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+        <screenshot image="80ee00cba9f54e180d030be2eb6f5f98.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="4375">
+        <screenshots>
+          <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+          <screenshot image="80ee00cba9f54e180d030be2eb6f5f98.png"/>
+        </screenshots>
+        <description>Click nav node: Press</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the {Press} page should open correctly" result="SUCCESS">
+      <screenshots>
+        <screenshot image="80ee00cba9f54e180d030be2eb6f5f98.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1675">
+        <screenshots>
+          <screenshot image="80ee00cba9f54e180d030be2eb6f5f98.png"/>
+        </screenshots>
+        <description>Should see page: Press</description>
+      </test-step>
+    </test-group>
   </test-group>
-  <test-group name="[7] {navMenuItem=Contact}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="0">
-      <description>Given the user is on the DOL home page</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>When the user clicks on &lt;navMenuItem&gt; within the top navigation bar</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>Then the &lt;navMenuItem&gt; page should open correctly</description>
-    </test-step>
+  <test-group name="[7] {navMenuItem=Contact}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="80ee00cba9f54e180d030be2eb6f5f98.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the DOL home page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="80ee00cba9f54e180d030be2eb6f5f98.png"/>
+        <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="2203">
+        <screenshots>
+          <screenshot image="80ee00cba9f54e180d030be2eb6f5f98.png"/>
+          <screenshot image="78634132d2bcfa4108752859db4597cb.png"/>
+        </screenshots>
+        <description>On home page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When the user clicks on {Contact} within the top navigation bar" result="SUCCESS">
+      <screenshots>
+        <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+        <screenshot image="3e0a5adcaa2f40504351e36449c891e7.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1616">
+        <screenshots>
+          <screenshot image="03ea78a653a1a04a6c61a10da7b5552b.png"/>
+          <screenshot image="3e0a5adcaa2f40504351e36449c891e7.png"/>
+        </screenshots>
+        <description>Click nav node: Contact</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the {Contact} page should open correctly" result="SUCCESS">
+      <screenshots>
+        <screenshot image="3e0a5adcaa2f40504351e36449c891e7.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1366">
+        <screenshots>
+          <screenshot image="3e0a5adcaa2f40504351e36449c891e7.png"/>
+        </screenshots>
+        <description>Should see page: Contact</description>
+      </test-step>
+    </test-group>
   </test-group>
 </acceptance-test-run>

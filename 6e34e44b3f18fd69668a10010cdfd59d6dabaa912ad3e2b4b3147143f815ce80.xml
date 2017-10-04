@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Key Topics tabs from the EBSA page" name="Verify all of the Key Topics tabs from the EBSA page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="2" timestamp="2017-10-03T13:25:29.861-04:00">
+<acceptance-test-run title="Verify all of the Key Topics tabs from the EBSA page" name="Verify all of the Key Topics tabs from the EBSA page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="18262" timestamp="2017-10-04T15:13:55.742-04:00" session-id="acc2f9215cef62a02742dbc741a29270">
   <user-story id="ebsaRegression" name="Ebsa regression" path="stories/fullRegression/ebsaRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -20,26 +20,88 @@
       </row>
     </rows>
   </examples>
-  <test-group name="[1] {keyTopicMenuItem=ACA}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="0">
-      <description>Given the user is on the EBSA home page</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>When the user clicks on &lt;keyTopicMenuItem&gt; within the Key Topics tab on the menu bar</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="1">
-      <description>Then the &lt;keyTopicMenuItem&gt; page should open correctly</description>
-    </test-step>
+  <test-group name="[1] {keyTopicMenuItem=ACA}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="fe46e9949e0b7dbedc3c9041ea73e484.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the EBSA home page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="fe46e9949e0b7dbedc3c9041ea73e484.png"/>
+        <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1564">
+        <screenshots>
+          <screenshot image="fe46e9949e0b7dbedc3c9041ea73e484.png"/>
+          <screenshot image="00b80c602b1f8aaf90b10d461e4bd083.png"/>
+        </screenshots>
+        <description>On EBSA page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When the user clicks on {ACA} within the Key Topics tab on the menu bar" result="SUCCESS">
+      <screenshots>
+        <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
+        <screenshot image="e91092e14edd3e6ecab7c49d8fe290b5.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="3913">
+        <screenshots>
+          <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
+          <screenshot image="e91092e14edd3e6ecab7c49d8fe290b5.png"/>
+        </screenshots>
+        <description>Click nav node: ACA</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the {ACA} page should open correctly" result="SUCCESS">
+      <screenshots>
+        <screenshot image="e91092e14edd3e6ecab7c49d8fe290b5.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="771">
+        <screenshots>
+          <screenshot image="e91092e14edd3e6ecab7c49d8fe290b5.png"/>
+        </screenshots>
+        <description>Should see page: ACA</description>
+      </test-step>
+    </test-group>
   </test-group>
-  <test-group name="[2] {keyTopicMenuItem=401k}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="0">
-      <description>Given the user is on the EBSA home page</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>When the user clicks on &lt;keyTopicMenuItem&gt; within the Key Topics tab on the menu bar</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>Then the &lt;keyTopicMenuItem&gt; page should open correctly</description>
-    </test-step>
+  <test-group name="[2] {keyTopicMenuItem=401k}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="e91092e14edd3e6ecab7c49d8fe290b5.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the EBSA home page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="e91092e14edd3e6ecab7c49d8fe290b5.png"/>
+        <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1688">
+        <screenshots>
+          <screenshot image="e91092e14edd3e6ecab7c49d8fe290b5.png"/>
+          <screenshot image="bcb3f37d2d3a2cd91b502a179d8c573c.png"/>
+        </screenshots>
+        <description>On EBSA page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When the user clicks on {401k} within the Key Topics tab on the menu bar" result="SUCCESS">
+      <screenshots>
+        <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
+        <screenshot image="91c7930842c64ac686466f844a88136b.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="3942">
+        <screenshots>
+          <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
+          <screenshot image="91c7930842c64ac686466f844a88136b.png"/>
+        </screenshots>
+        <description>Click nav node: 401k</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the {401k} page should open correctly" result="SUCCESS">
+      <screenshots>
+        <screenshot image="91c7930842c64ac686466f844a88136b.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="831">
+        <screenshots>
+          <screenshot image="91c7930842c64ac686466f844a88136b.png"/>
+        </screenshots>
+        <description>Should see page: 401k</description>
+      </test-step>
+    </test-group>
   </test-group>
 </acceptance-test-run>
