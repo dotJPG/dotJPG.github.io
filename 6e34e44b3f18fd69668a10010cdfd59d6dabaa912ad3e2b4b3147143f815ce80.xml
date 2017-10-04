@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Key Topics tabs from the EBSA page" name="Verify all of the Key Topics tabs from the EBSA page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="19079" timestamp="2017-10-04T16:49:28.792-04:00" session-id="3cdce8c1a3b735321f7c03b230208483">
+<acceptance-test-run title="Verify all of the Key Topics tabs from the EBSA page" name="Verify all of the Key Topics tabs from the EBSA page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="16931" timestamp="2017-10-04T16:57:25.415-04:00" session-id="7284ac1eae6bc5f2273ce4f5e555716f">
   <user-story id="ebsaRegression" name="Ebsa regression" path="stories/fullRegression/ebsaRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -29,10 +29,10 @@
         <screenshot image="fe46e9949e0b7dbedc3c9041ea73e484.png"/>
         <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1753">
+      <test-step result="SUCCESS" duration="1335">
         <screenshots>
           <screenshot image="fe46e9949e0b7dbedc3c9041ea73e484.png"/>
-          <screenshot image="aa953babc6acc8d29bda57f0aee1c4ee.png"/>
+          <screenshot image="1ceb6f500988e6ba7a1c9ca9e6690ada.png"/>
         </screenshots>
         <description>On EBSA page</description>
       </test-step>
@@ -42,7 +42,7 @@
         <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
         <screenshot image="e91092e14edd3e6ecab7c49d8fe290b5.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="4020">
+      <test-step result="SUCCESS" duration="3734">
         <screenshots>
           <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
           <screenshot image="e91092e14edd3e6ecab7c49d8fe290b5.png"/>
@@ -54,7 +54,7 @@
       <screenshots>
         <screenshot image="e91092e14edd3e6ecab7c49d8fe290b5.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="839">
+      <test-step result="SUCCESS" duration="756">
         <screenshots>
           <screenshot image="e91092e14edd3e6ecab7c49d8fe290b5.png"/>
         </screenshots>
@@ -71,10 +71,10 @@
         <screenshot image="e91092e14edd3e6ecab7c49d8fe290b5.png"/>
         <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1603">
+      <test-step result="SUCCESS" duration="1326">
         <screenshots>
           <screenshot image="e91092e14edd3e6ecab7c49d8fe290b5.png"/>
-          <screenshot image="46f38ba5fdf5ea6d8b893240d298bb09.png"/>
+          <screenshot image="22ca24577be80b2b6ee757dd50856c5a.png"/>
         </screenshots>
         <description>On EBSA page</description>
       </test-step>
@@ -84,7 +84,7 @@
         <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
         <screenshot image="91c7930842c64ac686466f844a88136b.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="4100">
+      <test-step result="SUCCESS" duration="3712">
         <screenshots>
           <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
           <screenshot image="91c7930842c64ac686466f844a88136b.png"/>
@@ -96,7 +96,7 @@
       <screenshots>
         <screenshot image="91c7930842c64ac686466f844a88136b.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="819">
+      <test-step result="SUCCESS" duration="734">
         <screenshots>
           <screenshot image="91c7930842c64ac686466f844a88136b.png"/>
         </screenshots>
