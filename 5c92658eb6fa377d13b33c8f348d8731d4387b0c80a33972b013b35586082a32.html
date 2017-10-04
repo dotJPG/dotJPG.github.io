@@ -34,11 +34,11 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
-                ['Passing', 0.88],
+                ['Passing', 0.28],
                 ['Pending', 0],
                 ['Ignored', 0],
                 ['Failing', 0],
-                ['Errors',  0.12],
+                ['Errors',  0],
                 ['Compromised Tests',  0],
             ]
         ], {
@@ -68,10 +68,10 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '88% requirements tested successfully'},
-                {label: '0% requirements untested'},
+                {label: '28% requirements tested successfully'},
+                {label: '72% requirements untested'},
                 {label: '0%} requirements failing'},
-                {label: '12%} requirements with errors'},
+                {label: '0%} requirements with errors'},
                 {label: '0%} requirements with compromised tests'}
             ]
         });
@@ -167,7 +167,7 @@
             <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-10-2017 16:10</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-10-2017 16:16</span>
     <br style="clear:left"/>
 </div>
 
@@ -208,8 +208,8 @@
                                     <tr>
                                         <td class="summary-leading-column">Stories</td>
                                         <td>3</td>
-                                        <td>2</td>
                                         <td>1</td>
+                                        <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
@@ -217,10 +217,10 @@
                                 <tr>
                                     <td class="summary-leading-column">Acceptance Criteria (tests)</td>
                                     <td>50</td>
-                                    <td>44</td>
-                                    <td>6</td>
+                                    <td>14</td>
                                     <td>0</td>
                                     <td>0</td>
+                                    <td>36</td>
                                     <td></td>
                                 </tr>
                                 </body>
@@ -248,8 +248,8 @@
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>50</td>
-            <td>44 (88%)</td>
-            <td>6 (12%)</td>
+            <td>14 (28%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -264,14 +264,14 @@
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>50</td>
-            <td>44 (88%)</td>
-            <td>6 (0%)</td>
+            <td>14 (28%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">8 minutes 32 seconds</td>
+                <td colspan="5">2 minutes 41 seconds</td>
         </tr>
         </body>
     </table>
@@ -330,14 +330,14 @@
             <tbody>
 
 
-                <tr class="test-ERROR requirementRow">
+                <tr class="test-SKIPPED requirementRow">
                     <td class="requirementRowCell">
-                        <span class="status_icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
-                        <span style="display:none">4</span>
+                        <span class="status_icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
+                        <span style="display:none">2</span>
                     </td>
                     <td class="cardNumber requirementRowCell"></td>
 
-                    <td class="ERROR-text requirementRowCell">
+                    <td class="SKIPPED-text requirementRowCell">
                     <a href="javaScript:void(0)" class="read-more-link">
                     <img src="images/plus.png" height="16"/></a>
                         <span class="requirementName"><a
@@ -349,10 +349,10 @@
 
 
                     <td class="greentext highlighted-value requirementRowCell">27</td>
-                    <td class="greentext requirementRowCell">21</td>
-                    <td class="bluetext requirementRowCell">0</td>
+                    <td class="greentext requirementRowCell">0</td>
+                    <td class="bluetext requirementRowCell">27</td>
                     <td class="redtext requirementRowCell">0</td>
-                    <td class="lightorangetext requirementRowCell">6</td>
+                    <td class="lightorangetext requirementRowCell">0</td>
                     <td class="violettext requirementRowCell">0</td>
                         <td class="greentext highlighted-value requirementRowCell">0</td>
                         <td class="greentext requirementRowCell">0</td>
@@ -365,20 +365,20 @@
                         <table>
                             <tr>
                                 <td width="40px">
-                                    <div class="small">77.8%</div>
+                                    <div class="small">0%</div>
                                 </td>
                                 <td width="125px">
                                     <div class="percentagebar"
                                          title="Dol homepage regression
 Tests implemented: 27
-  - Passing tests: 21 (77.8% of specified requirements)
+  - Passing tests: 0 (0% of specified requirements)
   - Failing tests: 0 (0% of specified requirements)
-  - Tests with errors: 6 (22.2% of specified requirements)
+  - Tests with errors: 0 (0% of specified requirements)
   - Compromised tests 0 (0% of specified requirements)
 
 Tests not implemented or not executed: 0
   - Pending tests: 0 (0% of specified requirements)
-  - Ignored or skipped tests: 0 (0% of specified requirements)
+  - Ignored or skipped tests: 0 (100% of specified requirements)
 
 Requirements specified:     1
 Requirements with no tests: 0
@@ -386,20 +386,20 @@ Requirements with no tests: 0
 
 Estimated unimplemented tests: 0
 Estimated unimplemented or pending requirements: 0%
-Estimated ignored or skipped requirements: 0%"
+Estimated ignored or skipped requirements: 100%"
                                          style="width: 125px;">
                                         <div class="ignoredbar"
                                              style="width: 125px;"
                                              title="Dol homepage regression
 Tests implemented: 27
-  - Passing tests: 21 (77.8% of specified requirements)
+  - Passing tests: 0 (0% of specified requirements)
   - Failing tests: 0 (0% of specified requirements)
-  - Tests with errors: 6 (22.2% of specified requirements)
+  - Tests with errors: 0 (0% of specified requirements)
   - Compromised tests 0 (0% of specified requirements)
 
 Tests not implemented or not executed: 0
   - Pending tests: 0 (0% of specified requirements)
-  - Ignored or skipped tests: 0 (0% of specified requirements)
+  - Ignored or skipped tests: 0 (100% of specified requirements)
 
 Requirements specified:     1
 Requirements with no tests: 0
@@ -407,19 +407,19 @@ Requirements with no tests: 0
 
 Estimated unimplemented tests: 0
 Estimated unimplemented or pending requirements: 0%
-Estimated ignored or skipped requirements: 0%">
+Estimated ignored or skipped requirements: 100%">
                                             <div class="compromisedbar"
-                                                 style="width: 125px;"
+                                                 style="width: 0px;"
                                                  title="Dol homepage regression
 Tests implemented: 27
-  - Passing tests: 21 (77.8% of specified requirements)
+  - Passing tests: 0 (0% of specified requirements)
   - Failing tests: 0 (0% of specified requirements)
-  - Tests with errors: 6 (22.2% of specified requirements)
+  - Tests with errors: 0 (0% of specified requirements)
   - Compromised tests 0 (0% of specified requirements)
 
 Tests not implemented or not executed: 0
   - Pending tests: 0 (0% of specified requirements)
-  - Ignored or skipped tests: 0 (0% of specified requirements)
+  - Ignored or skipped tests: 0 (100% of specified requirements)
 
 Requirements specified:     1
 Requirements with no tests: 0
@@ -427,19 +427,19 @@ Requirements with no tests: 0
 
 Estimated unimplemented tests: 0
 Estimated unimplemented or pending requirements: 0%
-Estimated ignored or skipped requirements: 0%">
+Estimated ignored or skipped requirements: 100%">
                                                 <div class="errorbar"
-                                                     style="width: 125px;"
+                                                     style="width: 0px;"
                                                      title="Dol homepage regression
 Tests implemented: 27
-  - Passing tests: 21 (77.8% of specified requirements)
+  - Passing tests: 0 (0% of specified requirements)
   - Failing tests: 0 (0% of specified requirements)
-  - Tests with errors: 6 (22.2% of specified requirements)
+  - Tests with errors: 0 (0% of specified requirements)
   - Compromised tests 0 (0% of specified requirements)
 
 Tests not implemented or not executed: 0
   - Pending tests: 0 (0% of specified requirements)
-  - Ignored or skipped tests: 0 (0% of specified requirements)
+  - Ignored or skipped tests: 0 (100% of specified requirements)
 
 Requirements specified:     1
 Requirements with no tests: 0
@@ -447,19 +447,19 @@ Requirements with no tests: 0
 
 Estimated unimplemented tests: 0
 Estimated unimplemented or pending requirements: 0%
-Estimated ignored or skipped requirements: 0%">
+Estimated ignored or skipped requirements: 100%">
                                                     <div class="failingbar"
-                                                         style="width: 97px;"
+                                                         style="width: 0px;"
                                                          title="Dol homepage regression
 Tests implemented: 27
-  - Passing tests: 21 (77.8% of specified requirements)
+  - Passing tests: 0 (0% of specified requirements)
   - Failing tests: 0 (0% of specified requirements)
-  - Tests with errors: 6 (22.2% of specified requirements)
+  - Tests with errors: 0 (0% of specified requirements)
   - Compromised tests 0 (0% of specified requirements)
 
 Tests not implemented or not executed: 0
   - Pending tests: 0 (0% of specified requirements)
-  - Ignored or skipped tests: 0 (0% of specified requirements)
+  - Ignored or skipped tests: 0 (100% of specified requirements)
 
 Requirements specified:     1
 Requirements with no tests: 0
@@ -467,19 +467,19 @@ Requirements with no tests: 0
 
 Estimated unimplemented tests: 0
 Estimated unimplemented or pending requirements: 0%
-Estimated ignored or skipped requirements: 0%">
+Estimated ignored or skipped requirements: 100%">
                                                         <div class="passingbar"
-                                                             style="width: 97px;"
+                                                             style="width: 0px;"
                                                              title="Dol homepage regression
 Tests implemented: 27
-  - Passing tests: 21 (77.8% of specified requirements)
+  - Passing tests: 0 (0% of specified requirements)
   - Failing tests: 0 (0% of specified requirements)
-  - Tests with errors: 6 (22.2% of specified requirements)
+  - Tests with errors: 0 (0% of specified requirements)
   - Compromised tests 0 (0% of specified requirements)
 
 Tests not implemented or not executed: 0
   - Pending tests: 0 (0% of specified requirements)
-  - Ignored or skipped tests: 0 (0% of specified requirements)
+  - Ignored or skipped tests: 0 (100% of specified requirements)
 
 Requirements specified:     1
 Requirements with no tests: 0
@@ -487,7 +487,7 @@ Requirements with no tests: 0
 
 Estimated unimplemented tests: 0
 Estimated unimplemented or pending requirements: 0%
-Estimated ignored or skipped requirements: 0%">
+Estimated ignored or skipped requirements: 100%">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -672,14 +672,14 @@ Estimated ignored or skipped requirements: 0%">
 
                 </tr>
 
-                <tr class="test-SUCCESS requirementRow">
+                <tr class="test-SKIPPED requirementRow">
                     <td class="requirementRowCell">
-                        <span class="status_icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                        <span style="display:none">1</span>
+                        <span class="status_icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
+                        <span style="display:none">2</span>
                     </td>
                     <td class="cardNumber requirementRowCell"></td>
 
-                    <td class="SUCCESS-text requirementRowCell">
+                    <td class="SKIPPED-text requirementRowCell">
                     <a href="javaScript:void(0)" class="read-more-link">
                     <img src="images/plus.png" height="16"/></a>
                         <span class="requirementName"><a
@@ -691,8 +691,8 @@ Estimated ignored or skipped requirements: 0%">
 
 
                     <td class="greentext highlighted-value requirementRowCell">9</td>
-                    <td class="greentext requirementRowCell">9</td>
-                    <td class="bluetext requirementRowCell">0</td>
+                    <td class="greentext requirementRowCell">0</td>
+                    <td class="bluetext requirementRowCell">9</td>
                     <td class="redtext requirementRowCell">0</td>
                     <td class="lightorangetext requirementRowCell">0</td>
                     <td class="violettext requirementRowCell">0</td>
@@ -707,20 +707,20 @@ Estimated ignored or skipped requirements: 0%">
                         <table>
                             <tr>
                                 <td width="40px">
-                                    <div class="small">100%</div>
+                                    <div class="small">0%</div>
                                 </td>
                                 <td width="125px">
                                     <div class="percentagebar"
                                          title="Ilab regression
 Tests implemented: 9
-  - Passing tests: 9 (100% of specified requirements)
+  - Passing tests: 0 (0% of specified requirements)
   - Failing tests: 0 (0% of specified requirements)
   - Tests with errors: 0 (0% of specified requirements)
   - Compromised tests 0 (0% of specified requirements)
 
 Tests not implemented or not executed: 0
   - Pending tests: 0 (0% of specified requirements)
-  - Ignored or skipped tests: 0 (0% of specified requirements)
+  - Ignored or skipped tests: 0 (100% of specified requirements)
 
 Requirements specified:     1
 Requirements with no tests: 0
@@ -728,20 +728,20 @@ Requirements with no tests: 0
 
 Estimated unimplemented tests: 0
 Estimated unimplemented or pending requirements: 0%
-Estimated ignored or skipped requirements: 0%"
+Estimated ignored or skipped requirements: 100%"
                                          style="width: 125px;">
                                         <div class="ignoredbar"
                                              style="width: 125px;"
                                              title="Ilab regression
 Tests implemented: 9
-  - Passing tests: 9 (100% of specified requirements)
+  - Passing tests: 0 (0% of specified requirements)
   - Failing tests: 0 (0% of specified requirements)
   - Tests with errors: 0 (0% of specified requirements)
   - Compromised tests 0 (0% of specified requirements)
 
 Tests not implemented or not executed: 0
   - Pending tests: 0 (0% of specified requirements)
-  - Ignored or skipped tests: 0 (0% of specified requirements)
+  - Ignored or skipped tests: 0 (100% of specified requirements)
 
 Requirements specified:     1
 Requirements with no tests: 0
@@ -749,19 +749,19 @@ Requirements with no tests: 0
 
 Estimated unimplemented tests: 0
 Estimated unimplemented or pending requirements: 0%
-Estimated ignored or skipped requirements: 0%">
+Estimated ignored or skipped requirements: 100%">
                                             <div class="compromisedbar"
-                                                 style="width: 125px;"
+                                                 style="width: 0px;"
                                                  title="Ilab regression
 Tests implemented: 9
-  - Passing tests: 9 (100% of specified requirements)
+  - Passing tests: 0 (0% of specified requirements)
   - Failing tests: 0 (0% of specified requirements)
   - Tests with errors: 0 (0% of specified requirements)
   - Compromised tests 0 (0% of specified requirements)
 
 Tests not implemented or not executed: 0
   - Pending tests: 0 (0% of specified requirements)
-  - Ignored or skipped tests: 0 (0% of specified requirements)
+  - Ignored or skipped tests: 0 (100% of specified requirements)
 
 Requirements specified:     1
 Requirements with no tests: 0
@@ -769,19 +769,19 @@ Requirements with no tests: 0
 
 Estimated unimplemented tests: 0
 Estimated unimplemented or pending requirements: 0%
-Estimated ignored or skipped requirements: 0%">
+Estimated ignored or skipped requirements: 100%">
                                                 <div class="errorbar"
-                                                     style="width: 125px;"
+                                                     style="width: 0px;"
                                                      title="Ilab regression
 Tests implemented: 9
-  - Passing tests: 9 (100% of specified requirements)
+  - Passing tests: 0 (0% of specified requirements)
   - Failing tests: 0 (0% of specified requirements)
   - Tests with errors: 0 (0% of specified requirements)
   - Compromised tests 0 (0% of specified requirements)
 
 Tests not implemented or not executed: 0
   - Pending tests: 0 (0% of specified requirements)
-  - Ignored or skipped tests: 0 (0% of specified requirements)
+  - Ignored or skipped tests: 0 (100% of specified requirements)
 
 Requirements specified:     1
 Requirements with no tests: 0
@@ -789,19 +789,19 @@ Requirements with no tests: 0
 
 Estimated unimplemented tests: 0
 Estimated unimplemented or pending requirements: 0%
-Estimated ignored or skipped requirements: 0%">
+Estimated ignored or skipped requirements: 100%">
                                                     <div class="failingbar"
-                                                         style="width: 125px;"
+                                                         style="width: 0px;"
                                                          title="Ilab regression
 Tests implemented: 9
-  - Passing tests: 9 (100% of specified requirements)
+  - Passing tests: 0 (0% of specified requirements)
   - Failing tests: 0 (0% of specified requirements)
   - Tests with errors: 0 (0% of specified requirements)
   - Compromised tests 0 (0% of specified requirements)
 
 Tests not implemented or not executed: 0
   - Pending tests: 0 (0% of specified requirements)
-  - Ignored or skipped tests: 0 (0% of specified requirements)
+  - Ignored or skipped tests: 0 (100% of specified requirements)
 
 Requirements specified:     1
 Requirements with no tests: 0
@@ -809,19 +809,19 @@ Requirements with no tests: 0
 
 Estimated unimplemented tests: 0
 Estimated unimplemented or pending requirements: 0%
-Estimated ignored or skipped requirements: 0%">
+Estimated ignored or skipped requirements: 100%">
                                                         <div class="passingbar"
-                                                             style="width: 125px;"
+                                                             style="width: 0px;"
                                                              title="Ilab regression
 Tests implemented: 9
-  - Passing tests: 9 (100% of specified requirements)
+  - Passing tests: 0 (0% of specified requirements)
   - Failing tests: 0 (0% of specified requirements)
   - Tests with errors: 0 (0% of specified requirements)
   - Compromised tests 0 (0% of specified requirements)
 
 Tests not implemented or not executed: 0
   - Pending tests: 0 (0% of specified requirements)
-  - Ignored or skipped tests: 0 (0% of specified requirements)
+  - Ignored or skipped tests: 0 (100% of specified requirements)
 
 Requirements specified:     1
 Requirements with no tests: 0
@@ -829,7 +829,7 @@ Requirements with no tests: 0
 
 Estimated unimplemented tests: 0
 Estimated unimplemented or pending requirements: 0%
-Estimated ignored or skipped requirements: 0%">
+Estimated ignored or skipped requirements: 100%">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -881,41 +881,41 @@ Estimated ignored or skipped requirements: 0%">
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">23.87</td>
+                                <td class="lightgreentext">24.13</td>
                             </tr>
 
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                            <tr class="test-SKIPPED">
+                                <td><span class="summary-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
                                     
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
+                                    <span style="display:none">SKIPPED</span></td>
+                                <td class="SKIPPED-text">
                                     <div class="ellipsis">
                                     <a href="c96bb3a2f01df0f623118477e67446cbd79eb8d05b355cdc450683e1d8620f1f.html" class="ellipsis" title="">
                                     Verify all of the About Us tabs from the ILAB page 
                                     </a></div>
                                 </td>
 
-                                <td class="lightgreentext">21</td>
+                                <td class="lightgreentext">12</td>
 
 
-                                <td class="lightgreentext">34.26</td>
+                                <td class="lightgreentext">0</td>
                             </tr>
 
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                            <tr class="test-SKIPPED">
+                                <td><span class="summary-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
                                     
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
+                                    <span style="display:none">SKIPPED</span></td>
+                                <td class="SKIPPED-text">
                                     <div class="ellipsis">
                                     <a href="8ad5cb838144328827d4facd8ef174e0463b7f39f3550b40b1b57b55d3944b98.html" class="ellipsis" title="">
                                     Verify all of the Agencies sub-navigation tabs open correctly 
                                     </a></div>
                                 </td>
 
-                                <td class="lightgreentext">14</td>
+                                <td class="lightgreentext">8</td>
 
 
-                                <td class="lightgreentext">20.89</td>
+                                <td class="lightgreentext">0</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -932,41 +932,41 @@ Estimated ignored or skipped requirements: 0%">
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">24.68</td>
+                                <td class="lightgreentext">20.53</td>
                             </tr>
 
-                            <tr class="test-ERROR">
-                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                            <tr class="test-SKIPPED">
+                                <td><span class="summary-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
                                     
-                                    <span style="display:none">ERROR</span></td>
-                                <td class="ERROR-text">
+                                    <span style="display:none">SKIPPED</span></td>
+                                <td class="SKIPPED-text">
                                     <div class="ellipsis">
-                                    <a href="cd81d1cbcc0ba8d87bc940548078d9674a5a9a030a3ae761f6fb5cc5ce1754cd.html" class="ellipsis" title="Web driver exception: unknown error: Element is not clickable at point (1195, 2036)  (Session info: chrome=61.0.3163.100)  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 75 millisecondsBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'System info: host: 'BAH5CG70147KN', ip: '10.201.28.207', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\592987\AppData\Local\Temp\scoped_dir18468_24003}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]Session ID: f07b05fb77972df02aaff2a65ed5772c">
+                                    <a href="cd81d1cbcc0ba8d87bc940548078d9674a5a9a030a3ae761f6fb5cc5ce1754cd.html" class="ellipsis" title="">
                                     Verify all of the Footer navigation links open correctly 
                                     </a></div>
                                 </td>
 
-                                <td class="lightgreentext">36</td>
+                                <td class="lightgreentext">24</td>
 
 
-                                <td class="lightgreentext">30.21</td>
+                                <td class="lightgreentext">0.02</td>
                             </tr>
 
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                            <tr class="test-SKIPPED">
+                                <td><span class="summary-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
                                     
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
+                                    <span style="display:none">SKIPPED</span></td>
+                                <td class="SKIPPED-text">
                                     <div class="ellipsis">
                                     <a href="c6abfc22f4000349f40bdeada3537740c917e6dfffb1ff27d38338141d8e983c.html" class="ellipsis" title="">
                                     Verify all of the ILAB In Action tabs from the ILAB page 
                                     </a></div>
                                 </td>
 
-                                <td class="lightgreentext">14</td>
+                                <td class="lightgreentext">8</td>
 
 
-                                <td class="lightgreentext">19.38</td>
+                                <td class="lightgreentext">0</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -983,7 +983,7 @@ Estimated ignored or skipped requirements: 0%">
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">23.78</td>
+                                <td class="lightgreentext">31.09</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -1000,41 +1000,41 @@ Estimated ignored or skipped requirements: 0%">
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">19.05</td>
+                                <td class="lightgreentext">21.34</td>
                             </tr>
 
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                            <tr class="test-SKIPPED">
+                                <td><span class="summary-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
                                     
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
+                                    <span style="display:none">SKIPPED</span></td>
+                                <td class="SKIPPED-text">
                                     <div class="ellipsis">
                                     <a href="d81c7b31ac454885c4bc6346647597195d4661709831fd686ebc0967675bfd36.html" class="ellipsis" title="">
                                     Verify all of the Our Work tabs from the ILAB page 
                                     </a></div>
                                 </td>
 
-                                <td class="lightgreentext">14</td>
+                                <td class="lightgreentext">8</td>
 
 
-                                <td class="lightgreentext">20.12</td>
+                                <td class="lightgreentext">0</td>
                             </tr>
 
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                            <tr class="test-SKIPPED">
+                                <td><span class="summary-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
                                     
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
+                                    <span style="display:none">SKIPPED</span></td>
+                                <td class="SKIPPED-text">
                                     <div class="ellipsis">
                                     <a href="8077e1cef7b16960e5cca4975f4fd5989e2db20fe4b8b273d1df544ce93e1c29.html" class="ellipsis" title="">
                                     Verify all of the Press sub-navigation tabs open correctly 
                                     </a></div>
                                 </td>
 
-                                <td class="lightgreentext">21</td>
+                                <td class="lightgreentext">12</td>
 
 
-                                <td class="lightgreentext">31.51</td>
+                                <td class="lightgreentext">0</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -1051,58 +1051,58 @@ Estimated ignored or skipped requirements: 0%">
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">19.27</td>
+                                <td class="lightgreentext">22.44</td>
                             </tr>
 
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                            <tr class="test-SKIPPED">
+                                <td><span class="summary-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
                                     
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
+                                    <span style="display:none">SKIPPED</span></td>
+                                <td class="SKIPPED-text">
                                     <div class="ellipsis">
                                     <a href="7468eddb00edfe22826ed1d9c22ac2bc8249849610f050688e827ca768b3504a.html" class="ellipsis" title="">
                                     Verify all of the Resources tabs from the ILAB page 
                                     </a></div>
                                 </td>
 
-                                <td class="lightgreentext">14</td>
+                                <td class="lightgreentext">8</td>
 
 
-                                <td class="lightgreentext">20.36</td>
+                                <td class="lightgreentext">0.02</td>
                             </tr>
 
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                            <tr class="test-SKIPPED">
+                                <td><span class="summary-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
                                     
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
+                                    <span style="display:none">SKIPPED</span></td>
+                                <td class="SKIPPED-text">
                                     <div class="ellipsis">
                                     <a href="70cd336a18a5c7a288d2fab5eeb9a5d2690104ccaa5ad40b092be4c524471d8c.html" class="ellipsis" title="">
                                     Verify all of the Social Media navigation links open correctly 
                                     </a></div>
                                 </td>
 
-                                <td class="lightgreentext">35</td>
+                                <td class="lightgreentext">20</td>
 
 
-                                <td class="lightgreentext">77.93</td>
+                                <td class="lightgreentext">0</td>
                             </tr>
 
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                            <tr class="test-SKIPPED">
+                                <td><span class="summary-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
                                     
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
+                                    <span style="display:none">SKIPPED</span></td>
+                                <td class="SKIPPED-text">
                                     <div class="ellipsis">
                                     <a href="845602e04d8ac6690c9b9676b623306d8cc1182428a400d18948bf1abb24a896.html" class="ellipsis" title="">
                                     Verify all of the Topics sub-navigation tabs open correctly 
                                     </a></div>
                                 </td>
 
-                                <td class="lightgreentext">28</td>
+                                <td class="lightgreentext">16</td>
 
 
-                                <td class="lightgreentext">36.66</td>
+                                <td class="lightgreentext">0</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -1119,24 +1119,24 @@ Estimated ignored or skipped requirements: 0%">
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">20.85</td>
+                                <td class="lightgreentext">17.54</td>
                             </tr>
 
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                            <tr class="test-SKIPPED">
+                                <td><span class="summary-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
                                     
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
+                                    <span style="display:none">SKIPPED</span></td>
+                                <td class="SKIPPED-text">
                                     <div class="ellipsis">
                                     <a href="25deddecc761f6d331563b02b184a96afcd9909e9c6483db64ed53c978824d06.html" class="ellipsis" title="">
                                     Verify all of the navbar tabs to assert that the pages open correctly 
                                     </a></div>
                                 </td>
 
-                                <td class="lightgreentext">49</td>
+                                <td class="lightgreentext">28</td>
 
 
-                                <td class="lightgreentext">64.51</td>
+                                <td class="lightgreentext">0</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -1153,7 +1153,7 @@ Estimated ignored or skipped requirements: 0%">
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">25.44</td>
+                                <td class="lightgreentext">24.35</td>
                             </tr>
                         </tbody>
                     </table>
