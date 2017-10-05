@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Researchers tabs from the EBSA page" name="Verify all of the Researchers tabs from the EBSA page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="22832" timestamp="2017-10-05T09:47:36.724-04:00" session-id="b5fddc8163040f8ca7dda16ffab980c5">
+<acceptance-test-run title="Verify all of the Researchers tabs from the EBSA page" name="Verify all of the Researchers tabs from the EBSA page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="3" timestamp="2017-10-05T10:02:17.706-04:00">
   <user-story id="ebsaRegression" name="Ebsa regression" path="stories/fullRegression/ebsaRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -20,88 +20,26 @@
       </row>
     </rows>
   </examples>
-  <test-group name="[1] {researchersMenuItem=retirementResources}" result="SUCCESS">
-    <screenshots>
-      <screenshot image="9230fe74f13f534356d550d9063f460b.png"/>
-    </screenshots>
-    <test-group name="Given the user is on the EBSA home page" result="SUCCESS">
-      <screenshots>
-        <screenshot image="9230fe74f13f534356d550d9063f460b.png"/>
-        <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="1336">
-        <screenshots>
-          <screenshot image="9230fe74f13f534356d550d9063f460b.png"/>
-          <screenshot image="22ca24577be80b2b6ee757dd50856c5a.png"/>
-        </screenshots>
-        <description>On EBSA page</description>
-      </test-step>
-    </test-group>
-    <test-group name="When the user clicks on {retirementResources} within the Researchers tab on the menu bar" result="SUCCESS">
-      <screenshots>
-        <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
-        <screenshot image="42c1238c034c269fe6c3f6111e71fc54.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="8665">
-        <screenshots>
-          <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
-          <screenshot image="42c1238c034c269fe6c3f6111e71fc54.png"/>
-        </screenshots>
-        <description>Click nav node: retirementResources</description>
-      </test-step>
-    </test-group>
-    <test-group name="Then the {retirementResources} page should open correctly" result="SUCCESS">
-      <screenshots>
-        <screenshot image="42c1238c034c269fe6c3f6111e71fc54.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="678">
-        <screenshots>
-          <screenshot image="42c1238c034c269fe6c3f6111e71fc54.png"/>
-        </screenshots>
-        <description>Should see page: retirementResources</description>
-      </test-step>
-    </test-group>
+  <test-group name="[1] {researchersMenuItem=retirementResources}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the EBSA home page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user clicks on &lt;researchersMenuItem&gt; within the Researchers tab on the menu bar</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="2">
+      <description>Then the &lt;researchersMenuItem&gt; page should open correctly</description>
+    </test-step>
   </test-group>
-  <test-group name="[2] {researchersMenuItem=pensionPlan}" result="SUCCESS">
-    <screenshots>
-      <screenshot image="42c1238c034c269fe6c3f6111e71fc54.png"/>
-    </screenshots>
-    <test-group name="Given the user is on the EBSA home page" result="SUCCESS">
-      <screenshots>
-        <screenshot image="42c1238c034c269fe6c3f6111e71fc54.png"/>
-        <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="1374">
-        <screenshots>
-          <screenshot image="42c1238c034c269fe6c3f6111e71fc54.png"/>
-          <screenshot image="13fe549efa14d4d502f4fd6d87858db2.png"/>
-        </screenshots>
-        <description>On EBSA page</description>
-      </test-step>
-    </test-group>
-    <test-group name="When the user clicks on {pensionPlan} within the Researchers tab on the menu bar" result="SUCCESS">
-      <screenshots>
-        <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
-        <screenshot image="fe46e9949e0b7dbedc3c9041ea73e484.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="4726">
-        <screenshots>
-          <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
-          <screenshot image="fe46e9949e0b7dbedc3c9041ea73e484.png"/>
-        </screenshots>
-        <description>Click nav node: pensionPlan</description>
-      </test-step>
-    </test-group>
-    <test-group name="Then the {pensionPlan} page should open correctly" result="SUCCESS">
-      <screenshots>
-        <screenshot image="fe46e9949e0b7dbedc3c9041ea73e484.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="735">
-        <screenshots>
-          <screenshot image="fe46e9949e0b7dbedc3c9041ea73e484.png"/>
-        </screenshots>
-        <description>Should see page: pensionPlan</description>
-      </test-step>
-    </test-group>
+  <test-group name="[2] {researchersMenuItem=pensionPlan}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the EBSA home page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user clicks on &lt;researchersMenuItem&gt; within the Researchers tab on the menu bar</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the &lt;researchersMenuItem&gt; page should open correctly</description>
+    </test-step>
   </test-group>
 </acceptance-test-run>
