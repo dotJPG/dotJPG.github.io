@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Our Work tabs from the ILAB page" name="Verify all of the Our Work tabs from the ILAB page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="17598" timestamp="2017-10-05T12:35:10.649-04:00" session-id="a20bcb947b9800eacb6c16cd21914f5c">
+<acceptance-test-run title="Verify all of the Our Work tabs from the ILAB page" name="Verify all of the Our Work tabs from the ILAB page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="18990" timestamp="2017-10-05T12:47:05.591-04:00" session-id="303ac91d24453fe1636d03f2a32e038f">
   <user-story id="ilabRegression" name="Ilab regression" path="stories/fullRegression/ilabRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -29,10 +29,10 @@
         <screenshot image="0ac0e1fbd50a1c00e9fff4904081485c.png"/>
         <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1581">
+      <test-step result="SUCCESS" duration="1685">
         <screenshots>
           <screenshot image="0ac0e1fbd50a1c00e9fff4904081485c.png"/>
-          <screenshot image="db64243a8e79b3d424495a9ddd15f4f5.png"/>
+          <screenshot image="374979d374b9349aeb5eba932a6d33fc.png"/>
         </screenshots>
         <description>On ILAB page</description>
       </test-step>
@@ -42,10 +42,10 @@
         <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
         <screenshot image="8db35ad84188ec03498107e3f23033c1.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="2886">
+      <test-step result="SUCCESS" duration="3040">
         <screenshots>
           <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
-          <screenshot image="82069ebb6280fc22f652007e8e8dadc4.png"/>
+          <screenshot image="732b276be9b35f782f9797a6a76e2c9b.png"/>
         </screenshots>
         <description>Click nav node: childLabor</description>
       </test-step>
@@ -54,7 +54,7 @@
       <screenshots>
         <screenshot image="8db35ad84188ec03498107e3f23033c1.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="935">
+      <test-step result="SUCCESS" duration="1006">
         <screenshots>
           <screenshot image="8db35ad84188ec03498107e3f23033c1.png"/>
         </screenshots>
@@ -71,10 +71,10 @@
         <screenshot image="8db35ad84188ec03498107e3f23033c1.png"/>
         <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1661">
+      <test-step result="SUCCESS" duration="2031">
         <screenshots>
           <screenshot image="8db35ad84188ec03498107e3f23033c1.png"/>
-          <screenshot image="57effeeb08606b6711c7b2d5a7e4fa97.png"/>
+          <screenshot image="d1b0c4929254c62a0c294fe1f8f4caf7.png"/>
         </screenshots>
         <description>On ILAB page</description>
       </test-step>
@@ -84,7 +84,7 @@
         <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
         <screenshot image="b1f8c933ade19832c46877320da1e5af.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="3275">
+      <test-step result="SUCCESS" duration="3282">
         <screenshots>
           <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
           <screenshot image="b1f8c933ade19832c46877320da1e5af.png"/>
@@ -96,7 +96,7 @@
       <screenshots>
         <screenshot image="b1f8c933ade19832c46877320da1e5af.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="877">
+      <test-step result="SUCCESS" duration="996">
         <screenshots>
           <screenshot image="b1f8c933ade19832c46877320da1e5af.png"/>
         </screenshots>

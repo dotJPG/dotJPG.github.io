@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Agencies sub-navigation tabs open correctly" name="Verify all of the Agencies sub-navigation tabs open correctly" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="18325" timestamp="2017-10-05T12:37:32.907-04:00" session-id="a9bbbaef5af9efe8e4e0f2894a92496f">
+<acceptance-test-run title="Verify all of the Agencies sub-navigation tabs open correctly" name="Verify all of the Agencies sub-navigation tabs open correctly" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="17734" timestamp="2017-10-05T12:49:40.192-04:00" session-id="05b715dad51ebfc2280455d669933427">
   <user-story id="dolHomepageRegression" name="Dol homepage regression" path="stories/fullRegression/dolHomepageRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -29,10 +29,10 @@
         <screenshot image="10e3527bf7f6f341ee318d6869a5a6ab.png"/>
         <screenshot image="8ebd2933da8c879ad212cfd96acb89ac.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1476">
+      <test-step result="SUCCESS" duration="1455">
         <screenshots>
           <screenshot image="10e3527bf7f6f341ee318d6869a5a6ab.png"/>
-          <screenshot image="77f4f225f3f27b4ec265fda7c9cf4749.png"/>
+          <screenshot image="5bbe437c0b1297fff6aac81701d564e6.png"/>
         </screenshots>
         <description>On home page</description>
       </test-step>
@@ -42,7 +42,7 @@
         <screenshot image="8ebd2933da8c879ad212cfd96acb89ac.png"/>
         <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="3543">
+      <test-step result="SUCCESS" duration="3227">
         <screenshots>
           <screenshot image="8ebd2933da8c879ad212cfd96acb89ac.png"/>
           <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
@@ -53,7 +53,6 @@
     <test-group name="Then the {ILAB} page should open correctly" result="SUCCESS">
       <screenshots>
         <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
-        <screenshot image="9ba8e08ba83566fb78b8dec622357c88.png"/>
       </screenshots>
       <test-step result="SUCCESS" duration="1134">
         <screenshots>
@@ -65,17 +64,17 @@
   </test-group>
   <test-group name="[2] {subNavMenuAgencies=EBSA}" result="SUCCESS">
     <screenshots>
-      <screenshot image="33dd1f1580bae47a425d9b368d0c84d8.png"/>
+      <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
     </screenshots>
     <test-group name="Given the user is on the DOL home page" result="SUCCESS">
       <screenshots>
-        <screenshot image="e15eb99d829553b40d8eb4dd93462f32.png"/>
-        <screenshot image="5a4cf8c8f774ad8721cb1c1f925801dd.png"/>
+        <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
+        <screenshot image="8ebd2933da8c879ad212cfd96acb89ac.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1765">
+      <test-step result="SUCCESS" duration="1630">
         <screenshots>
-          <screenshot image="e15eb99d829553b40d8eb4dd93462f32.png"/>
-          <screenshot image="bf306e7c1b9ceee211d47493ac010a8b.png"/>
+          <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
+          <screenshot image="063ff8ab6353eb4850e316c48237899b.png"/>
         </screenshots>
         <description>On home page</description>
       </test-step>
@@ -85,10 +84,10 @@
         <screenshot image="8ebd2933da8c879ad212cfd96acb89ac.png"/>
         <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="2743">
+      <test-step result="SUCCESS" duration="2710">
         <screenshots>
           <screenshot image="8ebd2933da8c879ad212cfd96acb89ac.png"/>
-          <screenshot image="da000d7f88225d312707fe6704fd61ce.png"/>
+          <screenshot image="bb6e3cfd7e1ce765a8d2b13b4bde4f40.png"/>
         </screenshots>
         <description>Click nav node: EBSA</description>
       </test-step>
@@ -97,7 +96,7 @@
       <screenshots>
         <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="902">
+      <test-step result="SUCCESS" duration="927">
         <screenshots>
           <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
         </screenshots>

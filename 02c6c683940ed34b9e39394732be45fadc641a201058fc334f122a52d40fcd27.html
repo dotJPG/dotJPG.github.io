@@ -38,13 +38,13 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var test_results_plot = $.jqplot('test_results_pie_chart', [
             [
-                ['Passing', 0.92],
+                ['Passing', 0.94],
                 
                 ['Pending', 0],
                 
                 ['Ignored', 0],
                 
-                ['Failing', 0.02],
+                ['Failing', 0],
                 
                 ['Errors',  0],
                 ['Compromised',  0]
@@ -77,10 +77,10 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '46 / 50 tests passed' },
+                {label: '47 / 50 tests passed' },
                 {label: '0 / 50 tests pending'},
                 {label: '0 / 50 tests not executed'},
-                {label: '1 / 50 tests failed'},
+                {label: '0 / 50 tests failed'},
                 {label: '0 / 50 errors'},
                 {label: '0 / 50 compromised tests'}
             ]
@@ -88,13 +88,13 @@
 
         var weighted_test_results_plot = $.jqplot('weighted_test_results_pie_chart', [
             [
-                ['Passing', 0.979472],
+                ['Passing', 1],
                 
                 ['Pending', 0],
                 
                 ['Ignored', 0],
                 
-                ['Failing', 0.020528],
+                ['Failing', 0],
                 
                 ['Errors', 0],
                 ['Compromised', 0],
@@ -128,10 +128,10 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '46 / 50 tests passed (0.979472% of all test steps)' },
+                {label: '47 / 50 tests passed (1% of all test steps)' },
                 {label: '0 / 50 tests pending'},
                 {label: '0 / 50 tests not executed'},
-                {label: '1 / 50 tests failed (0.020528% of all test steps)'},
+                {label: '0 / 50 tests failed (0% of all test steps)'},
                 {label: '0 / 50 errors (0% of all test steps)'}
             ]
         });
@@ -204,7 +204,7 @@
             <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 05-10-2017 12:39</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 05-10-2017 12:51</span>
     <br style="clear:left"/>
 </div>
 <div class="clr"></div>
@@ -224,7 +224,7 @@
                 <div>
 
                 <span class="test-count">
-                    46
+                    47
                         <a href="4a1bbc2d51cee0ea1bff7fe0aa16ddcb5ac8522f3baef224f4a0c7b9ae80049e.html">passed</a>
                     ,
                 </span>
@@ -233,9 +233,8 @@
 pending,
                 </span>
                 <span class="test-count">
-                    1
-                        <a href="acc34d55114e897845a3b8884cf161538e60bd1879713572f59f56140e78939b.html">failed</a>
-                    ,
+                    0
+failed,
                 </span>
                 <span class="test-count">
                     0
@@ -299,8 +298,8 @@ ignored,
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>50</td>
-            <td>46 (92%)</td>
-            <td>1 (2%)</td>
+            <td>47 (94%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -315,14 +314,14 @@ ignored,
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>50</td>
-            <td>46 (92%)</td>
-            <td>1 (2%)</td>
+            <td>47 (94%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">6 minutes 59 seconds</td>
+                <td colspan="5">7 minutes 16 seconds</td>
         </tr>
         </body>
     </table>
@@ -345,7 +344,7 @@ ignored,
             </tr>
                 <tr>
                     <td class="bluetext" class="tag-title">
-                        <span class="FAILURE-text ellipsis">
+                        <span class="SUCCESS-text ellipsis">
                                 <a href="ca4cb0f6bd994980352ef8205a50f0b16f9e22b625dd101e7329bdf4a60aa02c.html" title="Dol Homepage Regression">Dol Homepage Regression</a>
                         </span>
                     </td>
@@ -354,7 +353,7 @@ ignored,
 
                         <table>
                             <tr>
-                                <td class="related-tag-percentage"><span title="23 out of 27 tests (133 steps) passing">85.2%</span></td>
+                                <td class="related-tag-percentage"><span title="24 out of 27 tests (168 steps) passing">88.9%</span></td>
                                 <td width="150px">
                                     <a href="ca4cb0f6bd994980352ef8205a50f0b16f9e22b625dd101e7329bdf4a60aa02c.html">
                                         <div class="percentagebar"
@@ -371,10 +370,10 @@ ignored,
                                                          title="0 out of 27 tests (0 steps) broken">
                                                         <div class="failingbar"
                                                              style="width: 133px;"
-                                                             title="1 out of 27 tests (35 steps) failing">
+                                                             title="0 out of 27 tests (0 steps) failing">
                                                             <div class="passingbar"
-                                                                 style="width: 128px;"
-                                                                 title="23 out of 27 tests (133 steps) passing">
+                                                                 style="width: 133px;"
+                                                                 title="24 out of 27 tests (168 steps) passing">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -521,8 +520,8 @@ ignored,
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>50</td>
-            <td>46 (92%)</td>
-            <td>1 (2%)</td>
+            <td>47 (94%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -537,14 +536,14 @@ ignored,
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>50</td>
-            <td>46 (92%)</td>
-            <td>1 (2%)</td>
+            <td>47 (94%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">6 minutes 59 seconds</td>
+                <td colspan="5">7 minutes 16 seconds</td>
         </tr>
         </body>
     </table>
@@ -567,7 +566,7 @@ ignored,
             </tr>
                 <tr>
                     <td class="bluetext" class="tag-title">
-                        <span class="FAILURE-text ellipsis">
+                        <span class="SUCCESS-text ellipsis">
                                 <a href="ca4cb0f6bd994980352ef8205a50f0b16f9e22b625dd101e7329bdf4a60aa02c.html" title="Dol Homepage Regression">Dol Homepage Regression</a>
                         </span>
                     </td>
@@ -576,7 +575,7 @@ ignored,
 
                         <table>
                             <tr>
-                                <td class="related-tag-percentage"><span title="23 out of 27 tests (133 steps) passing">96.1%</span></td>
+                                <td class="related-tag-percentage"><span title="24 out of 27 tests (168 steps) passing">100%</span></td>
                                 <td width="150px">
                                     <a href="ca4cb0f6bd994980352ef8205a50f0b16f9e22b625dd101e7329bdf4a60aa02c.html">
                                         <div class="percentagebar"
@@ -593,10 +592,10 @@ ignored,
                                                          title="0 out of 27 tests (0 steps) broken">
                                                         <div class="failingbar"
                                                              style="width: 150px;"
-                                                             title="1 out of 27 tests (35 steps) failing">
+                                                             title="0 out of 27 tests (0 steps) failing">
                                                             <div class="passingbar"
-                                                                 style="width: 144px;"
-                                                                 title="23 out of 27 tests (133 steps) passing">
+                                                                 style="width: 150px;"
+                                                                 title="24 out of 27 tests (168 steps) passing">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -744,7 +743,7 @@ ignored,
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">21.11</td>
+                                <td class="lightgreentext">23.39</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -761,7 +760,7 @@ ignored,
                                 <td class="lightgreentext">21</td>
 
 
-                                <td class="lightgreentext">35.72</td>
+                                <td class="lightgreentext">31.74</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -778,7 +777,7 @@ ignored,
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">18.33</td>
+                                <td class="lightgreentext">17.73</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -795,7 +794,7 @@ ignored,
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">17.42</td>
+                                <td class="lightgreentext">19.4</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -812,7 +811,7 @@ ignored,
                                 <td class="lightgreentext">42</td>
 
 
-                                <td class="lightgreentext">39.41</td>
+                                <td class="lightgreentext">39.52</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -829,7 +828,7 @@ ignored,
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">16.94</td>
+                                <td class="lightgreentext">19.06</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -846,7 +845,7 @@ ignored,
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">16.43</td>
+                                <td class="lightgreentext">16.73</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -863,7 +862,7 @@ ignored,
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">16.57</td>
+                                <td class="lightgreentext">16.69</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -880,7 +879,7 @@ ignored,
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">17.6</td>
+                                <td class="lightgreentext">18.99</td>
                             </tr>
 
                             <tr class="test-SKIPPED">
@@ -914,7 +913,7 @@ ignored,
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">17.39</td>
+                                <td class="lightgreentext">17.83</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -931,16 +930,16 @@ ignored,
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">17.85</td>
+                                <td class="lightgreentext">19.66</td>
                             </tr>
 
-                            <tr class="test-FAILURE">
-                                <td><span class="summary-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
-                                    <span style="display:none">FAILURE</span></td>
-                                <td class="FAILURE-text">
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
-                                    <a href="70cd336a18a5c7a288d2fab5eeb9a5d2690104ccaa5ad40b092be4c524471d8c.html" class="ellipsis" title="Comparison failure: expected:([US Labor Department]) but was:([])">
+                                    <a href="70cd336a18a5c7a288d2fab5eeb9a5d2690104ccaa5ad40b092be4c524471d8c.html" class="ellipsis" title="">
                                     Verify all of the Social Media navigation links open correctly 
                                     </a></div>
                                 </td>
@@ -948,7 +947,7 @@ ignored,
                                 <td class="lightgreentext">35</td>
 
 
-                                <td class="lightgreentext">59.14</td>
+                                <td class="lightgreentext">65.43</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -965,7 +964,7 @@ ignored,
                                 <td class="lightgreentext">28</td>
 
 
-                                <td class="lightgreentext">30.68</td>
+                                <td class="lightgreentext">30.43</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -982,7 +981,7 @@ ignored,
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">14.3</td>
+                                <td class="lightgreentext">15.38</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -999,7 +998,7 @@ ignored,
                                 <td class="lightgreentext">49</td>
 
 
-                                <td class="lightgreentext">56.88</td>
+                                <td class="lightgreentext">63.95</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -1016,7 +1015,7 @@ ignored,
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">24.21</td>
+                                <td class="lightgreentext">20.33</td>
                             </tr>
                         </tbody>
                     </table>
