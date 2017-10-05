@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Resources tabs from the ILAB page" name="Verify all of the Resources tabs from the ILAB page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="1" timestamp="2017-10-05T10:02:18.239-04:00">
+<acceptance-test-run title="Verify all of the Resources tabs from the ILAB page" name="Verify all of the Resources tabs from the ILAB page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="17854" timestamp="2017-10-05T12:35:28.258-04:00" session-id="a20bcb947b9800eacb6c16cd21914f5c">
   <user-story id="ilabRegression" name="Ilab regression" path="stories/fullRegression/ilabRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -20,26 +20,88 @@
       </row>
     </rows>
   </examples>
-  <test-group name="[1] {resourcesMenuItem=reportsAndPublications}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="0">
-      <description>Given the user is on the ILAB home page</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>When the user clicks on &lt;resourcesMenuItem&gt; within the Resources tab on the menu bar</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>Then the &lt;resourcesMenuItem&gt; page should open correctly</description>
-    </test-step>
+  <test-group name="[1] {resourcesMenuItem=reportsAndPublications}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="b1f8c933ade19832c46877320da1e5af.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the ILAB home page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="b1f8c933ade19832c46877320da1e5af.png"/>
+        <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1610">
+        <screenshots>
+          <screenshot image="b1f8c933ade19832c46877320da1e5af.png"/>
+          <screenshot image="db64243a8e79b3d424495a9ddd15f4f5.png"/>
+        </screenshots>
+        <description>On ILAB page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When the user clicks on {reportsAndPublications} within the Resources tab on the menu bar" result="SUCCESS">
+      <screenshots>
+        <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
+        <screenshot image="1ed8172833a780723fb5da00c610d92a.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="4886">
+        <screenshots>
+          <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
+          <screenshot image="1ed8172833a780723fb5da00c610d92a.png"/>
+        </screenshots>
+        <description>Click nav node: reportsAndPublications</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the {reportsAndPublications} page should open correctly" result="SUCCESS">
+      <screenshots>
+        <screenshot image="1ed8172833a780723fb5da00c610d92a.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="717">
+        <screenshots>
+          <screenshot image="1ed8172833a780723fb5da00c610d92a.png"/>
+        </screenshots>
+        <description>Should see page: reportsAndPublications</description>
+      </test-step>
+    </test-group>
   </test-group>
-  <test-group name="[2] {resourcesMenuItem=grantsAndContracts}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="0">
-      <description>Given the user is on the ILAB home page</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>When the user clicks on &lt;resourcesMenuItem&gt; within the Resources tab on the menu bar</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>Then the &lt;resourcesMenuItem&gt; page should open correctly</description>
-    </test-step>
+  <test-group name="[2] {resourcesMenuItem=grantsAndContracts}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="1ed8172833a780723fb5da00c610d92a.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the ILAB home page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="1ed8172833a780723fb5da00c610d92a.png"/>
+        <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1592">
+        <screenshots>
+          <screenshot image="1ed8172833a780723fb5da00c610d92a.png"/>
+          <screenshot image="35e035d10f56899cb276fe787770e1f9.png"/>
+        </screenshots>
+        <description>On ILAB page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When the user clicks on {grantsAndContracts} within the Resources tab on the menu bar" result="SUCCESS">
+      <screenshots>
+        <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
+        <screenshot image="b84811d4c6f815be5d61bcd2bf78d513.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="2518">
+        <screenshots>
+          <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
+          <screenshot image="b84811d4c6f815be5d61bcd2bf78d513.png"/>
+        </screenshots>
+        <description>Click nav node: grantsAndContracts</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the {grantsAndContracts} page should open correctly" result="SUCCESS">
+      <screenshots>
+        <screenshot image="b84811d4c6f815be5d61bcd2bf78d513.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="744">
+        <screenshots>
+          <screenshot image="b84811d4c6f815be5d61bcd2bf78d513.png"/>
+        </screenshots>
+        <description>Should see page: grantsAndContracts</description>
+      </test-step>
+    </test-group>
   </test-group>
 </acceptance-test-run>

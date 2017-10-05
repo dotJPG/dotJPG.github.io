@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Our Work tabs from the ILAB page" name="Verify all of the Our Work tabs from the ILAB page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="2" timestamp="2017-10-05T10:02:18.231-04:00">
+<acceptance-test-run title="Verify all of the Our Work tabs from the ILAB page" name="Verify all of the Our Work tabs from the ILAB page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="17598" timestamp="2017-10-05T12:35:10.649-04:00" session-id="a20bcb947b9800eacb6c16cd21914f5c">
   <user-story id="ilabRegression" name="Ilab regression" path="stories/fullRegression/ilabRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -20,26 +20,88 @@
       </row>
     </rows>
   </examples>
-  <test-group name="[1] {ourWorkMenuItem=childLabor}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="0">
-      <description>Given the user is on the ILAB home page</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>When the user clicks on &lt;ourWorkMenuItem&gt; within the Our Work tab on the menu bar</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="1">
-      <description>Then the &lt;ourWorkMenuItem&gt; page should open correctly</description>
-    </test-step>
+  <test-group name="[1] {ourWorkMenuItem=childLabor}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="0ac0e1fbd50a1c00e9fff4904081485c.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the ILAB home page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="0ac0e1fbd50a1c00e9fff4904081485c.png"/>
+        <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1581">
+        <screenshots>
+          <screenshot image="0ac0e1fbd50a1c00e9fff4904081485c.png"/>
+          <screenshot image="db64243a8e79b3d424495a9ddd15f4f5.png"/>
+        </screenshots>
+        <description>On ILAB page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When the user clicks on {childLabor} within the Our Work tab on the menu bar" result="SUCCESS">
+      <screenshots>
+        <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
+        <screenshot image="8db35ad84188ec03498107e3f23033c1.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="2886">
+        <screenshots>
+          <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
+          <screenshot image="82069ebb6280fc22f652007e8e8dadc4.png"/>
+        </screenshots>
+        <description>Click nav node: childLabor</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the {childLabor} page should open correctly" result="SUCCESS">
+      <screenshots>
+        <screenshot image="8db35ad84188ec03498107e3f23033c1.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="935">
+        <screenshots>
+          <screenshot image="8db35ad84188ec03498107e3f23033c1.png"/>
+        </screenshots>
+        <description>Should see page: childLabor</description>
+      </test-step>
+    </test-group>
   </test-group>
-  <test-group name="[2] {ourWorkMenuItem=projects}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="0">
-      <description>Given the user is on the ILAB home page</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>When the user clicks on &lt;ourWorkMenuItem&gt; within the Our Work tab on the menu bar</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>Then the &lt;ourWorkMenuItem&gt; page should open correctly</description>
-    </test-step>
+  <test-group name="[2] {ourWorkMenuItem=projects}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="8db35ad84188ec03498107e3f23033c1.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the ILAB home page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="8db35ad84188ec03498107e3f23033c1.png"/>
+        <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1661">
+        <screenshots>
+          <screenshot image="8db35ad84188ec03498107e3f23033c1.png"/>
+          <screenshot image="57effeeb08606b6711c7b2d5a7e4fa97.png"/>
+        </screenshots>
+        <description>On ILAB page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When the user clicks on {projects} within the Our Work tab on the menu bar" result="SUCCESS">
+      <screenshots>
+        <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
+        <screenshot image="b1f8c933ade19832c46877320da1e5af.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="3275">
+        <screenshots>
+          <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
+          <screenshot image="b1f8c933ade19832c46877320da1e5af.png"/>
+        </screenshots>
+        <description>Click nav node: projects</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the {projects} page should open correctly" result="SUCCESS">
+      <screenshots>
+        <screenshot image="b1f8c933ade19832c46877320da1e5af.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="877">
+        <screenshots>
+          <screenshot image="b1f8c933ade19832c46877320da1e5af.png"/>
+        </screenshots>
+        <description>Should see page: projects</description>
+      </test-step>
+    </test-group>
   </test-group>
 </acceptance-test-run>
