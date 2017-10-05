@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Resources tabs from the ILAB page" name="Verify all of the Resources tabs from the ILAB page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="20874" timestamp="2017-10-05T16:01:32.691-04:00" session-id="798b328ca742478be7a9085f52d0a0ab">
+<acceptance-test-run title="Verify all of the Resources tabs from the ILAB page" name="Verify all of the Resources tabs from the ILAB page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="21081" timestamp="2017-10-05T16:13:21.537-04:00" session-id="5c61e8f7360e7e1edf9e050e92529cbe">
   <user-story id="ilabRegression" name="Ilab regression" path="stories/fullRegression/ilabRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -29,10 +29,10 @@
         <screenshot image="b1f8c933ade19832c46877320da1e5af.png"/>
         <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1937">
+      <test-step result="SUCCESS" duration="1887">
         <screenshots>
           <screenshot image="b1f8c933ade19832c46877320da1e5af.png"/>
-          <screenshot image="fec5fb0bb287242b509aa4a92ab3ddfd.png"/>
+          <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
         </screenshots>
         <description>On ILAB page</description>
       </test-step>
@@ -42,7 +42,7 @@
         <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
         <screenshot image="1ed8172833a780723fb5da00c610d92a.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="5213">
+      <test-step result="SUCCESS" duration="5112">
         <screenshots>
           <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
           <screenshot image="1ed8172833a780723fb5da00c610d92a.png"/>
@@ -54,7 +54,7 @@
       <screenshots>
         <screenshot image="1ed8172833a780723fb5da00c610d92a.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="840">
+      <test-step result="SUCCESS" duration="772">
         <screenshots>
           <screenshot image="1ed8172833a780723fb5da00c610d92a.png"/>
         </screenshots>
@@ -69,9 +69,9 @@
     <test-group name="Given the user is on the ILAB home page" result="SUCCESS">
       <screenshots>
         <screenshot image="1ed8172833a780723fb5da00c610d92a.png"/>
-        <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
+        <screenshot image="176834d16bc823bab24f6d7ab5d8210d.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1868">
+      <test-step result="SUCCESS" duration="2012">
         <screenshots>
           <screenshot image="1ed8172833a780723fb5da00c610d92a.png"/>
           <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
@@ -81,12 +81,12 @@
     </test-group>
     <test-group name="When the user clicks on {grantsAndContracts} within the Resources tab on the menu bar" result="SUCCESS">
       <screenshots>
-        <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
+        <screenshot image="e15eb99d829553b40d8eb4dd93462f32.png"/>
         <screenshot image="b84811d4c6f815be5d61bcd2bf78d513.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="3229">
+      <test-step result="SUCCESS" duration="3226">
         <screenshots>
-          <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
+          <screenshot image="e15eb99d829553b40d8eb4dd93462f32.png"/>
           <screenshot image="b84811d4c6f815be5d61bcd2bf78d513.png"/>
         </screenshots>
         <description>Click nav node: grantsAndContracts</description>
@@ -96,7 +96,7 @@
       <screenshots>
         <screenshot image="b84811d4c6f815be5d61bcd2bf78d513.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="839">
+      <test-step result="SUCCESS" duration="1202">
         <screenshots>
           <screenshot image="b84811d4c6f815be5d61bcd2bf78d513.png"/>
         </screenshots>
