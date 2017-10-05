@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Press sub-navigation tabs open correctly" name="Verify all of the Press sub-navigation tabs open correctly" steps="9" successful="9" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="2" timestamp="2017-10-05T14:17:37.870-04:00">
+<acceptance-test-run title="Verify all of the Press sub-navigation tabs open correctly" name="Verify all of the Press sub-navigation tabs open correctly" steps="9" successful="9" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="29139" timestamp="2017-10-05T15:18:04.973-04:00" session-id="d43396c2757857ee2a58f64e3a51044d">
   <user-story id="dolHomepageRegression" name="Dol homepage regression" path="stories/fullRegression/dolHomepageRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -23,37 +23,130 @@
       </row>
     </rows>
   </examples>
-  <test-group name="[1] {subNavMenuPress=Newsroom}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="0">
-      <description>Given the user is on the DOL home page</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>When the user clicks on the &lt;subNavMenuPress&gt; within the Press navigation bar</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>Then the &lt;subNavMenuPress&gt; page should open correctly</description>
-    </test-step>
+  <test-group name="[1] {subNavMenuPress=Newsroom}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the DOL home page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
+        <screenshot image="8ebd2933da8c879ad212cfd96acb89ac.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1628">
+        <screenshots>
+          <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
+          <screenshot image="733ea43cf33aa25a176223ae9422aef4.png"/>
+        </screenshots>
+        <description>On home page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When the user clicks on the {Newsroom} within the Press navigation bar" result="SUCCESS">
+      <screenshots>
+        <screenshot image="8ebd2933da8c879ad212cfd96acb89ac.png"/>
+        <screenshot image="80ee00cba9f54e180d030be2eb6f5f98.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="3446">
+        <screenshots>
+          <screenshot image="8ebd2933da8c879ad212cfd96acb89ac.png"/>
+          <screenshot image="80ee00cba9f54e180d030be2eb6f5f98.png"/>
+        </screenshots>
+        <description>Click nav node: Newsroom</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the {Newsroom} page should open correctly" result="SUCCESS">
+      <screenshots>
+        <screenshot image="80ee00cba9f54e180d030be2eb6f5f98.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1639">
+        <screenshots>
+          <screenshot image="80ee00cba9f54e180d030be2eb6f5f98.png"/>
+        </screenshots>
+        <description>Should see page: Newsroom</description>
+      </test-step>
+    </test-group>
   </test-group>
-  <test-group name="[2] {subNavMenuPress=News Release}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="0">
-      <description>Given the user is on the DOL home page</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>When the user clicks on the &lt;subNavMenuPress&gt; within the Press navigation bar</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>Then the &lt;subNavMenuPress&gt; page should open correctly</description>
-    </test-step>
+  <test-group name="[2] {subNavMenuPress=News Release}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="80ee00cba9f54e180d030be2eb6f5f98.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the DOL home page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="80ee00cba9f54e180d030be2eb6f5f98.png"/>
+        <screenshot image="8ebd2933da8c879ad212cfd96acb89ac.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="2114">
+        <screenshots>
+          <screenshot image="80ee00cba9f54e180d030be2eb6f5f98.png"/>
+          <screenshot image="ef733d39ca7a76efe8ec53cae2e48076.png"/>
+        </screenshots>
+        <description>On home page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When the user clicks on the {News Release} within the Press navigation bar" result="SUCCESS">
+      <screenshots>
+        <screenshot image="8ebd2933da8c879ad212cfd96acb89ac.png"/>
+        <screenshot image="3345bf7c4996b92ad4b1697a2615345f.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="2804">
+        <screenshots>
+          <screenshot image="8ebd2933da8c879ad212cfd96acb89ac.png"/>
+          <screenshot image="3345bf7c4996b92ad4b1697a2615345f.png"/>
+        </screenshots>
+        <description>Click nav node: News Release</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the {News Release} page should open correctly" result="SUCCESS">
+      <screenshots>
+        <screenshot image="3345bf7c4996b92ad4b1697a2615345f.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="755">
+        <screenshots>
+          <screenshot image="3345bf7c4996b92ad4b1697a2615345f.png"/>
+        </screenshots>
+        <description>Should see page: News Release</description>
+      </test-step>
+    </test-group>
   </test-group>
-  <test-group name="[3] {subNavMenuPress=News Letter}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="0">
-      <description>Given the user is on the DOL home page</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="1">
-      <description>When the user clicks on the &lt;subNavMenuPress&gt; within the Press navigation bar</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>Then the &lt;subNavMenuPress&gt; page should open correctly</description>
-    </test-step>
+  <test-group name="[3] {subNavMenuPress=News Letter}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="3345bf7c4996b92ad4b1697a2615345f.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the DOL home page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="3345bf7c4996b92ad4b1697a2615345f.png"/>
+        <screenshot image="8ebd2933da8c879ad212cfd96acb89ac.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1539">
+        <screenshots>
+          <screenshot image="3345bf7c4996b92ad4b1697a2615345f.png"/>
+          <screenshot image="463d8549de7ba8e53f2d432bd86eee30.png"/>
+        </screenshots>
+        <description>On home page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When the user clicks on the {News Letter} within the Press navigation bar" result="SUCCESS">
+      <screenshots>
+        <screenshot image="8ebd2933da8c879ad212cfd96acb89ac.png"/>
+        <screenshot image="57788de73971657ed7548c01bc0f4404.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="3135">
+        <screenshots>
+          <screenshot image="8ebd2933da8c879ad212cfd96acb89ac.png"/>
+          <screenshot image="57788de73971657ed7548c01bc0f4404.png"/>
+        </screenshots>
+        <description>Click nav node: News Letter</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the {News Letter} page should open correctly" result="SUCCESS">
+      <screenshots>
+        <screenshot image="57788de73971657ed7548c01bc0f4404.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1002">
+        <screenshots>
+          <screenshot image="57788de73971657ed7548c01bc0f4404.png"/>
+        </screenshots>
+        <description>Should see page: News Letter</description>
+      </test-step>
+    </test-group>
   </test-group>
 </acceptance-test-run>
