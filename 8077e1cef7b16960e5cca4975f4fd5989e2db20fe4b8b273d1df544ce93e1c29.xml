@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Press sub-navigation tabs open correctly" name="Verify all of the Press sub-navigation tabs open correctly" steps="9" successful="9" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="29139" timestamp="2017-10-05T15:18:04.973-04:00" session-id="d43396c2757857ee2a58f64e3a51044d">
+<acceptance-test-run title="Verify all of the Press sub-navigation tabs open correctly" name="Verify all of the Press sub-navigation tabs open correctly" steps="9" successful="9" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="34134" timestamp="2017-10-05T16:04:15.838-04:00" session-id="0d7a6fd7b9f9b1d2fa4e9eb4a5b64b6b">
   <user-story id="dolHomepageRegression" name="Dol homepage regression" path="stories/fullRegression/dolHomepageRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -32,10 +32,10 @@
         <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
         <screenshot image="8ebd2933da8c879ad212cfd96acb89ac.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1628">
+      <test-step result="SUCCESS" duration="2204">
         <screenshots>
           <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
-          <screenshot image="733ea43cf33aa25a176223ae9422aef4.png"/>
+          <screenshot image="8ebd2933da8c879ad212cfd96acb89ac.png"/>
         </screenshots>
         <description>On home page</description>
       </test-step>
@@ -45,7 +45,7 @@
         <screenshot image="8ebd2933da8c879ad212cfd96acb89ac.png"/>
         <screenshot image="80ee00cba9f54e180d030be2eb6f5f98.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="3446">
+      <test-step result="SUCCESS" duration="4165">
         <screenshots>
           <screenshot image="8ebd2933da8c879ad212cfd96acb89ac.png"/>
           <screenshot image="80ee00cba9f54e180d030be2eb6f5f98.png"/>
@@ -57,7 +57,7 @@
       <screenshots>
         <screenshot image="80ee00cba9f54e180d030be2eb6f5f98.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1639">
+      <test-step result="SUCCESS" duration="2395">
         <screenshots>
           <screenshot image="80ee00cba9f54e180d030be2eb6f5f98.png"/>
         </screenshots>
@@ -74,10 +74,10 @@
         <screenshot image="80ee00cba9f54e180d030be2eb6f5f98.png"/>
         <screenshot image="8ebd2933da8c879ad212cfd96acb89ac.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="2114">
+      <test-step result="SUCCESS" duration="2704">
         <screenshots>
           <screenshot image="80ee00cba9f54e180d030be2eb6f5f98.png"/>
-          <screenshot image="ef733d39ca7a76efe8ec53cae2e48076.png"/>
+          <screenshot image="8ebd2933da8c879ad212cfd96acb89ac.png"/>
         </screenshots>
         <description>On home page</description>
       </test-step>
@@ -87,7 +87,7 @@
         <screenshot image="8ebd2933da8c879ad212cfd96acb89ac.png"/>
         <screenshot image="3345bf7c4996b92ad4b1697a2615345f.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="2804">
+      <test-step result="SUCCESS" duration="3073">
         <screenshots>
           <screenshot image="8ebd2933da8c879ad212cfd96acb89ac.png"/>
           <screenshot image="3345bf7c4996b92ad4b1697a2615345f.png"/>
@@ -99,7 +99,7 @@
       <screenshots>
         <screenshot image="3345bf7c4996b92ad4b1697a2615345f.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="755">
+      <test-step result="SUCCESS" duration="813">
         <screenshots>
           <screenshot image="3345bf7c4996b92ad4b1697a2615345f.png"/>
         </screenshots>
@@ -116,10 +116,10 @@
         <screenshot image="3345bf7c4996b92ad4b1697a2615345f.png"/>
         <screenshot image="8ebd2933da8c879ad212cfd96acb89ac.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1539">
+      <test-step result="SUCCESS" duration="1905">
         <screenshots>
           <screenshot image="3345bf7c4996b92ad4b1697a2615345f.png"/>
-          <screenshot image="463d8549de7ba8e53f2d432bd86eee30.png"/>
+          <screenshot image="8ebd2933da8c879ad212cfd96acb89ac.png"/>
         </screenshots>
         <description>On home page</description>
       </test-step>
@@ -129,7 +129,7 @@
         <screenshot image="8ebd2933da8c879ad212cfd96acb89ac.png"/>
         <screenshot image="57788de73971657ed7548c01bc0f4404.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="3135">
+      <test-step result="SUCCESS" duration="3227">
         <screenshots>
           <screenshot image="8ebd2933da8c879ad212cfd96acb89ac.png"/>
           <screenshot image="57788de73971657ed7548c01bc0f4404.png"/>
@@ -141,7 +141,7 @@
       <screenshots>
         <screenshot image="57788de73971657ed7548c01bc0f4404.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1002">
+      <test-step result="SUCCESS" duration="1176">
         <screenshots>
           <screenshot image="57788de73971657ed7548c01bc0f4404.png"/>
         </screenshots>
