@@ -38,7 +38,7 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var test_results_plot = $.jqplot('test_results_pie_chart', [
             [
-                ['Passing', 0.96],
+                ['Passing', 1],
                 
                 ['Pending', 0],
                 
@@ -46,7 +46,7 @@
                 
                 ['Failing', 0],
                 
-                ['Errors',  0.04],
+                ['Errors',  0],
                 ['Compromised',  0]
             ]
         ], {
@@ -77,18 +77,18 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '48 / 50 tests passed' },
+                {label: '50 / 50 tests passed' },
                 {label: '0 / 50 tests pending'},
                 {label: '0 / 50 tests not executed'},
                 {label: '0 / 50 tests failed'},
-                {label: '2 / 50 errors'},
+                {label: '0 / 50 errors'},
                 {label: '0 / 50 compromised tests'}
             ]
         });
 
         var weighted_test_results_plot = $.jqplot('weighted_test_results_pie_chart', [
             [
-                ['Passing', 0.979943],
+                ['Passing', 1],
                 
                 ['Pending', 0],
                 
@@ -96,7 +96,7 @@
                 
                 ['Failing', 0],
                 
-                ['Errors', 0.017192],
+                ['Errors', 0],
                 ['Compromised', 0],
             ]
         ], {
@@ -128,11 +128,11 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '48 / 50 tests passed (0.979943% of all test steps)' },
+                {label: '50 / 50 tests passed (1% of all test steps)' },
                 {label: '0 / 50 tests pending'},
                 {label: '0 / 50 tests not executed'},
                 {label: '0 / 50 tests failed (0% of all test steps)'},
-                {label: '2 / 50 errors (0.017192% of all test steps)'}
+                {label: '0 / 50 errors (0% of all test steps)'}
             ]
         });
 
@@ -204,7 +204,7 @@
             <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-10-2017 11:00</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-10-2017 11:11</span>
     <br style="clear:left"/>
 </div>
 <div class="clr"></div>
@@ -224,7 +224,7 @@
                 <div>
 
                 <span class="test-count">
-                    48
+                    50
                         <a href="4a1bbc2d51cee0ea1bff7fe0aa16ddcb5ac8522f3baef224f4a0c7b9ae80049e.html">passed</a>
                     ,
                 </span>
@@ -237,9 +237,8 @@ pending,
 failed,
                 </span>
                 <span class="test-count">
-                    2
-                        <a href="422e536c9aff27181e0589fe2ecb8bf2eb4d385e6544515764c1afc39526fff8.html">with errors</a>
-                    ,
+                    0
+errors,
                 </span>
                 <span class="test-count">
                     0
@@ -298,8 +297,8 @@ skipped
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>50</td>
-            <td>48 (96%)</td>
-            <td>2 (4%)</td>
+            <td>50 (100%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -314,14 +313,14 @@ skipped
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>50</td>
-            <td>48 (96%)</td>
-            <td>2 (0%)</td>
+            <td>50 (100%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">9 minutes 7 seconds</td>
+                <td colspan="5">8 minutes 34 seconds</td>
         </tr>
         </body>
     </table>
@@ -344,7 +343,7 @@ skipped
             </tr>
                 <tr>
                     <td class="bluetext" class="tag-title">
-                        <span class="ERROR-text ellipsis">
+                        <span class="SUCCESS-text ellipsis">
                                 <a href="ca4cb0f6bd994980352ef8205a50f0b16f9e22b625dd101e7329bdf4a60aa02c.html" title="Dol Homepage Regression">Dol Homepage Regression</a>
                         </span>
                     </td>
@@ -353,7 +352,7 @@ skipped
 
                         <table>
                             <tr>
-                                <td class="related-tag-percentage"><span title="25 out of 27 tests (175 steps) passing">92.6%</span></td>
+                                <td class="related-tag-percentage"><span title="27 out of 27 tests (189 steps) passing">100%</span></td>
                                 <td width="150px">
                                     <a href="ca4cb0f6bd994980352ef8205a50f0b16f9e22b625dd101e7329bdf4a60aa02c.html">
                                         <div class="percentagebar"
@@ -367,13 +366,13 @@ skipped
                                                      title="0 out of 27 tests (0 steps) compromised">
                                                     <div class="errorbar"
                                                          style="width: 150px;"
-                                                         title="2 out of 27 tests (13 steps) broken">
+                                                         title="0 out of 27 tests (0 steps) broken">
                                                         <div class="failingbar"
-                                                             style="width: 139px;"
+                                                             style="width: 150px;"
                                                              title="0 out of 27 tests (0 steps) failing">
                                                             <div class="passingbar"
-                                                                 style="width: 139px;"
-                                                                 title="25 out of 27 tests (175 steps) passing">
+                                                                 style="width: 150px;"
+                                                                 title="27 out of 27 tests (189 steps) passing">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -487,7 +486,7 @@ skipped
                     <table>
                         <tr>
                             <td colspan="2">
-                                <span class="caption">Test results weighted by test size in steps (average steps per test: 6.98) .</span>
+                                <span class="caption">Test results weighted by test size in steps (average steps per test: 7) .</span>
                                 <span class="togglePieChart" id="toggleWeightedPieChart"><a href="#">Show/Hide Pie
                                     Chart</a></span>
                             </td>
@@ -520,8 +519,8 @@ skipped
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>50</td>
-            <td>48 (96%)</td>
-            <td>2 (4%)</td>
+            <td>50 (100%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -536,14 +535,14 @@ skipped
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>50</td>
-            <td>48 (96%)</td>
-            <td>2 (0%)</td>
+            <td>50 (100%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">9 minutes 7 seconds</td>
+                <td colspan="5">8 minutes 34 seconds</td>
         </tr>
         </body>
     </table>
@@ -566,7 +565,7 @@ skipped
             </tr>
                 <tr>
                     <td class="bluetext" class="tag-title">
-                        <span class="ERROR-text ellipsis">
+                        <span class="SUCCESS-text ellipsis">
                                 <a href="ca4cb0f6bd994980352ef8205a50f0b16f9e22b625dd101e7329bdf4a60aa02c.html" title="Dol Homepage Regression">Dol Homepage Regression</a>
                         </span>
                     </td>
@@ -575,27 +574,27 @@ skipped
 
                         <table>
                             <tr>
-                                <td class="related-tag-percentage"><span title="25 out of 27 tests (175 steps) passing">96.3%</span></td>
+                                <td class="related-tag-percentage"><span title="27 out of 27 tests (189 steps) passing">100%</span></td>
                                 <td width="150px">
                                     <a href="ca4cb0f6bd994980352ef8205a50f0b16f9e22b625dd101e7329bdf4a60aa02c.html">
                                         <div class="percentagebar"
                                              title="0 out of 27 tests (0 steps) pending"
                                              style="width: 150px;">
                                             <div class="ignoredbar"
-                                                 style="width: 149px;"
+                                                 style="width: 150px;"
                                                  title="0 out of 27 tests (0 steps) skipped or ignored">
                                                 <div class="compromisedbar"
-                                                     style="width: 149px;"
+                                                     style="width: 150px;"
                                                      title="0 out of 27 tests (0 steps) compromised">
                                                     <div class="errorbar"
-                                                         style="width: 149px;"
-                                                         title="2 out of 27 tests (13 steps) broken">
+                                                         style="width: 150px;"
+                                                         title="0 out of 27 tests (0 steps) broken">
                                                         <div class="failingbar"
-                                                             style="width: 144px;"
+                                                             style="width: 150px;"
                                                              title="0 out of 27 tests (0 steps) failing">
                                                             <div class="passingbar"
-                                                                 style="width: 144px;"
-                                                                 title="25 out of 27 tests (175 steps) passing">
+                                                                 style="width: 150px;"
+                                                                 title="27 out of 27 tests (189 steps) passing">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -743,7 +742,7 @@ skipped
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">20.77</td>
+                                <td class="lightgreentext">27.8</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -760,24 +759,24 @@ skipped
                                 <td class="lightgreentext">21</td>
 
 
-                                <td class="lightgreentext">36.63</td>
+                                <td class="lightgreentext">35.13</td>
                             </tr>
 
-                            <tr class="test-ERROR">
-                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
-                                    <span style="display:none">ERROR</span></td>
-                                <td class="ERROR-text">
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
-                                    <a href="8ad5cb838144328827d4facd8ef174e0463b7f39f3550b40b1b57b55d3944b98.html" class="ellipsis" title="Element not visible exception: Timed out after 30 seconds. Element not available">
+                                    <a href="8ad5cb838144328827d4facd8ef174e0463b7f39f3550b40b1b57b55d3944b98.html" class="ellipsis" title="">
                                     Verify all of the Agencies sub-navigation tabs open correctly 
                                     </a></div>
                                 </td>
 
-                                <td class="lightgreentext">13</td>
+                                <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">45.09</td>
+                                <td class="lightgreentext">19.8</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -794,7 +793,7 @@ skipped
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">18.22</td>
+                                <td class="lightgreentext">19.65</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -811,7 +810,7 @@ skipped
                                 <td class="lightgreentext">42</td>
 
 
-                                <td class="lightgreentext">76.33</td>
+                                <td class="lightgreentext">46</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -828,7 +827,7 @@ skipped
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">17.26</td>
+                                <td class="lightgreentext">20.08</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -845,7 +844,7 @@ skipped
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">17.29</td>
+                                <td class="lightgreentext">19.99</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -862,7 +861,7 @@ skipped
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">16.61</td>
+                                <td class="lightgreentext">21.98</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -879,7 +878,7 @@ skipped
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">22.79</td>
+                                <td class="lightgreentext">20.75</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -896,7 +895,7 @@ skipped
                                 <td class="lightgreentext">21</td>
 
 
-                                <td class="lightgreentext">39.67</td>
+                                <td class="lightgreentext">31.26</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -913,7 +912,7 @@ skipped
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">18.69</td>
+                                <td class="lightgreentext">20.83</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -930,7 +929,7 @@ skipped
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">18.51</td>
+                                <td class="lightgreentext">20.65</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -947,7 +946,7 @@ skipped
                                 <td class="lightgreentext">35</td>
 
 
-                                <td class="lightgreentext">74.88</td>
+                                <td class="lightgreentext">72.41</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -964,7 +963,7 @@ skipped
                                 <td class="lightgreentext">28</td>
 
 
-                                <td class="lightgreentext">30.52</td>
+                                <td class="lightgreentext">36.47</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -981,7 +980,7 @@ skipped
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">16.51</td>
+                                <td class="lightgreentext">16.03</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -998,7 +997,7 @@ skipped
                                 <td class="lightgreentext">49</td>
 
 
-                                <td class="lightgreentext">56.58</td>
+                                <td class="lightgreentext">62.58</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -1015,7 +1014,7 @@ skipped
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">21.65</td>
+                                <td class="lightgreentext">23.54</td>
                             </tr>
                         </tbody>
                     </table>

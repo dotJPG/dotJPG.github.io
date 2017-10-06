@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Agencies sub-navigation tabs open correctly" name="Verify all of the Agencies sub-navigation tabs open correctly" steps="6" successful="4" failures="0" errors="1" skipped="1" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="45089" timestamp="2017-10-06T10:56:31.836-04:00" session-id="09d6dbec4234c4d9a697bc77bf90b386">
+<acceptance-test-run title="Verify all of the Agencies sub-navigation tabs open correctly" name="Verify all of the Agencies sub-navigation tabs open correctly" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="19803" timestamp="2017-10-06T11:08:11.071-04:00" session-id="71999bd766c37dab9dafbda3c5676cc2">
   <user-story id="dolHomepageRegression" name="Dol homepage regression" path="stories/fullRegression/dolHomepageRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -15,7 +15,7 @@
       <row result="SUCCESS">
         <value>ILAB</value>
       </row>
-      <row result="ERROR">
+      <row result="SUCCESS">
         <value>EBSA</value>
       </row>
     </rows>
@@ -29,10 +29,10 @@
         <screenshot image="10e3527bf7f6f341ee318d6869a5a6ab.png"/>
         <screenshot image="97859ca178ee34082a4cc1844405a89a.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1678">
+      <test-step result="SUCCESS" duration="1558">
         <screenshots>
           <screenshot image="10e3527bf7f6f341ee318d6869a5a6ab.png"/>
-          <screenshot image="97859ca178ee34082a4cc1844405a89a.png"/>
+          <screenshot image="788b6bc7b6fe14a01ee2d82e4e60d124.png"/>
         </screenshots>
         <description>On home page</description>
       </test-step>
@@ -42,7 +42,7 @@
         <screenshot image="97859ca178ee34082a4cc1844405a89a.png"/>
         <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="2972">
+      <test-step result="SUCCESS" duration="3523">
         <screenshots>
           <screenshot image="97859ca178ee34082a4cc1844405a89a.png"/>
           <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
@@ -54,7 +54,7 @@
       <screenshots>
         <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1119">
+      <test-step result="SUCCESS" duration="1380">
         <screenshots>
           <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
         </screenshots>
@@ -62,7 +62,7 @@
       </test-step>
     </test-group>
   </test-group>
-  <test-group name="[2] {subNavMenuAgencies=EBSA}" result="ERROR">
+  <test-group name="[2] {subNavMenuAgencies=EBSA}" result="SUCCESS">
     <screenshots>
       <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
     </screenshots>
@@ -71,37 +71,37 @@
         <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
         <screenshot image="97859ca178ee34082a4cc1844405a89a.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1727">
+      <test-step result="SUCCESS" duration="1643">
         <screenshots>
           <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
-          <screenshot image="32190a284974f97b55678dc32631c05e.png"/>
+          <screenshot image="a3f617638257b5578fe5da33b17fb496.png"/>
         </screenshots>
         <description>On home page</description>
       </test-step>
     </test-group>
-    <test-group name="When the user clicks on the ｟EBSA｠ within the Agencies navigation bar" result="ERROR">
+    <test-group name="When the user clicks on the {EBSA} within the Agencies navigation bar" result="SUCCESS">
       <screenshots>
         <screenshot image="97859ca178ee34082a4cc1844405a89a.png"/>
+        <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
       </screenshots>
-      <test-step result="ERROR" duration="32306">
+      <test-step result="SUCCESS" duration="3008">
         <screenshots>
           <screenshot image="97859ca178ee34082a4cc1844405a89a.png"/>
-          <screenshot image="97859ca178ee34082a4cc1844405a89a.png" source="pagesource5322805987813887143.html.txt"/>
+          <screenshot image="cd79b0ef103ae7382d75f63be45e5881.png"/>
         </screenshots>
         <description>Click nav node: EBSA</description>
-        <error>org.openqa.selenium.ElementNotVisibleException: Timed out after 30 seconds. Element not available
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;BAH5CG70147KN&apos;, ip: &apos;10.201.26.247&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
-Driver info: driver.version: unknown</error>
-        <exception>org.openqa.selenium.ElementNotVisibleException:Timed out after 30 seconds. Element not available
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;BAH5CG70147KN&apos;, ip: &apos;10.201.26.247&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
-Driver info: driver.version: unknown&#xd;
-[gov.dol.bg.test.pages.DOLHomepage.clickSubNavButtons(DOLHomepage.java:186), gov.dol.bg.test.User.clickNavNode(User.java:103), gov.dol.bg.test.DailyRegression.the_user_clicks_on_the_subNavMenuAgencies_within_the_Agencies_navigation_bar(DailyRegression.java:46)]</exception>
       </test-step>
     </test-group>
-    <test-step result="SKIPPED" duration="32">
-      <description>Then the {EBSA} page should open correctly</description>
-    </test-step>
+    <test-group name="Then the {EBSA} page should open correctly" result="SUCCESS">
+      <screenshots>
+        <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1132">
+        <screenshots>
+          <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
+        </screenshots>
+        <description>Should see page: EBSA</description>
+      </test-step>
+    </test-group>
   </test-group>
 </acceptance-test-run>
