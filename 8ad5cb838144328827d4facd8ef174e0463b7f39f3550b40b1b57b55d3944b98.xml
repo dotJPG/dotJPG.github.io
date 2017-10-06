@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Agencies sub-navigation tabs open correctly" name="Verify all of the Agencies sub-navigation tabs open correctly" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="19172" timestamp="2017-10-05T16:29:51.133-04:00" session-id="8068187f3a2b16c4d326485313568bf8">
+<acceptance-test-run title="Verify all of the Agencies sub-navigation tabs open correctly" name="Verify all of the Agencies sub-navigation tabs open correctly" steps="6" successful="4" failures="0" errors="1" skipped="1" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="45089" timestamp="2017-10-06T10:56:31.836-04:00" session-id="09d6dbec4234c4d9a697bc77bf90b386">
   <user-story id="dolHomepageRegression" name="Dol homepage regression" path="stories/fullRegression/dolHomepageRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -15,7 +15,7 @@
       <row result="SUCCESS">
         <value>ILAB</value>
       </row>
-      <row result="SUCCESS">
+      <row result="ERROR">
         <value>EBSA</value>
       </row>
     </rows>
@@ -27,24 +27,24 @@
     <test-group name="Given the user is on the DOL home page" result="SUCCESS">
       <screenshots>
         <screenshot image="10e3527bf7f6f341ee318d6869a5a6ab.png"/>
-        <screenshot image="8ebd2933da8c879ad212cfd96acb89ac.png"/>
+        <screenshot image="97859ca178ee34082a4cc1844405a89a.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1830">
+      <test-step result="SUCCESS" duration="1678">
         <screenshots>
           <screenshot image="10e3527bf7f6f341ee318d6869a5a6ab.png"/>
-          <screenshot image="9c3b72b8ff335248b025dd32f9baca42.png"/>
+          <screenshot image="97859ca178ee34082a4cc1844405a89a.png"/>
         </screenshots>
         <description>On home page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on the {ILAB} within the Agencies navigation bar" result="SUCCESS">
       <screenshots>
-        <screenshot image="8ebd2933da8c879ad212cfd96acb89ac.png"/>
+        <screenshot image="97859ca178ee34082a4cc1844405a89a.png"/>
         <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="3486">
+      <test-step result="SUCCESS" duration="2972">
         <screenshots>
-          <screenshot image="8ebd2933da8c879ad212cfd96acb89ac.png"/>
+          <screenshot image="97859ca178ee34082a4cc1844405a89a.png"/>
           <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
         </screenshots>
         <description>Click nav node: ILAB</description>
@@ -54,7 +54,7 @@
       <screenshots>
         <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1233">
+      <test-step result="SUCCESS" duration="1119">
         <screenshots>
           <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
         </screenshots>
@@ -62,46 +62,46 @@
       </test-step>
     </test-group>
   </test-group>
-  <test-group name="[2] {subNavMenuAgencies=EBSA}" result="SUCCESS">
+  <test-group name="[2] {subNavMenuAgencies=EBSA}" result="ERROR">
     <screenshots>
       <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
     </screenshots>
     <test-group name="Given the user is on the DOL home page" result="SUCCESS">
       <screenshots>
         <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
-        <screenshot image="8ebd2933da8c879ad212cfd96acb89ac.png"/>
+        <screenshot image="97859ca178ee34082a4cc1844405a89a.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1793">
+      <test-step result="SUCCESS" duration="1727">
         <screenshots>
           <screenshot image="c910e5a123f36674587fe355df653a8a.png"/>
-          <screenshot image="bf306e7c1b9ceee211d47493ac010a8b.png"/>
+          <screenshot image="32190a284974f97b55678dc32631c05e.png"/>
         </screenshots>
         <description>On home page</description>
       </test-step>
     </test-group>
-    <test-group name="When the user clicks on the {EBSA} within the Agencies navigation bar" result="SUCCESS">
+    <test-group name="When the user clicks on the ｟EBSA｠ within the Agencies navigation bar" result="ERROR">
       <screenshots>
-        <screenshot image="8ebd2933da8c879ad212cfd96acb89ac.png"/>
-        <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
+        <screenshot image="97859ca178ee34082a4cc1844405a89a.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="3014">
+      <test-step result="ERROR" duration="32306">
         <screenshots>
-          <screenshot image="8ebd2933da8c879ad212cfd96acb89ac.png"/>
-          <screenshot image="19a8058810e22e01da591fe03d922cec.png"/>
+          <screenshot image="97859ca178ee34082a4cc1844405a89a.png"/>
+          <screenshot image="97859ca178ee34082a4cc1844405a89a.png" source="pagesource5322805987813887143.html.txt"/>
         </screenshots>
         <description>Click nav node: EBSA</description>
+        <error>org.openqa.selenium.ElementNotVisibleException: Timed out after 30 seconds. Element not available
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;BAH5CG70147KN&apos;, ip: &apos;10.201.26.247&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: driver.version: unknown</error>
+        <exception>org.openqa.selenium.ElementNotVisibleException:Timed out after 30 seconds. Element not available
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;BAH5CG70147KN&apos;, ip: &apos;10.201.26.247&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: driver.version: unknown&#xd;
+[gov.dol.bg.test.pages.DOLHomepage.clickSubNavButtons(DOLHomepage.java:186), gov.dol.bg.test.User.clickNavNode(User.java:103), gov.dol.bg.test.DailyRegression.the_user_clicks_on_the_subNavMenuAgencies_within_the_Agencies_navigation_bar(DailyRegression.java:46)]</exception>
       </test-step>
     </test-group>
-    <test-group name="Then the {EBSA} page should open correctly" result="SUCCESS">
-      <screenshots>
-        <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="962">
-        <screenshots>
-          <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
-        </screenshots>
-        <description>Should see page: EBSA</description>
-      </test-step>
-    </test-group>
+    <test-step result="SKIPPED" duration="32">
+      <description>Then the {EBSA} page should open correctly</description>
+    </test-step>
   </test-group>
 </acceptance-test-run>
