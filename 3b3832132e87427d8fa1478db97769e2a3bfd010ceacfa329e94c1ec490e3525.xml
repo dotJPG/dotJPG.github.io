@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Laws &amp; Regulations tabs from the EBSA page" name="Verify all of the Laws &amp; Regulations tabs from the EBSA page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="21978" timestamp="2017-10-06T11:04:30.723-04:00" session-id="5c402162c1f8bdc6fce7de5f420e5537">
+<acceptance-test-run title="Verify all of the Laws &amp; Regulations tabs from the EBSA page" name="Verify all of the Laws &amp; Regulations tabs from the EBSA page" steps="6" successful="5" failures="1" skipped="0" ignored="0" pending="0" result="FAILURE" duration="33308" timestamp="2017-10-16T14:31:33.638-04:00" session-id="1203b5c5d2a14ebda0d4ac42a3066973">
   <user-story id="ebsaRegression" name="Ebsa regression" path="stories/fullRegression/ebsaRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -12,7 +12,7 @@
       <header>lawsregsMenuItem</header>
     </headers>
     <rows>
-      <row result="SUCCESS">
+      <row result="FAILURE">
         <value>HIPAA</value>
       </row>
       <row result="SUCCESS">
@@ -20,45 +20,45 @@
       </row>
     </rows>
   </examples>
-  <test-group name="[1] {lawsregsMenuItem=HIPAA}" result="SUCCESS">
-    <screenshots>
-      <screenshot image="91c7930842c64ac686466f844a88136b.png"/>
-    </screenshots>
+  <test-group name="[1] {lawsregsMenuItem=HIPAA}" result="FAILURE">
     <test-group name="Given the user is on the EBSA home page" result="SUCCESS">
       <screenshots>
-        <screenshot image="91c7930842c64ac686466f844a88136b.png"/>
-        <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
+        <screenshot image="01937585af0a2fcc82469ec3ceea7d1c.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1572">
+      <test-step result="SUCCESS" duration="5297">
         <screenshots>
-          <screenshot image="91c7930842c64ac686466f844a88136b.png"/>
-          <screenshot image="46f38ba5fdf5ea6d8b893240d298bb09.png"/>
+          <screenshot image="821aec7c340d4517e842fb3ee26b105b.png"/>
+          <screenshot image="01937585af0a2fcc82469ec3ceea7d1c.png"/>
         </screenshots>
         <description>On EBSA page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on {HIPAA} within the Laws &amp; Regulations tab on the menu bar" result="SUCCESS">
       <screenshots>
-        <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
+        <screenshot image="01937585af0a2fcc82469ec3ceea7d1c.png"/>
         <screenshot image="fdf89499532dc27a0f30ba820adf1704.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="7215">
+      <test-step result="SUCCESS" duration="4093">
         <screenshots>
-          <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
+          <screenshot image="01937585af0a2fcc82469ec3ceea7d1c.png"/>
           <screenshot image="fdf89499532dc27a0f30ba820adf1704.png"/>
         </screenshots>
         <description>Click nav node: HIPAA</description>
       </test-step>
     </test-group>
-    <test-group name="Then the {HIPAA} page should open correctly" result="SUCCESS">
+    <test-group name="Then the ｟HIPAA｠ page should open correctly" result="FAILURE">
       <screenshots>
         <screenshot image="fdf89499532dc27a0f30ba820adf1704.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="885">
+      <test-step result="FAILURE" duration="946">
         <screenshots>
           <screenshot image="fdf89499532dc27a0f30ba820adf1704.png"/>
+          <screenshot image="fdf89499532dc27a0f30ba820adf1704.png" source="pagesource7025768285445634781.html.txt"/>
         </screenshots>
         <description>Should see page: HIPAA</description>
+        <error>org.junit.ComparisonFailure: expected:&lt;...rance Portability an[n]d Accountability Act...&gt; but was:&lt;...rance Portability an[]d Accountability Act...&gt;</error>
+        <exception>org.junit.ComparisonFailure:expected:&lt;...rance Portability an[n]d Accountability Act...&gt; but was:&lt;...rance Portability an[]d Accountability Act...&gt;&#xd;
+[gov.dol.bg.test.User.shouldSeePage(User.java:529), gov.dol.bg.test.DailyRegression.then_the__lawsregs_should_open_correctly(DailyRegression.java:195)]</exception>
       </test-step>
     </test-group>
   </test-group>
@@ -69,24 +69,24 @@
     <test-group name="Given the user is on the EBSA home page" result="SUCCESS">
       <screenshots>
         <screenshot image="fdf89499532dc27a0f30ba820adf1704.png"/>
-        <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
+        <screenshot image="01937585af0a2fcc82469ec3ceea7d1c.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1648">
+      <test-step result="SUCCESS" duration="1448">
         <screenshots>
           <screenshot image="fdf89499532dc27a0f30ba820adf1704.png"/>
-          <screenshot image="82b9e727c78fc511ff833395628d2f42.png"/>
+          <screenshot image="2accf09154e0657311d0ed29bb42e4b4.png"/>
         </screenshots>
         <description>On EBSA page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on {federalRegister} within the Laws &amp; Regulations tab on the menu bar" result="SUCCESS">
       <screenshots>
-        <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
+        <screenshot image="01937585af0a2fcc82469ec3ceea7d1c.png"/>
         <screenshot image="36171438263415e718ea2b96f9c7249f.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="3821">
+      <test-step result="SUCCESS" duration="3890">
         <screenshots>
-          <screenshot image="382ed7dc1603cabee14062f5dbb8d73d.png"/>
+          <screenshot image="01937585af0a2fcc82469ec3ceea7d1c.png"/>
           <screenshot image="36171438263415e718ea2b96f9c7249f.png"/>
         </screenshots>
         <description>Click nav node: federalRegister</description>
@@ -96,7 +96,7 @@
       <screenshots>
         <screenshot image="36171438263415e718ea2b96f9c7249f.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="832">
+      <test-step result="SUCCESS" duration="726">
         <screenshots>
           <screenshot image="36171438263415e718ea2b96f9c7249f.png"/>
         </screenshots>
