@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Key Topics tabs from the EBSA page" name="Verify all of the Key Topics tabs from the EBSA page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="3" timestamp="2017-10-16T14:31:31.374-04:00">
+<acceptance-test-run title="Verify all of the Key Topics tabs from the EBSA page" name="Verify all of the Key Topics tabs from the EBSA page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="4" timestamp="2017-10-24T09:57:43.555-04:00">
   <user-story id="ebsaRegression" name="Ebsa regression" path="stories/fullRegression/ebsaRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -21,10 +21,10 @@
     </rows>
   </examples>
   <test-group name="[1] {keyTopicMenuItem=ACA}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="0">
+    <test-step result="SUCCESS" duration="1">
       <description>Given the user is on the EBSA home page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="0">
+    <test-step result="SUCCESS" duration="1">
       <description>When the user clicks on &lt;keyTopicMenuItem&gt; within the Key Topics tab on the menu bar</description>
     </test-step>
     <test-step result="SUCCESS" duration="0">

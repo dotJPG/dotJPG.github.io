@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Laws &amp; Regulations tabs from the EBSA page" name="Verify all of the Laws &amp; Regulations tabs from the EBSA page" steps="6" successful="5" failures="1" skipped="0" ignored="0" pending="0" result="FAILURE" duration="33308" timestamp="2017-10-16T14:31:33.638-04:00" session-id="1203b5c5d2a14ebda0d4ac42a3066973">
+<acceptance-test-run title="Verify all of the Laws &amp; Regulations tabs from the EBSA page" name="Verify all of the Laws &amp; Regulations tabs from the EBSA page" steps="6" successful="5" failures="1" skipped="0" ignored="0" pending="0" result="FAILURE" duration="37555" timestamp="2017-10-24T09:57:45.601-04:00" session-id="e836f1eacb83736cf00791ffce0cfeda">
   <user-story id="ebsaRegression" name="Ebsa regression" path="stories/fullRegression/ebsaRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -25,7 +25,7 @@
       <screenshots>
         <screenshot image="01937585af0a2fcc82469ec3ceea7d1c.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="5297">
+      <test-step result="SUCCESS" duration="8408">
         <screenshots>
           <screenshot image="821aec7c340d4517e842fb3ee26b105b.png"/>
           <screenshot image="01937585af0a2fcc82469ec3ceea7d1c.png"/>
@@ -38,7 +38,7 @@
         <screenshot image="01937585af0a2fcc82469ec3ceea7d1c.png"/>
         <screenshot image="fdf89499532dc27a0f30ba820adf1704.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="4093">
+      <test-step result="SUCCESS" duration="4058">
         <screenshots>
           <screenshot image="01937585af0a2fcc82469ec3ceea7d1c.png"/>
           <screenshot image="fdf89499532dc27a0f30ba820adf1704.png"/>
@@ -50,10 +50,10 @@
       <screenshots>
         <screenshot image="fdf89499532dc27a0f30ba820adf1704.png"/>
       </screenshots>
-      <test-step result="FAILURE" duration="946">
+      <test-step result="FAILURE" duration="915">
         <screenshots>
           <screenshot image="fdf89499532dc27a0f30ba820adf1704.png"/>
-          <screenshot image="fdf89499532dc27a0f30ba820adf1704.png" source="pagesource7025768285445634781.html.txt"/>
+          <screenshot image="fdf89499532dc27a0f30ba820adf1704.png" source="pagesource3920495083186956561.html.txt"/>
         </screenshots>
         <description>Should see page: HIPAA</description>
         <error>org.junit.ComparisonFailure: expected:&lt;...rance Portability an[n]d Accountability Act...&gt; but was:&lt;...rance Portability an[]d Accountability Act...&gt;</error>
@@ -71,10 +71,10 @@
         <screenshot image="fdf89499532dc27a0f30ba820adf1704.png"/>
         <screenshot image="01937585af0a2fcc82469ec3ceea7d1c.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1448">
+      <test-step result="SUCCESS" duration="1347">
         <screenshots>
           <screenshot image="fdf89499532dc27a0f30ba820adf1704.png"/>
-          <screenshot image="2accf09154e0657311d0ed29bb42e4b4.png"/>
+          <screenshot image="d79c6b4ffcee80865bcced214c308178.png"/>
         </screenshots>
         <description>On EBSA page</description>
       </test-step>
@@ -84,7 +84,7 @@
         <screenshot image="01937585af0a2fcc82469ec3ceea7d1c.png"/>
         <screenshot image="36171438263415e718ea2b96f9c7249f.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="3890">
+      <test-step result="SUCCESS" duration="3585">
         <screenshots>
           <screenshot image="01937585af0a2fcc82469ec3ceea7d1c.png"/>
           <screenshot image="36171438263415e718ea2b96f9c7249f.png"/>
@@ -96,7 +96,7 @@
       <screenshots>
         <screenshot image="36171438263415e718ea2b96f9c7249f.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="726">
+      <test-step result="SUCCESS" duration="736">
         <screenshots>
           <screenshot image="36171438263415e718ea2b96f9c7249f.png"/>
         </screenshots>

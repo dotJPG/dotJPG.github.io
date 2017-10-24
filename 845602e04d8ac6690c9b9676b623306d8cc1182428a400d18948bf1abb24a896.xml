@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Topics sub-navigation tabs open correctly" name="Verify all of the Topics sub-navigation tabs open correctly" steps="12" successful="12" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="6" timestamp="2017-10-16T14:32:09.697-04:00">
+<acceptance-test-run title="Verify all of the Topics sub-navigation tabs open correctly" name="Verify all of the Topics sub-navigation tabs open correctly" steps="12" successful="12" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="2" timestamp="2017-10-24T09:58:25.860-04:00">
   <user-story id="dolHomepageRegression" name="Dol homepage regression" path="stories/fullRegression/dolHomepageRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -44,7 +44,7 @@
     <test-step result="SUCCESS" duration="0">
       <description>When the user clicks on the &lt;subNavMenuItem&gt; within the top navigation bar</description>
     </test-step>
-    <test-step result="SUCCESS" duration="2">
+    <test-step result="SUCCESS" duration="0">
       <description>Then the &lt;subNavMenuItem&gt; page should open correctly</description>
     </test-step>
   </test-group>
