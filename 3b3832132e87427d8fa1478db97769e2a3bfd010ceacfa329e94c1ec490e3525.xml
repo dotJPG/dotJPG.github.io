@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Laws &amp; Regulations tabs from the EBSA page" name="Verify all of the Laws &amp; Regulations tabs from the EBSA page" steps="6" successful="5" failures="1" skipped="0" ignored="0" pending="0" result="FAILURE" duration="37555" timestamp="2017-10-24T09:57:45.601-04:00" session-id="e836f1eacb83736cf00791ffce0cfeda">
+<acceptance-test-run title="Verify all of the Laws &amp; Regulations tabs from the EBSA page" name="Verify all of the Laws &amp; Regulations tabs from the EBSA page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="32941" timestamp="2017-10-24T10:01:24.761-04:00" session-id="e0883f34189348c4e2f40706e27de278">
   <user-story id="ebsaRegression" name="Ebsa regression" path="stories/fullRegression/ebsaRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -12,7 +12,7 @@
       <header>lawsregsMenuItem</header>
     </headers>
     <rows>
-      <row result="FAILURE">
+      <row result="SUCCESS">
         <value>HIPAA</value>
       </row>
       <row result="SUCCESS">
@@ -20,12 +20,12 @@
       </row>
     </rows>
   </examples>
-  <test-group name="[1] {lawsregsMenuItem=HIPAA}" result="FAILURE">
+  <test-group name="[1] {lawsregsMenuItem=HIPAA}" result="SUCCESS">
     <test-group name="Given the user is on the EBSA home page" result="SUCCESS">
       <screenshots>
         <screenshot image="01937585af0a2fcc82469ec3ceea7d1c.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="8408">
+      <test-step result="SUCCESS" duration="6330">
         <screenshots>
           <screenshot image="821aec7c340d4517e842fb3ee26b105b.png"/>
           <screenshot image="01937585af0a2fcc82469ec3ceea7d1c.png"/>
@@ -38,7 +38,7 @@
         <screenshot image="01937585af0a2fcc82469ec3ceea7d1c.png"/>
         <screenshot image="fdf89499532dc27a0f30ba820adf1704.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="4058">
+      <test-step result="SUCCESS" duration="7695">
         <screenshots>
           <screenshot image="01937585af0a2fcc82469ec3ceea7d1c.png"/>
           <screenshot image="fdf89499532dc27a0f30ba820adf1704.png"/>
@@ -46,19 +46,15 @@
         <description>Click nav node: HIPAA</description>
       </test-step>
     </test-group>
-    <test-group name="Then the ｟HIPAA｠ page should open correctly" result="FAILURE">
+    <test-group name="Then the {HIPAA} page should open correctly" result="SUCCESS">
       <screenshots>
         <screenshot image="fdf89499532dc27a0f30ba820adf1704.png"/>
       </screenshots>
-      <test-step result="FAILURE" duration="915">
+      <test-step result="SUCCESS" duration="785">
         <screenshots>
           <screenshot image="fdf89499532dc27a0f30ba820adf1704.png"/>
-          <screenshot image="fdf89499532dc27a0f30ba820adf1704.png" source="pagesource3920495083186956561.html.txt"/>
         </screenshots>
         <description>Should see page: HIPAA</description>
-        <error>org.junit.ComparisonFailure: expected:&lt;...rance Portability an[n]d Accountability Act...&gt; but was:&lt;...rance Portability an[]d Accountability Act...&gt;</error>
-        <exception>org.junit.ComparisonFailure:expected:&lt;...rance Portability an[n]d Accountability Act...&gt; but was:&lt;...rance Portability an[]d Accountability Act...&gt;&#xd;
-[gov.dol.bg.test.User.shouldSeePage(User.java:529), gov.dol.bg.test.DailyRegression.then_the__lawsregs_should_open_correctly(DailyRegression.java:195)]</exception>
       </test-step>
     </test-group>
   </test-group>
@@ -71,10 +67,10 @@
         <screenshot image="fdf89499532dc27a0f30ba820adf1704.png"/>
         <screenshot image="01937585af0a2fcc82469ec3ceea7d1c.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1347">
+      <test-step result="SUCCESS" duration="1985">
         <screenshots>
           <screenshot image="fdf89499532dc27a0f30ba820adf1704.png"/>
-          <screenshot image="d79c6b4ffcee80865bcced214c308178.png"/>
+          <screenshot image="01937585af0a2fcc82469ec3ceea7d1c.png"/>
         </screenshots>
         <description>On EBSA page</description>
       </test-step>
@@ -84,7 +80,7 @@
         <screenshot image="01937585af0a2fcc82469ec3ceea7d1c.png"/>
         <screenshot image="36171438263415e718ea2b96f9c7249f.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="3585">
+      <test-step result="SUCCESS" duration="3635">
         <screenshots>
           <screenshot image="01937585af0a2fcc82469ec3ceea7d1c.png"/>
           <screenshot image="36171438263415e718ea2b96f9c7249f.png"/>
@@ -96,7 +92,7 @@
       <screenshots>
         <screenshot image="36171438263415e718ea2b96f9c7249f.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="736">
+      <test-step result="SUCCESS" duration="810">
         <screenshots>
           <screenshot image="36171438263415e718ea2b96f9c7249f.png"/>
         </screenshots>

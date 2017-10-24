@@ -1,4 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Ebsa regression" skipped="0" tests="2" time="37.56" timestamp="2017-10-297 09:57:45"><testcase name="Verify all of the Laws &amp; Regulations tabs from the EBSA page"><failure message="expected:&lt;...rance Portability an[n]d Accountability Act...&gt; but was:&lt;...rance Portability an[]d Accountability Act...&gt;" type="org.junit.ComparisonFailure">expected:&lt;...rance Portability an[n]d Accountability Act...&gt; but was:&lt;...rance Portability an[]d Accountability Act...&gt;</failure><system-err>expected:&lt;...rance Portability an[n]d Accountability Act...&gt; but was:&lt;...rance Portability an[]d Accountability Act...&gt;&#13;
-gov.dol.bg.test.User.shouldSeePage(User.java:529)&#13;
-gov.dol.bg.test.DailyRegression.then_the__lawsregs_should_open_correctly(DailyRegression.java:195)&#13;
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Ebsa regression" skipped="0" tests="2" time="32.94" timestamp="2017-10-297 10:01:24"><testcase name="Verify all of the Laws &amp; Regulations tabs from the EBSA page"/></testsuite>

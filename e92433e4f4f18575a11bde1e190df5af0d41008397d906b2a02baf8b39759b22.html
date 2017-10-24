@@ -38,13 +38,13 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var test_results_plot = $.jqplot('test_results_pie_chart', [
             [
-                ['Passing', 0.071429],
+                ['Passing', 0.142857],
                 
                 ['Pending', 0],
                 
                 ['Ignored', 0],
                 
-                ['Failing', 0.071429],
+                ['Failing', 0],
                 
                 ['Errors',  0],
                 ['Compromised',  0]
@@ -77,10 +77,10 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '1 / 14 tests passed' },
+                {label: '2 / 14 tests passed' },
                 {label: '0 / 14 tests pending'},
                 {label: '0 / 14 tests not executed'},
-                {label: '1 / 14 tests failed'},
+                {label: '0 / 14 tests failed'},
                 {label: '0 / 14 errors'},
                 {label: '0 / 14 compromised tests'}
             ]
@@ -88,13 +88,13 @@
 
         var weighted_test_results_plot = $.jqplot('weighted_test_results_pie_chart', [
             [
-                ['Passing', 0.887097],
+                ['Passing', 1],
                 
                 ['Pending', 0],
                 
                 ['Ignored', 0],
                 
-                ['Failing', 0.112903],
+                ['Failing', 0],
                 
                 ['Errors', 0],
                 ['Compromised', 0],
@@ -128,10 +128,10 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '1 / 14 tests passed (0.887097% of all test steps)' },
+                {label: '2 / 14 tests passed (1% of all test steps)' },
                 {label: '0 / 14 tests pending'},
                 {label: '0 / 14 tests not executed'},
-                {label: '1 / 14 tests failed (0.112903% of all test steps)'},
+                {label: '0 / 14 tests failed (0% of all test steps)'},
                 {label: '0 / 14 errors (0% of all test steps)'}
             ]
         });
@@ -204,7 +204,7 @@
             <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 24-10-2017 09:58</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 24-10-2017 10:08</span>
     <br style="clear:left"/>
 </div>
 <div class="clr"></div>
@@ -224,7 +224,7 @@
                 <div>
 
                 <span class="test-count">
-                    1
+                    2
                         <a href="18a95d81670a71c20c80b6aaab3d7b6cd70235b97d3651c1a00f5845464045b1.html">passed</a>
                     ,
                 </span>
@@ -233,9 +233,8 @@
 pending,
                 </span>
                 <span class="test-count">
-                    1
-                        <a href="b7f75c87a10c089717f145d6767c80798a0f78b6df98c694b168681f3c20f503.html">failed</a>
-                    ,
+                    0
+failed,
                 </span>
                 <span class="test-count">
                     0
@@ -299,8 +298,8 @@ ignored,
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>14</td>
-            <td>1 (7%)</td>
-            <td>1 (7%)</td>
+            <td>2 (14%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -315,14 +314,14 @@ ignored,
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>14</td>
-            <td>1 (7%)</td>
-            <td>1 (7%)</td>
+            <td>2 (14%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">38 seconds</td>
+                <td colspan="5">33 seconds</td>
         </tr>
         </body>
     </table>
@@ -345,7 +344,7 @@ ignored,
             </tr>
                 <tr>
                     <td class="bluetext" class="tag-title">
-                        <span class="FAILURE-text ellipsis">
+                        <span class="SUCCESS-text ellipsis">
                                 <a href="6dda3f5572daa076738371483ca85e68e568ba56c51f0f0b7c9734b03aada1ee.html" title="Full Regression">Full Regression</a>
                         </span>
                     </td>
@@ -354,7 +353,7 @@ ignored,
 
                         <table>
                             <tr>
-                                <td class="related-tag-percentage"><span title="1 out of 14 tests (0 steps) passing">7.1%</span></td>
+                                <td class="related-tag-percentage"><span title="2 out of 14 tests (14 steps) passing">14.3%</span></td>
                                 <td width="150px">
                                     <a href="6dda3f5572daa076738371483ca85e68e568ba56c51f0f0b7c9734b03aada1ee.html">
                                         <div class="percentagebar"
@@ -371,10 +370,10 @@ ignored,
                                                          title="0 out of 14 tests (0 steps) broken">
                                                         <div class="failingbar"
                                                              style="width: 21px;"
-                                                             title="1 out of 14 tests (14 steps) failing">
+                                                             title="0 out of 14 tests (0 steps) failing">
                                                             <div class="passingbar"
-                                                                 style="width: 11px;"
-                                                                 title="1 out of 14 tests (0 steps) passing">
+                                                                 style="width: 21px;"
+                                                                 title="2 out of 14 tests (14 steps) passing">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -398,7 +397,7 @@ ignored,
             </tr>
                 <tr>
                     <td class="bluetext" class="tag-title">
-                        <span class="FAILURE-text ellipsis">
+                        <span class="SUCCESS-text ellipsis">
                                 <a href="a07e7d83c4ab44e13ad19e536a87db5085d16403f00a3ed93100de4aa2bb7b12.html" title="Ebsa Regression">Ebsa Regression</a>
                         </span>
                     </td>
@@ -407,7 +406,7 @@ ignored,
 
                         <table>
                             <tr>
-                                <td class="related-tag-percentage"><span title="1 out of 14 tests (0 steps) passing">7.1%</span></td>
+                                <td class="related-tag-percentage"><span title="2 out of 14 tests (14 steps) passing">14.3%</span></td>
                                 <td width="150px">
                                     <a href="a07e7d83c4ab44e13ad19e536a87db5085d16403f00a3ed93100de4aa2bb7b12.html">
                                         <div class="percentagebar"
@@ -424,10 +423,10 @@ ignored,
                                                          title="0 out of 14 tests (0 steps) broken">
                                                         <div class="failingbar"
                                                              style="width: 21px;"
-                                                             title="1 out of 14 tests (14 steps) failing">
+                                                             title="0 out of 14 tests (0 steps) failing">
                                                             <div class="passingbar"
-                                                                 style="width: 11px;"
-                                                                 title="1 out of 14 tests (0 steps) passing">
+                                                                 style="width: 21px;"
+                                                                 title="2 out of 14 tests (14 steps) passing">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -484,8 +483,8 @@ ignored,
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>14</td>
-            <td>1 (7%)</td>
-            <td>1 (7%)</td>
+            <td>2 (14%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -500,14 +499,14 @@ ignored,
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>14</td>
-            <td>1 (7%)</td>
-            <td>1 (7%)</td>
+            <td>2 (14%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">38 seconds</td>
+                <td colspan="5">33 seconds</td>
         </tr>
         </body>
     </table>
@@ -530,7 +529,7 @@ ignored,
             </tr>
                 <tr>
                     <td class="bluetext" class="tag-title">
-                        <span class="FAILURE-text ellipsis">
+                        <span class="SUCCESS-text ellipsis">
                                 <a href="6dda3f5572daa076738371483ca85e68e568ba56c51f0f0b7c9734b03aada1ee.html" title="Full Regression">Full Regression</a>
                         </span>
                     </td>
@@ -539,7 +538,7 @@ ignored,
 
                         <table>
                             <tr>
-                                <td class="related-tag-percentage"><span title="1 out of 14 tests (0 steps) passing">88.7%</span></td>
+                                <td class="related-tag-percentage"><span title="2 out of 14 tests (14 steps) passing">100%</span></td>
                                 <td width="150px">
                                     <a href="6dda3f5572daa076738371483ca85e68e568ba56c51f0f0b7c9734b03aada1ee.html">
                                         <div class="percentagebar"
@@ -556,10 +555,10 @@ ignored,
                                                          title="0 out of 14 tests (0 steps) broken">
                                                         <div class="failingbar"
                                                              style="width: 150px;"
-                                                             title="1 out of 14 tests (14 steps) failing">
+                                                             title="0 out of 14 tests (0 steps) failing">
                                                             <div class="passingbar"
-                                                                 style="width: 133px;"
-                                                                 title="1 out of 14 tests (0 steps) passing">
+                                                                 style="width: 150px;"
+                                                                 title="2 out of 14 tests (14 steps) passing">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -583,7 +582,7 @@ ignored,
             </tr>
                 <tr>
                     <td class="bluetext" class="tag-title">
-                        <span class="FAILURE-text ellipsis">
+                        <span class="SUCCESS-text ellipsis">
                                 <a href="a07e7d83c4ab44e13ad19e536a87db5085d16403f00a3ed93100de4aa2bb7b12.html" title="Ebsa Regression">Ebsa Regression</a>
                         </span>
                     </td>
@@ -592,7 +591,7 @@ ignored,
 
                         <table>
                             <tr>
-                                <td class="related-tag-percentage"><span title="1 out of 14 tests (0 steps) passing">88.7%</span></td>
+                                <td class="related-tag-percentage"><span title="2 out of 14 tests (14 steps) passing">100%</span></td>
                                 <td width="150px">
                                     <a href="a07e7d83c4ab44e13ad19e536a87db5085d16403f00a3ed93100de4aa2bb7b12.html">
                                         <div class="percentagebar"
@@ -609,10 +608,10 @@ ignored,
                                                          title="0 out of 14 tests (0 steps) broken">
                                                         <div class="failingbar"
                                                              style="width: 150px;"
-                                                             title="1 out of 14 tests (14 steps) failing">
+                                                             title="0 out of 14 tests (0 steps) failing">
                                                             <div class="passingbar"
-                                                                 style="width: 133px;"
-                                                                 title="1 out of 14 tests (0 steps) passing">
+                                                                 style="width: 150px;"
+                                                                 title="2 out of 14 tests (14 steps) passing">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -687,7 +686,7 @@ ignored,
                                 <td class="lightgreentext">8</td>
 
 
-                                <td class="lightgreentext">0</td>
+                                <td class="lightgreentext">0.01</td>
                             </tr>
 
                             <tr class="test-SKIPPED">
@@ -704,16 +703,16 @@ ignored,
                                 <td class="lightgreentext">8</td>
 
 
-                                <td class="lightgreentext">0</td>
+                                <td class="lightgreentext">0.01</td>
                             </tr>
 
-                            <tr class="test-FAILURE">
-                                <td><span class="summary-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
-                                    <span style="display:none">FAILURE</span></td>
-                                <td class="FAILURE-text">
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
-                                    <a href="3b3832132e87427d8fa1478db97769e2a3bfd010ceacfa329e94c1ec490e3525.html" class="ellipsis" title="Comparison failure: expected:(...rance Portability an[n]d Accountability Act...) but was:(...rance Portability an[]d Accountability Act...)">
+                                    <a href="3b3832132e87427d8fa1478db97769e2a3bfd010ceacfa329e94c1ec490e3525.html" class="ellipsis" title="">
                                     Verify all of the Laws & Regulations tabs from the EBSA page 
                                     </a></div>
                                 </td>
@@ -721,7 +720,7 @@ ignored,
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">37.56</td>
+                                <td class="lightgreentext">32.94</td>
                             </tr>
 
                             <tr class="test-SKIPPED">
@@ -755,7 +754,7 @@ ignored,
                                 <td class="lightgreentext">8</td>
 
 
-                                <td class="lightgreentext">0</td>
+                                <td class="lightgreentext">0.01</td>
                             </tr>
 
                             <tr class="test-SKIPPED">
@@ -772,7 +771,7 @@ ignored,
                                 <td class="lightgreentext">8</td>
 
 
-                                <td class="lightgreentext">0</td>
+                                <td class="lightgreentext">0.02</td>
                             </tr>
                         </tbody>
                     </table>

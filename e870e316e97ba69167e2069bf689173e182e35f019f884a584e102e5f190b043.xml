@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the About EBSA tabs from the EBSA page" name="Verify all of the About EBSA tabs from the EBSA page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="3" timestamp="2017-10-24T09:57:43.523-04:00">
+<acceptance-test-run title="Verify all of the About EBSA tabs from the EBSA page" name="Verify all of the About EBSA tabs from the EBSA page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="2" timestamp="2017-10-24T10:01:22.534-04:00">
   <user-story id="ebsaRegression" name="Ebsa regression" path="stories/fullRegression/ebsaRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -21,7 +21,7 @@
     </rows>
   </examples>
   <test-group name="[1] {aboutEBSAMenuItem=enforcement}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="0">
+    <test-step result="SUCCESS" duration="1">
       <description>Given the user is on the EBSA home page</description>
     </test-step>
     <test-step result="SUCCESS" duration="0">
@@ -38,7 +38,7 @@
     <test-step result="SUCCESS" duration="0">
       <description>When the user clicks on &lt;aboutEBSAMenuItem&gt; within the About Us tab on the menu bar</description>
     </test-step>
-    <test-step result="SUCCESS" duration="1">
+    <test-step result="SUCCESS" duration="0">
       <description>Then the &lt;aboutEBSAMenuItem&gt; page should open correctly</description>
     </test-step>
   </test-group>
