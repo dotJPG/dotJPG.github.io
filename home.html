@@ -8,11 +8,13 @@
 </body>
 </html>
 
-<script type="text/javascript">
-var referringURL = document.referrer;
+	<script type="text/javascript">
+function pageAddress(){var referringURL = document.referrer;
 if(document.referrer=="dotgithub.jpg.io"){
   window.location = "dotgithub.jpg.io/home.html"
 }else{
-  window.location = "index.html"
-}
+  window.location ="home.html"
+}}
+window.onload = pageAddress;
+
 </script>
