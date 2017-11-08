@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify the Ask EBSA and EBSA Home menu items" name="Verify the Ask EBSA and EBSA Home menu items" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="24510" timestamp="2017-11-06T12:59:28.827-05:00" session-id="2a2e167f4cc25f6f1204ff915989ac3c">
+<acceptance-test-run title="Verify the Ask EBSA and EBSA Home menu items" name="Verify the Ask EBSA and EBSA Home menu items" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="25879" timestamp="2017-11-08T13:24:50.702-05:00" session-id="f4b3d5a92d259c1ad89ce20a7fc72e8e">
   <user-story id="ebsaRegression" name="Ebsa regression" path="stories/fullRegression/ebsaRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -23,24 +23,24 @@
   <test-group name="[1] {ebsaMenuItem=askEBSA}" result="SUCCESS">
     <test-group name="Given the user is on the EBSA home page" result="SUCCESS">
       <screenshots>
-        <screenshot image="7f0dc8d9391f9cc62931cef19db5c751.png"/>
+        <screenshot image="44f40482f05b3d77f9bfb5e2843bc240.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="7086">
+      <test-step result="SUCCESS" duration="9919">
         <screenshots>
           <screenshot image="821aec7c340d4517e842fb3ee26b105b.png"/>
-          <screenshot image="7f0dc8d9391f9cc62931cef19db5c751.png"/>
+          <screenshot image="44f40482f05b3d77f9bfb5e2843bc240.png"/>
         </screenshots>
         <description>On EBSA page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on {askEBSA} within the menu bar" result="SUCCESS">
       <screenshots>
-        <screenshot image="7f0dc8d9391f9cc62931cef19db5c751.png"/>
+        <screenshot image="44f40482f05b3d77f9bfb5e2843bc240.png"/>
         <screenshot image="d2077d444dbea329f9fd9aac0745ce4c.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1894">
+      <test-step result="SUCCESS" duration="1592">
         <screenshots>
-          <screenshot image="7f0dc8d9391f9cc62931cef19db5c751.png"/>
+          <screenshot image="44f40482f05b3d77f9bfb5e2843bc240.png"/>
           <screenshot image="d2077d444dbea329f9fd9aac0745ce4c.png"/>
         </screenshots>
         <description>Click nav node: askEBSA</description>
@@ -50,7 +50,7 @@
       <screenshots>
         <screenshot image="d2077d444dbea329f9fd9aac0745ce4c.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="766">
+      <test-step result="SUCCESS" duration="733">
         <screenshots>
           <screenshot image="d2077d444dbea329f9fd9aac0745ce4c.png"/>
         </screenshots>
@@ -67,10 +67,10 @@
         <screenshot image="d2077d444dbea329f9fd9aac0745ce4c.png"/>
         <screenshot image="7f0dc8d9391f9cc62931cef19db5c751.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1747">
+      <test-step result="SUCCESS" duration="1296">
         <screenshots>
           <screenshot image="d2077d444dbea329f9fd9aac0745ce4c.png"/>
-          <screenshot image="7f0dc8d9391f9cc62931cef19db5c751.png"/>
+          <screenshot image="fbe2785dc1b1f809188bbb231aa6c4ae.png"/>
         </screenshots>
         <description>On EBSA page</description>
       </test-step>
@@ -79,10 +79,10 @@
       <screenshots>
         <screenshot image="7f0dc8d9391f9cc62931cef19db5c751.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1503">
+      <test-step result="SUCCESS" duration="1378">
         <screenshots>
           <screenshot image="7f0dc8d9391f9cc62931cef19db5c751.png"/>
-          <screenshot image="9b014283ae9d2cd616dc60bc8c628a59.png"/>
+          <screenshot image="31e61b6e937667fdd79166e0ceb632a3.png"/>
         </screenshots>
         <description>Click nav node: ebsaHomepage</description>
       </test-step>
@@ -91,7 +91,7 @@
       <screenshots>
         <screenshot image="7f0dc8d9391f9cc62931cef19db5c751.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1096">
+      <test-step result="SUCCESS" duration="860">
         <screenshots>
           <screenshot image="7f0dc8d9391f9cc62931cef19db5c751.png"/>
         </screenshots>
