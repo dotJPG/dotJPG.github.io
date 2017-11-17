@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the About Us tabs from the ILAB page" name="Verify all of the About Us tabs from the ILAB page" steps="9" successful="9" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="38695" timestamp="2017-11-17T13:13:58.395-05:00" session-id="2e3cbdb2c708b3cefca4e8cb70cf11b9">
+<acceptance-test-run title="Verify all of the About Us tabs from the ILAB page" name="Verify all of the About Us tabs from the ILAB page" steps="9" successful="9" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="5" timestamp="2017-11-17T13:53:30.891-05:00">
   <user-story id="ilabRegression" name="Ilab regression" path="stories/fullRegression/ilabRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -23,126 +23,37 @@
       </row>
     </rows>
   </examples>
-  <test-group name="[1] {aboutUsMenuItem=missionAndOffices}" result="SUCCESS">
-    <test-group name="Given the user is on the ILAB home page" result="SUCCESS">
-      <screenshots>
-        <screenshot image="798130740f88223b0f414b165fb4d8d1.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="10884">
-        <screenshots>
-          <screenshot image="821aec7c340d4517e842fb3ee26b105b.png"/>
-          <screenshot image="798130740f88223b0f414b165fb4d8d1.png"/>
-        </screenshots>
-        <description>On ILAB page</description>
-      </test-step>
-    </test-group>
-    <test-group name="When the user clicks on {missionAndOffices} within the About Us tab on the menu bar" result="SUCCESS">
-      <screenshots>
-        <screenshot image="798130740f88223b0f414b165fb4d8d1.png"/>
-        <screenshot image="d483a7e4e8949dea3406d2804517d547.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="3567">
-        <screenshots>
-          <screenshot image="798130740f88223b0f414b165fb4d8d1.png"/>
-          <screenshot image="d483a7e4e8949dea3406d2804517d547.png"/>
-        </screenshots>
-        <description>Click nav node: missionAndOffices</description>
-      </test-step>
-    </test-group>
-    <test-group name="Then the {missionAndOffices} page should open correctly" result="SUCCESS">
-      <screenshots>
-        <screenshot image="d483a7e4e8949dea3406d2804517d547.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="856">
-        <screenshots>
-          <screenshot image="d483a7e4e8949dea3406d2804517d547.png"/>
-        </screenshots>
-        <description>Should see page: missionAndOffices</description>
-      </test-step>
-    </test-group>
+  <test-group name="[1] {aboutUsMenuItem=missionAndOffices}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="1">
+      <description>Given the user is on the ILAB home page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user clicks on &lt;aboutUsMenuItem&gt; within the About Us tab on the menu bar</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the &lt;aboutUsMenuItem&gt; page should open correctly</description>
+    </test-step>
   </test-group>
-  <test-group name="[2] {aboutUsMenuItem=lawsAndRegulations}" result="SUCCESS">
-    <screenshots>
-      <screenshot image="d483a7e4e8949dea3406d2804517d547.png"/>
-    </screenshots>
-    <test-group name="Given the user is on the ILAB home page" result="SUCCESS">
-      <screenshots>
-        <screenshot image="d483a7e4e8949dea3406d2804517d547.png"/>
-        <screenshot image="2710dc22abfecd1258aeb7fcfce18680.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="2192">
-        <screenshots>
-          <screenshot image="d483a7e4e8949dea3406d2804517d547.png"/>
-          <screenshot image="472b3ab38d3c693344320a2390382ad5.png"/>
-        </screenshots>
-        <description>On ILAB page</description>
-      </test-step>
-    </test-group>
-    <test-group name="When the user clicks on {lawsAndRegulations} within the About Us tab on the menu bar" result="SUCCESS">
-      <screenshots>
-        <screenshot image="2710dc22abfecd1258aeb7fcfce18680.png"/>
-        <screenshot image="b095ac4beab396573b826e081a853c04.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="2848">
-        <screenshots>
-          <screenshot image="2710dc22abfecd1258aeb7fcfce18680.png"/>
-          <screenshot image="b095ac4beab396573b826e081a853c04.png"/>
-        </screenshots>
-        <description>Click nav node: lawsAndRegulations</description>
-      </test-step>
-    </test-group>
-    <test-group name="Then the {lawsAndRegulations} page should open correctly" result="SUCCESS">
-      <screenshots>
-        <screenshot image="b095ac4beab396573b826e081a853c04.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="764">
-        <screenshots>
-          <screenshot image="b095ac4beab396573b826e081a853c04.png"/>
-        </screenshots>
-        <description>Should see page: lawsAndRegulations</description>
-      </test-step>
-    </test-group>
+  <test-group name="[2] {aboutUsMenuItem=lawsAndRegulations}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the ILAB home page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1">
+      <description>When the user clicks on &lt;aboutUsMenuItem&gt; within the About Us tab on the menu bar</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the &lt;aboutUsMenuItem&gt; page should open correctly</description>
+    </test-step>
   </test-group>
-  <test-group name="[3] {aboutUsMenuItem=joinTheTeam}" result="SUCCESS">
-    <screenshots>
-      <screenshot image="b095ac4beab396573b826e081a853c04.png"/>
-    </screenshots>
-    <test-group name="Given the user is on the ILAB home page" result="SUCCESS">
-      <screenshots>
-        <screenshot image="b095ac4beab396573b826e081a853c04.png"/>
-        <screenshot image="2710dc22abfecd1258aeb7fcfce18680.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="1680">
-        <screenshots>
-          <screenshot image="b095ac4beab396573b826e081a853c04.png"/>
-          <screenshot image="77efeeddc1015cf5636c4a0ca82a9f9f.png"/>
-        </screenshots>
-        <description>On ILAB page</description>
-      </test-step>
-    </test-group>
-    <test-group name="When the user clicks on {joinTheTeam} within the About Us tab on the menu bar" result="SUCCESS">
-      <screenshots>
-        <screenshot image="2710dc22abfecd1258aeb7fcfce18680.png"/>
-        <screenshot image="8adb999b2143dc5105268fbc87d66129.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="2600">
-        <screenshots>
-          <screenshot image="2710dc22abfecd1258aeb7fcfce18680.png"/>
-          <screenshot image="8adb999b2143dc5105268fbc87d66129.png"/>
-        </screenshots>
-        <description>Click nav node: joinTheTeam</description>
-      </test-step>
-    </test-group>
-    <test-group name="Then the {joinTheTeam} page should open correctly" result="SUCCESS">
-      <screenshots>
-        <screenshot image="8adb999b2143dc5105268fbc87d66129.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="764">
-        <screenshots>
-          <screenshot image="8adb999b2143dc5105268fbc87d66129.png"/>
-        </screenshots>
-        <description>Should see page: joinTheTeam</description>
-      </test-step>
-    </test-group>
+  <test-group name="[3] {aboutUsMenuItem=joinTheTeam}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the ILAB home page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user clicks on &lt;aboutUsMenuItem&gt; within the About Us tab on the menu bar</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the &lt;aboutUsMenuItem&gt; page should open correctly</description>
+    </test-step>
   </test-group>
 </acceptance-test-run>
