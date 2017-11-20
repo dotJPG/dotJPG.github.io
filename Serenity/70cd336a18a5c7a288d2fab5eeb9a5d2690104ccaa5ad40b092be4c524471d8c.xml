@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Social Media navigation links open correctly" name="Verify all of the Social Media navigation links open correctly" steps="15" successful="15" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="1" timestamp="2017-11-20T10:25:32.844-05:00">
+<acceptance-test-run title="Verify all of the Social Media navigation links open correctly" name="Verify all of the Social Media navigation links open correctly" steps="15" successful="15" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="86346" timestamp="2017-11-20T11:24:00.669-05:00" session-id="3122734c7c67afb00489718a4c0027a9">
   <user-story id="dolHomepageRegression" name="Dol homepage regression" path="stories/fullRegression/dolHomepageRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -29,59 +29,219 @@
       </row>
     </rows>
   </examples>
-  <test-group name="[1] {socMediaLink=Twitter}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="0">
-      <description>Given the user is on the DOL home page</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>When the user clicks on the &lt;socMediaLink&gt; link</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>Then the &lt;socMediaLink&gt; page should open correctly</description>
-    </test-step>
+  <test-group name="[1] {socMediaLink=Twitter}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="8da93a8c44cab49d9fa94c5a533e50ab.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the DOL home page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="8da93a8c44cab49d9fa94c5a533e50ab.png"/>
+        <screenshot image="74f1820c4bc58a939c0c3c974c1d4d50.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1238">
+        <screenshots>
+          <screenshot image="8da93a8c44cab49d9fa94c5a533e50ab.png"/>
+          <screenshot image="5857d72e57686fb72ebec887211d96a0.png"/>
+        </screenshots>
+        <description>On home page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When the user clicks on the {Twitter} link" result="SUCCESS">
+      <screenshots>
+        <screenshot image="74f1820c4bc58a939c0c3c974c1d4d50.png"/>
+        <screenshot image="8779efd0fbd176cbe2d9404da0d9b161.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="6562">
+        <screenshots>
+          <screenshot image="74f1820c4bc58a939c0c3c974c1d4d50.png"/>
+          <screenshot image="e4d596b126514150fbb9b80d731d6eee.png"/>
+        </screenshots>
+        <description>Click nav node: Twitter</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the {Twitter} page should open correctly" result="SUCCESS">
+      <screenshots>
+        <screenshot image="8779efd0fbd176cbe2d9404da0d9b161.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1821">
+        <screenshots>
+          <screenshot image="8779efd0fbd176cbe2d9404da0d9b161.png"/>
+          <screenshot image="e360db0f99d3c6ab8b15ebc423663c1b.png"/>
+        </screenshots>
+        <description>Should see page: Twitter</description>
+      </test-step>
+    </test-group>
   </test-group>
-  <test-group name="[2] {socMediaLink=Facebook}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="0">
-      <description>Given the user is on the DOL home page</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>When the user clicks on the &lt;socMediaLink&gt; link</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>Then the &lt;socMediaLink&gt; page should open correctly</description>
-    </test-step>
+  <test-group name="[2] {socMediaLink=Facebook}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="8779efd0fbd176cbe2d9404da0d9b161.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the DOL home page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="8779efd0fbd176cbe2d9404da0d9b161.png"/>
+        <screenshot image="74f1820c4bc58a939c0c3c974c1d4d50.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="2248">
+        <screenshots>
+          <screenshot image="8779efd0fbd176cbe2d9404da0d9b161.png"/>
+          <screenshot image="fa0af21682f821d89ac99a4e2c457c44.png"/>
+        </screenshots>
+        <description>On home page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When the user clicks on the {Facebook} link" result="SUCCESS">
+      <screenshots>
+        <screenshot image="74f1820c4bc58a939c0c3c974c1d4d50.png"/>
+        <screenshot image="2ed250f6f3926781a5dbc4bed8ff86c5.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="13614">
+        <screenshots>
+          <screenshot image="74f1820c4bc58a939c0c3c974c1d4d50.png"/>
+          <screenshot image="2ed250f6f3926781a5dbc4bed8ff86c5.png"/>
+        </screenshots>
+        <description>Click nav node: Facebook</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the {Facebook} page should open correctly" result="SUCCESS">
+      <screenshots>
+        <screenshot image="2ed250f6f3926781a5dbc4bed8ff86c5.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1361">
+        <screenshots>
+          <screenshot image="2ed250f6f3926781a5dbc4bed8ff86c5.png"/>
+        </screenshots>
+        <description>Should see page: Facebook</description>
+      </test-step>
+    </test-group>
   </test-group>
-  <test-group name="[3] {socMediaLink=LinkedIn}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="0">
-      <description>Given the user is on the DOL home page</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>When the user clicks on the &lt;socMediaLink&gt; link</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>Then the &lt;socMediaLink&gt; page should open correctly</description>
-    </test-step>
+  <test-group name="[3] {socMediaLink=LinkedIn}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="2ed250f6f3926781a5dbc4bed8ff86c5.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the DOL home page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="2ed250f6f3926781a5dbc4bed8ff86c5.png"/>
+        <screenshot image="74f1820c4bc58a939c0c3c974c1d4d50.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1809">
+        <screenshots>
+          <screenshot image="2ed250f6f3926781a5dbc4bed8ff86c5.png"/>
+          <screenshot image="a90e5d28120816ee7e4d9b8a03aa655a.png"/>
+        </screenshots>
+        <description>On home page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When the user clicks on the {LinkedIn} link" result="SUCCESS">
+      <screenshots>
+        <screenshot image="74f1820c4bc58a939c0c3c974c1d4d50.png"/>
+        <screenshot image="5522f77aaba2f802ec1d1f6bb4ceb980.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="22661">
+        <screenshots>
+          <screenshot image="74f1820c4bc58a939c0c3c974c1d4d50.png"/>
+          <screenshot image="5522f77aaba2f802ec1d1f6bb4ceb980.png"/>
+        </screenshots>
+        <description>Click nav node: LinkedIn</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the {LinkedIn} page should open correctly" result="SUCCESS">
+      <screenshots>
+        <screenshot image="5522f77aaba2f802ec1d1f6bb4ceb980.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1025">
+        <screenshots>
+          <screenshot image="5522f77aaba2f802ec1d1f6bb4ceb980.png"/>
+        </screenshots>
+        <description>Should see page: LinkedIn</description>
+      </test-step>
+    </test-group>
   </test-group>
-  <test-group name="[4] {socMediaLink=YouTube}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="0">
-      <description>Given the user is on the DOL home page</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>When the user clicks on the &lt;socMediaLink&gt; link</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>Then the &lt;socMediaLink&gt; page should open correctly</description>
-    </test-step>
+  <test-group name="[4] {socMediaLink=YouTube}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="5522f77aaba2f802ec1d1f6bb4ceb980.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the DOL home page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="5522f77aaba2f802ec1d1f6bb4ceb980.png"/>
+        <screenshot image="74f1820c4bc58a939c0c3c974c1d4d50.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1617">
+        <screenshots>
+          <screenshot image="5522f77aaba2f802ec1d1f6bb4ceb980.png"/>
+          <screenshot image="2da78b11384fbaf7aca45fd103d87b38.png"/>
+        </screenshots>
+        <description>On home page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When the user clicks on the {YouTube} link" result="SUCCESS">
+      <screenshots>
+        <screenshot image="74f1820c4bc58a939c0c3c974c1d4d50.png"/>
+        <screenshot image="67561db9fb9d8d5145765a688ec531e1.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="3831">
+        <screenshots>
+          <screenshot image="74f1820c4bc58a939c0c3c974c1d4d50.png"/>
+          <screenshot image="62a5704d8915fcddebbf840552e2bd89.png"/>
+        </screenshots>
+        <description>Click nav node: YouTube</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the {YouTube} page should open correctly" result="SUCCESS">
+      <screenshots>
+        <screenshot image="1d6b5f7b2f71784d3a845df4bbdc204c.png"/>
+        <screenshot image="7f2949a8becf915755ba974580cf32f1.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1774">
+        <screenshots>
+          <screenshot image="761a88eabaed2ce3bdb407b2cf0eb55f.png"/>
+          <screenshot image="9c8c4ca62d92b2910681392dff707cef.png"/>
+        </screenshots>
+        <description>Should see page: YouTube</description>
+      </test-step>
+    </test-group>
   </test-group>
-  <test-group name="[5] {socMediaLink=Email}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="0">
-      <description>Given the user is on the DOL home page</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>When the user clicks on the &lt;socMediaLink&gt; link</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>Then the &lt;socMediaLink&gt; page should open correctly</description>
-    </test-step>
+  <test-group name="[5] {socMediaLink=Email}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="b41a05b21b485ea7203c80aa5a6ecec5.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the DOL home page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="8af793b69c3166ef81c7f9163efd461c.png"/>
+        <screenshot image="74f1820c4bc58a939c0c3c974c1d4d50.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1858">
+        <screenshots>
+          <screenshot image="1cafc1bfb1cd0b958fb86617dcd97120.png"/>
+          <screenshot image="fa0af21682f821d89ac99a4e2c457c44.png"/>
+        </screenshots>
+        <description>On home page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When the user clicks on the {Email} link" result="SUCCESS">
+      <screenshots>
+        <screenshot image="74f1820c4bc58a939c0c3c974c1d4d50.png"/>
+        <screenshot image="982fa47421c4ea692bfab72a3df89246.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1048">
+        <screenshots>
+          <screenshot image="74f1820c4bc58a939c0c3c974c1d4d50.png"/>
+          <screenshot image="982fa47421c4ea692bfab72a3df89246.png"/>
+        </screenshots>
+        <description>Click nav node: Email</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the {Email} page should open correctly" result="SUCCESS">
+      <screenshots>
+        <screenshot image="982fa47421c4ea692bfab72a3df89246.png"/>
+        <screenshot image="1c9773371932cef8c48e476fb69acd63.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="3206">
+        <screenshots>
+          <screenshot image="982fa47421c4ea692bfab72a3df89246.png"/>
+          <screenshot image="1c9773371932cef8c48e476fb69acd63.png"/>
+        </screenshots>
+        <description>Should see page: Email</description>
+      </test-step>
+    </test-group>
   </test-group>
 </acceptance-test-run>
