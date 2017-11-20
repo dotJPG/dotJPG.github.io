@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the About Us tabs from the ILAB page" name="Verify all of the About Us tabs from the ILAB page" steps="9" successful="9" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="3" timestamp="2017-11-17T16:03:15.045-05:00">
+<acceptance-test-run title="Verify all of the About Us tabs from the ILAB page" name="Verify all of the About Us tabs from the ILAB page" steps="9" successful="9" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="11" timestamp="2017-11-20T10:22:28.778-05:00">
   <user-story id="ilabRegression" name="Ilab regression" path="stories/fullRegression/ilabRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -35,7 +35,7 @@
     </test-step>
   </test-group>
   <test-group name="[2] {aboutUsMenuItem=lawsAndRegulations}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="0">
+    <test-step result="SUCCESS" duration="2">
       <description>Given the user is on the ILAB home page</description>
     </test-step>
     <test-step result="SUCCESS" duration="0">
@@ -52,7 +52,7 @@
     <test-step result="SUCCESS" duration="0">
       <description>When the user clicks on &lt;aboutUsMenuItem&gt; within the About Us tab on the menu bar</description>
     </test-step>
-    <test-step result="SUCCESS" duration="1">
+    <test-step result="SUCCESS" duration="0">
       <description>Then the &lt;aboutUsMenuItem&gt; page should open correctly</description>
     </test-step>
   </test-group>
