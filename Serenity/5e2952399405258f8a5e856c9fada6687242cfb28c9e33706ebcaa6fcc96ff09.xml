@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Employers &amp; Advisers tabs from the EBSA page" name="Verify all of the Employers &amp; Advisers tabs from the EBSA page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="17892" timestamp="2017-11-27T10:27:43.675-05:00" session-id="fcb09666f435f5027b36af2979c036f7">
+<acceptance-test-run title="Verify all of the Employers &amp; Advisers tabs from the EBSA page" name="Verify all of the Employers &amp; Advisers tabs from the EBSA page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="20931" timestamp="2017-11-28T09:59:38.034-05:00" session-id="a9d2686ffb28855f88e692ab52a8c21c">
   <user-story id="ebsaRegression" name="Ebsa regression" path="stories/fullRegression/ebsaRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -27,24 +27,24 @@
     <test-group name="Given the user is on the EBSA home page" result="SUCCESS">
       <screenshots>
         <screenshot image="eccf236bcf4b08df9f518eacedc773c5.png"/>
-        <screenshot image="a827309e61e42973098c72093d9a17bb.png"/>
+        <screenshot image="c1dabb473102b5ec9621bb41e98d4923.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1326">
+      <test-step result="SUCCESS" duration="1537">
         <screenshots>
           <screenshot image="eccf236bcf4b08df9f518eacedc773c5.png"/>
-          <screenshot image="6f0f0b1d6e61e394a59c8e58c355cd10.png"/>
+          <screenshot image="f0da3f8abee87e3c95d61b5315a48b57.png"/>
         </screenshots>
         <description>On EBSA page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on {abandonedPlans} within the Employers &amp; Advisers tab on the menu bar" result="SUCCESS">
       <screenshots>
-        <screenshot image="a827309e61e42973098c72093d9a17bb.png"/>
+        <screenshot image="c1dabb473102b5ec9621bb41e98d4923.png"/>
         <screenshot image="36e06a86f312580febfd6dc98001b7ff.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="3564">
+      <test-step result="SUCCESS" duration="4285">
         <screenshots>
-          <screenshot image="a827309e61e42973098c72093d9a17bb.png"/>
+          <screenshot image="c1dabb473102b5ec9621bb41e98d4923.png"/>
           <screenshot image="36e06a86f312580febfd6dc98001b7ff.png"/>
         </screenshots>
         <description>Click nav node: abandonedPlans</description>
@@ -54,7 +54,7 @@
       <screenshots>
         <screenshot image="36e06a86f312580febfd6dc98001b7ff.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="738">
+      <test-step result="SUCCESS" duration="822">
         <screenshots>
           <screenshot image="36e06a86f312580febfd6dc98001b7ff.png"/>
         </screenshots>
@@ -69,24 +69,24 @@
     <test-group name="Given the user is on the EBSA home page" result="SUCCESS">
       <screenshots>
         <screenshot image="36e06a86f312580febfd6dc98001b7ff.png"/>
-        <screenshot image="a827309e61e42973098c72093d9a17bb.png"/>
+        <screenshot image="c1dabb473102b5ec9621bb41e98d4923.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1463">
+      <test-step result="SUCCESS" duration="1952">
         <screenshots>
           <screenshot image="36e06a86f312580febfd6dc98001b7ff.png"/>
-          <screenshot image="72a04220d785b39440e78b9917470ba8.png"/>
+          <screenshot image="c1dabb473102b5ec9621bb41e98d4923.png"/>
         </screenshots>
         <description>On EBSA page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on {reportingGuidelines} within the Employers &amp; Advisers tab on the menu bar" result="SUCCESS">
       <screenshots>
-        <screenshot image="a827309e61e42973098c72093d9a17bb.png"/>
+        <screenshot image="c1dabb473102b5ec9621bb41e98d4923.png"/>
         <screenshot image="42108eb1f648f7c2222b376762ea5b64.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="4653">
+      <test-step result="SUCCESS" duration="5465">
         <screenshots>
-          <screenshot image="a827309e61e42973098c72093d9a17bb.png"/>
+          <screenshot image="c1dabb473102b5ec9621bb41e98d4923.png"/>
           <screenshot image="42108eb1f648f7c2222b376762ea5b64.png"/>
         </screenshots>
         <description>Click nav node: reportingGuidelines</description>
@@ -96,7 +96,7 @@
       <screenshots>
         <screenshot image="42108eb1f648f7c2222b376762ea5b64.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="728">
+      <test-step result="SUCCESS" duration="743">
         <screenshots>
           <screenshot image="42108eb1f648f7c2222b376762ea5b64.png"/>
         </screenshots>

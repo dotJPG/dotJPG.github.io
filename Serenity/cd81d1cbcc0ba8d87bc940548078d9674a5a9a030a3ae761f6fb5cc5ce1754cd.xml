@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Footer navigation links open correctly" name="Verify all of the Footer navigation links open correctly" steps="18" successful="18" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="48649" timestamp="2017-11-27T10:33:45.562-05:00" session-id="a56600fc8e394f19a7f964b86429443c">
+<acceptance-test-run title="Verify all of the Footer navigation links open correctly" name="Verify all of the Footer navigation links open correctly" steps="18" successful="18" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="39696" timestamp="2017-11-28T10:06:04.652-05:00" session-id="8ba372423e875af570aedba91f472e7d">
   <user-story id="dolHomepageRegression" name="Dol homepage regression" path="stories/fullRegression/dolHomepageRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -39,24 +39,24 @@
     <test-group name="Given the user is on the DOL home page" result="SUCCESS">
       <screenshots>
         <screenshot image="c57690f5638fcdd050f223e12b2f8e24.png"/>
-        <screenshot image="af2de80e447a668ba31215f7c2198f15.png"/>
+        <screenshot image="87623aa0a30a8362e6280a5dfb592a70.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1624">
+      <test-step result="SUCCESS" duration="1647">
         <screenshots>
           <screenshot image="c57690f5638fcdd050f223e12b2f8e24.png"/>
-          <screenshot image="57fd9a535d9e97fb19daf02f3ab3dd59.png"/>
+          <screenshot image="661958938f32e58632e7c40005bdaa8d.png"/>
         </screenshots>
         <description>On home page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on the {RSS} within the Footer" result="SUCCESS">
       <screenshots>
-        <screenshot image="af2de80e447a668ba31215f7c2198f15.png"/>
+        <screenshot image="87623aa0a30a8362e6280a5dfb592a70.png"/>
         <screenshot image="7ac95500aa35c15d2e9ae5f9c9acf650.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1710">
+      <test-step result="SUCCESS" duration="1418">
         <screenshots>
-          <screenshot image="af2de80e447a668ba31215f7c2198f15.png"/>
+          <screenshot image="87623aa0a30a8362e6280a5dfb592a70.png"/>
           <screenshot image="7ac95500aa35c15d2e9ae5f9c9acf650.png"/>
         </screenshots>
         <description>Click nav node: RSS</description>
@@ -66,7 +66,7 @@
       <screenshots>
         <screenshot image="7ac95500aa35c15d2e9ae5f9c9acf650.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="972">
+      <test-step result="SUCCESS" duration="761">
         <screenshots>
           <screenshot image="7ac95500aa35c15d2e9ae5f9c9acf650.png"/>
         </screenshots>
@@ -81,24 +81,24 @@
     <test-group name="Given the user is on the DOL home page" result="SUCCESS">
       <screenshots>
         <screenshot image="7ac95500aa35c15d2e9ae5f9c9acf650.png"/>
-        <screenshot image="af2de80e447a668ba31215f7c2198f15.png"/>
+        <screenshot image="87623aa0a30a8362e6280a5dfb592a70.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1673">
+      <test-step result="SUCCESS" duration="1618">
         <screenshots>
           <screenshot image="7ac95500aa35c15d2e9ae5f9c9acf650.png"/>
-          <screenshot image="4b3798b47e1fe49eb2869b5619cb6d0c.png"/>
+          <screenshot image="365804c1b8ce23d3c42767dbd1a27f4e.png"/>
         </screenshots>
         <description>On home page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on the {Disclaimer} within the Footer" result="SUCCESS">
       <screenshots>
-        <screenshot image="af2de80e447a668ba31215f7c2198f15.png"/>
+        <screenshot image="87623aa0a30a8362e6280a5dfb592a70.png"/>
         <screenshot image="a592debe047cb422e46e1af1d8538383.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="4857">
+      <test-step result="SUCCESS" duration="1355">
         <screenshots>
-          <screenshot image="af2de80e447a668ba31215f7c2198f15.png"/>
+          <screenshot image="87623aa0a30a8362e6280a5dfb592a70.png"/>
           <screenshot image="a592debe047cb422e46e1af1d8538383.png"/>
         </screenshots>
         <description>Click nav node: Disclaimer</description>
@@ -108,7 +108,7 @@
       <screenshots>
         <screenshot image="a592debe047cb422e46e1af1d8538383.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="865">
+      <test-step result="SUCCESS" duration="772">
         <screenshots>
           <screenshot image="a592debe047cb422e46e1af1d8538383.png"/>
         </screenshots>
@@ -123,24 +123,24 @@
     <test-group name="Given the user is on the DOL home page" result="SUCCESS">
       <screenshots>
         <screenshot image="a592debe047cb422e46e1af1d8538383.png"/>
-        <screenshot image="af2de80e447a668ba31215f7c2198f15.png"/>
+        <screenshot image="87623aa0a30a8362e6280a5dfb592a70.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1727">
+      <test-step result="SUCCESS" duration="1550">
         <screenshots>
           <screenshot image="a592debe047cb422e46e1af1d8538383.png"/>
-          <screenshot image="a4b1305e48798f1873477b054e1942eb.png"/>
+          <screenshot image="6a2eb20a88a20ab816e98bd1963365de.png"/>
         </screenshots>
         <description>On home page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on the {NFA} within the Footer" result="SUCCESS">
       <screenshots>
-        <screenshot image="af2de80e447a668ba31215f7c2198f15.png"/>
+        <screenshot image="87623aa0a30a8362e6280a5dfb592a70.png"/>
         <screenshot image="2c58b4b79a84e464593d204bf2109f78.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="3855">
+      <test-step result="SUCCESS" duration="1883">
         <screenshots>
-          <screenshot image="af2de80e447a668ba31215f7c2198f15.png"/>
+          <screenshot image="87623aa0a30a8362e6280a5dfb592a70.png"/>
           <screenshot image="2c58b4b79a84e464593d204bf2109f78.png"/>
         </screenshots>
         <description>Click nav node: NFA</description>
@@ -150,7 +150,7 @@
       <screenshots>
         <screenshot image="2c58b4b79a84e464593d204bf2109f78.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="895">
+      <test-step result="SUCCESS" duration="766">
         <screenshots>
           <screenshot image="2c58b4b79a84e464593d204bf2109f78.png"/>
         </screenshots>
@@ -165,24 +165,24 @@
     <test-group name="Given the user is on the DOL home page" result="SUCCESS">
       <screenshots>
         <screenshot image="2c58b4b79a84e464593d204bf2109f78.png"/>
-        <screenshot image="af2de80e447a668ba31215f7c2198f15.png"/>
+        <screenshot image="87623aa0a30a8362e6280a5dfb592a70.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1736">
+      <test-step result="SUCCESS" duration="1675">
         <screenshots>
           <screenshot image="2c58b4b79a84e464593d204bf2109f78.png"/>
-          <screenshot image="af2de80e447a668ba31215f7c2198f15.png"/>
+          <screenshot image="6a2eb20a88a20ab816e98bd1963365de.png"/>
         </screenshots>
         <description>On home page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on the {PSS} within the Footer" result="SUCCESS">
       <screenshots>
-        <screenshot image="af2de80e447a668ba31215f7c2198f15.png"/>
+        <screenshot image="87623aa0a30a8362e6280a5dfb592a70.png"/>
         <screenshot image="1e47cd64f54560f7658444b126107a05.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1596">
+      <test-step result="SUCCESS" duration="1358">
         <screenshots>
-          <screenshot image="af2de80e447a668ba31215f7c2198f15.png"/>
+          <screenshot image="87623aa0a30a8362e6280a5dfb592a70.png"/>
           <screenshot image="1e47cd64f54560f7658444b126107a05.png"/>
         </screenshots>
         <description>Click nav node: PSS</description>
@@ -192,7 +192,7 @@
       <screenshots>
         <screenshot image="1e47cd64f54560f7658444b126107a05.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="943">
+      <test-step result="SUCCESS" duration="779">
         <screenshots>
           <screenshot image="1e47cd64f54560f7658444b126107a05.png"/>
         </screenshots>
@@ -207,24 +207,24 @@
     <test-group name="Given the user is on the DOL home page" result="SUCCESS">
       <screenshots>
         <screenshot image="1e47cd64f54560f7658444b126107a05.png"/>
-        <screenshot image="af2de80e447a668ba31215f7c2198f15.png"/>
+        <screenshot image="87623aa0a30a8362e6280a5dfb592a70.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1764">
+      <test-step result="SUCCESS" duration="1636">
         <screenshots>
           <screenshot image="1e47cd64f54560f7658444b126107a05.png"/>
-          <screenshot image="af2de80e447a668ba31215f7c2198f15.png"/>
+          <screenshot image="87623aa0a30a8362e6280a5dfb592a70.png"/>
         </screenshots>
         <description>On home page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on the {FOIA} within the Footer" result="SUCCESS">
       <screenshots>
-        <screenshot image="af2de80e447a668ba31215f7c2198f15.png"/>
+        <screenshot image="87623aa0a30a8362e6280a5dfb592a70.png"/>
         <screenshot image="1256200161fd679c92a9053231a9f36f.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1598">
+      <test-step result="SUCCESS" duration="1383">
         <screenshots>
-          <screenshot image="af2de80e447a668ba31215f7c2198f15.png"/>
+          <screenshot image="87623aa0a30a8362e6280a5dfb592a70.png"/>
           <screenshot image="1256200161fd679c92a9053231a9f36f.png"/>
         </screenshots>
         <description>Click nav node: FOIA</description>
@@ -234,7 +234,7 @@
       <screenshots>
         <screenshot image="1256200161fd679c92a9053231a9f36f.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="864">
+      <test-step result="SUCCESS" duration="771">
         <screenshots>
           <screenshot image="1256200161fd679c92a9053231a9f36f.png"/>
         </screenshots>
@@ -249,24 +249,24 @@
     <test-group name="Given the user is on the DOL home page" result="SUCCESS">
       <screenshots>
         <screenshot image="1256200161fd679c92a9053231a9f36f.png"/>
-        <screenshot image="af2de80e447a668ba31215f7c2198f15.png"/>
+        <screenshot image="87623aa0a30a8362e6280a5dfb592a70.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1750">
+      <test-step result="SUCCESS" duration="1510">
         <screenshots>
           <screenshot image="1256200161fd679c92a9053231a9f36f.png"/>
-          <screenshot image="4b3798b47e1fe49eb2869b5619cb6d0c.png"/>
+          <screenshot image="88bbcc92f71144a9e959f0305b51b5b3.png"/>
         </screenshots>
         <description>On home page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on the {TTY} within the Footer" result="SUCCESS">
       <screenshots>
-        <screenshot image="af2de80e447a668ba31215f7c2198f15.png"/>
+        <screenshot image="87623aa0a30a8362e6280a5dfb592a70.png"/>
         <screenshot image="8da93a8c44cab49d9fa94c5a533e50ab.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1710">
+      <test-step result="SUCCESS" duration="1408">
         <screenshots>
-          <screenshot image="af2de80e447a668ba31215f7c2198f15.png"/>
+          <screenshot image="87623aa0a30a8362e6280a5dfb592a70.png"/>
           <screenshot image="8da93a8c44cab49d9fa94c5a533e50ab.png"/>
         </screenshots>
         <description>Click nav node: TTY</description>
@@ -276,7 +276,7 @@
       <screenshots>
         <screenshot image="8da93a8c44cab49d9fa94c5a533e50ab.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="800">
+      <test-step result="SUCCESS" duration="791">
         <screenshots>
           <screenshot image="8da93a8c44cab49d9fa94c5a533e50ab.png"/>
         </screenshots>

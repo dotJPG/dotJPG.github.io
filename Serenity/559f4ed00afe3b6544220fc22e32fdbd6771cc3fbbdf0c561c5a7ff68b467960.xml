@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Researchers tabs from the EBSA page" name="Verify all of the Researchers tabs from the EBSA page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="17507" timestamp="2017-11-27T10:28:01.582-05:00" session-id="fcb09666f435f5027b36af2979c036f7">
+<acceptance-test-run title="Verify all of the Researchers tabs from the EBSA page" name="Verify all of the Researchers tabs from the EBSA page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="17883" timestamp="2017-11-28T09:59:58.980-05:00" session-id="a9d2686ffb28855f88e692ab52a8c21c">
   <user-story id="ebsaRegression" name="Ebsa regression" path="stories/fullRegression/ebsaRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -27,24 +27,24 @@
     <test-group name="Given the user is on the EBSA home page" result="SUCCESS">
       <screenshots>
         <screenshot image="42108eb1f648f7c2222b376762ea5b64.png"/>
-        <screenshot image="a827309e61e42973098c72093d9a17bb.png"/>
+        <screenshot image="c1dabb473102b5ec9621bb41e98d4923.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1302">
+      <test-step result="SUCCESS" duration="1391">
         <screenshots>
           <screenshot image="42108eb1f648f7c2222b376762ea5b64.png"/>
-          <screenshot image="6f80d16a07593a5fac2625ee31e5b3d3.png"/>
+          <screenshot image="538906db5bf66c92771dba3049b3926c.png"/>
         </screenshots>
         <description>On EBSA page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on {retirementResources} within the Researchers tab on the menu bar" result="SUCCESS">
       <screenshots>
-        <screenshot image="a827309e61e42973098c72093d9a17bb.png"/>
+        <screenshot image="c1dabb473102b5ec9621bb41e98d4923.png"/>
         <screenshot image="42c1238c034c269fe6c3f6111e71fc54.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="3617">
+      <test-step result="SUCCESS" duration="3685">
         <screenshots>
-          <screenshot image="a827309e61e42973098c72093d9a17bb.png"/>
+          <screenshot image="c1dabb473102b5ec9621bb41e98d4923.png"/>
           <screenshot image="42c1238c034c269fe6c3f6111e71fc54.png"/>
         </screenshots>
         <description>Click nav node: retirementResources</description>
@@ -54,7 +54,7 @@
       <screenshots>
         <screenshot image="42c1238c034c269fe6c3f6111e71fc54.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="685">
+      <test-step result="SUCCESS" duration="695">
         <screenshots>
           <screenshot image="42c1238c034c269fe6c3f6111e71fc54.png"/>
         </screenshots>
@@ -69,24 +69,24 @@
     <test-group name="Given the user is on the EBSA home page" result="SUCCESS">
       <screenshots>
         <screenshot image="42c1238c034c269fe6c3f6111e71fc54.png"/>
-        <screenshot image="a827309e61e42973098c72093d9a17bb.png"/>
+        <screenshot image="c1dabb473102b5ec9621bb41e98d4923.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1241">
+      <test-step result="SUCCESS" duration="1344">
         <screenshots>
           <screenshot image="42c1238c034c269fe6c3f6111e71fc54.png"/>
-          <screenshot image="b9f9f882bfeb5fce014a1b4b574a2ea7.png"/>
+          <screenshot image="1d16f9e34a7bf3fc629c969c4d9f837d.png"/>
         </screenshots>
         <description>On EBSA page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on {pensionPlan} within the Researchers tab on the menu bar" result="SUCCESS">
       <screenshots>
-        <screenshot image="a827309e61e42973098c72093d9a17bb.png"/>
+        <screenshot image="c1dabb473102b5ec9621bb41e98d4923.png"/>
         <screenshot image="91fba15be94639e1001f884ddf40dbd7.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="4685">
+      <test-step result="SUCCESS" duration="4772">
         <screenshots>
-          <screenshot image="a827309e61e42973098c72093d9a17bb.png"/>
+          <screenshot image="c1dabb473102b5ec9621bb41e98d4923.png"/>
           <screenshot image="91fba15be94639e1001f884ddf40dbd7.png"/>
         </screenshots>
         <description>Click nav node: pensionPlan</description>
@@ -96,7 +96,7 @@
       <screenshots>
         <screenshot image="91fba15be94639e1001f884ddf40dbd7.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="749">
+      <test-step result="SUCCESS" duration="735">
         <screenshots>
           <screenshot image="91fba15be94639e1001f884ddf40dbd7.png"/>
         </screenshots>
