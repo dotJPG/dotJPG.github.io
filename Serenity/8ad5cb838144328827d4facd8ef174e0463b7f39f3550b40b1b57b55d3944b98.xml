@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Agencies sub-navigation tabs open correctly" name="Verify all of the Agencies sub-navigation tabs open correctly" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="27408" timestamp="2017-11-29T11:54:11.329-05:00" session-id="536600a42e0c542fa89a78416d6f4c43">
+<acceptance-test-run title="Verify all of the Agencies sub-navigation tabs open correctly" name="Verify all of the Agencies sub-navigation tabs open correctly" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="17526" timestamp="2017-11-29T12:33:14.523-05:00" session-id="ab1abf0bb9a4bacb4ec9abacd8149a85">
   <user-story id="dolHomepageRegression" name="Dol homepage regression" path="stories/fullRegression/dolHomepageRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -29,10 +29,10 @@
         <screenshot image="5714b5166415e33901405c3f4fdb6c17.png"/>
         <screenshot image="87623aa0a30a8362e6280a5dfb592a70.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="2511">
+      <test-step result="SUCCESS" duration="1527">
         <screenshots>
           <screenshot image="5714b5166415e33901405c3f4fdb6c17.png"/>
-          <screenshot image="87623aa0a30a8362e6280a5dfb592a70.png"/>
+          <screenshot image="661958938f32e58632e7c40005bdaa8d.png"/>
         </screenshots>
         <description>On home page</description>
       </test-step>
@@ -42,10 +42,10 @@
         <screenshot image="87623aa0a30a8362e6280a5dfb592a70.png"/>
         <screenshot image="2710dc22abfecd1258aeb7fcfce18680.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="4527">
+      <test-step result="SUCCESS" duration="3062">
         <screenshots>
           <screenshot image="87623aa0a30a8362e6280a5dfb592a70.png"/>
-          <screenshot image="2710dc22abfecd1258aeb7fcfce18680.png"/>
+          <screenshot image="b3a3e95f54512e39bb58c95ea8afd2f3.png"/>
         </screenshots>
         <description>Click nav node: ILAB</description>
       </test-step>
@@ -54,7 +54,7 @@
       <screenshots>
         <screenshot image="2710dc22abfecd1258aeb7fcfce18680.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1766">
+      <test-step result="SUCCESS" duration="1151">
         <screenshots>
           <screenshot image="2710dc22abfecd1258aeb7fcfce18680.png"/>
         </screenshots>
@@ -71,10 +71,10 @@
         <screenshot image="2710dc22abfecd1258aeb7fcfce18680.png"/>
         <screenshot image="87623aa0a30a8362e6280a5dfb592a70.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="3003">
+      <test-step result="SUCCESS" duration="1611">
         <screenshots>
-          <screenshot image="fce470fc16a64897f62aa08cd18dafdf.png"/>
-          <screenshot image="87623aa0a30a8362e6280a5dfb592a70.png"/>
+          <screenshot image="2710dc22abfecd1258aeb7fcfce18680.png"/>
+          <screenshot image="b1dd43f088101601360ab119c58f6df4.png"/>
         </screenshots>
         <description>On home page</description>
       </test-step>
@@ -84,10 +84,10 @@
         <screenshot image="87623aa0a30a8362e6280a5dfb592a70.png"/>
         <screenshot image="c1dabb473102b5ec9621bb41e98d4923.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="4119">
+      <test-step result="SUCCESS" duration="2612">
         <screenshots>
           <screenshot image="87623aa0a30a8362e6280a5dfb592a70.png"/>
-          <screenshot image="c2629e2f784eb0fbe7d108e2646e9733.png"/>
+          <screenshot image="c5e5f6bc0c9888670620b8464ef2affd.png"/>
         </screenshots>
         <description>Click nav node: EBSA</description>
       </test-step>
@@ -96,7 +96,7 @@
       <screenshots>
         <screenshot image="c1dabb473102b5ec9621bb41e98d4923.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1509">
+      <test-step result="SUCCESS" duration="889">
         <screenshots>
           <screenshot image="c1dabb473102b5ec9621bb41e98d4923.png"/>
         </screenshots>
