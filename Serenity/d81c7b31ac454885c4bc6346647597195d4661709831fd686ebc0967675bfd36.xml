@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Our Work tabs from the ILAB page" name="Verify all of the Our Work tabs from the ILAB page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="23036" timestamp="2017-11-29T13:10:30.333-05:00" session-id="4e7a7b26b52d4b605830d9835679a0f5">
+<acceptance-test-run title="Verify all of the Our Work tabs from the ILAB page" name="Verify all of the Our Work tabs from the ILAB page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="24783" timestamp="2017-11-30T09:47:58.846-05:00" session-id="4b8440cc3875de8bcd016dba84f25c63">
   <user-story id="ilabRegression" name="Ilab regression" path="stories/fullRegression/ilabRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -29,10 +29,10 @@
         <screenshot image="8adb999b2143dc5105268fbc87d66129.png"/>
         <screenshot image="2710dc22abfecd1258aeb7fcfce18680.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1809">
+      <test-step result="SUCCESS" duration="1562">
         <screenshots>
           <screenshot image="8adb999b2143dc5105268fbc87d66129.png"/>
-          <screenshot image="2710dc22abfecd1258aeb7fcfce18680.png"/>
+          <screenshot image="27c9ce83c5ab2cf8fa60090719220535.png"/>
         </screenshots>
         <description>On ILAB page</description>
       </test-step>
@@ -42,7 +42,7 @@
         <screenshot image="2710dc22abfecd1258aeb7fcfce18680.png"/>
         <screenshot image="e402d4d8e789e9763a7d0c83cb53a260.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="6389">
+      <test-step result="SUCCESS" duration="7779">
         <screenshots>
           <screenshot image="2710dc22abfecd1258aeb7fcfce18680.png"/>
           <screenshot image="e402d4d8e789e9763a7d0c83cb53a260.png"/>
@@ -53,10 +53,12 @@
     <test-group name="Then the {childLabor} page should open correctly" result="SUCCESS">
       <screenshots>
         <screenshot image="e402d4d8e789e9763a7d0c83cb53a260.png"/>
+        <screenshot image="5a67684dc8a67f5d73255beeed12df1a.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1075">
+      <test-step result="SUCCESS" duration="961">
         <screenshots>
           <screenshot image="e402d4d8e789e9763a7d0c83cb53a260.png"/>
+          <screenshot image="7955634b09d151ddc55f8b6a6dad2f01.png"/>
         </screenshots>
         <description>Should see page: childLabor</description>
       </test-step>
@@ -64,17 +66,17 @@
   </test-group>
   <test-group name="[2] {ourWorkMenuItem=projects}" result="SUCCESS">
     <screenshots>
-      <screenshot image="e402d4d8e789e9763a7d0c83cb53a260.png"/>
+      <screenshot image="e26ee4a524d0899a6aea259a0d31cee2.png"/>
     </screenshots>
     <test-group name="Given the user is on the ILAB home page" result="SUCCESS">
       <screenshots>
-        <screenshot image="85de838d6b067a0e8cbceecd94b091ac.png"/>
+        <screenshot image="e26ee4a524d0899a6aea259a0d31cee2.png"/>
         <screenshot image="2710dc22abfecd1258aeb7fcfce18680.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="2107">
+      <test-step result="SUCCESS" duration="1661">
         <screenshots>
           <screenshot image="e26ee4a524d0899a6aea259a0d31cee2.png"/>
-          <screenshot image="2710dc22abfecd1258aeb7fcfce18680.png"/>
+          <screenshot image="4465fd6a50d9399593484965f5005fef.png"/>
         </screenshots>
         <description>On ILAB page</description>
       </test-step>
@@ -84,7 +86,7 @@
         <screenshot image="2710dc22abfecd1258aeb7fcfce18680.png"/>
         <screenshot image="48e9108452977cdb027b9d5d5c41cc94.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="3127">
+      <test-step result="SUCCESS" duration="5787">
         <screenshots>
           <screenshot image="2710dc22abfecd1258aeb7fcfce18680.png"/>
           <screenshot image="48e9108452977cdb027b9d5d5c41cc94.png"/>
@@ -96,7 +98,7 @@
       <screenshots>
         <screenshot image="48e9108452977cdb027b9d5d5c41cc94.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="970">
+      <test-step result="SUCCESS" duration="885">
         <screenshots>
           <screenshot image="48e9108452977cdb027b9d5d5c41cc94.png"/>
         </screenshots>

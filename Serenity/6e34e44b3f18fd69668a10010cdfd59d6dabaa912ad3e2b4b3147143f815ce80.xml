@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Key Topics tabs from the EBSA page" name="Verify all of the Key Topics tabs from the EBSA page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="18911" timestamp="2017-11-29T13:08:43.086-05:00" session-id="72b2aef1e8d13326b5ed6d8944439e62">
+<acceptance-test-run title="Verify all of the Key Topics tabs from the EBSA page" name="Verify all of the Key Topics tabs from the EBSA page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="16346" timestamp="2017-11-30T09:46:47.632-05:00" session-id="05e66314a0be00c2c8321114eac59953">
   <user-story id="ebsaRegression" name="Ebsa regression" path="stories/fullRegression/ebsaRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -27,24 +27,24 @@
     <test-group name="Given the user is on the EBSA home page" result="SUCCESS">
       <screenshots>
         <screenshot image="91fba15be94639e1001f884ddf40dbd7.png"/>
-        <screenshot image="c1dabb473102b5ec9621bb41e98d4923.png"/>
+        <screenshot image="dfc492e0abf6e0f2c4257ef974c44521.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1518">
+      <test-step result="SUCCESS" duration="1322">
         <screenshots>
           <screenshot image="91fba15be94639e1001f884ddf40dbd7.png"/>
-          <screenshot image="61426483f6093ee965c255415bf19a04.png"/>
+          <screenshot image="3837130043dca98d62d5f1192abb0adf.png"/>
         </screenshots>
         <description>On EBSA page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on {ACA} within the Key Topics tab on the menu bar" result="SUCCESS">
       <screenshots>
-        <screenshot image="c1dabb473102b5ec9621bb41e98d4923.png"/>
+        <screenshot image="dfc492e0abf6e0f2c4257ef974c44521.png"/>
         <screenshot image="19184896c2d589f027c78494c3698b19.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="4133">
+      <test-step result="SUCCESS" duration="3430">
         <screenshots>
-          <screenshot image="c1dabb473102b5ec9621bb41e98d4923.png"/>
+          <screenshot image="dfc492e0abf6e0f2c4257ef974c44521.png"/>
           <screenshot image="19184896c2d589f027c78494c3698b19.png"/>
         </screenshots>
         <description>Click nav node: ACA</description>
@@ -54,7 +54,7 @@
       <screenshots>
         <screenshot image="19184896c2d589f027c78494c3698b19.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="887">
+      <test-step result="SUCCESS" duration="751">
         <screenshots>
           <screenshot image="19184896c2d589f027c78494c3698b19.png"/>
         </screenshots>
@@ -69,24 +69,24 @@
     <test-group name="Given the user is on the EBSA home page" result="SUCCESS">
       <screenshots>
         <screenshot image="19184896c2d589f027c78494c3698b19.png"/>
-        <screenshot image="c1dabb473102b5ec9621bb41e98d4923.png"/>
+        <screenshot image="dfc492e0abf6e0f2c4257ef974c44521.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1612">
+      <test-step result="SUCCESS" duration="1296">
         <screenshots>
           <screenshot image="19184896c2d589f027c78494c3698b19.png"/>
-          <screenshot image="4f45c231a6bc3f3d68d1cd640bce182a.png"/>
+          <screenshot image="21eebdf225480ae134315adbe8da186f.png"/>
         </screenshots>
         <description>On EBSA page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on {401k} within the Key Topics tab on the menu bar" result="SUCCESS">
       <screenshots>
-        <screenshot image="c1dabb473102b5ec9621bb41e98d4923.png"/>
+        <screenshot image="dfc492e0abf6e0f2c4257ef974c44521.png"/>
         <screenshot image="40a2f727b26a91e9d7cac3d687e8fb6e.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="3972">
+      <test-step result="SUCCESS" duration="3530">
         <screenshots>
-          <screenshot image="c1dabb473102b5ec9621bb41e98d4923.png"/>
+          <screenshot image="dfc492e0abf6e0f2c4257ef974c44521.png"/>
           <screenshot image="40a2f727b26a91e9d7cac3d687e8fb6e.png"/>
         </screenshots>
         <description>Click nav node: 401k</description>
@@ -96,7 +96,7 @@
       <screenshots>
         <screenshot image="40a2f727b26a91e9d7cac3d687e8fb6e.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="767">
+      <test-step result="SUCCESS" duration="756">
         <screenshots>
           <screenshot image="40a2f727b26a91e9d7cac3d687e8fb6e.png"/>
         </screenshots>
