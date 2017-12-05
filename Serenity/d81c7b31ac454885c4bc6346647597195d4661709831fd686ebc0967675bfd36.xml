@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Our Work tabs from the ILAB page" name="Verify all of the Our Work tabs from the ILAB page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="19214" timestamp="2017-12-05T10:02:34.108-05:00" session-id="d7e1405f807ed1fb037af338e613e67e">
+<acceptance-test-run title="Verify all of the Our Work tabs from the ILAB page" name="Verify all of the Our Work tabs from the ILAB page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="29787" timestamp="2017-12-05T11:23:20.051-05:00" session-id="ccd635faeb970eb5af64a99fbf05d515">
   <user-story id="ilabRegression" name="Ilab regression" path="stories/fullRegression/ilabRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -29,10 +29,10 @@
         <screenshot image="8adb999b2143dc5105268fbc87d66129.png"/>
         <screenshot image="2710dc22abfecd1258aeb7fcfce18680.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1521">
+      <test-step result="SUCCESS" duration="3097">
         <screenshots>
           <screenshot image="8adb999b2143dc5105268fbc87d66129.png"/>
-          <screenshot image="db3f15e5dc789076977a08c9abe623ac.png"/>
+          <screenshot image="2710dc22abfecd1258aeb7fcfce18680.png"/>
         </screenshots>
         <description>On ILAB page</description>
       </test-step>
@@ -42,7 +42,7 @@
         <screenshot image="2710dc22abfecd1258aeb7fcfce18680.png"/>
         <screenshot image="e402d4d8e789e9763a7d0c83cb53a260.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="4816">
+      <test-step result="SUCCESS" duration="6696">
         <screenshots>
           <screenshot image="2710dc22abfecd1258aeb7fcfce18680.png"/>
           <screenshot image="e402d4d8e789e9763a7d0c83cb53a260.png"/>
@@ -54,7 +54,7 @@
       <screenshots>
         <screenshot image="e402d4d8e789e9763a7d0c83cb53a260.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="902">
+      <test-step result="SUCCESS" duration="1509">
         <screenshots>
           <screenshot image="e402d4d8e789e9763a7d0c83cb53a260.png"/>
         </screenshots>
@@ -64,17 +64,17 @@
   </test-group>
   <test-group name="[2] {ourWorkMenuItem=projects}" result="SUCCESS">
     <screenshots>
-      <screenshot image="e402d4d8e789e9763a7d0c83cb53a260.png"/>
+      <screenshot image="e26ee4a524d0899a6aea259a0d31cee2.png"/>
     </screenshots>
     <test-group name="Given the user is on the ILAB home page" result="SUCCESS">
       <screenshots>
-        <screenshot image="e402d4d8e789e9763a7d0c83cb53a260.png"/>
+        <screenshot image="e26ee4a524d0899a6aea259a0d31cee2.png"/>
         <screenshot image="2710dc22abfecd1258aeb7fcfce18680.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1650">
+      <test-step result="SUCCESS" duration="3244">
         <screenshots>
-          <screenshot image="e402d4d8e789e9763a7d0c83cb53a260.png"/>
-          <screenshot image="73e2938d7454ef888a4637d27f7c2a61.png"/>
+          <screenshot image="e26ee4a524d0899a6aea259a0d31cee2.png"/>
+          <screenshot image="2710dc22abfecd1258aeb7fcfce18680.png"/>
         </screenshots>
         <description>On ILAB page</description>
       </test-step>
@@ -84,7 +84,7 @@
         <screenshot image="2710dc22abfecd1258aeb7fcfce18680.png"/>
         <screenshot image="48e9108452977cdb027b9d5d5c41cc94.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="3338">
+      <test-step result="SUCCESS" duration="4290">
         <screenshots>
           <screenshot image="2710dc22abfecd1258aeb7fcfce18680.png"/>
           <screenshot image="48e9108452977cdb027b9d5d5c41cc94.png"/>
@@ -96,7 +96,7 @@
       <screenshots>
         <screenshot image="48e9108452977cdb027b9d5d5c41cc94.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="835">
+      <test-step result="SUCCESS" duration="1312">
         <screenshots>
           <screenshot image="48e9108452977cdb027b9d5d5c41cc94.png"/>
         </screenshots>

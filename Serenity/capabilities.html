@@ -34,11 +34,11 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
-                ['Passing', 0.98],
+                ['Passing', 1],
                 ['Pending', 0],
                 ['Ignored', 0],
                 ['Failing', 0],
-                ['Errors',  0.02],
+                ['Errors',  0],
                 ['Compromised Tests',  0],
             ]
         ], {
@@ -68,10 +68,10 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '98% requirements tested successfully'},
+                {label: '100% requirements tested successfully'},
                 {label: '0% requirements untested'},
                 {label: '0%} requirements failing'},
-                {label: '2%} requirements with errors'},
+                {label: '0%} requirements with errors'},
                 {label: '0%} requirements with compromised tests'}
             ]
         });
@@ -164,7 +164,7 @@
             <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 05-12-2017 10:08</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 05-12-2017 11:29</span>
     <br style="clear:left"/>
 </div>
 
@@ -197,8 +197,8 @@
                                     <tr>
                                         <td class="summary-leading-column">Features</td>
                                         <td>1</td>
-                                        <td>0</td>
                                         <td>1</td>
+                                        <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
@@ -206,8 +206,8 @@
                                     <tr>
                                         <td class="summary-leading-column">Stories</td>
                                         <td>3</td>
-                                        <td>2</td>
-                                        <td>1</td>
+                                        <td>3</td>
+                                        <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
@@ -215,8 +215,8 @@
                                 <tr>
                                     <td class="summary-leading-column">Acceptance Criteria (tests)</td>
                                     <td>50</td>
-                                    <td>45</td>
-                                    <td>5</td>
+                                    <td>50</td>
+                                    <td>0</td>
                                     <td>0</td>
                                     <td>0</td>
                                     <td></td>
@@ -246,8 +246,8 @@
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>50</td>
-            <td>49 (98%)</td>
-            <td>1 (2%)</td>
+            <td>50 (100%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -262,14 +262,14 @@
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>50</td>
-            <td>49 (98%)</td>
-            <td>1 (0%)</td>
+            <td>50 (100%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">8 minutes 42 seconds</td>
+                <td colspan="5">9 minutes 37 seconds</td>
         </tr>
         </body>
     </table>
@@ -329,14 +329,14 @@
             <tbody>
 
 
-                <tr class="test-FAILURE requirementRow">
+                <tr class="test-SUCCESS requirementRow">
                     <td class="requirementRowCell">
-                        <span class="status_icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
-                        <span style="display:none">3</span>
+                        <span class="status_icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                        <span style="display:none">1</span>
                     </td>
                     <td class="cardNumber requirementRowCell"></td>
 
-                    <td class="FAILURE-text requirementRowCell">
+                    <td class="SUCCESS-text requirementRowCell">
                     <a href="javaScript:void(0)" class="read-more-link">
                     <img src="images/plus.png" height="16"/></a>
                         <span class="requirementName"><a
@@ -349,10 +349,10 @@
 
 
                     <td class="greentext highlighted-value requirementRowCell">50</td>
-                    <td class="greentext requirementRowCell">49</td>
+                    <td class="greentext requirementRowCell">50</td>
                     <td class="bluetext requirementRowCell">0</td>
                     <td class="redtext requirementRowCell">0</td>
-                    <td class="lightorangetext requirementRowCell">1</td>
+                    <td class="lightorangetext requirementRowCell">0</td>
                     <td class="violettext requirementRowCell">0</td>
                         <td class="greentext highlighted-value requirementRowCell">0</td>
                         <td class="greentext requirementRowCell">0</td>
@@ -365,15 +365,15 @@
                         <table>
                             <tr>
                                 <td width="40px">
-                                    <div class="small">98%</div>
+                                    <div class="small">100%</div>
                                 </td>
                                 <td width="125px">
                                     <div class="percentagebar"
                                          title="Full regression
 Tests implemented: 50
-  - Passing tests: 49 (98% of specified requirements)
+  - Passing tests: 50 (100% of specified requirements)
   - Failing tests: 0 (0% of specified requirements)
-  - Tests with errors: 1 (2% of specified requirements)
+  - Tests with errors: 0 (0% of specified requirements)
   - Compromised tests 0 (0% of specified requirements)
 
 Tests not implemented or not executed: 0
@@ -392,9 +392,9 @@ Estimated ignored or skipped requirements: 0%"
                                              style="width: 125px;"
                                              title="Full regression
 Tests implemented: 50
-  - Passing tests: 49 (98% of specified requirements)
+  - Passing tests: 50 (100% of specified requirements)
   - Failing tests: 0 (0% of specified requirements)
-  - Tests with errors: 1 (2% of specified requirements)
+  - Tests with errors: 0 (0% of specified requirements)
   - Compromised tests 0 (0% of specified requirements)
 
 Tests not implemented or not executed: 0
@@ -412,9 +412,9 @@ Estimated ignored or skipped requirements: 0%">
                                                  style="width: 125px;"
                                                  title="Full regression
 Tests implemented: 50
-  - Passing tests: 49 (98% of specified requirements)
+  - Passing tests: 50 (100% of specified requirements)
   - Failing tests: 0 (0% of specified requirements)
-  - Tests with errors: 1 (2% of specified requirements)
+  - Tests with errors: 0 (0% of specified requirements)
   - Compromised tests 0 (0% of specified requirements)
 
 Tests not implemented or not executed: 0
@@ -432,9 +432,9 @@ Estimated ignored or skipped requirements: 0%">
                                                      style="width: 125px;"
                                                      title="Full regression
 Tests implemented: 50
-  - Passing tests: 49 (98% of specified requirements)
+  - Passing tests: 50 (100% of specified requirements)
   - Failing tests: 0 (0% of specified requirements)
-  - Tests with errors: 1 (2% of specified requirements)
+  - Tests with errors: 0 (0% of specified requirements)
   - Compromised tests 0 (0% of specified requirements)
 
 Tests not implemented or not executed: 0
@@ -449,12 +449,12 @@ Estimated unimplemented tests: 0
 Estimated unimplemented or pending requirements: 0%
 Estimated ignored or skipped requirements: 0%">
                                                     <div class="failingbar"
-                                                         style="width: 122px;"
+                                                         style="width: 125px;"
                                                          title="Full regression
 Tests implemented: 50
-  - Passing tests: 49 (98% of specified requirements)
+  - Passing tests: 50 (100% of specified requirements)
   - Failing tests: 0 (0% of specified requirements)
-  - Tests with errors: 1 (2% of specified requirements)
+  - Tests with errors: 0 (0% of specified requirements)
   - Compromised tests 0 (0% of specified requirements)
 
 Tests not implemented or not executed: 0
@@ -469,12 +469,12 @@ Estimated unimplemented tests: 0
 Estimated unimplemented or pending requirements: 0%
 Estimated ignored or skipped requirements: 0%">
                                                         <div class="passingbar"
-                                                             style="width: 122px;"
+                                                             style="width: 125px;"
                                                              title="Full regression
 Tests implemented: 50
-  - Passing tests: 49 (98% of specified requirements)
+  - Passing tests: 50 (100% of specified requirements)
   - Failing tests: 0 (0% of specified requirements)
-  - Tests with errors: 1 (2% of specified requirements)
+  - Tests with errors: 0 (0% of specified requirements)
   - Compromised tests 0 (0% of specified requirements)
 
 Tests not implemented or not executed: 0
@@ -556,7 +556,7 @@ Estimated ignored or skipped requirements: 0%">
                                 <td class="lightgreentext">21</td>
 
 
-                                <td class="lightgreentext">30.3</td>
+                                <td class="lightgreentext">53.44</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -573,7 +573,7 @@ Estimated ignored or skipped requirements: 0%">
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">16.76</td>
+                                <td class="lightgreentext">18.08</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -590,7 +590,7 @@ Estimated ignored or skipped requirements: 0%">
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">17.8</td>
+                                <td class="lightgreentext">18.29</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -607,7 +607,7 @@ Estimated ignored or skipped requirements: 0%">
                                 <td class="lightgreentext">42</td>
 
 
-                                <td class="lightgreentext">41.72</td>
+                                <td class="lightgreentext">42.37</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -624,7 +624,7 @@ Estimated ignored or skipped requirements: 0%">
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">17.03</td>
+                                <td class="lightgreentext">25.46</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -641,7 +641,7 @@ Estimated ignored or skipped requirements: 0%">
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">16.74</td>
+                                <td class="lightgreentext">19.19</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -658,7 +658,7 @@ Estimated ignored or skipped requirements: 0%">
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">16.29</td>
+                                <td class="lightgreentext">27.26</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -675,7 +675,7 @@ Estimated ignored or skipped requirements: 0%">
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">19.21</td>
+                                <td class="lightgreentext">29.79</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -692,7 +692,7 @@ Estimated ignored or skipped requirements: 0%">
                                 <td class="lightgreentext">21</td>
 
 
-                                <td class="lightgreentext">28.18</td>
+                                <td class="lightgreentext">27.46</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -709,7 +709,7 @@ Estimated ignored or skipped requirements: 0%">
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">17.74</td>
+                                <td class="lightgreentext">18.28</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -726,16 +726,16 @@ Estimated ignored or skipped requirements: 0%">
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">18.19</td>
+                                <td class="lightgreentext">29.04</td>
                             </tr>
 
-                            <tr class="test-FAILURE">
-                                <td><span class="summary-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
-                                    <span style="display:none">FAILURE</span></td>
-                                <td class="FAILURE-text">
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
-                                    <a href="70cd336a18a5c7a288d2fab5eeb9a5d2690104ccaa5ad40b092be4c524471d8c.html" class="ellipsis" title="No such element exception: no such element: Unable to locate element: {'method':'xpath','selector':'(//*[@class='ProfileHeaderCard-nameLink u-textInheritColor js-nav'] |  //*[@id='seo_h1_tag']/div/div/span/div/span[1]/a |//*[@id='stream-about-section']/div[2]/div[2]/ul/li[1]/h4 |//*[@id='channel-title'] |//*[@id='quick_subscribe_new']/h1)'}  (Session info: chrome=62.0.3202.94)  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 30.02 secondsFor documentation on this error, please visit: http://seleniumhq.org/exceptionso_such_element.htmlBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'System info: host: 'BAH5CG70147KN', ip: '192.168.64.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\592987\AppData\Local\Temp\scoped_dir17116_32198}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.94, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]Session ID: ed752d84992a4e21f2f0abf6c189d072*** Element info: {Using=xpath, value=(//*[@class='ProfileHeaderCard-nameLink u-textInheritColor js-nav'] |  //*[@id='seo_h1_tag']/div/div/span/div/span[1]/a |//*[@id='stream-about-section']/div[2]/div[2]/ul/li[1]/h4 |//*[@id='channel-title'] |//*[@id='quick_subscribe_new']/h1)}">
+                                    <a href="70cd336a18a5c7a288d2fab5eeb9a5d2690104ccaa5ad40b092be4c524471d8c.html" class="ellipsis" title="">
                                     Verify all of the Social Media navigation links open correctly 
                                     </a></div>
                                 </td>
@@ -743,7 +743,7 @@ Estimated ignored or skipped requirements: 0%">
                                 <td class="lightgreentext">35</td>
 
 
-                                <td class="lightgreentext">118.03</td>
+                                <td class="lightgreentext">93.1</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -760,7 +760,7 @@ Estimated ignored or skipped requirements: 0%">
                                 <td class="lightgreentext">28</td>
 
 
-                                <td class="lightgreentext">29.3</td>
+                                <td class="lightgreentext">30.27</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -777,7 +777,7 @@ Estimated ignored or skipped requirements: 0%">
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">14.82</td>
+                                <td class="lightgreentext">15.15</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -794,7 +794,7 @@ Estimated ignored or skipped requirements: 0%">
                                 <td class="lightgreentext">49</td>
 
 
-                                <td class="lightgreentext">63.53</td>
+                                <td class="lightgreentext">74.94</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -811,7 +811,7 @@ Estimated ignored or skipped requirements: 0%">
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">34.81</td>
+                                <td class="lightgreentext">33.45</td>
                             </tr>
                         </tbody>
                     </table>
