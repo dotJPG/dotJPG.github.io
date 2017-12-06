@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the About EBSA tabs from the EBSA page" name="Verify all of the About EBSA tabs from the EBSA page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="21747" timestamp="2017-12-05T11:20:23.494-05:00" session-id="a27a7f0ea49ad9b8803434068fa9b67b">
+<acceptance-test-run title="Verify all of the About EBSA tabs from the EBSA page" name="Verify all of the About EBSA tabs from the EBSA page" steps="6" successful="4" failures="0" errors="1" skipped="1" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="45832" timestamp="2017-12-06T14:44:42.160-05:00" session-id="b81c3f1198515c8c56eaf197527a72a7">
   <user-story id="ebsaRegression" name="Ebsa regression" path="stories/fullRegression/ebsaRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -15,7 +15,7 @@
       <row result="SUCCESS">
         <value>enforcement</value>
       </row>
-      <row result="SUCCESS">
+      <row result="ERROR">
         <value>ourOrganization</value>
       </row>
     </rows>
@@ -28,10 +28,10 @@
       <screenshots>
         <screenshot image="dfc492e0abf6e0f2c4257ef974c44521.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1462">
+      <test-step result="SUCCESS" duration="1302">
         <screenshots>
           <screenshot image="dfc492e0abf6e0f2c4257ef974c44521.png"/>
-          <screenshot image="fe1ee21c1876792d3604a4317cd29441.png"/>
+          <screenshot image="b222e58aa1e453aeebcdda2182f99328.png"/>
         </screenshots>
         <description>On EBSA page</description>
       </test-step>
@@ -41,7 +41,7 @@
         <screenshot image="dfc492e0abf6e0f2c4257ef974c44521.png"/>
         <screenshot image="6648109055c8b8678914fc6bcec9147a.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="4986">
+      <test-step result="SUCCESS" duration="4916">
         <screenshots>
           <screenshot image="dfc492e0abf6e0f2c4257ef974c44521.png"/>
           <screenshot image="6648109055c8b8678914fc6bcec9147a.png"/>
@@ -53,7 +53,7 @@
       <screenshots>
         <screenshot image="6648109055c8b8678914fc6bcec9147a.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="738">
+      <test-step result="SUCCESS" duration="732">
         <screenshots>
           <screenshot image="6648109055c8b8678914fc6bcec9147a.png"/>
         </screenshots>
@@ -61,7 +61,7 @@
       </test-step>
     </test-group>
   </test-group>
-  <test-group name="[2] {aboutEBSAMenuItem=ourOrganization}" result="SUCCESS">
+  <test-group name="[2] {aboutEBSAMenuItem=ourOrganization}" result="ERROR">
     <screenshots>
       <screenshot image="6648109055c8b8678914fc6bcec9147a.png"/>
     </screenshots>
@@ -70,35 +70,37 @@
         <screenshot image="6648109055c8b8678914fc6bcec9147a.png"/>
         <screenshot image="dfc492e0abf6e0f2c4257ef974c44521.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1474">
+      <test-step result="SUCCESS" duration="1511">
         <screenshots>
           <screenshot image="6648109055c8b8678914fc6bcec9147a.png"/>
-          <screenshot image="794fef16e8be54a232d724f051efbc27.png"/>
+          <screenshot image="d09f557793412ee694e65cd540865335.png"/>
         </screenshots>
         <description>On EBSA page</description>
       </test-step>
     </test-group>
-    <test-group name="When the user clicks on {ourOrganization} within the About Us tab on the menu bar" result="SUCCESS">
+    <test-group name="When the user clicks on ｟ourOrganization｠ within the About Us tab on the menu bar" result="ERROR">
       <screenshots>
-        <screenshot image="2ae92903bae09d3b7271d6fa3883513b.png"/>
+        <screenshot image="dfc492e0abf6e0f2c4257ef974c44521.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="6420">
+      <test-step result="ERROR" duration="32367">
         <screenshots>
-          <screenshot image="2ae92903bae09d3b7271d6fa3883513b.png"/>
+          <screenshot image="1d6deb019191a5c33177bed578ba8645.png"/>
+          <screenshot image="6326968b3384a785fec6a79c022de51c.png" source="pagesource7728455390653440416.html.txt"/>
         </screenshots>
         <description>Click nav node: ourOrganization</description>
+        <error>org.openqa.selenium.ElementNotVisibleException: Timed out after 30 seconds. Element not available
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;BAH5CG70147KN&apos;, ip: &apos;192.168.64.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: driver.version: unknown</error>
+        <exception>org.openqa.selenium.ElementNotVisibleException:Timed out after 30 seconds. Element not available
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;BAH5CG70147KN&apos;, ip: &apos;192.168.64.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: driver.version: unknown&#xd;
+[gov.dol.bg.test.pages.EBSAHomepage.clickSubSubNavButtons(EBSAHomepage.java:187), gov.dol.bg.test.User.clickNavNode(User.java:242), gov.dol.bg.test.DailyRegression.when_I_click_on_each_link_in_the_aboutEBSA_tab(DailyRegression.java:151)]</exception>
       </test-step>
     </test-group>
-    <test-group name="Then the {ourOrganization} page should open correctly" result="SUCCESS">
-      <screenshots>
-        <screenshot image="2ae92903bae09d3b7271d6fa3883513b.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="889">
-        <screenshots>
-          <screenshot image="2ae92903bae09d3b7271d6fa3883513b.png"/>
-        </screenshots>
-        <description>Should see page: ourOrganization</description>
-      </test-step>
-    </test-group>
+    <test-step result="SKIPPED" duration="348">
+      <description>Then the {ourOrganization} page should open correctly</description>
+    </test-step>
   </test-group>
 </acceptance-test-run>

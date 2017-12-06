@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Workers &amp; Families tabs from the EBSA page" name="Verify all of the Workers &amp; Families tabs from the EBSA page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="15153" timestamp="2017-12-05T11:20:45.256-05:00" session-id="a27a7f0ea49ad9b8803434068fa9b67b">
+<acceptance-test-run title="Verify all of the Workers &amp; Families tabs from the EBSA page" name="Verify all of the Workers &amp; Families tabs from the EBSA page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="17570" timestamp="2017-12-06T14:45:29.059-05:00" session-id="b81c3f1198515c8c56eaf197527a72a7">
   <user-story id="ebsaRegression" name="Ebsa regression" path="stories/fullRegression/ebsaRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -22,17 +22,17 @@
   </examples>
   <test-group name="[1] {workFamMenuItem=disasterRelief}" result="SUCCESS">
     <screenshots>
-      <screenshot image="2ae92903bae09d3b7271d6fa3883513b.png"/>
+      <screenshot image="107c98bffb9a305341f4f47b44378931.png"/>
     </screenshots>
     <test-group name="Given the user is on the EBSA home page" result="SUCCESS">
       <screenshots>
-        <screenshot image="2ae92903bae09d3b7271d6fa3883513b.png"/>
+        <screenshot image="107c98bffb9a305341f4f47b44378931.png"/>
         <screenshot image="dfc492e0abf6e0f2c4257ef974c44521.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1582">
+      <test-step result="SUCCESS" duration="1388">
         <screenshots>
-          <screenshot image="2ae92903bae09d3b7271d6fa3883513b.png"/>
-          <screenshot image="d09f557793412ee694e65cd540865335.png"/>
+          <screenshot image="107c98bffb9a305341f4f47b44378931.png"/>
+          <screenshot image="ea2cee09509710b386d3ec3d5dbdf618.png"/>
         </screenshots>
         <description>On EBSA page</description>
       </test-step>
@@ -42,7 +42,7 @@
         <screenshot image="dfc492e0abf6e0f2c4257ef974c44521.png"/>
         <screenshot image="8a516fac66571174b4207cf74f3b8589.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="2553">
+      <test-step result="SUCCESS" duration="2966">
         <screenshots>
           <screenshot image="dfc492e0abf6e0f2c4257ef974c44521.png"/>
           <screenshot image="8a516fac66571174b4207cf74f3b8589.png"/>
@@ -54,7 +54,7 @@
       <screenshots>
         <screenshot image="8a516fac66571174b4207cf74f3b8589.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="732">
+      <test-step result="SUCCESS" duration="1189">
         <screenshots>
           <screenshot image="8a516fac66571174b4207cf74f3b8589.png"/>
         </screenshots>
@@ -71,10 +71,10 @@
         <screenshot image="8a516fac66571174b4207cf74f3b8589.png"/>
         <screenshot image="dfc492e0abf6e0f2c4257ef974c44521.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1371">
+      <test-step result="SUCCESS" duration="1418">
         <screenshots>
           <screenshot image="8a516fac66571174b4207cf74f3b8589.png"/>
-          <screenshot image="040559d128a5a6b5aa5813e0b30eb891.png"/>
+          <screenshot image="840e6e6a7351d0511e879cef37eb557e.png"/>
         </screenshots>
         <description>On EBSA page</description>
       </test-step>
@@ -84,7 +84,7 @@
         <screenshot image="dfc492e0abf6e0f2c4257ef974c44521.png"/>
         <screenshot image="eccf236bcf4b08df9f518eacedc773c5.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="2553">
+      <test-step result="SUCCESS" duration="3591">
         <screenshots>
           <screenshot image="dfc492e0abf6e0f2c4257ef974c44521.png"/>
           <screenshot image="eccf236bcf4b08df9f518eacedc773c5.png"/>
@@ -96,7 +96,7 @@
       <screenshots>
         <screenshot image="eccf236bcf4b08df9f518eacedc773c5.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="766">
+      <test-step result="SUCCESS" duration="731">
         <screenshots>
           <screenshot image="eccf236bcf4b08df9f518eacedc773c5.png"/>
         </screenshots>
