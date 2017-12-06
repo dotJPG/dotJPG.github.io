@@ -34,11 +34,11 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
-                ['Passing', 0.857143],
+                ['Passing', 1],
                 ['Pending', 0],
                 ['Ignored', 0],
                 ['Failing', 0],
-                ['Errors',  0.142857],
+                ['Errors',  0],
                 ['Compromised Tests',  0],
             ]
         ], {
@@ -68,10 +68,10 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '85.7% requirements tested successfully'},
+                {label: '100% requirements tested successfully'},
                 {label: '0% requirements untested'},
                 {label: '0%} requirements failing'},
-                {label: '14.3%} requirements with errors'},
+                {label: '0%} requirements with errors'},
                 {label: '0%} requirements with compromised tests'}
             ]
         });
@@ -168,7 +168,7 @@
             <a href="#"><i class="fa fa-comments-o"></i> Stories</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-12-2017 14:54</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-12-2017 16:19</span>
     <br style="clear:left"/>
 </div>
 
@@ -209,8 +209,8 @@
                                 <tr>
                                     <td class="summary-leading-column">Acceptance Criteria (tests)</td>
                                     <td>14</td>
-                                    <td>12</td>
-                                    <td>2</td>
+                                    <td>14</td>
+                                    <td>0</td>
                                     <td>0</td>
                                     <td>0</td>
                                     <td></td>
@@ -240,8 +240,8 @@
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>14</td>
-            <td>12 (86%)</td>
-            <td>2 (14%)</td>
+            <td>14 (100%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -256,14 +256,14 @@
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>14</td>
-            <td>12 (86%)</td>
-            <td>2 (0%)</td>
+            <td>14 (100%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">2 minutes 50 seconds</td>
+                <td colspan="5">2 minutes 10 seconds</td>
         </tr>
         </body>
     </table>
@@ -291,21 +291,21 @@
                         </thead>
                         <tbody>
 
-                            <tr class="test-ERROR">
-                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
-                                    <span style="display:none">ERROR</span></td>
-                                <td class="ERROR-text">
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
-                                    <a href="e870e316e97ba69167e2069bf689173e182e35f019f884a584e102e5f190b043.html" class="ellipsis" title="Element not visible exception: Timed out after 30 seconds. Element not available">
+                                    <a href="e870e316e97ba69167e2069bf689173e182e35f019f884a584e102e5f190b043.html" class="ellipsis" title="">
                                     Verify all of the About EBSA tabs from the EBSA page 
                                     </a></div>
                                 </td>
 
-                                <td class="lightgreentext">13</td>
+                                <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">45.83</td>
+                                <td class="lightgreentext">20.07</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -322,7 +322,7 @@
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">19.74</td>
+                                <td class="lightgreentext">18.07</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -339,7 +339,7 @@
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">16.42</td>
+                                <td class="lightgreentext">18.22</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -356,7 +356,7 @@
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">17.7</td>
+                                <td class="lightgreentext">18.21</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -373,7 +373,7 @@
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">18.37</td>
+                                <td class="lightgreentext">18</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -390,7 +390,7 @@
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">17.57</td>
+                                <td class="lightgreentext">14.75</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -407,7 +407,7 @@
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">34.43</td>
+                                <td class="lightgreentext">23.43</td>
                             </tr>
                         </tbody>
                     </table>
