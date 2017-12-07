@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Researchers tabs from the EBSA page" name="Verify all of the Researchers tabs from the EBSA page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="17998" timestamp="2017-12-06T16:12:14.287-05:00" session-id="833ccec7ed1c511545b0790c21ae2023">
+<acceptance-test-run title="Verify all of the Researchers tabs from the EBSA page" name="Verify all of the Researchers tabs from the EBSA page" steps="6" successful="4" failures="0" errors="1" skipped="1" ignored="0" pending="0" result="FAILURE" duration="45090" timestamp="2017-12-07T10:12:03.164-05:00" session-id="aa6005aa39e79e7d021bd7154265e0d6">
   <user-story id="ebsaRegression" name="Ebsa regression" path="stories/fullRegression/ebsaRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -12,7 +12,7 @@
       <header>researchersMenuItem</header>
     </headers>
     <rows>
-      <row result="SUCCESS">
+      <row result="ERROR">
         <value>retirementResources</value>
       </row>
       <row result="SUCCESS">
@@ -20,7 +20,7 @@
       </row>
     </rows>
   </examples>
-  <test-group name="[1] {researchersMenuItem=retirementResources}" result="SUCCESS">
+  <test-group name="[1] {researchersMenuItem=retirementResources}" result="ERROR">
     <screenshots>
       <screenshot image="42108eb1f648f7c2222b376762ea5b64.png"/>
     </screenshots>
@@ -29,52 +29,52 @@
         <screenshot image="42108eb1f648f7c2222b376762ea5b64.png"/>
         <screenshot image="dfc492e0abf6e0f2c4257ef974c44521.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1445">
+      <test-step result="SUCCESS" duration="1309">
         <screenshots>
           <screenshot image="42108eb1f648f7c2222b376762ea5b64.png"/>
-          <screenshot image="cf2119bfee0d9fefc9f3c87773d9d469.png"/>
+          <screenshot image="d17bb52bab639d45a79b210a25528f3f.png"/>
         </screenshots>
         <description>On EBSA page</description>
       </test-step>
     </test-group>
-    <test-group name="When the user clicks on {retirementResources} within the Researchers tab on the menu bar" result="SUCCESS">
+    <test-group name="When the user clicks on ｟retirementResources｠ within the Researchers tab on the menu bar" result="ERROR">
       <screenshots>
         <screenshot image="dfc492e0abf6e0f2c4257ef974c44521.png"/>
-        <screenshot image="42c1238c034c269fe6c3f6111e71fc54.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="3706">
+      <test-step result="ERROR" duration="32296">
         <screenshots>
           <screenshot image="dfc492e0abf6e0f2c4257ef974c44521.png"/>
-          <screenshot image="42c1238c034c269fe6c3f6111e71fc54.png"/>
+          <screenshot image="fcdc7afb5fff88e4f5548b82478a0ae6.png" source="pagesource1775188135091997603.html.txt"/>
         </screenshots>
         <description>Click nav node: retirementResources</description>
+        <error>org.openqa.selenium.ElementNotVisibleException: Timed out after 30 seconds. Element not available
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;BAH5CG70147KN&apos;, ip: &apos;192.168.64.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: driver.version: unknown</error>
+        <exception>org.openqa.selenium.ElementNotVisibleException:Timed out after 30 seconds. Element not available
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;BAH5CG70147KN&apos;, ip: &apos;192.168.64.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: driver.version: unknown&#xd;
+[gov.dol.bg.test.pages.EBSAHomepage.clickSubSubNavButtons(EBSAHomepage.java:187), gov.dol.bg.test.User.clickNavNode(User.java:266), gov.dol.bg.test.DailyRegression.when_I_click_on_each_link_in_the_researchers_tab(DailyRegression.java:175)]</exception>
       </test-step>
     </test-group>
-    <test-group name="Then the {retirementResources} page should open correctly" result="SUCCESS">
-      <screenshots>
-        <screenshot image="42c1238c034c269fe6c3f6111e71fc54.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="697">
-        <screenshots>
-          <screenshot image="42c1238c034c269fe6c3f6111e71fc54.png"/>
-        </screenshots>
-        <description>Should see page: retirementResources</description>
-      </test-step>
-    </test-group>
+    <test-step result="SKIPPED" duration="0">
+      <description>Then the {retirementResources} page should open correctly</description>
+    </test-step>
   </test-group>
   <test-group name="[2] {researchersMenuItem=pensionPlan}" result="SUCCESS">
     <screenshots>
-      <screenshot image="42c1238c034c269fe6c3f6111e71fc54.png"/>
+      <screenshot image="fcdc7afb5fff88e4f5548b82478a0ae6.png"/>
     </screenshots>
     <test-group name="Given the user is on the EBSA home page" result="SUCCESS">
       <screenshots>
-        <screenshot image="42c1238c034c269fe6c3f6111e71fc54.png"/>
+        <screenshot image="fcdc7afb5fff88e4f5548b82478a0ae6.png"/>
         <screenshot image="dfc492e0abf6e0f2c4257ef974c44521.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1409">
+      <test-step result="SUCCESS" duration="1364">
         <screenshots>
-          <screenshot image="42c1238c034c269fe6c3f6111e71fc54.png"/>
-          <screenshot image="d08e5057abeb9533cd22cb87beb3c01c.png"/>
+          <screenshot image="fcdc7afb5fff88e4f5548b82478a0ae6.png"/>
+          <screenshot image="11902cfada87b81bfa51f6fdb1070f0a.png"/>
         </screenshots>
         <description>On EBSA page</description>
       </test-step>
@@ -84,7 +84,7 @@
         <screenshot image="dfc492e0abf6e0f2c4257ef974c44521.png"/>
         <screenshot image="91fba15be94639e1001f884ddf40dbd7.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="4745">
+      <test-step result="SUCCESS" duration="5072">
         <screenshots>
           <screenshot image="dfc492e0abf6e0f2c4257ef974c44521.png"/>
           <screenshot image="91fba15be94639e1001f884ddf40dbd7.png"/>
@@ -96,7 +96,7 @@
       <screenshots>
         <screenshot image="91fba15be94639e1001f884ddf40dbd7.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="739">
+      <test-step result="SUCCESS" duration="728">
         <screenshots>
           <screenshot image="91fba15be94639e1001f884ddf40dbd7.png"/>
         </screenshots>
