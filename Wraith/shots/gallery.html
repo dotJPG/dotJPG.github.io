@@ -108,28 +108,41 @@
   </style>
   <script type="text/javascript">
     $(function() {
-      $('.slideshow').cycle({
+      var slideshow = $('.slideshow');
+      var compareModal = $('.compare-modal');
+
+      slideshow.cycle({
         fx:     'scrollHorz',
         speed:  300,
         prev:   '.prev',
         next:   '.next',
         before: function (curr, next, opts) {
           $('.current').removeClass('current');
-          var path = $(next).find('.path').attr('name');
+          var $next = $(next);
+          var path = $next.find('.path').attr('name');
           $.each($('.list-group .list-group-item a'), function() {
             if ($(this).attr('href').substring(1) == path) {
               $(this).parent().addClass('checked');
               $(this).parent().addClass('current');
             }
-          })
+          });
+
+          var newImage = $next.find('a.shot:eq(0)').attr('href');
+          var oldImage = $next.find('a.shot:eq(1)').attr('href');
+          var diffImage = $next.find('a.shot:eq(2)').attr('href');
+          compareModal.html('<div class="compare-container"><img src="'+newImage+'"/><img src="'+oldImage+'"/><img src="'+diffImage+'"/></div>');
         },
         timeout: 0
+      });
+
+      $(document).on('click', '.compare', function() {
+        compareModal.show();
       });
 
       $('.list-group .list-group-item a').unbind().on('click', function(){
         var href = $(this).attr('href').substring(1);
 
-        $('.slideshow').cycle($('.slide.'+href+':first').index());
+        slideshow.cycle($('.slide.'+href+':first').index());
       })
 
       $('.shot').unbind().on('click', function(e){
@@ -138,26 +151,30 @@
         window.open(url,'_blank');
       })
 
-      $('.compare').unbind().on('click', function(){
-        var slide = $(this).closest(".slide"),
-            newImage = slide.find('a.shot:eq(0)').attr('href'),
-            oldImage = slide.find('a.shot:eq(1)').attr('href'),
-            diffImage = slide.find('a.shot:eq(2)').attr('href');
-        $('.container').append('<div class="compare-modal"><div class="compare-container"><img src="'+newImage+'"/><img src="'+oldImage+'"/><img src="'+diffImage+'"/></div></div>');
-        $('.compare-modal').unbind().on('click', function(){
-          $(this).remove();
-        })
-      })
+      compareModal.on('click', function(){
+        $(this).hide();
+      });
+
+      $(document).on('keyup', function(e) {
+        if (e.keyCode === 27) { // Escape
+          compareModal.hide();
+        } else if (e.keyCode === 37) { // Left
+          slideshow.cycle('prev');
+        } else if (e.keyCode === 39) { // Right
+          slideshow.cycle('next');
+        }
+      });
     })
 </script>
 </head>
 <body>
+  <div class="compare-modal" style="display: none;"></div>
   <div class="container">
     <div class="row">
       <div class="col-sm-12 col-md-3">
         <div class="panel">
-          <div class="page-header"><a href="/index.html">Home</a>
-            <h4>List of screenshots for shots <small>taken 2017/12/07 13:35:04</small></h4>
+          <div class="page-header">
+            <h4>List of screenshots for shots <small>taken 2017/12/28 16:13:35</small></h4>
           </div>
           <div class="panel-heading">Pages:</div>
           <ul class="list-group list-group-flush">
@@ -566,7 +583,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center text-muted">0.0 % different<span class="compare"></span></h4>
+                <h4 class="text-center text-muted">0.61 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -607,7 +624,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center text-muted">0.0 % different<span class="compare"></span></h4>
+                <h4 class="text-center text-muted">0.54 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -650,7 +667,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center text-muted">0.08 % different<span class="compare"></span></h4>
+                <h4 class="text-center text-muted">0.0 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -691,7 +708,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center text-muted">0.09 % different<span class="compare"></span></h4>
+                <h4 class="text-center text-muted">0.0 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -732,7 +749,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center text-muted">0.03 % different<span class="compare"></span></h4>
+                <h4 class="text-center text-muted">0.0 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -773,7 +790,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center text-muted">0.05 % different<span class="compare"></span></h4>
+                <h4 class="text-center text-muted">0.0 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -814,7 +831,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center text-muted">0.02 % different<span class="compare"></span></h4>
+                <h4 class="text-center text-muted">0.0 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -898,7 +915,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center text-muted">0.09 % different<span class="compare"></span></h4>
+                <h4 class="text-center text-muted">0.0 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -939,7 +956,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center text-muted">0.07 % different<span class="compare"></span></h4>
+                <h4 class="text-center text-muted">0.0 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -980,7 +997,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center text-muted">0.03 % different<span class="compare"></span></h4>
+                <h4 class="text-center text-muted">0.0 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -1021,7 +1038,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center text-muted">0.02 % different<span class="compare"></span></h4>
+                <h4 class="text-center text-muted">0.0 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -1105,7 +1122,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center text-muted">0.17 % different<span class="compare"></span></h4>
+                <h4 class="text-center text-muted">0.0 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -1146,7 +1163,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center text-muted">0.07 % different<span class="compare"></span></h4>
+                <h4 class="text-center text-muted">0.0 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -1187,7 +1204,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center text-muted">0.05 % different<span class="compare"></span></h4>
+                <h4 class="text-center text-muted">0.0 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -1228,7 +1245,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center text-muted">0.04 % different<span class="compare"></span></h4>
+                <h4 class="text-center text-muted">0.0 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -1271,7 +1288,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center text-muted">0.0 % different<span class="compare"></span></h4>
+                <h4 class="text-center text-muted">0.02 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -1312,7 +1329,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center text-muted">0.17 % different<span class="compare"></span></h4>
+                <h4 class="text-center text-muted">0.02 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -1353,7 +1370,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center text-muted">0.1 % different<span class="compare"></span></h4>
+                <h4 class="text-center text-muted">0.01 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -1394,7 +1411,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center text-muted">0.08 % different<span class="compare"></span></h4>
+                <h4 class="text-center text-muted">0.01 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -1435,7 +1452,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center text-muted">0.06 % different<span class="compare"></span></h4>
+                <h4 class="text-center text-muted">0.01 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -1478,7 +1495,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center threshold">36.88 % different<span class="compare"></span></h4>
+                <h4 class="text-center text-muted">0.78 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -1519,7 +1536,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center threshold">20.4 % different<span class="compare"></span></h4>
+                <h4 class="text-center text-muted">0.0 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -1560,7 +1577,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center threshold">12.76 % different<span class="compare"></span></h4>
+                <h4 class="text-center text-muted">1.39 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -1601,7 +1618,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center threshold">18.45 % different<span class="compare"></span></h4>
+                <h4 class="text-center threshold">12.22 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -1642,7 +1659,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center threshold">20.64 % different<span class="compare"></span></h4>
+                <h4 class="text-center threshold">9.48 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -1974,7 +1991,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center text-muted">0.3 % different<span class="compare"></span></h4>
+                <h4 class="text-center text-muted">2.12 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -2015,7 +2032,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center text-muted">0.18 % different<span class="compare"></span></h4>
+                <h4 class="text-center text-muted">1.63 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -2056,7 +2073,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center text-muted">0.14 % different<span class="compare"></span></h4>
+                <h4 class="text-center text-muted">1.38 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -2306,7 +2323,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center text-muted">0.04 % different<span class="compare"></span></h4>
+                <h4 class="text-center text-muted">0.0 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -2347,7 +2364,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center text-muted">0.09 % different<span class="compare"></span></h4>
+                <h4 class="text-center text-muted">0.0 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -2388,7 +2405,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center text-muted">0.03 % different<span class="compare"></span></h4>
+                <h4 class="text-center text-muted">0.0 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -2429,7 +2446,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center text-muted">0.03 % different<span class="compare"></span></h4>
+                <h4 class="text-center text-muted">0.0 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -2470,7 +2487,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center text-muted">0.02 % different<span class="compare"></span></h4>
+                <h4 class="text-center text-muted">0.0 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -2720,7 +2737,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center threshold">66.08 % different<span class="compare"></span></h4>
+                <h4 class="text-center threshold">57.06 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -2761,7 +2778,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center threshold">44.37 % different<span class="compare"></span></h4>
+                <h4 class="text-center threshold">32.16 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -2802,7 +2819,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center threshold">66.21 % different<span class="compare"></span></h4>
+                <h4 class="text-center threshold">59.33 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -2843,7 +2860,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center threshold">53.31 % different<span class="compare"></span></h4>
+                <h4 class="text-center threshold">47.82 % different<span class="compare"></span></h4>
                 
                 
               </div>
@@ -2884,7 +2901,7 @@
               <div class="difference col-sm-12">
                 
                 
-                <h4 class="text-center threshold">51.08 % different<span class="compare"></span></h4>
+                <h4 class="text-center threshold">45.11 % different<span class="compare"></span></h4>
                 
                 
               </div>
