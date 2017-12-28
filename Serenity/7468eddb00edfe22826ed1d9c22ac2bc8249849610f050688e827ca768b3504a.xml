@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Resources tabs from the ILAB page" name="Verify all of the Resources tabs from the ILAB page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="22454" timestamp="2017-12-28T16:02:44.644-05:00" session-id="609c41e242c57ccd78434931875af6d6">
+<acceptance-test-run title="Verify all of the Resources tabs from the ILAB page" name="Verify all of the Resources tabs from the ILAB page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="21957" timestamp="2017-12-28T16:46:31.115-05:00" session-id="b7faf826c4e8fa1e800d94b1998f1998">
   <user-story id="ilabRegression" name="Ilab regression" path="stories/fullRegression/ilabRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -22,17 +22,17 @@
   </examples>
   <test-group name="[1] {resourcesMenuItem=reportsAndPublications}" result="SUCCESS">
     <screenshots>
-      <screenshot image="4d032f6d7ac498db2fd56e782ef1e202.png"/>
+      <screenshot image="daef5613696689231b6f7c5e567b3535.png"/>
     </screenshots>
     <test-group name="Given the user is on the ILAB home page" result="SUCCESS">
       <screenshots>
-        <screenshot image="4d032f6d7ac498db2fd56e782ef1e202.png"/>
+        <screenshot image="daef5613696689231b6f7c5e567b3535.png"/>
         <screenshot image="2c139785ba1fd6cf16a62b904c1b791a.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1896">
+      <test-step result="SUCCESS" duration="1823">
         <screenshots>
-          <screenshot image="4d032f6d7ac498db2fd56e782ef1e202.png"/>
-          <screenshot image="a04ca0d2a662b18f35d3ec8ae00792eb.png"/>
+          <screenshot image="daef5613696689231b6f7c5e567b3535.png"/>
+          <screenshot image="0690bb1fc8f9ac8b14d0b4f79cd4747e.png"/>
         </screenshots>
         <description>On ILAB page</description>
       </test-step>
@@ -42,7 +42,7 @@
         <screenshot image="2c139785ba1fd6cf16a62b904c1b791a.png"/>
         <screenshot image="d6bdd8cb72b7aeec0e1cb7a17184468d.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="4981">
+      <test-step result="SUCCESS" duration="5474">
         <screenshots>
           <screenshot image="2c139785ba1fd6cf16a62b904c1b791a.png"/>
           <screenshot image="d6bdd8cb72b7aeec0e1cb7a17184468d.png"/>
@@ -54,7 +54,7 @@
       <screenshots>
         <screenshot image="d6bdd8cb72b7aeec0e1cb7a17184468d.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="788">
+      <test-step result="SUCCESS" duration="790">
         <screenshots>
           <screenshot image="d6bdd8cb72b7aeec0e1cb7a17184468d.png"/>
         </screenshots>
@@ -71,10 +71,10 @@
         <screenshot image="d6bdd8cb72b7aeec0e1cb7a17184468d.png"/>
         <screenshot image="2c139785ba1fd6cf16a62b904c1b791a.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1916">
+      <test-step result="SUCCESS" duration="1964">
         <screenshots>
           <screenshot image="d6bdd8cb72b7aeec0e1cb7a17184468d.png"/>
-          <screenshot image="53ef61abbe8a9db0e396a7ec0a248d5d.png"/>
+          <screenshot image="a04ca0d2a662b18f35d3ec8ae00792eb.png"/>
         </screenshots>
         <description>On ILAB page</description>
       </test-step>
@@ -84,7 +84,7 @@
         <screenshot image="2c139785ba1fd6cf16a62b904c1b791a.png"/>
         <screenshot image="488c2a50e61ae399c4278fe69fae769a.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="3865">
+      <test-step result="SUCCESS" duration="2944">
         <screenshots>
           <screenshot image="2c139785ba1fd6cf16a62b904c1b791a.png"/>
           <screenshot image="488c2a50e61ae399c4278fe69fae769a.png"/>
@@ -96,7 +96,7 @@
       <screenshots>
         <screenshot image="488c2a50e61ae399c4278fe69fae769a.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="858">
+      <test-step result="SUCCESS" duration="855">
         <screenshots>
           <screenshot image="488c2a50e61ae399c4278fe69fae769a.png"/>
         </screenshots>
