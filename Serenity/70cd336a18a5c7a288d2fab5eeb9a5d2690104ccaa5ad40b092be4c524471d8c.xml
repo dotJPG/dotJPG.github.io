@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Social Media navigation links open correctly" name="Verify all of the Social Media navigation links open correctly" steps="15" successful="14" failures="0" errors="1" skipped="0" ignored="0" pending="0" result="FAILURE" duration="95477" timestamp="2017-12-28T16:50:30.709-05:00" session-id="6024a9317a27c4ac4792b1da3a710722">
+<acceptance-test-run title="Verify all of the Social Media navigation links open correctly" name="Verify all of the Social Media navigation links open correctly" steps="15" successful="14" failures="0" errors="1" skipped="0" ignored="0" pending="0" result="FAILURE" duration="104980" timestamp="2018-01-02T14:26:39.608-05:00" session-id="fefd70f7286600ab1b465ffa88b35eea">
   <user-story id="dolHomepageRegression" name="Dol homepage regression" path="stories/fullRegression/dolHomepageRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -31,41 +31,42 @@
   </examples>
   <test-group name="[1] {socMediaLink=Twitter}" result="SUCCESS">
     <screenshots>
-      <screenshot image="e7074eb543cd9152aa7f66038073443c.png"/>
+      <screenshot image="8c6dc40c1a5668b6fbae1c8c07e775bc.png"/>
     </screenshots>
     <test-group name="Given the user is on the DOL home page" result="SUCCESS">
       <screenshots>
-        <screenshot image="e7074eb543cd9152aa7f66038073443c.png"/>
-        <screenshot image="cd9de43749baf4a0073b19406a2114e2.png"/>
+        <screenshot image="8c6dc40c1a5668b6fbae1c8c07e775bc.png"/>
+        <screenshot image="8f08a2314f598aa30b0b7a830a02fe87.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1327">
+      <test-step result="SUCCESS" duration="1343">
         <screenshots>
-          <screenshot image="e7074eb543cd9152aa7f66038073443c.png"/>
-          <screenshot image="251e1de82210fd50374f29bba88c2472.png"/>
+          <screenshot image="8c6dc40c1a5668b6fbae1c8c07e775bc.png"/>
+          <screenshot image="62ec25a7c46f0194f9c3e1b909f9b709.png"/>
         </screenshots>
         <description>On home page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on the {Twitter} link" result="SUCCESS">
       <screenshots>
-        <screenshot image="cd9de43749baf4a0073b19406a2114e2.png"/>
-        <screenshot image="418225fc4df4b95b84103eb6ead3c436.png"/>
+        <screenshot image="8f08a2314f598aa30b0b7a830a02fe87.png"/>
+        <screenshot image="4f4d8be50cf23ee3d3b84e3dc65355fa.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="3245">
+      <test-step result="SUCCESS" duration="3320">
         <screenshots>
-          <screenshot image="cd9de43749baf4a0073b19406a2114e2.png"/>
-          <screenshot image="115190bf8590f165cccb149038806d0d.png"/>
+          <screenshot image="8f08a2314f598aa30b0b7a830a02fe87.png"/>
+          <screenshot image="2722d9c03688a61c55eca240f2a6be3f.png"/>
         </screenshots>
         <description>Click nav node: Twitter</description>
       </test-step>
     </test-group>
     <test-group name="Then the {Twitter} page should open correctly" result="SUCCESS">
       <screenshots>
-        <screenshot image="1b42fec14200b7d0dc735f0d3f631a2b.png"/>
+        <screenshot image="4f4d8be50cf23ee3d3b84e3dc65355fa.png"/>
+        <screenshot image="a1c29fbd62d2f0e12f87eb602525a4da.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1968">
+      <test-step result="SUCCESS" duration="2331">
         <screenshots>
-          <screenshot image="1b42fec14200b7d0dc735f0d3f631a2b.png"/>
+          <screenshot image="a1c29fbd62d2f0e12f87eb602525a4da.png"/>
         </screenshots>
         <description>Should see page: Twitter</description>
       </test-step>
@@ -73,41 +74,41 @@
   </test-group>
   <test-group name="[2] {socMediaLink=Facebook}" result="SUCCESS">
     <screenshots>
-      <screenshot image="5d185c3be89dc6e7c6ac21ed1277780c.png"/>
+      <screenshot image="4f4d8be50cf23ee3d3b84e3dc65355fa.png"/>
     </screenshots>
     <test-group name="Given the user is on the DOL home page" result="SUCCESS">
       <screenshots>
-        <screenshot image="5d185c3be89dc6e7c6ac21ed1277780c.png"/>
-        <screenshot image="cd9de43749baf4a0073b19406a2114e2.png"/>
+        <screenshot image="4f4d8be50cf23ee3d3b84e3dc65355fa.png"/>
+        <screenshot image="8f08a2314f598aa30b0b7a830a02fe87.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="2195">
+      <test-step result="SUCCESS" duration="2304">
         <screenshots>
-          <screenshot image="5d185c3be89dc6e7c6ac21ed1277780c.png"/>
-          <screenshot image="fb9e0529e961e3b89f90067532073da3.png"/>
+          <screenshot image="4f4d8be50cf23ee3d3b84e3dc65355fa.png"/>
+          <screenshot image="89e3dc7b482401ffbd1623668afebf01.png"/>
         </screenshots>
         <description>On home page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on the {Facebook} link" result="SUCCESS">
       <screenshots>
-        <screenshot image="cd9de43749baf4a0073b19406a2114e2.png"/>
-        <screenshot image="b6c61b7b831d4edc0b754191e824f91e.png"/>
+        <screenshot image="8f08a2314f598aa30b0b7a830a02fe87.png"/>
+        <screenshot image="249d6ab1d064059953b40a0bf266ddc2.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="9597">
+      <test-step result="SUCCESS" duration="18837">
         <screenshots>
-          <screenshot image="cd9de43749baf4a0073b19406a2114e2.png"/>
-          <screenshot image="b6c61b7b831d4edc0b754191e824f91e.png"/>
+          <screenshot image="8f08a2314f598aa30b0b7a830a02fe87.png"/>
+          <screenshot image="249d6ab1d064059953b40a0bf266ddc2.png"/>
         </screenshots>
         <description>Click nav node: Facebook</description>
       </test-step>
     </test-group>
     <test-group name="Then the {Facebook} page should open correctly" result="SUCCESS">
       <screenshots>
-        <screenshot image="b6c61b7b831d4edc0b754191e824f91e.png"/>
+        <screenshot image="249d6ab1d064059953b40a0bf266ddc2.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1995">
+      <test-step result="SUCCESS" duration="1960">
         <screenshots>
-          <screenshot image="b6c61b7b831d4edc0b754191e824f91e.png"/>
+          <screenshot image="249d6ab1d064059953b40a0bf266ddc2.png"/>
         </screenshots>
         <description>Should see page: Facebook</description>
       </test-step>
@@ -115,65 +116,65 @@
   </test-group>
   <test-group name="[3] {socMediaLink=LinkedIn}" result="ERROR">
     <screenshots>
-      <screenshot image="b6c61b7b831d4edc0b754191e824f91e.png"/>
+      <screenshot image="249d6ab1d064059953b40a0bf266ddc2.png"/>
     </screenshots>
     <test-group name="Given the user is on the DOL home page" result="SUCCESS">
       <screenshots>
-        <screenshot image="b6c61b7b831d4edc0b754191e824f91e.png"/>
-        <screenshot image="cd9de43749baf4a0073b19406a2114e2.png"/>
+        <screenshot image="249d6ab1d064059953b40a0bf266ddc2.png"/>
+        <screenshot image="8f08a2314f598aa30b0b7a830a02fe87.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="2082">
+      <test-step result="SUCCESS" duration="2089">
         <screenshots>
-          <screenshot image="b6c61b7b831d4edc0b754191e824f91e.png"/>
-          <screenshot image="945f06ea5aada8124777420929c7203e.png"/>
+          <screenshot image="249d6ab1d064059953b40a0bf266ddc2.png"/>
+          <screenshot image="4b5a664ed1d6bc9c7eb5097d87437fbd.png"/>
         </screenshots>
         <description>On home page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on the {LinkedIn} link" result="SUCCESS">
       <screenshots>
-        <screenshot image="cd9de43749baf4a0073b19406a2114e2.png"/>
-        <screenshot image="c7c0ffbab0e30bef9bc6373ef3dbc4df.png"/>
+        <screenshot image="8f08a2314f598aa30b0b7a830a02fe87.png"/>
+        <screenshot image="145f274e6facf733927ff650951fce54.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="2833">
+      <test-step result="SUCCESS" duration="2742">
         <screenshots>
-          <screenshot image="cd9de43749baf4a0073b19406a2114e2.png"/>
-          <screenshot image="c7c0ffbab0e30bef9bc6373ef3dbc4df.png"/>
+          <screenshot image="8f08a2314f598aa30b0b7a830a02fe87.png"/>
+          <screenshot image="145f274e6facf733927ff650951fce54.png"/>
         </screenshots>
         <description>Click nav node: LinkedIn</description>
       </test-step>
     </test-group>
     <test-group name="Then the ｟LinkedIn｠ page should open correctly" result="ERROR">
       <screenshots>
-        <screenshot image="c7c0ffbab0e30bef9bc6373ef3dbc4df.png"/>
+        <screenshot image="145f274e6facf733927ff650951fce54.png"/>
       </screenshots>
-      <test-step result="ERROR" duration="30879">
+      <test-step result="ERROR" duration="30852">
         <screenshots>
-          <screenshot image="c7c0ffbab0e30bef9bc6373ef3dbc4df.png"/>
-          <screenshot image="c7c0ffbab0e30bef9bc6373ef3dbc4df.png" source="pagesource1489815045358567136.html.txt"/>
+          <screenshot image="145f274e6facf733927ff650951fce54.png"/>
+          <screenshot image="145f274e6facf733927ff650951fce54.png" source="pagesource3569380815608158930.html.txt"/>
         </screenshots>
         <description>Should see page: LinkedIn</description>
         <error>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//*[@class=&apos;ProfileHeaderCard-nameLink u-textInheritColor js-nav&apos;] | //*[@id=&quot;seo_h1_tag&quot;]/a |//*[@id=&apos;stream-about-section&apos;]/div[2]/div[2]/ul/li[1]/h4 |//*[@id=&apos;channel-title&apos;] |//*[@id=&apos;quick_subscribe_new&apos;]/h1)&quot;}
   (Session info: chrome=63.0.3239.84)
   (Driver info: chromedriver=2.34.522932 (4140ab217e1ca1bec0c4b4d1b148f3361eb3a03e),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30.05 seconds
+Command duration or timeout: 30.04 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
 System info: host: &apos;c02vj0eahtdg.users.bah.com&apos;, ip: &apos;10.201.8.58&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_152&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522932 (4140ab217e1ca1bec0c4b4d1b148f3361eb3a03e), userDataDir=/var/folders/y_/1vk31t113zd18dv5_4lx_t7m0000gn/T/.org.chromium.Chromium.n3Gfm0}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.84, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 6024a9317a27c4ac4792b1da3a710722
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522932 (4140ab217e1ca1bec0c4b4d1b148f3361eb3a03e), userDataDir=/var/folders/y_/1vk31t113zd18dv5_4lx_t7m0000gn/T/.org.chromium.Chromium.G8djRK}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.84, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: fefd70f7286600ab1b465ffa88b35eea
 *** Element info: {Using=xpath, value=(//*[@class=&apos;ProfileHeaderCard-nameLink u-textInheritColor js-nav&apos;] | //*[@id=&quot;seo_h1_tag&quot;]/a |//*[@id=&apos;stream-about-section&apos;]/div[2]/div[2]/ul/li[1]/h4 |//*[@id=&apos;channel-title&apos;] |//*[@id=&apos;quick_subscribe_new&apos;]/h1)}</error>
         <exception>org.openqa.selenium.NoSuchElementException:no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//*[@class=&apos;ProfileHeaderCard-nameLink u-textInheritColor js-nav&apos;] | //*[@id=&quot;seo_h1_tag&quot;]/a |//*[@id=&apos;stream-about-section&apos;]/div[2]/div[2]/ul/li[1]/h4 |//*[@id=&apos;channel-title&apos;] |//*[@id=&apos;quick_subscribe_new&apos;]/h1)&quot;}
   (Session info: chrome=63.0.3239.84)
   (Driver info: chromedriver=2.34.522932 (4140ab217e1ca1bec0c4b4d1b148f3361eb3a03e),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30.05 seconds
+Command duration or timeout: 30.04 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
 System info: host: &apos;c02vj0eahtdg.users.bah.com&apos;, ip: &apos;10.201.8.58&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_152&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522932 (4140ab217e1ca1bec0c4b4d1b148f3361eb3a03e), userDataDir=/var/folders/y_/1vk31t113zd18dv5_4lx_t7m0000gn/T/.org.chromium.Chromium.n3Gfm0}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.84, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 6024a9317a27c4ac4792b1da3a710722
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522932 (4140ab217e1ca1bec0c4b4d1b148f3361eb3a03e), userDataDir=/var/folders/y_/1vk31t113zd18dv5_4lx_t7m0000gn/T/.org.chromium.Chromium.G8djRK}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.84, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: fefd70f7286600ab1b465ffa88b35eea
 *** Element info: {Using=xpath, value=(//*[@class=&apos;ProfileHeaderCard-nameLink u-textInheritColor js-nav&apos;] | //*[@id=&quot;seo_h1_tag&quot;]/a |//*[@id=&apos;stream-about-section&apos;]/div[2]/div[2]/ul/li[1]/h4 |//*[@id=&apos;channel-title&apos;] |//*[@id=&apos;quick_subscribe_new&apos;]/h1)}
 [gov.dol.bg.test.pages.DOLHomepage.verifySocialMedia(DOLHomepage.java:161), gov.dol.bg.test.User.shouldSeePage(User.java:411), gov.dol.bg.test.DailyRegression.the_socMediaLink_page_should_open_correctlyy(DailyRegression.java:85)]</exception>
       </test-step>
@@ -181,43 +182,43 @@ Session ID: 6024a9317a27c4ac4792b1da3a710722
   </test-group>
   <test-group name="[4] {socMediaLink=YouTube}" result="SUCCESS">
     <screenshots>
-      <screenshot image="c7c0ffbab0e30bef9bc6373ef3dbc4df.png"/>
+      <screenshot image="145f274e6facf733927ff650951fce54.png"/>
     </screenshots>
     <test-group name="Given the user is on the DOL home page" result="SUCCESS">
       <screenshots>
-        <screenshot image="c7c0ffbab0e30bef9bc6373ef3dbc4df.png"/>
-        <screenshot image="cd9de43749baf4a0073b19406a2114e2.png"/>
+        <screenshot image="145f274e6facf733927ff650951fce54.png"/>
+        <screenshot image="8f08a2314f598aa30b0b7a830a02fe87.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1466">
+      <test-step result="SUCCESS" duration="1452">
         <screenshots>
-          <screenshot image="c7c0ffbab0e30bef9bc6373ef3dbc4df.png"/>
-          <screenshot image="945f06ea5aada8124777420929c7203e.png"/>
+          <screenshot image="145f274e6facf733927ff650951fce54.png"/>
+          <screenshot image="e31838a8d4c8d8caa9365d736ba7ce1c.png"/>
         </screenshots>
         <description>On home page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on the {YouTube} link" result="SUCCESS">
       <screenshots>
-        <screenshot image="cd9de43749baf4a0073b19406a2114e2.png"/>
-        <screenshot image="b74f0e221843a8b60818c840c993c17a.png"/>
+        <screenshot image="8f08a2314f598aa30b0b7a830a02fe87.png"/>
+        <screenshot image="641986851737a6b3a56aa0565d25c1cd.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="4698">
+      <test-step result="SUCCESS" duration="4266">
         <screenshots>
-          <screenshot image="cd9de43749baf4a0073b19406a2114e2.png"/>
-          <screenshot image="39116da2f81cd6db314d86a10cecdaae.png"/>
+          <screenshot image="8f08a2314f598aa30b0b7a830a02fe87.png"/>
+          <screenshot image="99deb444ad14ae671cf8a60db89e0197.png"/>
         </screenshots>
         <description>Click nav node: YouTube</description>
       </test-step>
     </test-group>
     <test-group name="Then the {YouTube} page should open correctly" result="SUCCESS">
       <screenshots>
-        <screenshot image="bd4a2630df3a0973462d0c2066e5da50.png"/>
-        <screenshot image="a8d8230a81af93654236409b6ff9c32b.png"/>
+        <screenshot image="a97ae488fa60c1c84cbe3fd442c53ca1.png"/>
+        <screenshot image="3ee2409eb0c74fb6a6ade9d759fa7536.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="2456">
+      <test-step result="SUCCESS" duration="2390">
         <screenshots>
-          <screenshot image="446bf4fc851433c6ff4dc6878dcc5023.png"/>
-          <screenshot image="c80c80b78be8cc8ae1623fb7c22d413a.png"/>
+          <screenshot image="fe38800499336301a9bd6179a8c9a345.png"/>
+          <screenshot image="9621ac2cd69b06ceaa810b8da3f26498.png"/>
         </screenshots>
         <description>Should see page: YouTube</description>
       </test-step>
@@ -225,42 +226,42 @@ Session ID: 6024a9317a27c4ac4792b1da3a710722
   </test-group>
   <test-group name="[5] {socMediaLink=Email}" result="SUCCESS">
     <screenshots>
-      <screenshot image="fb19a69da6f6751b87827e2dda272ff0.png"/>
+      <screenshot image="5bff36336e565202c764d03a6bcbe35d.png"/>
     </screenshots>
     <test-group name="Given the user is on the DOL home page" result="SUCCESS">
       <screenshots>
-        <screenshot image="1f6e1ff04aeb17c335ce1cc112ab6635.png"/>
-        <screenshot image="cd9de43749baf4a0073b19406a2114e2.png"/>
+        <screenshot image="e8f5912ee030c887ff21d0a5ea40a0c8.png"/>
+        <screenshot image="8f08a2314f598aa30b0b7a830a02fe87.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="2290">
+      <test-step result="SUCCESS" duration="2305">
         <screenshots>
-          <screenshot image="cca04abca245ffb71e94f08b6b9fbde2.png"/>
-          <screenshot image="0c0ede6e9b54c2ce7aca5a5a70e78308.png"/>
+          <screenshot image="ecc11a5ce4cc16ba318aaba5deedba99.png"/>
+          <screenshot image="78aee024915de1199da12dd6c052eef8.png"/>
         </screenshots>
         <description>On home page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on the {Email} link" result="SUCCESS">
       <screenshots>
-        <screenshot image="cd9de43749baf4a0073b19406a2114e2.png"/>
-        <screenshot image="614640b5f320093e8f418a2aaa84387f.png"/>
+        <screenshot image="8f08a2314f598aa30b0b7a830a02fe87.png"/>
+        <screenshot image="061e7942b4cd97685aae9f72c0f5b142.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1479">
+      <test-step result="SUCCESS" duration="1619">
         <screenshots>
-          <screenshot image="cd9de43749baf4a0073b19406a2114e2.png"/>
-          <screenshot image="614640b5f320093e8f418a2aaa84387f.png"/>
+          <screenshot image="8f08a2314f598aa30b0b7a830a02fe87.png"/>
+          <screenshot image="061e7942b4cd97685aae9f72c0f5b142.png"/>
         </screenshots>
         <description>Click nav node: Email</description>
       </test-step>
     </test-group>
     <test-group name="Then the {Email} page should open correctly" result="SUCCESS">
       <screenshots>
-        <screenshot image="614640b5f320093e8f418a2aaa84387f.png"/>
+        <screenshot image="061e7942b4cd97685aae9f72c0f5b142.png"/>
         <screenshot image="25f50b3afb53df9913de626d7f0fac9a.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="964">
+      <test-step result="SUCCESS" duration="969">
         <screenshots>
-          <screenshot image="614640b5f320093e8f418a2aaa84387f.png"/>
+          <screenshot image="061e7942b4cd97685aae9f72c0f5b142.png"/>
           <screenshot image="25f50b3afb53df9913de626d7f0fac9a.png"/>
         </screenshots>
         <description>Should see page: Email</description>

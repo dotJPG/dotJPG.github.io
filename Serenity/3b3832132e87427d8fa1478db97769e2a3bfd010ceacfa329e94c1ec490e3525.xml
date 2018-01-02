@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Laws &amp; Regulations tabs from the EBSA page" name="Verify all of the Laws &amp; Regulations tabs from the EBSA page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="20886" timestamp="2017-12-28T16:44:48.106-05:00" session-id="961ade1f82ebf90fad39ae604534cd1d">
+<acceptance-test-run title="Verify all of the Laws &amp; Regulations tabs from the EBSA page" name="Verify all of the Laws &amp; Regulations tabs from the EBSA page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="17547" timestamp="2018-01-02T14:21:36.573-05:00" session-id="5095fc990ce531f229b27d7e857cfb2c">
   <user-story id="ebsaRegression" name="Ebsa regression" path="stories/fullRegression/ebsaRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -22,41 +22,41 @@
   </examples>
   <test-group name="[1] {lawsregsMenuItem=HIPAA}" result="SUCCESS">
     <screenshots>
-      <screenshot image="464fd2ac3fbd3f64692b469e7297fe68.png"/>
+      <screenshot image="efbded53e50f11e24e46a3d596b084e3.png"/>
     </screenshots>
     <test-group name="Given the user is on the EBSA home page" result="SUCCESS">
       <screenshots>
-        <screenshot image="464fd2ac3fbd3f64692b469e7297fe68.png"/>
-        <screenshot image="1f9b823893bcfd899aa802fba950f8c5.png"/>
+        <screenshot image="efbded53e50f11e24e46a3d596b084e3.png"/>
+        <screenshot image="056e7d48c6b469255b75ceae0649dbe2.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1307">
+      <test-step result="SUCCESS" duration="1457">
         <screenshots>
-          <screenshot image="464fd2ac3fbd3f64692b469e7297fe68.png"/>
-          <screenshot image="9495416c7d281b882ba7c37459d66643.png"/>
+          <screenshot image="efbded53e50f11e24e46a3d596b084e3.png"/>
+          <screenshot image="e79455ddb10ee9581ea128b506294a1c.png"/>
         </screenshots>
         <description>On EBSA page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on {HIPAA} within the Laws &amp; Regulations tab on the menu bar" result="SUCCESS">
       <screenshots>
-        <screenshot image="1f9b823893bcfd899aa802fba950f8c5.png"/>
-        <screenshot image="47711b64efb3e84119107a7037b65cea.png"/>
+        <screenshot image="056e7d48c6b469255b75ceae0649dbe2.png"/>
+        <screenshot image="7afc3188de3cd65f2f23b85c3717aeb3.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="6695">
+      <test-step result="SUCCESS" duration="3587">
         <screenshots>
-          <screenshot image="1f9b823893bcfd899aa802fba950f8c5.png"/>
-          <screenshot image="47711b64efb3e84119107a7037b65cea.png"/>
+          <screenshot image="056e7d48c6b469255b75ceae0649dbe2.png"/>
+          <screenshot image="7afc3188de3cd65f2f23b85c3717aeb3.png"/>
         </screenshots>
         <description>Click nav node: HIPAA</description>
       </test-step>
     </test-group>
     <test-group name="Then the {HIPAA} page should open correctly" result="SUCCESS">
       <screenshots>
-        <screenshot image="47711b64efb3e84119107a7037b65cea.png"/>
+        <screenshot image="7afc3188de3cd65f2f23b85c3717aeb3.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="862">
+      <test-step result="SUCCESS" duration="844">
         <screenshots>
-          <screenshot image="47711b64efb3e84119107a7037b65cea.png"/>
+          <screenshot image="7afc3188de3cd65f2f23b85c3717aeb3.png"/>
         </screenshots>
         <description>Should see page: HIPAA</description>
       </test-step>
@@ -64,41 +64,41 @@
   </test-group>
   <test-group name="[2] {lawsregsMenuItem=federalRegister}" result="SUCCESS">
     <screenshots>
-      <screenshot image="47711b64efb3e84119107a7037b65cea.png"/>
+      <screenshot image="7afc3188de3cd65f2f23b85c3717aeb3.png"/>
     </screenshots>
     <test-group name="Given the user is on the EBSA home page" result="SUCCESS">
       <screenshots>
-        <screenshot image="47711b64efb3e84119107a7037b65cea.png"/>
-        <screenshot image="1f9b823893bcfd899aa802fba950f8c5.png"/>
+        <screenshot image="7afc3188de3cd65f2f23b85c3717aeb3.png"/>
+        <screenshot image="056e7d48c6b469255b75ceae0649dbe2.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1366">
+      <test-step result="SUCCESS" duration="1308">
         <screenshots>
-          <screenshot image="47711b64efb3e84119107a7037b65cea.png"/>
-          <screenshot image="c3bdd039d3e157e8015f93e2dc528269.png"/>
+          <screenshot image="7afc3188de3cd65f2f23b85c3717aeb3.png"/>
+          <screenshot image="bfb7a4331dc742b36ace7aec0e906ada.png"/>
         </screenshots>
         <description>On EBSA page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on {federalRegister} within the Laws &amp; Regulations tab on the menu bar" result="SUCCESS">
       <screenshots>
-        <screenshot image="1f9b823893bcfd899aa802fba950f8c5.png"/>
-        <screenshot image="d5f5828340efff71b076aaa964b87bab.png"/>
+        <screenshot image="056e7d48c6b469255b75ceae0649dbe2.png"/>
+        <screenshot image="a828b9de6f6208a1d1585d72749ae9fd.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="3579">
+      <test-step result="SUCCESS" duration="3448">
         <screenshots>
-          <screenshot image="1f9b823893bcfd899aa802fba950f8c5.png"/>
-          <screenshot image="d5f5828340efff71b076aaa964b87bab.png"/>
+          <screenshot image="056e7d48c6b469255b75ceae0649dbe2.png"/>
+          <screenshot image="a828b9de6f6208a1d1585d72749ae9fd.png"/>
         </screenshots>
         <description>Click nav node: federalRegister</description>
       </test-step>
     </test-group>
     <test-group name="Then the {federalRegister} page should open correctly" result="SUCCESS">
       <screenshots>
-        <screenshot image="d5f5828340efff71b076aaa964b87bab.png"/>
+        <screenshot image="a828b9de6f6208a1d1585d72749ae9fd.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="760">
+      <test-step result="SUCCESS" duration="742">
         <screenshots>
-          <screenshot image="d5f5828340efff71b076aaa964b87bab.png"/>
+          <screenshot image="a828b9de6f6208a1d1585d72749ae9fd.png"/>
         </screenshots>
         <description>Should see page: federalRegister</description>
       </test-step>
