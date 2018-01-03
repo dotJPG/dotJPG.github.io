@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the navbar tabs to assert that the pages open correctly" name="Verify all of the navbar tabs to assert that the pages open correctly" steps="21" successful="21" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="2" timestamp="2018-01-03T10:31:44.831-05:00">
+<acceptance-test-run title="Verify all of the navbar tabs to assert that the pages open correctly" name="Verify all of the navbar tabs to assert that the pages open correctly" steps="21" successful="21" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="4" timestamp="2018-01-03T10:53:49.094-05:00">
   <user-story id="dolHomepageRegression" name="Dol homepage regression" path="stories/fullRegression/dolHomepageRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -36,10 +36,10 @@
     </rows>
   </examples>
   <test-group name="[1] {navMenuItem=Topics}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="0">
+    <test-step result="SUCCESS" duration="1">
       <description>Given the user is on the DOL home page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="1">
+    <test-step result="SUCCESS" duration="0">
       <description>When the user clicks on &lt;navMenuItem&gt; within the top navigation bar</description>
     </test-step>
     <test-step result="SUCCESS" duration="0">
@@ -83,7 +83,7 @@
     <test-step result="SUCCESS" duration="0">
       <description>Given the user is on the DOL home page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="0">
+    <test-step result="SUCCESS" duration="1">
       <description>When the user clicks on &lt;navMenuItem&gt; within the top navigation bar</description>
     </test-step>
     <test-step result="SUCCESS" duration="0">
