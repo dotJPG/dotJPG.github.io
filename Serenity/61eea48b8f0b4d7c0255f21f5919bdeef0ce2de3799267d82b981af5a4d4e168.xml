@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Workers &amp; Families tabs from the EBSA page" name="Verify all of the Workers &amp; Families tabs from the EBSA page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="17207" timestamp="2018-01-02T14:20:22.583-05:00" session-id="5095fc990ce531f229b27d7e857cfb2c">
+<acceptance-test-run title="Verify all of the Workers &amp; Families tabs from the EBSA page" name="Verify all of the Workers &amp; Families tabs from the EBSA page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="1" timestamp="2018-01-03T10:33:31.549-05:00">
   <user-story id="ebsaRegression" name="Ebsa regression" path="stories/fullRegression/ebsaRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -20,88 +20,26 @@
       </row>
     </rows>
   </examples>
-  <test-group name="[1] {workFamMenuItem=disasterRelief}" result="SUCCESS">
-    <screenshots>
-      <screenshot image="d4c5dfe319dacc3761aea9a9528543df.png"/>
-    </screenshots>
-    <test-group name="Given the user is on the EBSA home page" result="SUCCESS">
-      <screenshots>
-        <screenshot image="d4c5dfe319dacc3761aea9a9528543df.png"/>
-        <screenshot image="056e7d48c6b469255b75ceae0649dbe2.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="1429">
-        <screenshots>
-          <screenshot image="d4c5dfe319dacc3761aea9a9528543df.png"/>
-          <screenshot image="2e1adbd4f8b612437f10ff3b1c517e99.png"/>
-        </screenshots>
-        <description>On EBSA page</description>
-      </test-step>
-    </test-group>
-    <test-group name="When the user clicks on {disasterRelief} within the Workers &amp; Families tab on the menu bar" result="SUCCESS">
-      <screenshots>
-        <screenshot image="056e7d48c6b469255b75ceae0649dbe2.png"/>
-        <screenshot image="cd1f76357443927fb16459263ed5c9ff.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="2712">
-        <screenshots>
-          <screenshot image="056e7d48c6b469255b75ceae0649dbe2.png"/>
-          <screenshot image="cd1f76357443927fb16459263ed5c9ff.png"/>
-        </screenshots>
-        <description>Click nav node: disasterRelief</description>
-      </test-step>
-    </test-group>
-    <test-group name="Then the {disasterRelief} page should open correctly" result="SUCCESS">
-      <screenshots>
-        <screenshot image="cd1f76357443927fb16459263ed5c9ff.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="859">
-        <screenshots>
-          <screenshot image="cd1f76357443927fb16459263ed5c9ff.png"/>
-        </screenshots>
-        <description>Should see page: disasterRelief</description>
-      </test-step>
-    </test-group>
+  <test-group name="[1] {workFamMenuItem=disasterRelief}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the EBSA home page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user clicks on &lt;workFamMenuItem&gt; within the Workers &amp; Families tab on the menu bar</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the &lt;workFamMenuItem&gt; page should open correctly</description>
+    </test-step>
   </test-group>
-  <test-group name="[2] {workFamMenuItem=separationAndDivorce}" result="SUCCESS">
-    <screenshots>
-      <screenshot image="cd1f76357443927fb16459263ed5c9ff.png"/>
-    </screenshots>
-    <test-group name="Given the user is on the EBSA home page" result="SUCCESS">
-      <screenshots>
-        <screenshot image="cd1f76357443927fb16459263ed5c9ff.png"/>
-        <screenshot image="056e7d48c6b469255b75ceae0649dbe2.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="1306">
-        <screenshots>
-          <screenshot image="cd1f76357443927fb16459263ed5c9ff.png"/>
-          <screenshot image="e3e441cb75225cf5164d5a717feb1ed1.png"/>
-        </screenshots>
-        <description>On EBSA page</description>
-      </test-step>
-    </test-group>
-    <test-group name="When the user clicks on {separationAndDivorce} within the Workers &amp; Families tab on the menu bar" result="SUCCESS">
-      <screenshots>
-        <screenshot image="056e7d48c6b469255b75ceae0649dbe2.png"/>
-        <screenshot image="d3cf156ec9b9a475e9956c56a0b33484.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="3259">
-        <screenshots>
-          <screenshot image="056e7d48c6b469255b75ceae0649dbe2.png"/>
-          <screenshot image="d3cf156ec9b9a475e9956c56a0b33484.png"/>
-        </screenshots>
-        <description>Click nav node: separationAndDivorce</description>
-      </test-step>
-    </test-group>
-    <test-group name="Then the {separationAndDivorce} page should open correctly" result="SUCCESS">
-      <screenshots>
-        <screenshot image="d3cf156ec9b9a475e9956c56a0b33484.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="890">
-        <screenshots>
-          <screenshot image="d3cf156ec9b9a475e9956c56a0b33484.png"/>
-        </screenshots>
-        <description>Should see page: separationAndDivorce</description>
-      </test-step>
-    </test-group>
+  <test-group name="[2] {workFamMenuItem=separationAndDivorce}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the EBSA home page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user clicks on &lt;workFamMenuItem&gt; within the Workers &amp; Families tab on the menu bar</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the &lt;workFamMenuItem&gt; page should open correctly</description>
+    </test-step>
   </test-group>
 </acceptance-test-run>
