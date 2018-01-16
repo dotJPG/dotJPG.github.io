@@ -1,0 +1,45 @@
+<acceptance-test-run title="Verify all of the Laws &amp; Regulations tabs from the EBSA page" name="Verify all of the Laws &amp; Regulations tabs from the EBSA page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="2" timestamp="2018-01-16T13:48:26.582-05:00">
+  <user-story id="ebsaRegression" name="Ebsa regression" path="stories/fullRegression/ebsaRegression.story"/>
+  <tags>
+    <tag name="Full regression" type="feature"/>
+    <tag name="Full regression/Ebsa regression" type="story"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0"/>
+    </datasets>
+    <headers>
+      <header>lawsregsMenuItem</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>HIPAA</value>
+      </row>
+      <row result="SUCCESS">
+        <value>federalRegister</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {lawsregsMenuItem=HIPAA}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="1">
+      <description>Given the user is on the EBSA home page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user clicks on &lt;lawsregsMenuItem&gt; within the Laws &amp; Regulations tab on the menu bar</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the &lt;lawsregsMenuItem&gt; page should open correctly</description>
+    </test-step>
+  </test-group>
+  <test-group name="[2] {lawsregsMenuItem=federalRegister}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the EBSA home page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user clicks on &lt;lawsregsMenuItem&gt; within the Laws &amp; Regulations tab on the menu bar</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the &lt;lawsregsMenuItem&gt; page should open correctly</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

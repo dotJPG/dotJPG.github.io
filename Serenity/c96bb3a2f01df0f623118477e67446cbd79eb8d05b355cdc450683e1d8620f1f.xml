@@ -1,0 +1,59 @@
+<acceptance-test-run title="Verify all of the About Us tabs from the ILAB page" name="Verify all of the About Us tabs from the ILAB page" steps="9" successful="9" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="1" timestamp="2018-01-16T13:48:26.655-05:00">
+  <user-story id="ilabRegression" name="Ilab regression" path="stories/fullRegression/ilabRegression.story"/>
+  <tags>
+    <tag name="Full regression" type="feature"/>
+    <tag name="Full regression/Ilab regression" type="story"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0"/>
+    </datasets>
+    <headers>
+      <header>aboutUsMenuItem</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>missionAndOffices</value>
+      </row>
+      <row result="SUCCESS">
+        <value>lawsAndRegulations</value>
+      </row>
+      <row result="SUCCESS">
+        <value>joinTheTeam</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {aboutUsMenuItem=missionAndOffices}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the ILAB home page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user clicks on &lt;aboutUsMenuItem&gt; within the About Us tab on the menu bar</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the &lt;aboutUsMenuItem&gt; page should open correctly</description>
+    </test-step>
+  </test-group>
+  <test-group name="[2] {aboutUsMenuItem=lawsAndRegulations}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the ILAB home page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user clicks on &lt;aboutUsMenuItem&gt; within the About Us tab on the menu bar</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the &lt;aboutUsMenuItem&gt; page should open correctly</description>
+    </test-step>
+  </test-group>
+  <test-group name="[3] {aboutUsMenuItem=joinTheTeam}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the ILAB home page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user clicks on &lt;aboutUsMenuItem&gt; within the About Us tab on the menu bar</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the &lt;aboutUsMenuItem&gt; page should open correctly</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>
