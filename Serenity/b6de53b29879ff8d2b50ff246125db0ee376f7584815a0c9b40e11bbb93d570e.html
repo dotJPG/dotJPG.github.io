@@ -34,11 +34,11 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
-                ['Passing', 0.148148],
+                ['Passing', 0.851852],
                 ['Pending', 0],
                 ['Ignored', 0],
                 ['Failing', 0],
-                ['Errors',  0.037037],
+                ['Errors',  0.074074],
                 ['Compromised Tests',  0],
             ]
         ], {
@@ -68,10 +68,10 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '14.8% requirements tested successfully'},
-                {label: '81.5% requirements untested'},
+                {label: '85.2% requirements tested successfully'},
+                {label: '7.4% requirements untested'},
                 {label: '0%} requirements failing'},
-                {label: '3.7%} requirements with errors'},
+                {label: '7.4%} requirements with errors'},
                 {label: '0%} requirements with compromised tests'}
             ]
         });
@@ -168,7 +168,7 @@
             <a href="#"><i class="fa fa-comments-o"></i> Stories</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 09-01-2018 10:31</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 16-01-2018 13:31</span>
     <br style="clear:left"/>
 </div>
 
@@ -209,10 +209,10 @@
                                 <tr>
                                     <td class="summary-leading-column">Acceptance Criteria (tests)</td>
                                     <td>27</td>
-                                    <td>0</td>
+                                    <td>20</td>
                                     <td>5</td>
                                     <td>0</td>
-                                    <td>22</td>
+                                    <td>2</td>
                                     <td></td>
                                 </tr>
                                 </body>
@@ -240,8 +240,8 @@
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>27</td>
-            <td>4 (15%)</td>
-            <td>1 (4%)</td>
+            <td>23 (85%)</td>
+            <td>2 (7%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -256,14 +256,14 @@
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>27</td>
-            <td>4 (15%)</td>
-            <td>1 (0%)</td>
+            <td>23 (85%)</td>
+            <td>2 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">1 minutes 50 seconds</td>
+                <td colspan="5">11 minutes 5 seconds</td>
         </tr>
         </body>
     </table>
@@ -308,38 +308,38 @@
                                 <td class="lightgreentext">0</td>
                             </tr>
 
-                            <tr class="test-SKIPPED">
-                                <td><span class="summary-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
-                                    <span style="display:none">SKIPPED</span></td>
-                                <td class="SKIPPED-text">
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
                                     <a href="cd81d1cbcc0ba8d87bc940548078d9674a5a9a030a3ae761f6fb5cc5ce1754cd.html" class="ellipsis" title="">
                                     Verify all of the Footer navigation links open correctly 
                                     </a></div>
                                 </td>
 
-                                <td class="lightgreentext">24</td>
+                                <td class="lightgreentext">42</td>
 
 
-                                <td class="lightgreentext">0</td>
+                                <td class="lightgreentext">42.17</td>
                             </tr>
 
-                            <tr class="test-SKIPPED">
-                                <td><span class="summary-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
-                                    <span style="display:none">SKIPPED</span></td>
-                                <td class="SKIPPED-text">
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
                                     <a href="8077e1cef7b16960e5cca4975f4fd5989e2db20fe4b8b273d1df544ce93e1c29.html" class="ellipsis" title="">
                                     Verify all of the Press sub-navigation tabs open correctly 
                                     </a></div>
                                 </td>
 
-                                <td class="lightgreentext">12</td>
+                                <td class="lightgreentext">21</td>
 
 
-                                <td class="lightgreentext">0</td>
+                                <td class="lightgreentext">32.92</td>
                             </tr>
 
                             <tr class="test-FAILURE">
@@ -348,49 +348,49 @@
                                     <span style="display:none">FAILURE</span></td>
                                 <td class="FAILURE-text">
                                     <div class="ellipsis">
-                                    <a href="70cd336a18a5c7a288d2fab5eeb9a5d2690104ccaa5ad40b092be4c524471d8c.html" class="ellipsis" title="No such element exception: no such element: Unable to locate element: {'method':'xpath','selector':'(//*[@class='ProfileHeaderCard-nameLink u-textInheritColor js-nav'] | //*[@id='seo_h1_tag']/a |//*[@id='stream-about-section']/div[2]/div[2]/ul/li[1]/h4 |//*[@id='channel-title'] |//*[@id='quick_subscribe_new']/h1)'}  (Session info: chrome=63.0.3239.84)  (Driver info: chromedriver=2.34.522932 (4140ab217e1ca1bec0c4b4d1b148f3361eb3a03e),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 30.06 secondsFor documentation on this error, please visit: http://seleniumhq.org/exceptionso_such_element.htmlBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'System info: host: 'c02vj0eahtdg.users.bah.com', ip: '10.201.14.135', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_152'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522932 (4140ab217e1ca1bec0c4b4d1b148f3361eb3a03e), userDataDir=/var/folders/y_/1vk31t113zd18dv5_4lx_t7m0000gn/T/.org.chromium.Chromium.vbbtBA}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.84, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]Session ID: 38cacd891ac29d8891886ceefe383c5a*** Element info: {Using=xpath, value=(//*[@class='ProfileHeaderCard-nameLink u-textInheritColor js-nav'] | //*[@id='seo_h1_tag']/a |//*[@id='stream-about-section']/div[2]/div[2]/ul/li[1]/h4 |//*[@id='channel-title'] |//*[@id='quick_subscribe_new']/h1)}">
+                                    <a href="70cd336a18a5c7a288d2fab5eeb9a5d2690104ccaa5ad40b092be4c524471d8c.html" class="ellipsis" title="No such element exception: no such element: Unable to locate element: {'method':'xpath','selector':'(//*[@class='ProfileHeaderCard-nameLink u-textInheritColor js-nav'] | //*[@id='seo_h1_tag']/a |//*[@id='stream-about-section']/div[2]/div[2]/ul/li[1]/h4 |//*[@id='channel-title'] |//*[@id='quick_subscribe_new']/h1)'}  (Session info: chrome=63.0.3239.132)  (Driver info: chromedriver=2.34.522932 (4140ab217e1ca1bec0c4b4d1b148f3361eb3a03e),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 30.02 secondsFor documentation on this error, please visit: http://seleniumhq.org/exceptionso_such_element.htmlBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'System info: host: 'c02vj0eahtdg.users.bah.com', ip: '10.201.14.135', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_152'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522932 (4140ab217e1ca1bec0c4b4d1b148f3361eb3a03e), userDataDir=/var/folders/y_/1vk31t113zd18dv5_4lx_t7m0000gn/T/.org.chromium.Chromium.9oAYXL}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]Session ID: 5d28fd910cb1c4ebc768c035ffdb6721*** Element info: {Using=xpath, value=(//*[@class='ProfileHeaderCard-nameLink u-textInheritColor js-nav'] | //*[@id='seo_h1_tag']/a |//*[@id='stream-about-section']/div[2]/div[2]/ul/li[1]/h4 |//*[@id='channel-title'] |//*[@id='quick_subscribe_new']/h1)}">
                                     Verify all of the Social Media navigation links open correctly 
                                     </a></div>
                                 </td>
 
-                                <td class="lightgreentext">35</td>
+                                <td class="lightgreentext">34</td>
 
 
-                                <td class="lightgreentext">110.34</td>
+                                <td class="lightgreentext">493.75</td>
                             </tr>
 
-                            <tr class="test-SKIPPED">
-                                <td><span class="summary-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
-                                    <span style="display:none">SKIPPED</span></td>
-                                <td class="SKIPPED-text">
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
                                     <a href="845602e04d8ac6690c9b9676b623306d8cc1182428a400d18948bf1abb24a896.html" class="ellipsis" title="">
                                     Verify all of the Topics sub-navigation tabs open correctly 
                                     </a></div>
                                 </td>
 
-                                <td class="lightgreentext">16</td>
+                                <td class="lightgreentext">28</td>
 
 
-                                <td class="lightgreentext">0</td>
+                                <td class="lightgreentext">31.84</td>
                             </tr>
 
-                            <tr class="test-SKIPPED">
-                                <td><span class="summary-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
-                                    <span style="display:none">SKIPPED</span></td>
-                                <td class="SKIPPED-text">
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
                                     <a href="25deddecc761f6d331563b02b184a96afcd9909e9c6483db64ed53c978824d06.html" class="ellipsis" title="">
                                     Verify all of the navbar tabs to assert that the pages open correctly 
                                     </a></div>
                                 </td>
 
-                                <td class="lightgreentext">28</td>
+                                <td class="lightgreentext">49</td>
 
 
-                                <td class="lightgreentext">0.01</td>
+                                <td class="lightgreentext">65</td>
                             </tr>
                         </tbody>
                     </table>

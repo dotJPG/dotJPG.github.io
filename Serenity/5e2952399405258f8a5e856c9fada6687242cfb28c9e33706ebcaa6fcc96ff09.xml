@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Employers &amp; Advisers tabs from the EBSA page" name="Verify all of the Employers &amp; Advisers tabs from the EBSA page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="0" timestamp="2018-01-09T10:31:31.684-05:00">
+<acceptance-test-run title="Verify all of the Employers &amp; Advisers tabs from the EBSA page" name="Verify all of the Employers &amp; Advisers tabs from the EBSA page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="18692" timestamp="2018-01-16T13:17:32.082-05:00" session-id="976273baacf3dc6e32caa2a9a6852079">
   <user-story id="ebsaRegression" name="Ebsa regression" path="stories/fullRegression/ebsaRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -20,26 +20,88 @@
       </row>
     </rows>
   </examples>
-  <test-group name="[1] {employerAdviserMenuItem=abandonedPlans}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="0">
-      <description>Given the user is on the EBSA home page</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>When the user clicks on &lt;employerAdviserMenuItem&gt; within the Employers &amp; Advisers tab on the menu bar</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>Then the &lt;employerAdviserMenuItem&gt; page should open correctly</description>
-    </test-step>
+  <test-group name="[1] {employerAdviserMenuItem=abandonedPlans}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="7656d5b1fa52aecf81d40ea1acd9d604.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the EBSA home page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="7656d5b1fa52aecf81d40ea1acd9d604.png"/>
+        <screenshot image="48035aad88fb8f7d89ff8bd21bdda11e.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1350">
+        <screenshots>
+          <screenshot image="7656d5b1fa52aecf81d40ea1acd9d604.png"/>
+          <screenshot image="69fa0c5862ce0778016051815594e15a.png"/>
+        </screenshots>
+        <description>On EBSA page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When the user clicks on {abandonedPlans} within the Employers &amp; Advisers tab on the menu bar" result="SUCCESS">
+      <screenshots>
+        <screenshot image="48035aad88fb8f7d89ff8bd21bdda11e.png"/>
+        <screenshot image="5158c9c5b606d1ce4b0567fde7abb4b1.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="3485">
+        <screenshots>
+          <screenshot image="48035aad88fb8f7d89ff8bd21bdda11e.png"/>
+          <screenshot image="5158c9c5b606d1ce4b0567fde7abb4b1.png"/>
+        </screenshots>
+        <description>Click nav node: abandonedPlans</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the {abandonedPlans} page should open correctly" result="SUCCESS">
+      <screenshots>
+        <screenshot image="5158c9c5b606d1ce4b0567fde7abb4b1.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="839">
+        <screenshots>
+          <screenshot image="5158c9c5b606d1ce4b0567fde7abb4b1.png"/>
+        </screenshots>
+        <description>Should see page: abandonedPlans</description>
+      </test-step>
+    </test-group>
   </test-group>
-  <test-group name="[2] {employerAdviserMenuItem=reportingGuidelines}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="0">
-      <description>Given the user is on the EBSA home page</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>When the user clicks on &lt;employerAdviserMenuItem&gt; within the Employers &amp; Advisers tab on the menu bar</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>Then the &lt;employerAdviserMenuItem&gt; page should open correctly</description>
-    </test-step>
+  <test-group name="[2] {employerAdviserMenuItem=reportingGuidelines}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="5158c9c5b606d1ce4b0567fde7abb4b1.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the EBSA home page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="5158c9c5b606d1ce4b0567fde7abb4b1.png"/>
+        <screenshot image="48035aad88fb8f7d89ff8bd21bdda11e.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1329">
+        <screenshots>
+          <screenshot image="5158c9c5b606d1ce4b0567fde7abb4b1.png"/>
+          <screenshot image="2e2f84e7e1a5477c71a6d611bd645f26.png"/>
+        </screenshots>
+        <description>On EBSA page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When the user clicks on {reportingGuidelines} within the Employers &amp; Advisers tab on the menu bar" result="SUCCESS">
+      <screenshots>
+        <screenshot image="48035aad88fb8f7d89ff8bd21bdda11e.png"/>
+        <screenshot image="c2063f1dcff42bb3773c4d53ab6b7ca3.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="4550">
+        <screenshots>
+          <screenshot image="48035aad88fb8f7d89ff8bd21bdda11e.png"/>
+          <screenshot image="c2063f1dcff42bb3773c4d53ab6b7ca3.png"/>
+        </screenshots>
+        <description>Click nav node: reportingGuidelines</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the {reportingGuidelines} page should open correctly" result="SUCCESS">
+      <screenshots>
+        <screenshot image="c2063f1dcff42bb3773c4d53ab6b7ca3.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="821">
+        <screenshots>
+          <screenshot image="c2063f1dcff42bb3773c4d53ab6b7ca3.png"/>
+        </screenshots>
+        <description>Should see page: reportingGuidelines</description>
+      </test-step>
+    </test-group>
   </test-group>
 </acceptance-test-run>

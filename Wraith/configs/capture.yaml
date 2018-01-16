@@ -17,27 +17,38 @@ browser: "phantomjs"
 
 # (required) The domains to take screenshots of.
 domains:
-  current:  "https://staging.dol.gov"
-  new:      "https://www.dol.gov"
+  prod:  "https://staging.dol.gov"
+  staging:      "https://www.dol.gov"
 
 # (required) The paths to capture. All paths should exist for both of the domains specified above.
 paths:
   home: /
   ilab_home: /agencies/ilab
+  ilab_mission: /ilab/about-us/mission
+  ilab_child_labor: /agencies/ilab/our-work/child-forced-labor-trafficking
+  ilab_child_labor_report: /agencies/ilab/resources/reports/child-labor/findings
+  ilab_child_labor_afghanistan: /agencies/ilab/resources/reports/child-labor/afghanistan
+  ilab_child_labor_cameroon: /agencies/ilab/resources/reports/child-labor/cameroon
+  ilab_child_labor_ethiopia: /agencies/ilab/resources/reports/child-labor/ethiopia
+  ilab_child_labor_madagascgar: /agencies/ilab/resources/reports/child-labor/madagascar
+  ilab_child_labor_samoa: /agencies/ilab/resources/reports/child-labor/samoa
+  ilab_child_labor_venezuela: /agencies/ilab/resources/reports/child-labor/venezuela
+  ilab_child_labor_zimbabwe: /agencies/ilab/resources/reports/child-labor/zimbabwe
   ilab_datatable_1: /agencies/ilab/rwanda-education-alternatives-children-reach
+  ilab_projects: /agencies/ilab/projects
+  ilab_feature_accordion_1: /agencies/ilab/our-work/trade/fta-submissions
+  ilab_complychain: /ilab/complychain/
   ebsa_home: /agencies/ebsa
-  feature_accordion_1: /agencies/ilab/our-work/trade/fta-submissions
-  feature_accordion_2: /agencies/ebsa/employers-and-advisers/plan-administration-and-compliance/disaster-relief
+  ebsa_feature_accordion_1: /agencies/ebsa/employers-and-advisers/plan-administration-and-compliance/disaster-relief
   ebsa_guidance: /agencies/ebsa/employers-and-advisers/guidance/field-assistance-bulletins/2017-01
+  ebsa_grouped_accordion_1: /agencies/ebsa/about-ebsa/our-activities/newsroom/joint-enforcement-releases
+  ebsa_grouped_accordion_2: /agencies/ebsa/laws-and-regulations/rules-and-regulations/public-comments/1210-AB79-and-1210-AB82
+  opa_newsletter: /newsroom/newsletter/archive/2017/20170511
   opa_press_1: /newsroom/releases/opa/opa20170516-0
   opa_press_2: /newsroom/releases/eta/eta20170829
   opa_basic_1: /general/budget/index-2016
   opa_basic_2: /general/hurricane-recovery
   opa_basic_3: /general/contact/media-contact
-  grouped_accordion_1: /agencies/ebsa/about-ebsa/our-activities/newsroom/joint-enforcement-releases
-  grouped_accordion_2: /agencies/ebsa/laws-and-regulations/rules-and-regulations/public-comments/1210-AB79-and-1210-AB82
-  opa_newsletter: /newsroom/newsletter/archive/2017/20170511
-
 # (required) Screen widths (and optional height) to resize the browser to before taking the screenshot.
 screen_widths:
   - 320
