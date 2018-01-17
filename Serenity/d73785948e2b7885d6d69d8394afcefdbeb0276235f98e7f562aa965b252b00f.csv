@@ -1,8 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Ebsa regression","Verify all of the About EBSA tabs from the EBSA page","SUCCESS","2018-01-16T15:58:06.561-05:00","0.0","26.11"
-"Ebsa regression","Verify all of the Employers & Advisers tabs from the EBSA page","SUCCESS","2018-01-16T15:58:48.697-05:00","0.0","18.65"
-"Ebsa regression","Verify all of the Key Topics tabs from the EBSA page","SUCCESS","2018-01-16T15:59:25.652-05:00","0.0","17.92"
-"Ebsa regression","Verify all of the Laws & Regulations tabs from the EBSA page","SUCCESS","2018-01-16T15:59:43.579-05:00","0.0","17.63"
-"Ebsa regression","Verify all of the Researchers tabs from the EBSA page","SUCCESS","2018-01-16T15:59:07.353-05:00","0.0","18.29"
-"Ebsa regression","Verify all of the Workers & Families tabs from the EBSA page","SUCCESS","2018-01-16T15:58:32.681-05:00","0.0","16.01"
-"Ebsa regression","Verify the Ask EBSA and EBSA Home menu items","SUCCESS","2018-01-16T15:57:46.135-05:00","0.0","20.4"
