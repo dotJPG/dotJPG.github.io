@@ -1,0 +1,131 @@
+<acceptance-test-run title="Verify all of the Key Topics tabs from the EBSA page" name="Verify all of the Key Topics tabs from the EBSA page" steps="6" successful="5" failures="0" errors="1" skipped="0" ignored="0" pending="0" result="FAILURE" duration="47663" timestamp="2018-01-17T14:19:09.001-05:00" session-id="9062e301d35964f07bdb1c8e51f4e3a1">
+  <user-story id="ebsaRegression" name="Ebsa regression" path="stories/fullRegression/ebsaRegression.story"/>
+  <tags>
+    <tag name="Full regression" type="feature"/>
+    <tag name="Full regression/Ebsa regression" type="story"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0"/>
+    </datasets>
+    <headers>
+      <header>keyTopicMenuItem</header>
+    </headers>
+    <rows>
+      <row result="ERROR">
+        <value>ACA</value>
+      </row>
+      <row result="SUCCESS">
+        <value>401k</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {keyTopicMenuItem=ACA}" result="ERROR">
+    <screenshots>
+      <screenshot image="5f6a6ac883c1a88c142ba2e0c7a2ffe8.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the EBSA home page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="5f6a6ac883c1a88c142ba2e0c7a2ffe8.png"/>
+        <screenshot image="fa70542dbc00a6329db264972e23a370.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1453">
+        <screenshots>
+          <screenshot image="5f6a6ac883c1a88c142ba2e0c7a2ffe8.png"/>
+          <screenshot image="d782f1c8f46283d7387fa756dda51284.png"/>
+        </screenshots>
+        <description>On EBSA page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When the user clicks on {ACA} within the Key Topics tab on the menu bar" result="SUCCESS">
+      <screenshots>
+        <screenshot image="fa70542dbc00a6329db264972e23a370.png"/>
+        <screenshot image="89d478ae7bd5de04e7c5c1d2e82f0a61.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="3444">
+        <screenshots>
+          <screenshot image="fa70542dbc00a6329db264972e23a370.png"/>
+          <screenshot image="89d478ae7bd5de04e7c5c1d2e82f0a61.png"/>
+        </screenshots>
+        <description>Click nav node: ACA</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the ｟ACA｠ page should open correctly" result="ERROR">
+      <screenshots>
+        <screenshot image="89d478ae7bd5de04e7c5c1d2e82f0a61.png"/>
+      </screenshots>
+      <test-step result="ERROR" duration="30904">
+        <screenshots>
+          <screenshot image="89d478ae7bd5de04e7c5c1d2e82f0a61.png"/>
+          <screenshot image="89d478ae7bd5de04e7c5c1d2e82f0a61.png" source="pagesource3118169496108995336.html.txt"/>
+        </screenshots>
+        <description>Should see page: ACA</description>
+        <error>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//*[@class=&apos;page-title&apos;])&quot;}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.34.522932 (4140ab217e1ca1bec0c4b4d1b148f3361eb3a03e),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;c02vj0eahtdg.users.bah.com&apos;, ip: &apos;10.201.14.135&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_152&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522932 (4140ab217e1ca1bec0c4b4d1b148f3361eb3a03e), userDataDir=/var/folders/y_/1vk31t113zd18dv5_4lx_t7m0000gn/T/.org.chromium.Chromium.iWa4Gk}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9062e301d35964f07bdb1c8e51f4e3a1
+*** Element info: {Using=xpath, value=(//*[@class=&apos;page-title&apos;])}</error>
+        <exception>org.openqa.selenium.NoSuchElementException:no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//*[@class=&apos;page-title&apos;])&quot;}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.34.522932 (4140ab217e1ca1bec0c4b4d1b148f3361eb3a03e),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;c02vj0eahtdg.users.bah.com&apos;, ip: &apos;10.201.14.135&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_152&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522932 (4140ab217e1ca1bec0c4b4d1b148f3361eb3a03e), userDataDir=/var/folders/y_/1vk31t113zd18dv5_4lx_t7m0000gn/T/.org.chromium.Chromium.iWa4Gk}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9062e301d35964f07bdb1c8e51f4e3a1
+*** Element info: {Using=xpath, value=(//*[@class=&apos;page-title&apos;])}
+[gov.dol.bg.test.pages.EBSAHomepage.pullPageTitle(EBSAHomepage.java:175), gov.dol.bg.test.User.shouldSeePage(User.java:521), gov.dol.bg.test.DailyRegression.then_the__keyTopic_should_open_correctly(DailyRegression.java:187)]</exception>
+      </test-step>
+    </test-group>
+  </test-group>
+  <test-group name="[2] {keyTopicMenuItem=401k}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="89d478ae7bd5de04e7c5c1d2e82f0a61.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the EBSA home page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="89d478ae7bd5de04e7c5c1d2e82f0a61.png"/>
+        <screenshot image="fa70542dbc00a6329db264972e23a370.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1384">
+        <screenshots>
+          <screenshot image="89d478ae7bd5de04e7c5c1d2e82f0a61.png"/>
+          <screenshot image="bdbde08d9cd60cc1f51b9e22ea747496.png"/>
+        </screenshots>
+        <description>On EBSA page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When the user clicks on {401k} within the Key Topics tab on the menu bar" result="SUCCESS">
+      <screenshots>
+        <screenshot image="fa70542dbc00a6329db264972e23a370.png"/>
+        <screenshot image="4952ae743dbf998e77acafe37d7c9cfd.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="3543">
+        <screenshots>
+          <screenshot image="fa70542dbc00a6329db264972e23a370.png"/>
+          <screenshot image="4952ae743dbf998e77acafe37d7c9cfd.png"/>
+        </screenshots>
+        <description>Click nav node: 401k</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the {401k} page should open correctly" result="SUCCESS">
+      <screenshots>
+        <screenshot image="4952ae743dbf998e77acafe37d7c9cfd.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="857">
+        <screenshots>
+          <screenshot image="4952ae743dbf998e77acafe37d7c9cfd.png"/>
+        </screenshots>
+        <description>Should see page: 401k</description>
+      </test-step>
+    </test-group>
+  </test-group>
+</acceptance-test-run>

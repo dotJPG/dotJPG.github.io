@@ -1,0 +1,107 @@
+<acceptance-test-run title="Verify all of the Agencies sub-navigation tabs open correctly" name="Verify all of the Agencies sub-navigation tabs open correctly" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="23607" timestamp="2018-01-17T14:25:25.417-05:00" session-id="619588c540719c72c1d862155d3351e6">
+  <user-story id="dolHomepageRegression" name="Dol homepage regression" path="stories/fullRegression/dolHomepageRegression.story"/>
+  <tags>
+    <tag name="Full regression" type="feature"/>
+    <tag name="Full regression/Dol homepage regression" type="story"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0"/>
+    </datasets>
+    <headers>
+      <header>subNavMenuAgencies</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>ILAB</value>
+      </row>
+      <row result="SUCCESS">
+        <value>EBSA</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {subNavMenuAgencies=ILAB}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="65cda0f9cf7552f1b386fed9624b13d1.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the DOL home page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="65cda0f9cf7552f1b386fed9624b13d1.png"/>
+        <screenshot image="3b1a8c79cba3630a2aacf12b5dcb580d.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1459">
+        <screenshots>
+          <screenshot image="65cda0f9cf7552f1b386fed9624b13d1.png"/>
+          <screenshot image="a783a3304ea4d6869e1730670cdbbcaa.png"/>
+        </screenshots>
+        <description>On home page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When the user clicks on the {ILAB} within the Agencies navigation bar" result="SUCCESS">
+      <screenshots>
+        <screenshot image="3b1a8c79cba3630a2aacf12b5dcb580d.png"/>
+        <screenshot image="cadb2af05b79e3d5f4476061086fd6b0.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="3316">
+        <screenshots>
+          <screenshot image="3b1a8c79cba3630a2aacf12b5dcb580d.png"/>
+          <screenshot image="7b2d1354062ac1e0adbca1db81209a87.png"/>
+        </screenshots>
+        <description>Click nav node: ILAB</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the {ILAB} page should open correctly" result="SUCCESS">
+      <screenshots>
+        <screenshot image="cadb2af05b79e3d5f4476061086fd6b0.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="2089">
+        <screenshots>
+          <screenshot image="cadb2af05b79e3d5f4476061086fd6b0.png"/>
+        </screenshots>
+        <description>Should see page: ILAB</description>
+      </test-step>
+    </test-group>
+  </test-group>
+  <test-group name="[2] {subNavMenuAgencies=EBSA}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="cadb2af05b79e3d5f4476061086fd6b0.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the DOL home page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="c5c269a2f1e4c9d6003915ecb566decd.png"/>
+        <screenshot image="3b1a8c79cba3630a2aacf12b5dcb580d.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1885">
+        <screenshots>
+          <screenshot image="c5c269a2f1e4c9d6003915ecb566decd.png"/>
+          <screenshot image="8143ab2b0e02b5720d88240b87804c9f.png"/>
+        </screenshots>
+        <description>On home page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When the user clicks on the {EBSA} within the Agencies navigation bar" result="SUCCESS">
+      <screenshots>
+        <screenshot image="3b1a8c79cba3630a2aacf12b5dcb580d.png"/>
+        <screenshot image="1cf0ba8b4f097c4af28c245eb0624c45.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="3614">
+        <screenshots>
+          <screenshot image="3b1a8c79cba3630a2aacf12b5dcb580d.png"/>
+          <screenshot image="fdf55b61d51355b0c36816bda311bc66.png"/>
+        </screenshots>
+        <description>Click nav node: EBSA</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the {EBSA} page should open correctly" result="SUCCESS">
+      <screenshots>
+        <screenshot image="1cf0ba8b4f097c4af28c245eb0624c45.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1156">
+        <screenshots>
+          <screenshot image="1cf0ba8b4f097c4af28c245eb0624c45.png"/>
+        </screenshots>
+        <description>Should see page: EBSA</description>
+      </test-step>
+    </test-group>
+  </test-group>
+</acceptance-test-run>

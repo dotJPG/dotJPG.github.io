@@ -1,0 +1,197 @@
+<acceptance-test-run title="Verify all of the Topics sub-navigation tabs open correctly" name="Verify all of the Topics sub-navigation tabs open correctly" steps="12" successful="12" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="32592" timestamp="2018-01-17T14:24:52.820-05:00" session-id="619588c540719c72c1d862155d3351e6">
+  <user-story id="dolHomepageRegression" name="Dol homepage regression" path="stories/fullRegression/dolHomepageRegression.story"/>
+  <tags>
+    <tag name="Full regression" type="feature"/>
+    <tag name="Full regression/Dol homepage regression" type="story"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0"/>
+    </datasets>
+    <headers>
+      <header>subNavMenuItem</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>Breaks and Meal Periods</value>
+      </row>
+      <row result="SUCCESS">
+        <value>COBRA</value>
+      </row>
+      <row result="SUCCESS">
+        <value>Disability Resources</value>
+      </row>
+      <row result="SUCCESS">
+        <value>Retirement Plans</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {subNavMenuItem=Breaks and Meal Periods}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="f84a1498beda82adf58f21f8046dfa3a.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the DOL home page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="f84a1498beda82adf58f21f8046dfa3a.png"/>
+        <screenshot image="3b1a8c79cba3630a2aacf12b5dcb580d.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1414">
+        <screenshots>
+          <screenshot image="f84a1498beda82adf58f21f8046dfa3a.png"/>
+          <screenshot image="d67175a102bf8f63d1f867d121876182.png"/>
+        </screenshots>
+        <description>On home page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When the user clicks on the {Breaks and Meal Periods} within the top navigation bar" result="SUCCESS">
+      <screenshots>
+        <screenshot image="3b1a8c79cba3630a2aacf12b5dcb580d.png"/>
+        <screenshot image="36ea9d32ef06a1f5cd6019388f0084b5.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="2463">
+        <screenshots>
+          <screenshot image="3b1a8c79cba3630a2aacf12b5dcb580d.png"/>
+          <screenshot image="36ea9d32ef06a1f5cd6019388f0084b5.png"/>
+        </screenshots>
+        <description>Click nav node: Breaks and Meal Periods</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the {Breaks and Meal Periods} page should open correctly" result="SUCCESS">
+      <screenshots>
+        <screenshot image="36ea9d32ef06a1f5cd6019388f0084b5.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="864">
+        <screenshots>
+          <screenshot image="36ea9d32ef06a1f5cd6019388f0084b5.png"/>
+        </screenshots>
+        <description>Should see page: Breaks and Meal Periods</description>
+      </test-step>
+    </test-group>
+  </test-group>
+  <test-group name="[2] {subNavMenuItem=COBRA}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="36ea9d32ef06a1f5cd6019388f0084b5.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the DOL home page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="36ea9d32ef06a1f5cd6019388f0084b5.png"/>
+        <screenshot image="3b1a8c79cba3630a2aacf12b5dcb580d.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1434">
+        <screenshots>
+          <screenshot image="36ea9d32ef06a1f5cd6019388f0084b5.png"/>
+          <screenshot image="d67175a102bf8f63d1f867d121876182.png"/>
+        </screenshots>
+        <description>On home page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When the user clicks on the {COBRA} within the top navigation bar" result="SUCCESS">
+      <screenshots>
+        <screenshot image="3b1a8c79cba3630a2aacf12b5dcb580d.png"/>
+        <screenshot image="32efad4b077011d8a8fa97be402465b4.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="2416">
+        <screenshots>
+          <screenshot image="3b1a8c79cba3630a2aacf12b5dcb580d.png"/>
+          <screenshot image="32efad4b077011d8a8fa97be402465b4.png"/>
+        </screenshots>
+        <description>Click nav node: COBRA</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the {COBRA} page should open correctly" result="SUCCESS">
+      <screenshots>
+        <screenshot image="32efad4b077011d8a8fa97be402465b4.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="901">
+        <screenshots>
+          <screenshot image="32efad4b077011d8a8fa97be402465b4.png"/>
+        </screenshots>
+        <description>Should see page: COBRA</description>
+      </test-step>
+    </test-group>
+  </test-group>
+  <test-group name="[3] {subNavMenuItem=Disability Resources}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="32efad4b077011d8a8fa97be402465b4.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the DOL home page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="32efad4b077011d8a8fa97be402465b4.png"/>
+        <screenshot image="3b1a8c79cba3630a2aacf12b5dcb580d.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1470">
+        <screenshots>
+          <screenshot image="32efad4b077011d8a8fa97be402465b4.png"/>
+          <screenshot image="4c5430ed24b4f0faf66af56aaeabf6e4.png"/>
+        </screenshots>
+        <description>On home page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When the user clicks on the {Disability Resources} within the top navigation bar" result="SUCCESS">
+      <screenshots>
+        <screenshot image="3b1a8c79cba3630a2aacf12b5dcb580d.png"/>
+        <screenshot image="098b856ef0e26b4a90b19f54d947cfb2.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="2522">
+        <screenshots>
+          <screenshot image="3b1a8c79cba3630a2aacf12b5dcb580d.png"/>
+          <screenshot image="098b856ef0e26b4a90b19f54d947cfb2.png"/>
+        </screenshots>
+        <description>Click nav node: Disability Resources</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the {Disability Resources} page should open correctly" result="SUCCESS">
+      <screenshots>
+        <screenshot image="098b856ef0e26b4a90b19f54d947cfb2.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="938">
+        <screenshots>
+          <screenshot image="098b856ef0e26b4a90b19f54d947cfb2.png"/>
+        </screenshots>
+        <description>Should see page: Disability Resources</description>
+      </test-step>
+    </test-group>
+  </test-group>
+  <test-group name="[4] {subNavMenuItem=Retirement Plans}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="098b856ef0e26b4a90b19f54d947cfb2.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the DOL home page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="098b856ef0e26b4a90b19f54d947cfb2.png"/>
+        <screenshot image="3b1a8c79cba3630a2aacf12b5dcb580d.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1412">
+        <screenshots>
+          <screenshot image="098b856ef0e26b4a90b19f54d947cfb2.png"/>
+          <screenshot image="0c98c051405a9e38484e958abd7504fc.png"/>
+        </screenshots>
+        <description>On home page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When the user clicks on the {Retirement Plans} within the top navigation bar" result="SUCCESS">
+      <screenshots>
+        <screenshot image="3b1a8c79cba3630a2aacf12b5dcb580d.png"/>
+        <screenshot image="65cda0f9cf7552f1b386fed9624b13d1.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="2409">
+        <screenshots>
+          <screenshot image="3b1a8c79cba3630a2aacf12b5dcb580d.png"/>
+          <screenshot image="65cda0f9cf7552f1b386fed9624b13d1.png"/>
+        </screenshots>
+        <description>Click nav node: Retirement Plans</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the {Retirement Plans} page should open correctly" result="SUCCESS">
+      <screenshots>
+        <screenshot image="65cda0f9cf7552f1b386fed9624b13d1.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="885">
+        <screenshots>
+          <screenshot image="65cda0f9cf7552f1b386fed9624b13d1.png"/>
+        </screenshots>
+        <description>Should see page: Retirement Plans</description>
+      </test-step>
+    </test-group>
+  </test-group>
+</acceptance-test-run>
