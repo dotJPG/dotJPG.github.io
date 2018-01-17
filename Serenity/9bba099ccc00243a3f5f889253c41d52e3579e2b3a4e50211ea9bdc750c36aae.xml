@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify the Ask EBSA and EBSA Home menu items" name="Verify the Ask EBSA and EBSA Home menu items" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="17633" timestamp="2018-01-17T14:17:30.766-05:00" session-id="9062e301d35964f07bdb1c8e51f4e3a1">
+<acceptance-test-run title="Verify the Ask EBSA and EBSA Home menu items" name="Verify the Ask EBSA and EBSA Home menu items" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="17167" timestamp="2018-01-17T15:29:40.087-05:00" session-id="25565cd9b7759e40535f4dbfd70ccbcd">
   <user-story id="ebsaRegression" name="Ebsa regression" path="stories/fullRegression/ebsaRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -23,36 +23,36 @@
   <test-group name="[1] {ebsaMenuItem=askEBSA}" result="SUCCESS">
     <test-group name="Given the user is on the EBSA home page" result="SUCCESS">
       <screenshots>
-        <screenshot image="33422e060be98a632a3d6ee6e4de7f5f.png"/>
+        <screenshot image="afa9d220b178394c5f485d0c1f6ebd87.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="3121">
+      <test-step result="SUCCESS" duration="2690">
         <screenshots>
-          <screenshot image="2f63a58ca53bd380b772da5d66ca3e69.png"/>
-          <screenshot image="5415e4535b6808edd16a2b8c6d77b4b4.png"/>
+          <screenshot image="b2be4f5ab2db583b47c96f9d7a941807.png"/>
+          <screenshot image="c499863f8e26c53f45085147e8ddc3bf.png"/>
         </screenshots>
         <description>On EBSA page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on {askEBSA} within the menu bar" result="SUCCESS">
       <screenshots>
-        <screenshot image="33422e060be98a632a3d6ee6e4de7f5f.png"/>
-        <screenshot image="de67c80a17863692dc3b43a1e69ace34.png"/>
+        <screenshot image="afa9d220b178394c5f485d0c1f6ebd87.png"/>
+        <screenshot image="af594ea5ddd69c483dc31c9c43574626.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1654">
+      <test-step result="SUCCESS" duration="1425">
         <screenshots>
-          <screenshot image="33422e060be98a632a3d6ee6e4de7f5f.png"/>
-          <screenshot image="de67c80a17863692dc3b43a1e69ace34.png"/>
+          <screenshot image="afa9d220b178394c5f485d0c1f6ebd87.png"/>
+          <screenshot image="af594ea5ddd69c483dc31c9c43574626.png"/>
         </screenshots>
         <description>Click nav node: askEBSA</description>
       </test-step>
     </test-group>
     <test-group name="Then the {askEBSA} page should open correctly" result="SUCCESS">
       <screenshots>
-        <screenshot image="de67c80a17863692dc3b43a1e69ace34.png"/>
+        <screenshot image="af594ea5ddd69c483dc31c9c43574626.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="822">
+      <test-step result="SUCCESS" duration="801">
         <screenshots>
-          <screenshot image="de67c80a17863692dc3b43a1e69ace34.png"/>
+          <screenshot image="af594ea5ddd69c483dc31c9c43574626.png"/>
         </screenshots>
         <description>Should see page: askEBSA</description>
       </test-step>
@@ -60,40 +60,40 @@
   </test-group>
   <test-group name="[2] {ebsaMenuItem=ebsaHomepage}" result="SUCCESS">
     <screenshots>
-      <screenshot image="de67c80a17863692dc3b43a1e69ace34.png"/>
+      <screenshot image="af594ea5ddd69c483dc31c9c43574626.png"/>
     </screenshots>
     <test-group name="Given the user is on the EBSA home page" result="SUCCESS">
       <screenshots>
-        <screenshot image="de67c80a17863692dc3b43a1e69ace34.png"/>
-        <screenshot image="fa70542dbc00a6329db264972e23a370.png"/>
+        <screenshot image="af594ea5ddd69c483dc31c9c43574626.png"/>
+        <screenshot image="a0d5baf3897bbab4018d9a4f18288a9a.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1445">
+      <test-step result="SUCCESS" duration="1426">
         <screenshots>
-          <screenshot image="de67c80a17863692dc3b43a1e69ace34.png"/>
-          <screenshot image="8ded2347c19599d2f637e65298e16fa0.png"/>
+          <screenshot image="af594ea5ddd69c483dc31c9c43574626.png"/>
+          <screenshot image="8211bba7dc4248a76e9a0b795c48551f.png"/>
         </screenshots>
         <description>On EBSA page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on {ebsaHomepage} within the menu bar" result="SUCCESS">
       <screenshots>
-        <screenshot image="fa70542dbc00a6329db264972e23a370.png"/>
+        <screenshot image="a0d5baf3897bbab4018d9a4f18288a9a.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1506">
+      <test-step result="SUCCESS" duration="1441">
         <screenshots>
-          <screenshot image="fa70542dbc00a6329db264972e23a370.png"/>
-          <screenshot image="eb43c49bb6204c14ea912c2d2b5a1283.png"/>
+          <screenshot image="a0d5baf3897bbab4018d9a4f18288a9a.png"/>
+          <screenshot image="829aca697d482219554016525d4874e9.png"/>
         </screenshots>
         <description>Click nav node: ebsaHomepage</description>
       </test-step>
     </test-group>
     <test-group name="Then the {ebsaHomepage} page should open correctly" result="SUCCESS">
       <screenshots>
-        <screenshot image="fa70542dbc00a6329db264972e23a370.png"/>
+        <screenshot image="a0d5baf3897bbab4018d9a4f18288a9a.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1171">
+      <test-step result="SUCCESS" duration="1093">
         <screenshots>
-          <screenshot image="fa70542dbc00a6329db264972e23a370.png"/>
+          <screenshot image="a0d5baf3897bbab4018d9a4f18288a9a.png"/>
         </screenshots>
         <description>Should see page: ebsaHomepage</description>
       </test-step>

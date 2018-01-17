@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Our Work tabs from the ILAB page" name="Verify all of the Our Work tabs from the ILAB page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="22491" timestamp="2018-01-17T14:20:45.417-05:00" session-id="4d4e6dbfe8d9b074942517d79ebe5641">
+<acceptance-test-run title="Verify all of the Our Work tabs from the ILAB page" name="Verify all of the Our Work tabs from the ILAB page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="21455" timestamp="2018-01-17T15:32:45.963-05:00" session-id="e5b645d988777d22c3794e692fd13b7a">
   <user-story id="ilabRegression" name="Ilab regression" path="stories/fullRegression/ilabRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -22,41 +22,41 @@
   </examples>
   <test-group name="[1] {ourWorkMenuItem=childLabor}" result="SUCCESS">
     <screenshots>
-      <screenshot image="37770364090ee0254729f3f8493635a7.png"/>
+      <screenshot image="be906134c0109c3936b2c069ed153d85.png"/>
     </screenshots>
     <test-group name="Given the user is on the ILAB home page" result="SUCCESS">
       <screenshots>
-        <screenshot image="37770364090ee0254729f3f8493635a7.png"/>
-        <screenshot image="cadb2af05b79e3d5f4476061086fd6b0.png"/>
+        <screenshot image="be906134c0109c3936b2c069ed153d85.png"/>
+        <screenshot image="ada2c9f5b4a2b286fe72955443056417.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1854">
+      <test-step result="SUCCESS" duration="1773">
         <screenshots>
-          <screenshot image="37770364090ee0254729f3f8493635a7.png"/>
-          <screenshot image="fd31c09670b87549fe0e538b2249c1c1.png"/>
+          <screenshot image="be906134c0109c3936b2c069ed153d85.png"/>
+          <screenshot image="0c385cbc1d84385eb35e5f6c76732762.png"/>
         </screenshots>
         <description>On ILAB page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on {childLabor} within the Our Work tab on the menu bar" result="SUCCESS">
       <screenshots>
-        <screenshot image="cadb2af05b79e3d5f4476061086fd6b0.png"/>
-        <screenshot image="ed4c9359dd20f27a483b7757e16b891f.png"/>
+        <screenshot image="ada2c9f5b4a2b286fe72955443056417.png"/>
+        <screenshot image="6a8c27cc4effcb6d3f4aceee86aa6f11.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="4071">
+      <test-step result="SUCCESS" duration="3599">
         <screenshots>
-          <screenshot image="cadb2af05b79e3d5f4476061086fd6b0.png"/>
-          <screenshot image="ed4c9359dd20f27a483b7757e16b891f.png"/>
+          <screenshot image="ada2c9f5b4a2b286fe72955443056417.png"/>
+          <screenshot image="6a8c27cc4effcb6d3f4aceee86aa6f11.png"/>
         </screenshots>
         <description>Click nav node: childLabor</description>
       </test-step>
     </test-group>
     <test-group name="Then the {childLabor} page should open correctly" result="SUCCESS">
       <screenshots>
-        <screenshot image="ed4c9359dd20f27a483b7757e16b891f.png"/>
+        <screenshot image="6a8c27cc4effcb6d3f4aceee86aa6f11.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1314">
+      <test-step result="SUCCESS" duration="1247">
         <screenshots>
-          <screenshot image="ed4c9359dd20f27a483b7757e16b891f.png"/>
+          <screenshot image="6a8c27cc4effcb6d3f4aceee86aa6f11.png"/>
         </screenshots>
         <description>Should see page: childLabor</description>
       </test-step>
@@ -64,41 +64,41 @@
   </test-group>
   <test-group name="[2] {ourWorkMenuItem=projects}" result="SUCCESS">
     <screenshots>
-      <screenshot image="ed4c9359dd20f27a483b7757e16b891f.png"/>
+      <screenshot image="6a8c27cc4effcb6d3f4aceee86aa6f11.png"/>
     </screenshots>
     <test-group name="Given the user is on the ILAB home page" result="SUCCESS">
       <screenshots>
-        <screenshot image="ed4c9359dd20f27a483b7757e16b891f.png"/>
-        <screenshot image="cadb2af05b79e3d5f4476061086fd6b0.png"/>
+        <screenshot image="6a8c27cc4effcb6d3f4aceee86aa6f11.png"/>
+        <screenshot image="ada2c9f5b4a2b286fe72955443056417.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="2022">
+      <test-step result="SUCCESS" duration="1997">
         <screenshots>
-          <screenshot image="ed4c9359dd20f27a483b7757e16b891f.png"/>
-          <screenshot image="5617955d35d94311a480fa5c8c0afd56.png"/>
+          <screenshot image="6a8c27cc4effcb6d3f4aceee86aa6f11.png"/>
+          <screenshot image="0a58461fb62c6c64540028ccb740479a.png"/>
         </screenshots>
         <description>On ILAB page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on {projects} within the Our Work tab on the menu bar" result="SUCCESS">
       <screenshots>
-        <screenshot image="cadb2af05b79e3d5f4476061086fd6b0.png"/>
-        <screenshot image="9d3d5038b72069dabf7b5c111091f96b.png"/>
+        <screenshot image="ada2c9f5b4a2b286fe72955443056417.png"/>
+        <screenshot image="15f112cb788ae6c32989542a1ffc8cb2.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="2981">
+      <test-step result="SUCCESS" duration="3089">
         <screenshots>
-          <screenshot image="cadb2af05b79e3d5f4476061086fd6b0.png"/>
-          <screenshot image="9d3d5038b72069dabf7b5c111091f96b.png"/>
+          <screenshot image="ada2c9f5b4a2b286fe72955443056417.png"/>
+          <screenshot image="15f112cb788ae6c32989542a1ffc8cb2.png"/>
         </screenshots>
         <description>Click nav node: projects</description>
       </test-step>
     </test-group>
     <test-group name="Then the {projects} page should open correctly" result="SUCCESS">
       <screenshots>
-        <screenshot image="9d3d5038b72069dabf7b5c111091f96b.png"/>
+        <screenshot image="15f112cb788ae6c32989542a1ffc8cb2.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="841">
+      <test-step result="SUCCESS" duration="804">
         <screenshots>
-          <screenshot image="9d3d5038b72069dabf7b5c111091f96b.png"/>
+          <screenshot image="15f112cb788ae6c32989542a1ffc8cb2.png"/>
         </screenshots>
         <description>Should see page: projects</description>
       </test-step>

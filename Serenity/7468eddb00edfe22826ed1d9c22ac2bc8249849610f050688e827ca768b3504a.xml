@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Resources tabs from the ILAB page" name="Verify all of the Resources tabs from the ILAB page" steps="6" successful="2" failures="0" errors="2" skipped="2" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="135670" timestamp="2018-01-17T14:21:07.913-05:00" session-id="4d4e6dbfe8d9b074942517d79ebe5641">
+<acceptance-test-run title="Verify all of the Resources tabs from the ILAB page" name="Verify all of the Resources tabs from the ILAB page" steps="6" successful="2" failures="0" errors="2" skipped="2" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="134875" timestamp="2018-01-17T15:33:07.423-05:00" session-id="e5b645d988777d22c3794e692fd13b7a">
   <user-story id="ilabRegression" name="Ilab regression" path="stories/fullRegression/ilabRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -22,29 +22,29 @@
   </examples>
   <test-group name="[1] {resourcesMenuItem=reportsAndPublications}" result="ERROR">
     <screenshots>
-      <screenshot image="9d3d5038b72069dabf7b5c111091f96b.png"/>
+      <screenshot image="15f112cb788ae6c32989542a1ffc8cb2.png"/>
     </screenshots>
     <test-group name="Given the user is on the ILAB home page" result="SUCCESS">
       <screenshots>
-        <screenshot image="9d3d5038b72069dabf7b5c111091f96b.png"/>
-        <screenshot image="cadb2af05b79e3d5f4476061086fd6b0.png"/>
+        <screenshot image="15f112cb788ae6c32989542a1ffc8cb2.png"/>
+        <screenshot image="ada2c9f5b4a2b286fe72955443056417.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1953">
+      <test-step result="SUCCESS" duration="1829">
         <screenshots>
-          <screenshot image="9d3d5038b72069dabf7b5c111091f96b.png"/>
-          <screenshot image="e3fbc07d1bb9735257e892b514e986c1.png"/>
+          <screenshot image="15f112cb788ae6c32989542a1ffc8cb2.png"/>
+          <screenshot image="1639430f2b31617441b4be345403300f.png"/>
         </screenshots>
         <description>On ILAB page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on ｟reportsAndPublications｠ within the Resources tab on the menu bar" result="ERROR">
       <screenshots>
-        <screenshot image="cadb2af05b79e3d5f4476061086fd6b0.png"/>
+        <screenshot image="ada2c9f5b4a2b286fe72955443056417.png"/>
       </screenshots>
-      <test-step result="ERROR" duration="62913">
+      <test-step result="ERROR" duration="62949">
         <screenshots>
-          <screenshot image="cadb2af05b79e3d5f4476061086fd6b0.png"/>
-          <screenshot image="049f6d7cec03bf201093ab19b1dc04ec.png" source="pagesource2346483670718057658.html.txt"/>
+          <screenshot image="ada2c9f5b4a2b286fe72955443056417.png"/>
+          <screenshot image="28cd7d97f8e12618f34169dc50444391.png" source="pagesource4399709516735376462.html.txt"/>
         </screenshots>
         <description>Click nav node: reportsAndPublications</description>
         <error>org.openqa.selenium.NoSuchElementException: Timed out after 30 seconds. Element not found
@@ -66,29 +66,29 @@ Driver info: driver.version: unknown
   </test-group>
   <test-group name="[2] {resourcesMenuItem=grantsAndContracts}" result="ERROR">
     <screenshots>
-      <screenshot image="049f6d7cec03bf201093ab19b1dc04ec.png"/>
+      <screenshot image="28cd7d97f8e12618f34169dc50444391.png"/>
     </screenshots>
     <test-group name="Given the user is on the ILAB home page" result="SUCCESS">
       <screenshots>
-        <screenshot image="049f6d7cec03bf201093ab19b1dc04ec.png"/>
-        <screenshot image="cadb2af05b79e3d5f4476061086fd6b0.png"/>
+        <screenshot image="28cd7d97f8e12618f34169dc50444391.png"/>
+        <screenshot image="ada2c9f5b4a2b286fe72955443056417.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1943">
+      <test-step result="SUCCESS" duration="1786">
         <screenshots>
-          <screenshot image="049f6d7cec03bf201093ab19b1dc04ec.png"/>
-          <screenshot image="cd2e60e2a0cb8720f5f83337307496a1.png"/>
+          <screenshot image="28cd7d97f8e12618f34169dc50444391.png"/>
+          <screenshot image="327b279e5173181aca3947a2e80adbfd.png"/>
         </screenshots>
         <description>On ILAB page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on ｟grantsAndContracts｠ within the Resources tab on the menu bar" result="ERROR">
       <screenshots>
-        <screenshot image="cadb2af05b79e3d5f4476061086fd6b0.png"/>
+        <screenshot image="ada2c9f5b4a2b286fe72955443056417.png"/>
       </screenshots>
-      <test-step result="ERROR" duration="62921">
+      <test-step result="ERROR" duration="62845">
         <screenshots>
-          <screenshot image="cadb2af05b79e3d5f4476061086fd6b0.png"/>
-          <screenshot image="9757ed8ec466b23c1d21a9dfc8490d67.png" source="pagesource2543295169749560982.html.txt"/>
+          <screenshot image="ada2c9f5b4a2b286fe72955443056417.png"/>
+          <screenshot image="28cd7d97f8e12618f34169dc50444391.png" source="pagesource8752260814662311771.html.txt"/>
         </screenshots>
         <description>Click nav node: grantsAndContracts</description>
         <error>org.openqa.selenium.NoSuchElementException: Timed out after 30 seconds. Element not found
