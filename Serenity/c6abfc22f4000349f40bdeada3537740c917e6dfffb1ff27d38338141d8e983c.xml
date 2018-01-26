@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the ILAB In Action tabs from the ILAB page" name="Verify all of the ILAB In Action tabs from the ILAB page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="22686" timestamp="2018-01-18T09:56:35.962-05:00" session-id="ce25bb0a5238f32196512397b12a7d91">
+<acceptance-test-run title="Verify all of the ILAB In Action tabs from the ILAB page" name="Verify all of the ILAB In Action tabs from the ILAB page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="23771" timestamp="2018-01-26T11:06:05.806-05:00" session-id="fb03a0d302bdebb76042ac5968aa2f15">
   <user-story id="ilabRegression" name="Ilab regression" path="stories/fullRegression/ilabRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -22,41 +22,41 @@
   </examples>
   <test-group name="[1] {actionMenuItem=newsReleases}" result="SUCCESS">
     <screenshots>
-      <screenshot image="edb2954c24ce9bac260526259a9c623c.png"/>
+      <screenshot image="5dc902e4ab019b07e42cc3e84cccbf41.png"/>
     </screenshots>
     <test-group name="Given the user is on the ILAB home page" result="SUCCESS">
       <screenshots>
-        <screenshot image="edb2954c24ce9bac260526259a9c623c.png"/>
-        <screenshot image="a914dbffee6ee3ab5f03b2daaddd3a88.png"/>
+        <screenshot image="5dc902e4ab019b07e42cc3e84cccbf41.png"/>
+        <screenshot image="8e7c94ba4f69f7a68e87d89ece2f4911.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1796">
+      <test-step result="SUCCESS" duration="1847">
         <screenshots>
-          <screenshot image="edb2954c24ce9bac260526259a9c623c.png"/>
-          <screenshot image="de5ea5b749f9f5035075d8125fead56b.png"/>
+          <screenshot image="5dc902e4ab019b07e42cc3e84cccbf41.png"/>
+          <screenshot image="325233c8e850f60d026bc1d835c73459.png"/>
         </screenshots>
         <description>On ILAB page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on {newsReleases} within the ILAB In Action tab on the menu bar" result="SUCCESS">
       <screenshots>
-        <screenshot image="a914dbffee6ee3ab5f03b2daaddd3a88.png"/>
-        <screenshot image="9b254c37da5c631d9328c1bc7d2a0107.png"/>
+        <screenshot image="8e7c94ba4f69f7a68e87d89ece2f4911.png"/>
+        <screenshot image="ea455efc3af76d6fe6bfbe4d84b6411b.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="2724">
+      <test-step result="SUCCESS" duration="3121">
         <screenshots>
-          <screenshot image="a914dbffee6ee3ab5f03b2daaddd3a88.png"/>
-          <screenshot image="9b254c37da5c631d9328c1bc7d2a0107.png"/>
+          <screenshot image="8e7c94ba4f69f7a68e87d89ece2f4911.png"/>
+          <screenshot image="ea455efc3af76d6fe6bfbe4d84b6411b.png"/>
         </screenshots>
         <description>Click nav node: newsReleases</description>
       </test-step>
     </test-group>
     <test-group name="Then the {newsReleases} page should open correctly" result="SUCCESS">
       <screenshots>
-        <screenshot image="9b254c37da5c631d9328c1bc7d2a0107.png"/>
+        <screenshot image="ea455efc3af76d6fe6bfbe4d84b6411b.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="862">
+      <test-step result="SUCCESS" duration="887">
         <screenshots>
-          <screenshot image="9b254c37da5c631d9328c1bc7d2a0107.png"/>
+          <screenshot image="ea455efc3af76d6fe6bfbe4d84b6411b.png"/>
         </screenshots>
         <description>Should see page: newsReleases</description>
       </test-step>
@@ -64,41 +64,41 @@
   </test-group>
   <test-group name="[2] {actionMenuItem=ourRightsOurVoices}" result="SUCCESS">
     <screenshots>
-      <screenshot image="9b254c37da5c631d9328c1bc7d2a0107.png"/>
+      <screenshot image="ea455efc3af76d6fe6bfbe4d84b6411b.png"/>
     </screenshots>
     <test-group name="Given the user is on the ILAB home page" result="SUCCESS">
       <screenshots>
-        <screenshot image="9b254c37da5c631d9328c1bc7d2a0107.png"/>
-        <screenshot image="a914dbffee6ee3ab5f03b2daaddd3a88.png"/>
+        <screenshot image="ea455efc3af76d6fe6bfbe4d84b6411b.png"/>
+        <screenshot image="8e7c94ba4f69f7a68e87d89ece2f4911.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1759">
+      <test-step result="SUCCESS" duration="1917">
         <screenshots>
-          <screenshot image="9b254c37da5c631d9328c1bc7d2a0107.png"/>
-          <screenshot image="9aa30480e4f049a2231d0e27b05b053c.png"/>
+          <screenshot image="ea455efc3af76d6fe6bfbe4d84b6411b.png"/>
+          <screenshot image="b14639f3b7b2e145496cfd66c48736a8.png"/>
         </screenshots>
         <description>On ILAB page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on {ourRightsOurVoices} within the ILAB In Action tab on the menu bar" result="SUCCESS">
       <screenshots>
-        <screenshot image="a914dbffee6ee3ab5f03b2daaddd3a88.png"/>
-        <screenshot image="fb442ff4782dc3fbe30aea8fb88aa37c.png"/>
+        <screenshot image="8e7c94ba4f69f7a68e87d89ece2f4911.png"/>
+        <screenshot image="b71f549e3e92217a1690a2b3c48283f4.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="3419">
+      <test-step result="SUCCESS" duration="3690">
         <screenshots>
-          <screenshot image="a914dbffee6ee3ab5f03b2daaddd3a88.png"/>
-          <screenshot image="fb442ff4782dc3fbe30aea8fb88aa37c.png"/>
+          <screenshot image="8e7c94ba4f69f7a68e87d89ece2f4911.png"/>
+          <screenshot image="b71f549e3e92217a1690a2b3c48283f4.png"/>
         </screenshots>
         <description>Click nav node: ourRightsOurVoices</description>
       </test-step>
     </test-group>
     <test-group name="Then the {ourRightsOurVoices} page should open correctly" result="SUCCESS">
       <screenshots>
-        <screenshot image="fb442ff4782dc3fbe30aea8fb88aa37c.png"/>
+        <screenshot image="b71f549e3e92217a1690a2b3c48283f4.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="2157">
+      <test-step result="SUCCESS" duration="2186">
         <screenshots>
-          <screenshot image="fb442ff4782dc3fbe30aea8fb88aa37c.png"/>
+          <screenshot image="b71f549e3e92217a1690a2b3c48283f4.png"/>
         </screenshots>
         <description>Should see page: ourRightsOurVoices</description>
       </test-step>

@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Ilab regression","Verify all of the About Us tabs from the ILAB page","SUCCESS","2018-01-18T09:53:29.822-05:00","0.0","30.13"
-"Ilab regression","Verify all of the ILAB In Action tabs from the ILAB page","SUCCESS","2018-01-18T09:56:35.962-05:00","0.0","22.69"
-"Ilab regression","Verify all of the Our Work tabs from the ILAB page","SUCCESS","2018-01-18T09:53:59.958-05:00","0.0","21.4"
+"Ilab regression","Verify all of the About Us tabs from the ILAB page","SUCCESS","2018-01-26T11:02:50.675-05:00","0.0","37.31"
+"Ilab regression","Verify all of the ILAB In Action tabs from the ILAB page","SUCCESS","2018-01-26T11:06:05.806-05:00","0.0","23.77"
+"Ilab regression","Verify all of the Our Work tabs from the ILAB page","SUCCESS","2018-01-26T11:03:27.989-05:00","0.0","22.12"
