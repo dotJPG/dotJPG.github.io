@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the About EBSA tabs from the EBSA page" name="Verify all of the About EBSA tabs from the EBSA page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="26143" timestamp="2018-01-31T11:18:24.627-05:00" session-id="a9649f3cb1d6077c7cdefaf554273470">
+<acceptance-test-run title="Verify all of the About EBSA tabs from the EBSA page" name="Verify all of the About EBSA tabs from the EBSA page" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="25745" timestamp="2018-02-01T12:14:32.012-05:00" session-id="be0fea349f777c3b735a276dce5917ad">
   <user-story id="ebsaRegression" name="Ebsa regression" path="stories/fullRegression/ebsaRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -22,42 +22,40 @@
   </examples>
   <test-group name="[1] {aboutEBSAMenuItem=enforcement}" result="SUCCESS">
     <screenshots>
-      <screenshot image="2eb876b1c6fdb30178326c8437079137.png"/>
+      <screenshot image="d3475653aaed428d7ccf95b00a31e0af.png"/>
     </screenshots>
     <test-group name="Given the user is on the EBSA home page" result="SUCCESS">
       <screenshots>
-        <screenshot image="2eb876b1c6fdb30178326c8437079137.png"/>
-        <screenshot image="0411531e939424190fdb3bba845e886b.png"/>
+        <screenshot image="d3475653aaed428d7ccf95b00a31e0af.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1467">
+      <test-step result="SUCCESS" duration="1436">
         <screenshots>
-          <screenshot image="2eb876b1c6fdb30178326c8437079137.png"/>
-          <screenshot image="4ed34b2b09db758bcbdd16888350821e.png"/>
+          <screenshot image="d3475653aaed428d7ccf95b00a31e0af.png"/>
+          <screenshot image="9344ea0cb0dcb640cbbeb664a357b75d.png"/>
         </screenshots>
         <description>On EBSA page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on {enforcement} within the About Us tab on the menu bar" result="SUCCESS">
       <screenshots>
-        <screenshot image="2eb876b1c6fdb30178326c8437079137.png"/>
-        <screenshot image="b9fb537ffbc2b61fc61ea725e5cdbe20.png"/>
+        <screenshot image="d3475653aaed428d7ccf95b00a31e0af.png"/>
+        <screenshot image="ff7ef86ce4449a74c63650b24758c88f.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="4644">
+      <test-step result="SUCCESS" duration="4955">
         <screenshots>
-          <screenshot image="2eb876b1c6fdb30178326c8437079137.png"/>
-          <screenshot image="9a2758d5cf203525bc646f1dd8c92317.png"/>
+          <screenshot image="d3475653aaed428d7ccf95b00a31e0af.png"/>
+          <screenshot image="ff7ef86ce4449a74c63650b24758c88f.png"/>
         </screenshots>
         <description>Click nav node: enforcement</description>
       </test-step>
     </test-group>
     <test-group name="Then the {enforcement} page should open correctly" result="SUCCESS">
       <screenshots>
-        <screenshot image="b146a09cd90586b87a97cb7910a68391.png"/>
-        <screenshot image="13787ab45c44556da753c78ea75ca971.png"/>
+        <screenshot image="ff7ef86ce4449a74c63650b24758c88f.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="859">
+      <test-step result="SUCCESS" duration="824">
         <screenshots>
-          <screenshot image="13787ab45c44556da753c78ea75ca971.png"/>
+          <screenshot image="ff7ef86ce4449a74c63650b24758c88f.png"/>
         </screenshots>
         <description>Should see page: enforcement</description>
       </test-step>
@@ -65,39 +63,39 @@
   </test-group>
   <test-group name="[2] {aboutEBSAMenuItem=ourOrganization}" result="SUCCESS">
     <screenshots>
-      <screenshot image="13787ab45c44556da753c78ea75ca971.png"/>
+      <screenshot image="ff7ef86ce4449a74c63650b24758c88f.png"/>
     </screenshots>
     <test-group name="Given the user is on the EBSA home page" result="SUCCESS">
       <screenshots>
-        <screenshot image="13787ab45c44556da753c78ea75ca971.png"/>
-        <screenshot image="0411531e939424190fdb3bba845e886b.png"/>
+        <screenshot image="ff7ef86ce4449a74c63650b24758c88f.png"/>
+        <screenshot image="d3475653aaed428d7ccf95b00a31e0af.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1377">
+      <test-step result="SUCCESS" duration="1359">
         <screenshots>
-          <screenshot image="13787ab45c44556da753c78ea75ca971.png"/>
-          <screenshot image="a18602e873fe48b9c825d51f56beca9a.png"/>
+          <screenshot image="ff7ef86ce4449a74c63650b24758c88f.png"/>
+          <screenshot image="64b5eba5be7141661e3a4709f4b54788.png"/>
         </screenshots>
         <description>On EBSA page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on {ourOrganization} within the About Us tab on the menu bar" result="SUCCESS">
       <screenshots>
-        <screenshot image="256e6e6ae0a568c19c8e20d12415861f.png"/>
+        <screenshot image="6161c68182138e67071aa125231efa81.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="9280">
+      <test-step result="SUCCESS" duration="9073">
         <screenshots>
-          <screenshot image="244fef221b85ce74d8416b5ada00435d.png"/>
+          <screenshot image="6161c68182138e67071aa125231efa81.png"/>
         </screenshots>
         <description>Click nav node: ourOrganization</description>
       </test-step>
     </test-group>
     <test-group name="Then the {ourOrganization} page should open correctly" result="SUCCESS">
       <screenshots>
-        <screenshot image="b0e59e16177ee821efaa5d3351ded8af.png"/>
+        <screenshot image="6161c68182138e67071aa125231efa81.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1147">
+      <test-step result="SUCCESS" duration="1083">
         <screenshots>
-          <screenshot image="b0e59e16177ee821efaa5d3351ded8af.png"/>
+          <screenshot image="6161c68182138e67071aa125231efa81.png"/>
         </screenshots>
         <description>Should see page: ourOrganization</description>
       </test-step>
