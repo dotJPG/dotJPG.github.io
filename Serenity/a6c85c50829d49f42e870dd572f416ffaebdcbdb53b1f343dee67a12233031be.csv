@@ -1,3 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Ebsa regression","Verify all of the Key Topics tabs from the EBSA page","FAILURE","2018-02-01T12:15:51.803-05:00","0.0","17.73"
-"Dol homepage regression","Verify all of the Social Media navigation links open correctly","FAILURE","2018-02-01T12:23:17.362-05:00","0.0","75.3"
+"Ebsa regression","Verify all of the Key Topics tabs from the EBSA page","FAILURE","2018-02-02T13:25:55.626-05:00","0.0","18.02"

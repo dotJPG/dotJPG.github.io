@@ -1,4 +1,4 @@
-<acceptance-test-run title="Verify all of the Press sub-navigation tabs open correctly" name="Verify all of the Press sub-navigation tabs open correctly" steps="9" successful="9" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="33439" timestamp="2018-02-01T12:22:00.952-05:00" session-id="3c1676a8e45a43abf5538dc166268d60">
+<acceptance-test-run title="Verify all of the Press sub-navigation tabs open correctly" name="Verify all of the Press sub-navigation tabs open correctly" steps="9" successful="9" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="33348" timestamp="2018-02-02T13:33:40.784-05:00" session-id="eef775bc543b2e6b385b8161b63f7131">
   <user-story id="dolHomepageRegression" name="Dol homepage regression" path="stories/fullRegression/dolHomepageRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -25,41 +25,41 @@
   </examples>
   <test-group name="[1] {subNavMenuPress=Newsroom}" result="SUCCESS">
     <screenshots>
-      <screenshot image="4b35897caa250738bd9948401ef9e0e8.png"/>
+      <screenshot image="ae822f42ceb22926386397146c94355a.png"/>
     </screenshots>
     <test-group name="Given the user is on the DOL home page" result="SUCCESS">
       <screenshots>
-        <screenshot image="4b35897caa250738bd9948401ef9e0e8.png"/>
-        <screenshot image="bab764f8b0e6f669d2dc4a9db7eeaa20.png"/>
+        <screenshot image="ae822f42ceb22926386397146c94355a.png"/>
+        <screenshot image="376a6fce8c386cec4ce2eedd5e3fa702.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1510">
+      <test-step result="SUCCESS" duration="1620">
         <screenshots>
-          <screenshot image="4b35897caa250738bd9948401ef9e0e8.png"/>
-          <screenshot image="0aba0e386807d237d5f8929dfa8d0b33.png"/>
+          <screenshot image="ae822f42ceb22926386397146c94355a.png"/>
+          <screenshot image="8657113e5255c480b6a2b32511e08050.png"/>
         </screenshots>
         <description>On home page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on the {Newsroom} within the Press navigation bar" result="SUCCESS">
       <screenshots>
-        <screenshot image="bab764f8b0e6f669d2dc4a9db7eeaa20.png"/>
-        <screenshot image="47685689990b10a194cb7d1a0dbb2767.png"/>
+        <screenshot image="dd9c0bb79872ce12320a4ccfb81061d6.png"/>
+        <screenshot image="8598caa5f49b9cbbfb2588f5c99db4e8.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="3336">
+      <test-step result="SUCCESS" duration="3383">
         <screenshots>
-          <screenshot image="bab764f8b0e6f669d2dc4a9db7eeaa20.png"/>
-          <screenshot image="59df77afac88ec0ae5c463b9a701fd25.png"/>
+          <screenshot image="dd9c0bb79872ce12320a4ccfb81061d6.png"/>
+          <screenshot image="75db1dd8e3809f3477026f44d6db9862.png"/>
         </screenshots>
         <description>Click nav node: Newsroom</description>
       </test-step>
     </test-group>
     <test-group name="Then the {Newsroom} page should open correctly" result="SUCCESS">
       <screenshots>
-        <screenshot image="47685689990b10a194cb7d1a0dbb2767.png"/>
+        <screenshot image="8598caa5f49b9cbbfb2588f5c99db4e8.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="2375">
+      <test-step result="SUCCESS" duration="2358">
         <screenshots>
-          <screenshot image="47685689990b10a194cb7d1a0dbb2767.png"/>
+          <screenshot image="8598caa5f49b9cbbfb2588f5c99db4e8.png"/>
         </screenshots>
         <description>Should see page: Newsroom</description>
       </test-step>
@@ -67,41 +67,42 @@
   </test-group>
   <test-group name="[2] {subNavMenuPress=News Release}" result="SUCCESS">
     <screenshots>
-      <screenshot image="47685689990b10a194cb7d1a0dbb2767.png"/>
+      <screenshot image="8598caa5f49b9cbbfb2588f5c99db4e8.png"/>
     </screenshots>
     <test-group name="Given the user is on the DOL home page" result="SUCCESS">
       <screenshots>
-        <screenshot image="47685689990b10a194cb7d1a0dbb2767.png"/>
-        <screenshot image="bab764f8b0e6f669d2dc4a9db7eeaa20.png"/>
+        <screenshot image="8598caa5f49b9cbbfb2588f5c99db4e8.png"/>
+        <screenshot image="376a6fce8c386cec4ce2eedd5e3fa702.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="2295">
+      <test-step result="SUCCESS" duration="2225">
         <screenshots>
-          <screenshot image="47685689990b10a194cb7d1a0dbb2767.png"/>
-          <screenshot image="5122f24663fca25c037241f1ae2bd4c1.png"/>
+          <screenshot image="8598caa5f49b9cbbfb2588f5c99db4e8.png"/>
+          <screenshot image="0f682132544bc9839ab15b2fbfd08a92.png"/>
         </screenshots>
         <description>On home page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on the {News Release} within the Press navigation bar" result="SUCCESS">
       <screenshots>
-        <screenshot image="bab764f8b0e6f669d2dc4a9db7eeaa20.png"/>
-        <screenshot image="ceef5d5395454c3b4b5b05e7c57a50a4.png"/>
+        <screenshot image="dd9c0bb79872ce12320a4ccfb81061d6.png"/>
+        <screenshot image="cb8578809d04ecc3b378a2c6051a430f.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="2582">
+      <test-step result="SUCCESS" duration="2709">
         <screenshots>
-          <screenshot image="bab764f8b0e6f669d2dc4a9db7eeaa20.png"/>
-          <screenshot image="ceef5d5395454c3b4b5b05e7c57a50a4.png"/>
+          <screenshot image="dd9c0bb79872ce12320a4ccfb81061d6.png"/>
+          <screenshot image="bac6f274258465a527cee270eeb7aefd.png"/>
         </screenshots>
         <description>Click nav node: News Release</description>
       </test-step>
     </test-group>
     <test-group name="Then the {News Release} page should open correctly" result="SUCCESS">
       <screenshots>
-        <screenshot image="ceef5d5395454c3b4b5b05e7c57a50a4.png"/>
+        <screenshot image="fe2e6140124b51ae3e0674d17a97c348.png"/>
+        <screenshot image="1529b36319c29b390f52cf2f2807449f.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="870">
+      <test-step result="SUCCESS" duration="878">
         <screenshots>
-          <screenshot image="ceef5d5395454c3b4b5b05e7c57a50a4.png"/>
+          <screenshot image="1529b36319c29b390f52cf2f2807449f.png"/>
         </screenshots>
         <description>Should see page: News Release</description>
       </test-step>
@@ -109,41 +110,41 @@
   </test-group>
   <test-group name="[3] {subNavMenuPress=News Letter}" result="SUCCESS">
     <screenshots>
-      <screenshot image="ceef5d5395454c3b4b5b05e7c57a50a4.png"/>
+      <screenshot image="1529b36319c29b390f52cf2f2807449f.png"/>
     </screenshots>
     <test-group name="Given the user is on the DOL home page" result="SUCCESS">
       <screenshots>
-        <screenshot image="ceef5d5395454c3b4b5b05e7c57a50a4.png"/>
-        <screenshot image="bab764f8b0e6f669d2dc4a9db7eeaa20.png"/>
+        <screenshot image="1529b36319c29b390f52cf2f2807449f.png"/>
+        <screenshot image="376a6fce8c386cec4ce2eedd5e3fa702.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1347">
+      <test-step result="SUCCESS" duration="1426">
         <screenshots>
-          <screenshot image="ceef5d5395454c3b4b5b05e7c57a50a4.png"/>
-          <screenshot image="3320d16bd03e1361e9097594ab9401c7.png"/>
+          <screenshot image="1529b36319c29b390f52cf2f2807449f.png"/>
+          <screenshot image="8606d321c3f511ab6dd1445e38bae27b.png"/>
         </screenshots>
         <description>On home page</description>
       </test-step>
     </test-group>
     <test-group name="When the user clicks on the {News Letter} within the Press navigation bar" result="SUCCESS">
       <screenshots>
-        <screenshot image="bab764f8b0e6f669d2dc4a9db7eeaa20.png"/>
-        <screenshot image="a17292077c402d5e8baa3b3b6a7ce11b.png"/>
+        <screenshot image="dd9c0bb79872ce12320a4ccfb81061d6.png"/>
+        <screenshot image="b5963d3c1f080a4fca957d7dcc745865.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="2961">
+      <test-step result="SUCCESS" duration="2939">
         <screenshots>
-          <screenshot image="bab764f8b0e6f669d2dc4a9db7eeaa20.png"/>
-          <screenshot image="a17292077c402d5e8baa3b3b6a7ce11b.png"/>
+          <screenshot image="dd9c0bb79872ce12320a4ccfb81061d6.png"/>
+          <screenshot image="72aa8b4ad91fb3aa8f058c0e4c135296.png"/>
         </screenshots>
         <description>Click nav node: News Letter</description>
       </test-step>
     </test-group>
     <test-group name="Then the {News Letter} page should open correctly" result="SUCCESS">
       <screenshots>
-        <screenshot image="a17292077c402d5e8baa3b3b6a7ce11b.png"/>
+        <screenshot image="c95ccbea59623ea2463229242c8f1965.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1435">
+      <test-step result="SUCCESS" duration="1180">
         <screenshots>
-          <screenshot image="a17292077c402d5e8baa3b3b6a7ce11b.png"/>
+          <screenshot image="c95ccbea59623ea2463229242c8f1965.png"/>
         </screenshots>
         <description>Should see page: News Letter</description>
       </test-step>
