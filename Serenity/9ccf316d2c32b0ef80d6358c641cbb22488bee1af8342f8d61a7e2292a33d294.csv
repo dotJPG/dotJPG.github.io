@@ -1,7 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Dol homepage regression","Verify all of the Agencies sub-navigation tabs open correctly","SUCCESS","2018-02-06T12:43:27.027-05:00","0.0","22.98"
-"Dol homepage regression","Verify all of the Footer navigation links open correctly","SUCCESS","2018-02-06T12:44:24.417-05:00","0.0","43.02"
-"Dol homepage regression","Verify all of the Press sub-navigation tabs open correctly","SUCCESS","2018-02-06T12:43:50.008-05:00","0.0","34.4"
-"Dol homepage regression","Verify all of the Social Media navigation links open correctly","SUCCESS","2018-02-06T12:45:07.444-05:00","0.0","58.77"
-"Dol homepage regression","Verify all of the Topics sub-navigation tabs open correctly","SUCCESS","2018-02-06T12:42:53.138-05:00","0.0","33.88"
-"Dol homepage regression","Verify all of the navbar tabs to assert that the pages open correctly","SUCCESS","2018-02-06T12:39:13.110-05:00","0.0","220.02"
