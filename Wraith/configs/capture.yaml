@@ -18,13 +18,13 @@ browser: "phantomjs"
 # (required) The domains to take screenshots of.
 domains:
   current:  "https://www.dol.gov"
-  new:      "https:/staging.dol.gov"
+  new:      "https://staging.dol.gov"
 
 # (required) The paths to capture. All paths should exist for both of the domains specified above.
 paths:
   home: /
   ilab_home: /agencies/ilab
-  ilab_mission: agencies/ilab/about-us/mission
+  ilab_mission: /agencies/ilab/about-us/mission
   ilab_child_labor: /agencies/ilab/our-work/child-forced-labor-trafficking
   ilab_child_labor_report: /agencies/ilab/resources/reports/child-labor/findings
   ilab_child_labor_afghanistan: /agencies/ilab/resources/reports/child-labor/afghanistan

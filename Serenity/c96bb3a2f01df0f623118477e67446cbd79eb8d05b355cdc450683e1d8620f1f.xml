@@ -1,0 +1,151 @@
+<acceptance-test-run title="Verify all of the About Us tabs from the ILAB page" name="Verify all of the About Us tabs from the ILAB page" steps="9" successful="9" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="38194" timestamp="2018-02-13T20:24:42.963-05:00" session-id="83d3229ba6b7cf4103eb4cfe3b143982">
+  <user-story id="ilabRegression" name="Ilab regression" path="stories/fullRegression/ilabRegression.story"/>
+  <tags>
+    <tag name="Full regression" type="feature"/>
+    <tag name="Full regression/Ilab regression" type="story"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0"/>
+    </datasets>
+    <headers>
+      <header>aboutUsMenuItem</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>missionAndOffices</value>
+      </row>
+      <row result="SUCCESS">
+        <value>lawsAndRegulations</value>
+      </row>
+      <row result="SUCCESS">
+        <value>joinTheTeam</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {aboutUsMenuItem=missionAndOffices}" result="SUCCESS">
+    <test-group name="Given the user is on the ILAB home page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="0b568e6db73e9770f208b1e14aac270a.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="3232">
+        <screenshots>
+          <screenshot image="a429d1be72ada578c2ca581765767d29.png"/>
+          <screenshot image="ddc89ab139ad2dfbd4d9efac0254cb23.png"/>
+        </screenshots>
+        <description>On ILAB page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When the user clicks on {missionAndOffices} within the About Us tab on the menu bar" result="SUCCESS">
+      <screenshots>
+        <screenshot image="0b568e6db73e9770f208b1e14aac270a.png"/>
+        <screenshot image="e5b14f5cc36c33ab9e82fee53dc5355b.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="3197">
+        <screenshots>
+          <screenshot image="0b568e6db73e9770f208b1e14aac270a.png"/>
+          <screenshot image="46660a46ad34ebf51757bdfe428440a9.png"/>
+        </screenshots>
+        <description>Click nav node: missionAndOffices</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the {missionAndOffices} page should open correctly" result="SUCCESS">
+      <screenshots>
+        <screenshot image="1b9c94cb7a0261c30581e72194f6f0bc.png"/>
+        <screenshot image="7b183d210035257bb9574d5fb815ec55.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="866">
+        <screenshots>
+          <screenshot image="7b183d210035257bb9574d5fb815ec55.png"/>
+        </screenshots>
+        <description>Should see page: missionAndOffices</description>
+      </test-step>
+    </test-group>
+  </test-group>
+  <test-group name="[2] {aboutUsMenuItem=lawsAndRegulations}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="7b183d210035257bb9574d5fb815ec55.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the ILAB home page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="7b183d210035257bb9574d5fb815ec55.png"/>
+        <screenshot image="1834779f18da88f03a950f4b52160d34.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1859">
+        <screenshots>
+          <screenshot image="7b183d210035257bb9574d5fb815ec55.png"/>
+          <screenshot image="fd2681c6c0cae0d403d9c1d2ec8c7fb5.png"/>
+        </screenshots>
+        <description>On ILAB page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When the user clicks on {lawsAndRegulations} within the About Us tab on the menu bar" result="SUCCESS">
+      <screenshots>
+        <screenshot image="1834779f18da88f03a950f4b52160d34.png"/>
+        <screenshot image="e87778a722d60d4933ec1eb634ddca81.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="6486">
+        <screenshots>
+          <screenshot image="1834779f18da88f03a950f4b52160d34.png"/>
+          <screenshot image="d19ca2cd363f5cb16b779f338c1af7c5.png"/>
+        </screenshots>
+        <description>Click nav node: lawsAndRegulations</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the {lawsAndRegulations} page should open correctly" result="SUCCESS">
+      <screenshots>
+        <screenshot image="385c97db67343242aba3c2f1f4180079.png"/>
+        <screenshot image="05234347861af7217fbf578f9acba2dc.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="863">
+        <screenshots>
+          <screenshot image="05234347861af7217fbf578f9acba2dc.png"/>
+        </screenshots>
+        <description>Should see page: lawsAndRegulations</description>
+      </test-step>
+    </test-group>
+  </test-group>
+  <test-group name="[3] {aboutUsMenuItem=joinTheTeam}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="05234347861af7217fbf578f9acba2dc.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the ILAB home page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="05234347861af7217fbf578f9acba2dc.png"/>
+        <screenshot image="1834779f18da88f03a950f4b52160d34.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1973">
+        <screenshots>
+          <screenshot image="05234347861af7217fbf578f9acba2dc.png"/>
+          <screenshot image="48f5e2ca609672da7a37e382c9bf8f97.png"/>
+        </screenshots>
+        <description>On ILAB page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When the user clicks on {joinTheTeam} within the About Us tab on the menu bar" result="SUCCESS">
+      <screenshots>
+        <screenshot image="1834779f18da88f03a950f4b52160d34.png"/>
+        <screenshot image="c4d6aacda5ccf86edba0cd0cd39e6fa7.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="5707">
+        <screenshots>
+          <screenshot image="1834779f18da88f03a950f4b52160d34.png"/>
+          <screenshot image="4f9753d8483de2c2261a1d8ed4e9e231.png"/>
+        </screenshots>
+        <description>Click nav node: joinTheTeam</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the {joinTheTeam} page should open correctly" result="SUCCESS">
+      <screenshots>
+        <screenshot image="c064a85ce10ad96d6757c7fa08731bd4.png"/>
+        <screenshot image="56308f6d1ebd832391e571508bda4543.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="887">
+        <screenshots>
+          <screenshot image="56308f6d1ebd832391e571508bda4543.png"/>
+        </screenshots>
+        <description>Should see page: joinTheTeam</description>
+      </test-step>
+    </test-group>
+  </test-group>
+</acceptance-test-run>
